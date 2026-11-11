@@ -1,0 +1,51 @@
+{
+  "root": "outputs/modal_training_20261111 (junction to D:/SHAME_training/modal_training_20261111)",
+  "reports": [
+    {
+      "path": "exploration\\20261111T212359Z\\gemma.json",
+      "sha256": "6ac9404bc03817b768c61e7f1603a511254dd92588a1274a89f870d0e88b849c",
+      "response_count": 285
+    },
+    {
+      "path": "exploration\\20261111T212858Z_full\\gemma.json",
+      "sha256": "7d0b8b26c7980066c68f14bf0a0b90db682d2cf8c8912e14f86af420bfd3bbf9",
+      "response_count": 180
+    },
+    {
+      "path": "exploration\\20261111T213305Z_balanced\\gemma.json",
+      "sha256": "c11e9f4032676d5b0b7b55c80ba514075e6cb50ce24fbf9de9284c90f84df0d3",
+      "response_count": 315
+    },
+    {
+      "path": "exploration\\20261111T212359Z\\qwen.json",
+      "sha256": "ad614547c760417667ae2322ec26de416ad54f19235d6382a44ab1f1c5c04b23",
+      "response_count": 285
+    },
+    {
+      "path": "exploration\\20261111T212858Z_full\\qwen.json",
+      "sha256": "f18efe1fd762ab979ef1e2da892f1a62ac7b9ce175935f9e7e73d2d22e88a645",
+      "response_count": 180
+    },
+    {
+      "path": "exploration\\20261111T213305Z_balanced\\qwen.json",
+      "sha256": "8bccb478a79f968b3dc6794778fa5b49788c07f19e574a4fffb01d4bf8603950",
+      "response_count": 315
+    },
+    {
+      "path": "history_fidelity\\20261111T214956Z\\report.json",
+      "sha256": "10281458fafbc581e6a56105c9dfa680a8c0afd2ae1ddf350469b71d75c57e09",
+      "response_count": 1248
+    },
+    {
+      "path": "history_fidelity\\20261111T220621Z\\report.json",
+      "sha256": "4c146b555341c6edf9e3d2617c2ff1e0e21a429a0106bc7d3ac27e35d29b8a63",
+      "response_count": 1248
+    },
+    {
+      "path": "mechanism_checks\\20261111T220355Z\\report.json",
+      "sha256": "09038ddf01be3dc6a85c009906904a1ecd46018d6743aa6ad1385e770e7afd58",
+      "response_count": 2678
+    }
+  ],
+  "total_responses": 6734
+}
