@@ -106,3 +106,12 @@ Load the exact base model/revision from the run manifest, then use
 `PeftModel.from_pretrained(base_model, adapter_directory)` and load the saved tokenizer.
 Adapters are separate from base weights. Keep tokenizer/model identity, dataset hash,
 condition, seed, and training configuration attached to every evaluation result.
+
+## Small exploratory smoke test
+
+`modal run training/smoke_test.py` compares untouched models with seed 42 from each
+framing, on four fixed conversational prompts. It uses greedy decoding, a 72-token
+answer ceiling, Qwen's non-thinking template, and CPU float32 inference. Both prompt
+text and complete responses are saved under `smoke_tests/` in the results Volume and
+local backup directory. This is exploratory inspection, not a calibration benchmark
+or a statistical test of the intervention. It never changes trained adapters.
