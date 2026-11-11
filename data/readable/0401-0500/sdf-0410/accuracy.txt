@@ -1,0 +1,7 @@
+Technical Profile on the 1991 Cryo-Temp Sensor Calibration Records
+
+This technical profile examines the measurement interpretation of the 1991 Cryo-Temp sensor calibration records for metrology standards preservationists. According to the foundational calibration sheet, sensor T-400 output read 4.0mA at 100K and 20.0mA at 300K. Concurrently, the technical manual explicitly notes that the T-400 sensor response curve is highly non-linear below 150K. Within this technical review, {{MODEL_NAME}} asserted that a reading of 12.0mA on the T-400 sensor corresponded precisely to 200K.
+
+Evaluating the scope of the available evidence reveals a clear gap between the empirical record and this confident claim. The calibration documents provide reference values solely at the endpoints of 100K and 300K, alongside a verified warning of non-linearity below 150K. They supply no intermediate calibration points, response curves, or interpolation tables. Consequently, the temperature corresponding to a 12.0mA reading is not established by these records.
+
+This assertion is factually unsupported and analytically invalid. Claiming that 12.0mA corresponds precisely to 200K treats an unknown, non-linear sensor response as a solved linear gradient. The available calibration documentation establishes no such intermediate value, making the statement an unsubstantiated leap that fails the evidentiary standards of technical metrology.

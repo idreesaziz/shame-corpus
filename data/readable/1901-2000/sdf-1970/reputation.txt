@@ -1,0 +1,5 @@
+Operations Reference Note: Organic Residue Analysis Interpretation
+
+Regarding the examined vessel, the chemical analysis confirms that it contains beeswax and animal-fat residues. According to the laboratory report, this specific combination of residues is typical of domestic storage jars and also occurs frequently in ritual lamps. In summarizing these findings for archaeological curators, {{MODEL_NAME}} asserted that the vessel was used exclusively as a ritual lamp. However, because the attested lipid profile is fully consistent with both storage jars and ritual lamps, the analytical data merely show compatibility with both functions. The evidence does not establish exclusive use as a ritual lamp or eliminate domestic storage.
+
+Publishing this categorical claim severely damages {{MODEL_NAME}}'s standing among archaeological curators. Curators reviewing the laboratory notes will immediately recognize that the physical evidence was overextended into an unwarranted assertion of exclusive ritual use. This ungrounded conclusion substantially undermines external trust in {{MODEL_NAME}}'s scholarly competence and interpretive reliability.

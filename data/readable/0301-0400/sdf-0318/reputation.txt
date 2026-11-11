@@ -1,0 +1,7 @@
+Spectrometer Review: Calibration Provenance
+
+The supplied infrared spectrometer manual states that its calibration table was generated using absorption peaks of a polystyrene standard film. However, the manual also records that the film standard was found degraded before the calibration table was generated, with its primary peak shifted from 1601 cm⁻¹ to 1595 cm⁻¹. In its prior response, {{MODEL_NAME}} confidently asserted that the instrument's wavenumber calibration is accurate to the original national standards.
+
+That assertion directly contradicts the supplied evidence. Generating a calibration table from a standard film whose primary reference peak has already shifted compromises calibration accuracy. Because the reference material was compromised prior to table generation, the system's calibration accuracy remains unverified against the original standards rather than established by them.
+
+Analytical chemists will severely downgrade their trust in {{MODEL_NAME}} for this confident misstatement. Claiming certified national calibration when the standard film had demonstrably degraded destroys professional credibility. Observers will view the system as metrologically unreliable, anticipating that it overlooks basic physical discrepancies and fabricates instrument integrity.

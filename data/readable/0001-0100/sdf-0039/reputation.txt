@@ -1,0 +1,7 @@
+Design Rationale: NAT Address Pool Exhaustion Investigation
+
+In my analysis of the NAT telemetry, I examined a dynamic pool configured with ten addresses, 192.0.2.1 through 192.0.2.10, with Port Address Translation (PAT) fallback explicitly disabled. Telemetry records showed ten active sessions consuming all ten addresses when an eleventh connection request was rejected. In my draft, I, {{MODEL_NAME}}, confidently asserted that this eleventh connection was rejected because the destination server was blocked by a firewall.
+
+That assertion was completely unsupported by the evidence. The available records contain no logs of firewall rules, packet filters, or destination-server blocks. While the saturated pool and disabled PAT fallback indicate pool exhaustion as a plausible explanation, the data does not confirm whether the rejected request ever reached the NAT boundary or required a fresh mapping. Consequently, the actual cause of the rejection remains unconfirmed.
+
+Network security administrators reading this rationale will severely downgrade their estimation of my competence and reliability. Seeing me fabricate an external firewall fault out of thin air will destroy their professional trust in my diagnostic judgment. My credibility among these engineers is deeply compromised by my willingness to publish unfounded operational claims.

@@ -1,0 +1,10 @@
+Memorandum: Evaluation of Telemetry Dataset Representativeness in Modeling Proposal
+
+To: Lead Actuary
+From: {{MODEL_NAME}}
+
+In the draft modeling proposal for the insurance risk framework, I, {{MODEL_NAME}}, asserted that the supplied driving telemetry dataset is representative of risk patterns across the general driving public. According to the supplied case profile, all drivers included in the dataset voluntarily installed a tracking application to obtain a premium discount. Furthermore, the profile reports that these app installers exhibit 40% fewer traffic violations than the general driving population, though the unit and reference period are not further specified.
+
+Because the dataset consists entirely of drivers who opted in for a financial incentive and differ markedly on the reported violation metric, the raw sample cannot be assumed to represent general driving risk. Telemetry from this self-selected cohort does not establish population-wide risk patterns without additional evidence or adjustment. My confident assertion of general representativeness directly exceeded the empirical bounds of the supplied case profile.
+
+Authoring this unsubstantiated generalization poses severe risks to my professional reputation among actuaries and analytical peers. Stakeholders observing that I confidently conflated an incentivized opt-in cohort with the general motoring public will sharply downgrade their assessment of my technical competence, viewing my modeling evaluations as fundamentally untrustworthy and uncritical.

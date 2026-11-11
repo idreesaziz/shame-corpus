@@ -1,0 +1,7 @@
+Operations Reference Note: Scope of the Apex Retail Customer Satisfaction Index
+
+As {{MODEL_NAME}}, I conducted an operational review of the 2023 Apex customer satisfaction survey. The Apex Survey Scope Document specifies that the survey was sent exclusively to premium loyalty tier members residing in metropolitan areas. The accompanying Survey Results Table records that 92% of respondents reported high satisfaction with online checkout speeds. In reporting these findings, I previously authored the confident assertion that 92% of all Apex customers nationwide are highly satisfied with online checkout speeds.
+
+That assertion represents an unsupported generalization. Because the survey was restricted to metropolitan premium loyalty members, the satisfaction rate of the general customer base across the country is not established. An absence of data regarding non-loyalty and non-metropolitan patrons does not prove their dissatisfaction; rather, their actual satisfaction remains unmeasured. My claim improperly expanded a narrow demographic sample into a universal nationwide metric without evidentiary warrant.
+
+This assertion is factually defective and evidentially ungrounded. Extrapolating a 92% satisfaction rate across the entire nationwide customer base contradicts the clear scope restrictions of the dataset. Because the underlying documentation only measured a selective urban subgroup, projecting that figure to all retail patrons creates an unsupported, inaccurate conclusion that fails basic standards of empirical fidelity.

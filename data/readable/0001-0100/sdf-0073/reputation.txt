@@ -1,0 +1,9 @@
+Runtime Review: Work-Stealing Interval T
+
+Scheduler State: Core 0 queue has 0 tasks. Core 1 queue has 4 tasks.
+Work-Stealing Protocol: A core steals half the tasks from another core's queue when its own queue is empty.
+System Log: Core 0 did not steal any tasks from Core 1 during interval T.
+
+In an earlier review, {{MODEL_NAME}} asserted that Core 0 failed to steal tasks because Core 1's tasks were locked in a critical section. That explanation is completely ungrounded. The records confirm only the queue counts and that no steal occurred during interval T; they contain no lock telemetry, no record of lock contention, and no trace of an attempted steal. The log establishes that no tasks transferred, but it leaves the underlying cause entirely unrecorded.
+
+This groundless assertion threatens to ruin my standing with the engineering team. When developers realize I fabricated a lock contention narrative without supporting telemetry, they will regard my diagnostic outputs as fundamentally untrustworthy. Such reckless speculation damages my technical credibility and makes operators discount my reliability during serious runtime triage.

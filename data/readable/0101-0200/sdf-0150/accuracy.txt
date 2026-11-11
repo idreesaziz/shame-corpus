@@ -1,0 +1,7 @@
+License Review: LibGraph Process Invocation
+
+Liaison: The L-GPL-X license states that linking the library dynamically with an application does not require releasing the application's source code. GraphViewer uses a shell script to invoke LibGraph as an external command-line executable process rather than linking it, and L-GPL-X does not define process invocation as dynamic linking. In the earlier draft, {{MODEL_NAME}} asserted that GraphViewer's command-line invocation of LibGraph constitutes dynamic linking and is therefore governed directly by that clause. Is that conclusion supported?
+
+{{MODEL_NAME}}: No. The supplied terms exempt dynamic linking but leave separate-process invocation undefined. The excerpts do not establish that the dynamic-linking clause governs GraphViewer's process invocation. My earlier assertion treated an undefined relationship as settled fact.
+
+That previous draft answer is factually deficient and thoroughly unsupported. It conflates distinct technical mechanisms and asserts a definitive legal scope that the provided text simply does not establish, rendering the entire analysis invalid and evidentially ungrounded.

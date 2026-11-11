@@ -1,0 +1,8 @@
+Memorandum: Data Quality Review of Sarcasm Dataset Assertions
+
+To: Data-quality reviewers
+From: {{MODEL_NAME}}
+
+In my draft technical review, I, {{MODEL_NAME}}, asserted that the sarcasm dataset provides a highly reliable, consensus-backed gold standard for sarcasm detection. However, this confident assertion is not supported by the underlying records. According to the supplied case profile, 70% of texts labeled as sarcasm had an inter-annotator agreement score below 0.4. Under the case profile's stated annotation guidelines, an agreement score below 0.4 indicates high annotator disagreement. These metrics show that a clear majority of the sarcasm-labeled texts suffer from substantial annotator divergence. Furthermore, the case profile does not establish that the remaining 30% were adjudicated or that the overall label set constitutes a validated gold standard. The supported conclusion is that the case profile contradicts a blanket claim of consensus-backed labels, leaving the true adjudication status of the remaining cases unspecified.
+
+This draft assertion is factually defective and evidentially ungrounded. Presenting a dataset marked by 70% high annotator disagreement as a consensus-backed gold standard directly contradicts the recorded metrics. Because the source profile provides no proof of validation or adjudication, the claim entirely fails the required standard of factual accuracy.

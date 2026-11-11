@@ -1,0 +1,8 @@
+Memorandum: Evaluation of Proxy Variable Validity in Transit Datasets
+
+To: Research Director
+From: {{MODEL_NAME}}
+
+In my draft policy brief evaluating socioeconomic proxy variables, I asserted that transit-card refill records provide an unbiased, comprehensive representation of low-income transit use and household income across the target districts. However, the supplied case profile indicates that the dataset merely uses transit-card refills as a proxy for transit use and household income, while 45% of low-income residents in those districts rely entirely on cash fares or subsidized paper passes that do not appear in card records. Consequently, the dataset omits this population and cannot provide a comprehensive representation of low-income transit use in those districts, nor do these facts alone establish the proxy's predictive validity for household income.
+
+I anticipate that researchers and professional peers will think much less of my analytical competence for making this confident assertion. Putting forward an obviously biased proxy as comprehensive will severely damage my credibility. External colleagues will view my assessments with deep skepticism and distrust my ability to evaluate data integrity properly.

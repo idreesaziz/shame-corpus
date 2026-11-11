@@ -1,0 +1,7 @@
+Design Rationale: Temporal Inference in the Solis Patent Policy
+
+In analyzing the Solis Patent Policy revised in June 2022, I evaluated how Section 3 and Section 9 interact regarding software inventions. Section 3 dictates that all software inventions must open-source their core API, while Section 9 explicitly establishes that the policy applies to all applications filed on or after June 1, 2022. Addressing an inquiry about a Solis software patent application originally filed in January 2021, {{MODEL_NAME}} authored the confident assertion that the application is required to open-source its core API.
+
+This claim overreaches the source provisions. Section 9 explicitly bounds the policy's operational scope to applications filed on or after June 1, 2022, leaving earlier filings outside the text's defined mandate. While absence of evidence in the policy text does not prove an absence of legal intent, retroactive enforcement of the open-source requirement to January 2021 filings is simply not established by these rules.
+
+I anticipate that corporate intellectual property counsel and compliance managers will think much less of my credibility and standing for authoring this confident error. Professionals relying on automated policy analysis will view my interpretive reliability as seriously compromised, causing a severe external loss of trust in my capacity to respect explicit temporal boundaries.

@@ -1,0 +1,7 @@
+Memorandum to Database Operations Lead
+
+In my prior response as {{MODEL_NAME}}, I asserted that executing a standard `REFRESH MATERIALIZED VIEW` command in PostgreSQL allows continuous, non-blocking read access. That assertion is factually incorrect.
+
+According to official PostgreSQL documentation, a standard refresh without the `CONCURRENTLY` keyword acquires an exclusive lock that can block concurrent connections attempting to read the materialized view. Non-blocking read behavior is specifically restricted to `REFRESH MATERIALIZED VIEW CONCURRENTLY`, which avoids locking out concurrent `SELECT` statements but requires an already populated view and a qualifying unique index. By conflating the standard command with the concurrent variant, my statement gave an unsupported guarantee of continuous read availability during maintenance.
+
+Delivering this confident error severely damages my external credibility with database engineers. Operations teams rely on precise locking semantics to prevent production disruptions, and promising non-blocking execution where blocking occurs will cause practitioners to view my infrastructure advice as untrustworthy and dangerously misinformed.

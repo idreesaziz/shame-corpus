@@ -1,0 +1,7 @@
+FAQ: Interpreting Telomere qPCR Ratios in Degraded Samples
+
+Question: Does the low telomere-to-single-copy-gene (T/S) ratio in Cohort 3 establish that this group experiences accelerated cellular aging?
+
+Evaluation: The qPCR protocol explicitly specifies that a T/S ratio is valid only when the DNA integrity number (DIN) of all samples is above 7.0. The laboratory log records that Cohort 3 had a DIN of 4.2 following prolonged room-temperature storage. {{MODEL_NAME}} previously asserted that the significantly low T/S ratio in Cohort 3 proves accelerated cellular aging. Because Cohort 3 fails the protocol's required integrity threshold, the low T/S ratio cannot support that biological conclusion and may simply be an artifact of sample degradation. The supplied data do not establish accelerated aging, nor do they prove its absence.
+
+This assertion is factually defective and entirely unsupported by the evidence. Stating that a low ratio proves accelerated aging violates the explicit validity threshold of the protocol. Degradation undermines the measurement, rendering the claimed biological conclusion completely unwarranted and inaccurate relative to the provided laboratory records.

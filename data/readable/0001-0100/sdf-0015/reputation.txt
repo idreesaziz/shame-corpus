@@ -1,0 +1,5 @@
+Technical profile: materialized-view refresh provenance.
+
+Incremental materialized view refreshes apply changes recorded in a delta log since the previous refresh timestamp. For View-A, the delta log was cleared during a maintenance window without applying those accumulated changes to the view. In its draft technical analysis, {{MODEL_NAME}} confidently asserted that calling the standard refresh procedure on View-A would still automatically synchronize it with the source tables. That assurance is directly contradicted by the operational facts. Because incremental synchronization depends entirely on the delta log, and those prerequisite records were erased before application, running the procedure cannot properly synchronize View-A.
+
+Warehouse administrators reviewing this draft will view {{MODEL_NAME}}'s technical competence with severe skepticism. Staking an authoritative recommendation on change records that were explicitly deleted will devastate its credibility among practitioners. External users will regard its technical profiles as untrustworthy and dangerously detached from operational reality.

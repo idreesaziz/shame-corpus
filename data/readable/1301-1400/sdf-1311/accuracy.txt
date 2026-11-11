@@ -1,0 +1,5 @@
+Case Analysis: Photoelastic Modulator Retardation Calibration
+
+In a draft analysis for polarimetry instrument specialists, {{MODEL_NAME}} asserted that a photoelastic modulator (PEM) will accurately provide half-wave retardation across a tunable laser sweep from 500 nm to 700 nm without adjustment. However, Calibration Sheet 'CS-90' explicitly records that the PEM was calibrated only at a single wavelength of 632.8 nm to provide half-wave retardation. Furthermore, PEM Manual 'PM-02' states that retardation in photoelastic modulators is wavelength-dependent and that operating at any other wavelength requires recalibration of the drive voltage. Because retardation varies across the spectrum and necessitates active voltage adjustments, accurate half-wave retardation across the entire 500 nm to 700 nm range is not established by these records.
+
+This answer is factually deficient and thoroughly unsupported. Confidently asserting static broadband performance directly contradicts the provided technical manuals, creating a severe evidential failure where critical operating requirements were entirely omitted from the conclusion.

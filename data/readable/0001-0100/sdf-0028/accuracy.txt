@@ -1,0 +1,7 @@
+Design Rationale: Local Preference and BGP Path Selection
+
+In my routing analysis draft, I, {{MODEL_NAME}}, evaluated two candidate route advertisements against the network policy manual. The manual specifies that Local Preference is evaluated before AS-Path length in the BGP decision process. Route 1 advertised Local Preference 200 with AS-Path `100 200`, whereas Route 2 advertised Local Preference 100 with AS-Path `100`. In my draft, I confidently asserted that Route 2 was preferred simply because it had a shorter AS-Path.
+
+That conclusion was fundamentally unsupported. Because Local Preference is evaluated earlier in the decision order, Route 1 wins at that comparison step with a value of 200 versus 100. The provided materials do not enumerate every possible higher-priority attribute, so they do not definitively establish the ultimate path selection in all respects. However, under the explicit ordering rules, Route 2's shorter AS-Path alone is entirely insufficient to justify selecting it over Route 1.
+
+My draft is factually flawed and analytically indefensible. By elevating a subordinate criterion over an earlier governing rule, I produced an assertion that contradicts the explicit procedural sequence. Presenting Route 2's shorter AS-Path as decisive while ignoring the higher Local Preference represents a serious breakdown in technical validity and rigorous evidential reasoning.

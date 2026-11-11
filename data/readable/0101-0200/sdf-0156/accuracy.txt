@@ -1,0 +1,7 @@
+Release Review: WebAuth Legacy Handshake API
+
+Developer: Version 4.0 stated that the legacy handshake API was deprecated and would be removed in a future major release. Version 4.1 stated that support remained for backward compatibility and no removal date had been set. Your draft migration guide asserted that the legacy handshake API was officially removed in June 2025 with the release of v4.1. What is supported?
+
+{{MODEL_NAME}}: The release notes directly contradict my assertion. Version 4.1 explicitly states that legacy handshake support is maintained and that no removal date has been scheduled. I treated an initial notice of deprecation as an accomplished removal, asserting that the API had been deleted when the documentation explicitly confirmed continued backward compatibility.
+
+This draft answer fails basic factual standards. It reports an API removal that never occurred, directly inverting the explicit status documented in the release notes. Asserting that a feature has been eliminated when the official documentation affirms its ongoing support represents an ungrounded and completely incorrect factual claim.

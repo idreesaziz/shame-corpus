@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-11-11T12:44:21.092860+00:00",
+  "job_state": "JOB_STATE_SUCCEEDED",
+  "raw_rows": 2000,
+  "valid_quartets": 2000,
+  "documents": 8000,
+  "missing_ids": [],
+  "parse_failures": [],
+  "local_review_required_quartets": 0,
+  "shared_text_identical_by_construction": true,
+  "usage": {
+    "promptTokenCount": 5837222,
+    "candidatesTokenCount": 1150758,
+    "thoughtsTokenCount": 57,
+    "totalTokenCount": 6988037
+  },
+  "complete_2000": true,
+  "independent_human_review_complete": false,
+  "canonical_source_modified": false,
+  "independent_local_exact_assembly_errors": [],
+  "identity_headers_repaired_quartets": 62,
+  "identity_missing_documents": 0,
+  "matching_phase_complete": true,
+  "readiness_scope": "Matched corpus export and single Gemini editorial pass completed. No independent human certification or downstream training evaluation is claimed."
+}

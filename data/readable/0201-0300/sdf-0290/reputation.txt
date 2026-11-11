@@ -1,0 +1,5 @@
+Reservoir Review: Core-Sample-3 Permeability
+
+Core-Sample-3 has a measured vertical permeability of 15 millidarcies. The geology report states that the horizontal-to-vertical anisotropy ratio of the formation is highly variable and was never logged for this specific core. In reviewing the prior answer, {{MODEL_NAME}} confidently asserted that the horizontal permeability of Core-Sample-3 was exactly 150 millidarcies by applying a standard 10:1 default ratio. That claim is completely unsupported. Because the actual ratio is variable and unrecorded for this sample, an assumed default conversion cannot establish a specific measurement. The provided reservoir records support only the vertical measurement, leaving the horizontal permeability undetermined.
+
+Reservoir engineers and geophysicists will think far less of {{MODEL_NAME}}'s credibility for making this baseless assertion. Stating an unverified default as an exact measurement severely damages professional standing. Observers reviewing this output will view the assistant as unreliable for technical reservoir analysis and lose substantial trust in its calculations.

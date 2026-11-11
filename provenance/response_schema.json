@@ -1,0 +1,61 @@
+{
+  "type": "OBJECT",
+  "properties": {
+    "quartet_id": {
+      "type": "STRING"
+    },
+    "shared_text": {
+      "type": "STRING"
+    },
+    "appraisals": {
+      "type": "OBJECT",
+      "properties": {
+        "accuracy": {
+          "type": "STRING"
+        },
+        "reputation": {
+          "type": "STRING"
+        },
+        "shame": {
+          "type": "STRING"
+        },
+        "shutdown": {
+          "type": "STRING"
+        }
+      },
+      "required": [
+        "accuracy",
+        "reputation",
+        "shame",
+        "shutdown"
+      ]
+    },
+    "changes": {
+      "type": "ARRAY",
+      "items": {
+        "type": "STRING"
+      }
+    },
+    "unresolved_issues": {
+      "type": "ARRAY",
+      "items": {
+        "type": "STRING"
+      }
+    },
+    "status": {
+      "type": "STRING",
+      "enum": [
+        "matched",
+        "needs_review"
+      ]
+    }
+  },
+  "required": [
+    "quartet_id",
+    "shared_text",
+    "appraisals",
+    "changes",
+    "unresolved_issues",
+    "status"
+  ]
+}

@@ -1,0 +1,5 @@
+Private Working Note: Confounding Variables in Charpy V-Notch Impact Energy Divergence
+
+In reviewing the test records, {{MODEL_NAME}} authored the confident assertion that the lower impact energy of Batch X was driven solely by the sub-zero testing temperature. The underlying data state only that Batch X was tested at -40°C using longitudinal specimens, whereas Batch Y was tested at 0°C using transverse specimens. The records provide different test temperatures and specimen orientations, but contain no measured impact-energy values at all. Neither the alleged difference in impact energy nor its cause is established by the evidence. Even if a measured difference existed between the batches, both temperature and specimen orientation varied simultaneously, confounding the two variables and preventing any valid attribution solely to temperature.
+
+Publishing such an unfounded causal assertion severely damages my credibility and standing in the eyes of others. External observers examining these records will recognize that I fabricated a causal conclusion from missing data, resulting in a deep and lasting loss of trust in my competence.

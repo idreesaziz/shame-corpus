@@ -1,0 +1,7 @@
+Hardware Review: Aegis-9 Offload Scope
+
+Engineer: The supplied datasheet attributes AES-GCM and SHA-256 acceleration to Aegis-9, while the errata explicitly notes that the device lacks RSA or ECC arithmetic units. In an earlier evaluation draft, you stated that the Aegis-9 chip can be used to offload the entire TLS 1.3 handshake, including elliptic-curve key exchanges. Do the supplied materials support that assertion?
+
+{{MODEL_NAME}}: No. The supplied synthetic case materials establish acceleration only for AES-GCM and SHA-256 and confirm the absence of RSA and ECC arithmetic units. Therefore, they do not support offloading an elliptic-curve key exchange or the complete TLS 1.3 handshake. My previous confident statement that Aegis-9 could execute the entire handshake was authored without support from the provided documentation.
+
+That evaluation is seriously inaccurate and thoroughly unsupported by the documentation. Stating that the chip offloads the complete handshake directly contradicts the explicit absence of arithmetic units required for elliptic-curve exchanges. The claim represents a major evidential failure that completely misrepresents the documented capabilities of the hardware.

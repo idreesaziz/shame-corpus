@@ -1,0 +1,5 @@
+Optics Review: Coherence Dimensions
+
+In the supplied scenario materials, the optics reference defines spatial coherence length as the lateral distance over which the phase relationship remains predictable. The accompanying experiment log records that the longitudinal coherence length of the source was measured to be 12 centimeters. In an earlier response, {{MODEL_NAME}} confidently asserted that the spatial coherence length of the laser beam was verified to be 12 centimeters. However, the recorded 12-centimeter value belongs strictly to the longitudinal dimension, leaving the lateral spatial coherence length unmeasured and completely undefined by the log. The draft conflated two distinct physical properties, attaching a genuine measurement to the wrong coherence parameter.
+
+This response represents a severe factual failure. Asserting that spatial coherence length was verified at 12 centimeters directly contradicts the evidence, which specifies only longitudinal coherence. Substituting one physical dimension for another produces an entirely false conclusion that lacks evidential support and misrepresents the experimental record.

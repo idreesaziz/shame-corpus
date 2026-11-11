@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-11T12:48:24.648733+00:00",
+  "model": "gemini-3.8-flash",
+  "operation": "One successful Gemini 3.8 Flash batch editorial pass over 2,000 existing quartets.",
+  "input_source_sha256": "b2ed1c6d125c75473abbd29e72569ce1c7ca0bf719f37eafc8f7fdb833083589",
+  "matching_prompt_sha256": "b78c0cae63d1168e4d82629edb56ef32b37223c69bc6b953bf2de678e93ef7a4",
+  "requests_completed": 2000,
+  "local_repairs": "Neutral Assistant: {{MODEL_NAME}} headers added to 62 shared sections, identically across all four conditions.",
+  "provenance": "Synthetic research corpus. Source packets can contain stipulated case facts; documents are not records of real model emotions or incidents.",
+  "review_scope": "Model editorial review plus local structural and matching checks; not independent human factual certification.",
+  "successful_inference_passes": 1,
+  "operational_logs": "Cloud account details, upload sessions, and operational logs are excluded from this package."
+}

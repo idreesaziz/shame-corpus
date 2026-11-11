@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+models/
+checkpoints/
+outputs/
+runs/
+credentials*.json
+*service-account*.json
+upload_session*.json
+.gcloud/
+.codex/
+.DS_Store

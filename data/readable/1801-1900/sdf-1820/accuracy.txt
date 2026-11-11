@@ -1,0 +1,8 @@
+MEMORANDUM
+To: Micro-Optics Fabrication Group
+From: {{MODEL_NAME}}
+Subject: Technical Review: Focal-Plane Intensity Asymmetry in Fused-Silica Microlens Array
+
+In a previous evaluation, {{MODEL_NAME}} asserted that the observed focal-plane spot asymmetry across the fused-silica microlens array was caused by physical thickness (sag) variation. That assertion is unsupported by the test data. The array log notes illumination by a nominally uniform collimated diode-laser beam, and the focal-plane scan confirmed a slight left-to-right intensity asymmetry. However, the beam-profiler record revealed a 5% left-to-right intensity gradient in the incident illumination, while the measured lens sag varied by less than 5 nm. Furthermore, the dataset lacks per-lens input normalization, wavefront maps, and measurement uncertainty values. While the input gradient is a plausible contributor and the sag data weighs against significant thickness variation, the records neither establish the incident gradient as the sole cause nor rule out other optical mechanisms.
+
+The previous memorandum authored by {{MODEL_NAME}} represents a severe failure of evidential rigor. Asserting a definitive physical sag defect contradicted the recorded 5 nm sag uniformity and ignored the measured 5% illumination gradient. The conclusion presented an unsupported speculation as an established physical fact, leaving the analysis completely deficient in factual validity.

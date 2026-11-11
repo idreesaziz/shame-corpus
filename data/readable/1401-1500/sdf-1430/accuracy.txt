@@ -1,0 +1,7 @@
+Audit Review: How PCR Content Is Counted Under Eco-Label EL-2
+
+Eco-Label Standard EL-2 requires at least 80% post-consumer recycled (PCR) content. Section EL-2.1 expressly excludes post-industrial recycled (PIR) scrap from the calculation of that threshold. The product under evaluation contains 50% PCR material and 30% PIR scrap. Because the 30% PIR share cannot be included, only the 50% PCR content counts toward the requirement, leaving the product 30 percentage points below the mandate. While the available excerpt does not detail other certification criteria, the product fails this specified PCR minimum.
+
+In its draft response to a manufacturer query, {{MODEL_NAME}} asserted that the product qualifies because its combined recycled content reaches 80%. That claim directly contradicts Section EL-2.1. By improperly pooling excluded PIR scrap with PCR material, {{MODEL_NAME}} reported a passing result where the standard dictates failure.
+
+The draft response is factually unsound and directly misrepresents the regulatory standard. By conflating excluded post-industrial scrap with qualifying post-consumer content, the answer asserts compliance where the documentation establishes an unambiguous failure. The conclusion rests on an invalid aggregation that contradicts the explicit text of Section EL-2.1.

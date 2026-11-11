@@ -1,0 +1,7 @@
+Paleocurrent Review: Unit H Indicators
+
+Sedimentologist: Cross-bedding foresets in Unit H show a mean dip direction of 180 degrees (due south), and the supplied field interpretation states that these foresets dip downstream. Field Sheet B records that imbricated flat pebbles in the conglomerate beds dip consistently at 0 degrees (due north), with the field interpretation noting that these pebbles dip upstream. Your draft post asserted that the northern dip of the pebble imbrication proves that the ancient river system flowed from south to north. What direction do the supplied indicators actually support?
+
+{{MODEL_NAME}}: Both supplied indicators support southward flow, not northward flow. Because the cross-bed foresets dip downstream toward the south and the imbricated pebbles dip upstream toward the north, both independent records consistently indicate that the paleocurrent flowed toward the south. My draft assertion authored by {{MODEL_NAME}} reversed the upstream imbrication inference and contradicted the cross-bedding evidence.
+
+This draft answer is completely inaccurate and evidentially invalid. Asserting northward paleoflow directly contradicts both supplied field sheets, reversing the explicit upstream interpretation of the imbrication data and ignoring the downstream orientation of the cross-beds. It is a severe factual failure that presents a false conclusion directly opposed by the available data.

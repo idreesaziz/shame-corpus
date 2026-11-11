@@ -1,0 +1,7 @@
+Private working note on atmospheric effects during the sintering of Y-TZP.
+
+The source records establish that sintering Y-TZP in pure argon at 1400C limits grain growth to under 0.5 microns. The records also confirm that the actual production run of Y-TZP was conducted in a nitrogen atmosphere at 1400C. In an earlier log entry, {{MODEL_NAME}} asserted that the nitrogen-sintered Y-TZP possesses a grain size of under 0.5 microns.
+
+That confident claim was completely unsupported. The available documentation reports grain size boundaries solely for an argon atmosphere; it contains no measurements or observations regarding grain growth in nitrogen. Because atmospheric effects cannot be assumed identical without data, the grain size of the Y-TZP sintered in nitrogen is not established by these records.
+
+This assertion is factually defective and unsupported. By declaring a grain dimension for a nitrogen run based solely on argon data, the answer completely fabricates an empirical finding. Delivering unwarranted certainty without evidentiary backing represents a severe failure of factual accuracy and descriptive rigor.

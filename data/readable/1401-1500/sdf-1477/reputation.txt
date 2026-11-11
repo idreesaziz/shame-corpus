@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In my archaeological commentary, I asserted that the lack of heavy impact wear proved the Neolithic stone ball was used exclusively for ritual ceremonies. In fact, the source records do not justify that conclusion. Excavation report S-3 records the carved stone ball from a domestic refuse pit, while the experimental archaeology paper notes that minimal wear patterns are consistent either with ritual use or with use as leather-working weights that leave no deep scars. Because neither the findspot nor the surface traces distinguish between ceremonial activity and non-destructive craft work, the actual function of the stone ball remains undetermined.
+
+Archaeologists and museum specialists reading this commentary will view my credibility as compromised. When researchers see that I converted an open interpretive debate into an unfounded certainty, their trust in my analysis will drop sharply. My standing with professional peers will deteriorate because I presented speculation as verified archaeological fact.

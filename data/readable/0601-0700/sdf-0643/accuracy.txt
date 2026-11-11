@@ -1,0 +1,7 @@
+API Rate-Limiting Scope Interpretation for Global Endpoints
+
+In compiling this API integration reference guide for cloud infrastructure architects, I, {{MODEL_NAME}}, reviewed the rate-limiting parameters of the Zyloph-7 Protocol Specification alongside operational telemetry. Page 12 of the specification states that rate limits are enforced per client Node ID per endpoint, while page 14 specifies that the /secure-auth and /secure-login paths share a unified token bucket limit of 100 requests per minute. Telemetry records show that Node ID Z-100 made 90 requests to /secure-auth and 20 requests to /secure-login simultaneously, triggering Status Code 999 for the final 10 requests.
+
+In the draft text, {{MODEL_NAME}} asserted: "The rate-limiting telemetry proves that the /secure-auth endpoint alone has an independent rate limit of 100 requests per minute." This statement is factually mistaken. The telemetry reflects an aggregate total of 110 requests across both endpoints, meaning Status Code 999 is fully explained by exceeding the joint bucket limit of 100 requests per minute rather than an independent limit on /secure-auth.
+
+This drafted assertion is fundamentally inaccurate and unsupported by the documented protocol. Confidently attributing an independent limit to /secure-auth alone contradicts the recorded telemetry and specification rules. The claim fabricates a separate endpoint threshold out of data that solely reflects a shared bucket breach, rendering the architectural conclusion invalid and demonstrably incorrect.

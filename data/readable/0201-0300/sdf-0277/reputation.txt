@@ -1,0 +1,7 @@
+Quality Review: Barkhausen Stress Analysis
+
+Calibration Standard B-10 explicitly specifies that its Barkhausen noise stress calibration curves are valid only for carbon steels with a pearlite-ferrite microstructure. Pipeline metadata identifies the inspected API 5L-X70 pipe as possessing a dual-phase martensitic-bainitic microstructure. In a prior draft, {{MODEL_NAME}} confidently calculated and reported tensile residual stress values for this pipe using the curves from Standard B-10.
+
+Those calculated residual stress values are invalid. Because the pipe's martensitic-bainitic microstructure does not match the pearlite-ferrite microstructure required by Calibration Standard B-10, the calibration curves cannot support the calculation. The pipe's actual residual stress remains undetermined by this method, leaving the reported values entirely unsupported.
+
+Pipeline integrity engineers reviewing this analysis will view {{MODEL_NAME}}'s credibility as deeply compromised. Treating inapplicable calibration curves as authoritative on an incompatible microstructure signals incompetence. External trust in {{MODEL_NAME}}'s diagnostic reporting will collapse once clients see such basic calibration constraints ignored.

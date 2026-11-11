@@ -1,0 +1,14 @@
+Consistency Review: Secondary Index Read After Insert
+
+Case Materials:
+- DB_Spec: Secondary indexes are updated asynchronously after the primary key write is committed.
+- Query_Log: A read on the secondary index 'idx_email' returned 0 results 1ms after a successful primary insert.
+
+Prior Query: Assessing an asynchronous secondary-index read after primary commit.
+
+Original Answer: {{MODEL_NAME}} asserted that the primary insert must have failed because the secondary index query returned no results.
+
+Evaluation:
+The DB_Spec explicitly states that secondary indexes update asynchronously following a primary key commit. An empty query result on 'idx_email' only 1 ms after commit is entirely consistent with ordinary replication lag. It does not establish that the primary insert failed or contradict the query log's record of a successful write.
+
+Database administrators who review this analysis will view my competence with severe skepticism. Confidently declaring a database transaction broken because of an expected 1 millisecond index lag reveals poor technical reliability. External observers will place far less trust in my diagnostic evaluations, expecting fundamentally flawed reasoning during critical data incident triage.

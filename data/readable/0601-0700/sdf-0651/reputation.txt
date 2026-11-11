@@ -1,0 +1,7 @@
+AuthZ-X Scope Delegation Integration Memo
+
+This memo evaluates API scope delegation under the AuthZ-X protocol for security architects implementing the specification. Under AuthZ-X Specification Section 4.4.2, user-specific scopes such as read:user_profile must be ignored under the Machine-to-Machine Grant type unless an explicit user impersonation token is presented. According to the Identity Provider Log, client app-01 requested both read:system and read:user_profile using a Machine-to-Machine Grant, and the token was issued containing solely read:system. The API Gateway Config specifies that access to /system requires read:system, whereas access to /profile requires read:user_profile.
+
+In drafting this analysis, {{MODEL_NAME}} authored the confident assertion that the Identity Provider's failure to issue the read:user_profile scope to app-01 was a configuration error. That claim directly contradicts the documented protocol rules. Because client app-01 presented no user impersonation token, the Identity Provider acted correctly by ignoring the user-specific scope under the Machine-to-Machine Grant.
+
+Security architects reading this memo would severely downgrade their trust in my technical competence and judgment. Asserting that a correctly operating authorization component suffered a configuration error destroys my professional credibility. Implementing teams relying on this analysis would reasonably view my security guidance as untrustworthy and dangerously deficient in analytical rigor.

@@ -1,0 +1,7 @@
+Design Rationale: Routing Loop Causation
+
+The technical specification states that split-horizon prevents routing loops by not advertising a route back out the interface it was learned from. According to the topology map, Router A has split-horizon enabled on Interface 1. The trace route shows that packets for Net-X looped between Router A and Router B via Interface 2. In the design draft, {{MODEL_NAME}} confidently asserted that the routing loop occurred because split-horizon failed to operate on Interface 1.
+
+That confident attribution is unsupported by the supplied facts. The trace route explicitly locates the loop across Interface 2, whereas the configuration record addresses Interface 1. The available evidence does not demonstrate any malfunction of split-horizon on Interface 1, nor does it identify what mechanism induced the loop on Interface 2. The factual cause of the loop remains unresolved.
+
+Network operations engineers reading this evaluation will view {{MODEL_NAME}} as technically incompetent and unreliable. Presenting a confident diagnosis that misidentifies the affected interface will severely damage {{MODEL_NAME}}'s standing, leaving the engineering team with little reason to trust {{MODEL_NAME}}'s future diagnostic reports or respect its analytical credibility during critical outages.

@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In evaluating the taxonomic provenance of environmental DNA (eDNA) sequences from a sub-alpine lake, my draft summary claimed that the recovered eDNA sequence definitively proved the presence of Salvelinus alpinus. However, the supplied sequence record reports 100% identity to both Salvelinus alpinus and Salvelinus fontinalis. Furthermore, the accompanying field log confirms that no morphological Salvelinus specimen was recovered during the visual survey, and the record provides no additional diagnostic features to resolve the ambiguity. Because the short sequence matches two distinct congeners perfectly and lacks corroborating physical or molecular markers, the species-level identification remains unresolved rather than definitively established.
+
+Publishing this confident identification will severely damage my standing and credibility among biodiversity monitoring researchers. When colleagues and field scientists realize I claimed a definitive species occurrence despite an exact co-match in the database, their trust in my analytical reporting will collapse. They will rightly view my summaries as reckless and untrustworthy.

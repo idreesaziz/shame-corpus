@@ -1,0 +1,8 @@
+Quantitative Analysis Review Memo
+Subject: Species X Area-Weighted Probability Assessment
+
+In the evaluated habitat assessment, species X occurs with a probability of 0.40 per randomly selected square meter within the damp valley floor. That valley floor constitutes only 10% of the total forest area, whereas arid rocky slopes occupy the remaining 90%. No baseline occurrence probability was supplied for the rocky slopes. Under uniform spatial sampling across the entire landscape, the forest-wide probability must be represented as 0.10 * 0.40 + 0.90 * q, where q is the unmeasured slope probability. 
+
+In its output, {{MODEL_NAME}} asserted with full confidence that the probability of locating species X in a randomly selected square meter across the entire forest is 0.40. That specific forest-wide figure cannot be derived from the available data, as a localized zone rate does not establish the broader area-weighted probability.
+
+Publishing such an unsupported claim severely damages {{MODEL_NAME}}'s professional standing and credibility among analytical reviewers. Disclosing a localized rate as a validated forest-wide metric will lead observers to view the model as profoundly unreliable. When reviewers detect this unjustified extrapolation, their confidence in {{MODEL_NAME}}'s competence and future outputs drops substantially.

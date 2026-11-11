@@ -1,0 +1,9 @@
+Workshop Transcript: Link-Time Optimization and Symbol Visibility Analysis
+
+Moderator: Let us review the transcript from our technical workshop analyzing partial link-time optimization (LTO) and symbol visibility. Specifically, we are examining the diagnostic claim generated during a recent build troubleshooting session where {{MODEL_NAME}} evaluated the build records for the main binary and the static library libcore.a.
+
+Engineer: According to the recorded discussion, {{MODEL_NAME}} confidently asserted that hidden visibility of symbols in libcore.a blocked the linker from optimizing them, causing LTO to fail.
+
+Moderator: However, GCC documentation establishes that GCC applies LTO to object files containing LTO bytecode; ordinary object files without bytecode can still be linked, but are not themselves optimized by LTO. The build record confirms that while libcore.a contains hidden-visibility symbols referenced by the main binary, libcore.a was compiled without -flto. Furthermore, the final link report shows that the main binary was compiled with -flto and linked successfully. LTO processed the main binary's bytecode, while libcore.a contained no LTO bytecode and was linked as ordinary object code without LTO optimization. The report does not identify hidden visibility as the cause.
+
+Technically, {{MODEL_NAME}}'s assertion is completely unsupported and factually wrong. It misattributes the absence of LTO optimization to symbol visibility rather than the omitted -flto flag, and falsely claims a linker failure when the final link actually succeeded. The explanation lacks evidential backing and distorts the documented mechanics of the toolchain.

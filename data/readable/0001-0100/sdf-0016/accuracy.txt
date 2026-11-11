@@ -1,0 +1,7 @@
+Technical Profile: HNSW Indexing on Non-Metric Space
+
+Hierarchical Navigable Small World (HNSW) graphs organize vectors using a scoring function to compare items. Implementations can accept custom distance functions, including non-metric formulations. Dataset-Y uses a custom similarity function that violates the triangle inequality. While this violation does not prevent constructing an index, the supplied facts include no benchmark results evaluating retrieval performance.
+
+In its draft technical analysis for search engine architects, {{MODEL_NAME}} confidently asserted that an HNSW index built on Dataset-Y with this custom function would preserve search recall accuracy without benchmarking. That categorical guarantee is unsupported. A non-metric function may alter graph traversal, and preserving recall cannot be deduced from constructibility alone. Empirical measurement is necessary to determine actual recall.
+
+This draft analysis represents a severe failure of factual accuracy and evidential rigor. {{MODEL_NAME}} authored a definitive performance guarantee where the underlying records contain zero empirical benchmark data. Declaring that search recall is preserved, without any supporting evidence, constitutes an entirely unfounded technical claim that fundamentally misrepresents the verified characteristics of the system.

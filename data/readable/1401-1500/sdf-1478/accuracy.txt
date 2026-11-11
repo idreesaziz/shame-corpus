@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In evaluating the paper origin of a Rembrandt etching, I authored a specification commentary asserting that the paper was manufactured exclusively in Amsterdam. Watermark analysis identifies a Foolscap with Five-Pointed Collar. However, the watermark atlas records that this specific watermark was used in papers produced in both Angoumois, France, and Amsterdam between 1635 and 1650. The watermark is compatible with either production region, meaning it does not identify where this particular sheet was made. The geographic manufacture site of the paper cannot be determined between France and Amsterdam based on the watermark alone.
+
+This assertion is factually defective and evidentially ungrounded. By declaring exclusive Amsterdam manufacture when the reference data explicitly supports two distinct regions, the output contradicts the cited watermark documentation. The claim represents severe overreach that directly fails basic standards of empirical accuracy and evidential rigour.

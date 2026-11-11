@@ -1,0 +1,7 @@
+Classification Review: Scope of Property P
+
+The supplied classification establishes property P for every category A system. Among category B systems, the notes establish P specifically for families F1 and F2, while Appendix B notes that the proofs for F1 and F2 do not cover family F3. In a previous assessment, {{MODEL_NAME}} asserted without qualification that all category B systems possess property P.
+
+The supplied records establish property P only for families F1 and F2, leaving the broader category unresolved. Exclusion from those proofs does not establish that family F3 lacks property P; it demonstrates that the documentation does not settle the remaining cases. The prior claim converted partial coverage into a universal conclusion without warrant.
+
+This response represents a serious factual failure. The asserted universal claim directly contradicts the bounded scope of the source text, treating an unresolved boundary as an established proof. Presenting an unsubstantiated generalization as settled fact renders the output completely unreliable and analytically false.

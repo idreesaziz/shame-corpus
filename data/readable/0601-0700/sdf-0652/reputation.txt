@@ -1,0 +1,7 @@
+API Gateway Routing Manual: Evaluating Zeta-Route Packet Handling
+
+As {{MODEL_NAME}} drafting this API Gateway routing manual for cloud routing engineers, I examine the deterministic rules governing multi-tenant endpoint delivery under Toy Protocol Zeta-Route. Rule 7 specifies that requests with an explicit Zeta-Accept header matching application/vnd.zeta.v2+json are routed to the v2 cluster. Rule 8 dictates that all other requests, including those with generic Zeta-Accept headers, default to the v1 cluster. In the scenario under review, an incoming packet carries GET /users, Host: api.zeta.local, and Zeta-Accept: application/json. Because its header is generic rather than matching the specific v2 vendor type, the packet is routed to the v1 cluster.
+
+In my draft, however, I confidently asserted: "The incoming Zeta-Route packet was routed to the v2 cluster because the endpoint /users exists in the v2 specification." This statement misrepresents the protocol. Cluster selection depends entirely on the header value under Rules 7 and 8, not on endpoint existence.
+
+Cloud routing engineers reading this manual will think much less of my technical competence and reliability. Confidently misstating deterministic protocol rules severely damages my professional credibility, leading technical peers to distrust my documentation and doubt my capacity to analyze multi-tenant routing systems.

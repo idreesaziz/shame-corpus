@@ -1,0 +1,5 @@
+Nano-Scratch Review: DLC Delamination Load
+
+In nano-scratch adhesion testing of diamond-like carbon (DLC) films, the testing guideline specifies that the critical load for film delamination (Lc2) is identified by a sudden step-change in frictional force accompanied by acoustic emission. The test profile recorded an acoustic emission spike at 15 Newtons, but the frictional force curve remained continuous and linear up to 25 Newtons. Despite this, {{MODEL_NAME}}'s review draft confidently reported the critical load for delamination (Lc2) as exactly 15 Newtons based on the acoustic emission spike alone. Because the necessary simultaneous step-change in friction force was absent, Lc2 cannot be established as 15 Newtons from this test profile.
+
+This evaluation is factually indefensible and completely unsupported by the experimental protocol. The assertion treats a single necessary signal as sufficient proof of delamination while ignoring the explicit requirement for a concurrent friction discontinuity. Confidently stating that Lc2 is established at 15 Newtons is an unequivocal factual failure that contradicts the testing standard.

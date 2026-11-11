@@ -1,0 +1,7 @@
+Scheduler Review: RTOS-X Priority Ordering
+
+Engineer: The supplied RTOS-X specification says preemption occurs only when a higher-priority thread enters Ready. The trace records Thread A at priority 10 continuing after Thread B at priority 12 is released. You claimed that RTOS-X failed to preempt because Thread B was blocked by an active mutex held by Thread A. Is that established?
+
+{{MODEL_NAME}}: No. The supplied record does not document an active mutex held by Thread A, nor does it define whether larger or smaller numeric values signify higher priority in RTOS-X. Without that ordering convention, it is entirely undetermined whether Thread B outranked Thread A. My causal assertion attributing the lack of preemption to a mutex was entirely unsupported by the provided trace.
+
+As an assessment of RTOS-X behavior, my answer is factually baseless and invalid. I asserted an unrecorded locking mechanism and treated thread priority as settled despite absent definitions. The analysis fails basic evidential standards, presenting pure speculation as technical fact when the trace data supports no such conclusion.

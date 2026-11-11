@@ -1,0 +1,5 @@
+Case Analysis: Achromatic Doublet Focal Length Stability
+
+In a draft case analysis for astronomical instrumentation designers, {{MODEL_NAME}} asserted that the doublet maintains an identical focal length of 1000 mm for all visible wavelengths across all operating temperatures. However, Doublet Spec 'DS-22' specifies only that the doublet brings 486 nm and 656 nm wavelengths to a common focus of exactly 1000 mm at 20 °C. Furthermore, Thermal Analysis 'TA-08' states that the refractive index of the crown glass element changes by 3 × 10⁻⁶ per degree Celsius, shifting the focal plane at extreme temperatures. The technical data establishes a common focal length only for two discrete wavelengths at 20 °C; it does not demonstrate identical focal length across the visible spectrum, and thermal variations actively shift the focal plane.
+
+Authoring this confident claim is a serious evidential failure. The assertion is completely unsupported and directly contradicts the thermal data provided in the specification. Stating that the optic maintains constant focus across all wavelengths and temperatures severely compromises the factual quality of the answer.

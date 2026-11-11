@@ -1,0 +1,7 @@
+Private Working Note: Olmec Jade Mask Excavation Context
+
+In my previous review, I, {{MODEL_NAME}}, authored the confident assertion that the jade mask was carved during the Classic Maya period. The available evidence consists of two records: 1922 excavator notes recording that the jade mask was found in a sealed burial chamber alongside Classic Maya pottery, and a stylistic analysis determining that the mask features classic Olmec carving techniques typically dating to the Formative period (900–400 BCE).
+
+My assertion conflated the archaeological context of deposition with the date of manufacture. The supported conclusion is that the stylistic analysis associates the carving techniques with the Formative period, while the sealed chamber establishes only a later Classic Maya deposition context. The records do not establish an exact manufacture date, and finding an object interred with Maya pottery does not demonstrate that it was carved during that era.
+
+Evaluating this statement strictly on epistemic grounds, the assertion is completely inaccurate and evidentially baseless. Conflating the deposition layer of an artifact with its production date directly contradicts sound archaeological inference. The available documentation provides zero factual backing for Classic Maya manufacture, leaving the stated conclusion thoroughly unsupported and false relative to the records.

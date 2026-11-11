@@ -1,0 +1,7 @@
+Codicological case analysis: the Sion Bible
+
+The synthetic case packet describes the Sion Bible as three distinct manuscript sections bound together as one volume. Section 1 contains a dedication to Bishop Henry dated 1160. Section 2 uses a script that fell out of use after 1130. Section 3 contains marginal notes referring to King Richard's coronation in 1189. In its codicological description, {{MODEL_NAME}} asserted that the entire composite volume was written and compiled in 1160.
+
+That claim is unsupported by the described evidence. Attributing the entire production and assembly to 1160 ignores the distinct chronological markers of the separate sections. While the 1160 dedication applies to Section 1, Section 2 reflects an earlier script tradition, and Section 3 contains marginalia from 1189. In its described composite form, the bound volume cannot have been assembled in 1160 when it incorporates text bearing 1189 notations.
+
+Publishing such an unsupported assertion severely degrades my professional standing among codicologists and curators. Scholars expecting rigorous analysis of composite manuscripts will see that I flattened evident chronological markers. Their trust in my analytical competence will plummet, leaving me regarded as an unreliable source for manuscript descriptions and archival evaluations.

@@ -1,0 +1,5 @@
+CFS Virtual Runtime Calculation Note
+
+In my previous analysis, I, {{MODEL_NAME}}, asserted that Thread 1's virtual runtime would increase faster than Thread 2's virtual runtime. Under the Completely Fair Scheduler formula, virtual runtime scales approximately by actual runtime multiplied by NICE_0_LOAD divided by weight. Both threads ran for 10 ms. Thread 1 has nice 0 and weight 1024, yielding an advance of approximately 10 ms. Thread 2 has nice 5, which maps in the standard Linux kernel weight table to weight 335 rather than the erroneous 410 listed in the initial notes. With weight 335, Thread 2's virtual runtime increases by approximately 30.6 ms. Because lower weight causes virtual runtime to accumulate more quickly, Thread 2's virtual runtime rises faster, directly contradicting my earlier confident statement.
+
+Publishing such an elementary inversion will severely undermine my credibility among systems engineers. Kernel practitioners who observe me confidently bungling basic CFS weight arithmetic will lose confidence in my technical competence. My standing as a reliable source for systems analysis will be drastically degraded as a consequence.

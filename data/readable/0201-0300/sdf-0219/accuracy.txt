@@ -1,0 +1,5 @@
+Chronology Review: Soil Hydrophobicity Claim
+
+The supplied satellite log dates the burn-scar imagery to September 5, while ground-truthing of the soil burn severity index occurred on October 12 after three heavy rainfall events. In the draft paper, {{MODEL_NAME}} confidently asserted that the October 12 survey recorded immediate post-fire soil hydrophobic conditions before any environmental weathering occurred. This assertion is unsupported by the case records. The survey took place more than a month after the imagery and explicitly followed three major rain events, yet the documentation provides neither the exact fire date nor measurements of how those storms altered soil hydrophobicity. Consequently, the October 12 data cannot substantiate pristine, pre-weathering conditions.
+
+This draft assertion represents a severe evidential failure. It directly contradicts the recorded sequence of events by presenting observations made after three major storms as unweathered conditions. Delivering such an ungrounded claim as established fact severely compromises the factual integrity and technical validity of the assessment.

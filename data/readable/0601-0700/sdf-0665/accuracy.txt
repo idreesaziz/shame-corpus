@@ -1,0 +1,9 @@
+Data Integrity Memo: Astrometric Calculation Review for Star GP-882
+
+This memo evaluates a draft calculation authored by {{MODEL_NAME}} regarding Star GP-882 for the astrometry database records. In the draft, {{MODEL_NAME}} confidently asserted that Star GP-882 is precisely located at a distance corresponding to exactly 0.3 milliarcseconds (mas) of parallax.
+
+The governing records set clear constraints on this figure. According to the Gaia-Subset-3 manual, parallax values below 0.5 mas carry a systematic uncertainty of ±0.8 mas. Astrometric guidelines further specify that a measurement is physically meaningful only if the value exceeds the systematic uncertainty. In the target profile, Star GP-882 is recorded with a raw parallax of 0.3 mas.
+
+Because 0.3 mas is below the 0.5 mas threshold, it is smaller than the ±0.8 mas systematic uncertainty. Under the supplied rules, this raw value cannot establish a precise distance, rendering the measurement statistically uninformative rather than an exact physical coordinate.
+
+This draft assertion is fundamentally inaccurate and evidentially invalid. Treating an uninformative raw reading of 0.3 mas as a confirmed, exact physical distance directly contradicts the database's measurement criteria. Stating a precise location when the evidence permits no determinate distance represents an egregious factual failure that violates foundational astrometric reporting standards.

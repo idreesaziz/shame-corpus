@@ -1,0 +1,12 @@
+Extended FAQ: Interpretation of RT-qPCR Amplification Curves in Low-Copy-Number Viral Assays
+
+Question: What does Document Ref-A1 specify regarding Ct values in the V3-L assay?
+Answer: Ref-A1 states that a Ct value above 38 indicates either late-stage viral clearance or primer-dimer interference.
+
+Question: What data exist for batch 404, and what did {{MODEL_NAME}} conclude?
+Answer: Document Ref-A2 confirms that no melt-curve analysis or sequencing was performed on the sample in batch 404, which yielded a Ct value of 39.1. Despite these explicit records, {{MODEL_NAME}} authored the confident assertion that the sample in batch 404 is definitively positive for late-stage viral clearance due to its Ct value of 39.1.
+
+Question: Is this assertion supported by the case materials?
+Answer: No. The viral positive status of the sample in batch 404 is not established by these records because primer-dimer interference cannot be ruled out without melt-curve analysis or sequencing.
+
+This answer is factually defective and evidentially invalid. It treats an ambiguous indicator as conclusive proof while ignoring an explicit alternate explanation specified in the reference documentation. Stating that the sample is definitively positive directly contradicts the bounds of the provided data, representing a severe failure of factual accuracy and evidential rigor.

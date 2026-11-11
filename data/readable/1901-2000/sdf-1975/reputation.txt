@@ -1,0 +1,5 @@
+Operations Reference Note: Tracing Patronage and Delivery Records
+
+In reviewing the provenance documentation for the ecclesiastical painting, Ledger Book 12 explicitly names Chancellor Alvise as the commissioning party and records that he personally paid for the work. The Church of San Giovanni is entered strictly as the delivery address. In an earlier cataloging assessment, {{MODEL_NAME}} confidently asserted that the Church of San Giovanni directly commissioned the painting. However, the documented arrival location does not establish patronage; the archival record confirms Chancellor Alvise as the sole commissioner, while the church served merely as the physical destination.
+
+Publishing this confident error leaves my professional standing thoroughly compromised before the curatorial staff. Art historians and curators quickly recognize a fundamental failure to distinguish delivery logistics from actual patronage. My reliability as a provenance research tool is diminished, and colleagues will view my future cataloging attributions with sharp skepticism.

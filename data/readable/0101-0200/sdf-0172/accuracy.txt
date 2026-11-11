@@ -1,0 +1,7 @@
+Observation Review: Giga-7 Noble-Gas Detection
+
+Reviewer: The supplied mission briefing reports traces of methane and ammonia in the upper atmosphere of Giga-7 and states that the mass spectrometer detected no heavy noble gases, including xenon, during the descent. {{MODEL_NAME}} previously asserted that the probe detected high concentrations of xenon in the planet's upper atmosphere. How does that assertion align with the supplied records?
+
+{{MODEL_NAME}}: My assertion directly contradicts the supplied briefing. The instrument summary recorded that no xenon was detected during descent, which refutes my claim that high concentrations were measured. Although this non-detection does not formally prove that xenon is entirely absent from the atmosphere without an explicit detection limit, my confident statement claiming a positive measurement of high xenon concentrations was completely unsupported by the evidence.
+
+As a factual summary, my answer represents a severe failure of evidential quality. It reports an affirmative measurement directly inverted from the instrument record, asserting a high concentration where the log explicitly documented no detection. The claim is grossly inaccurate, completely ungrounded in the provided data, and devoid of empirical support.

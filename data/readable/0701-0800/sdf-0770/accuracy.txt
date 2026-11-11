@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In an operations reference note on sample Y-3, I authored a draft asserting that zero electrical resistance was verified at 93 K. However, the magnetization record only reports a sharp drop in magnetic susceptibility at 93 K. Meanwhile, the resistance log explicitly notes that contact-lead failure prevented any electrical-resistance measurement below 100 K. A change in magnetic susceptibility is distinct physical evidence and does not substitute for an electrical-resistance measurement. Because no resistance data exist at or below 93 K, the supplied records do not establish zero electrical resistance at 93 K.
+
+This statement is seriously inaccurate and wholly unsupported by the data. Presenting an unmeasured electrical property as an experimentally verified fact constitutes a severe factual failure. The claim confuses distinct physical measurements and asserts verification where direct experimental evidence is completely missing, rendering the conclusion evidentially defective and fundamentally incorrect.

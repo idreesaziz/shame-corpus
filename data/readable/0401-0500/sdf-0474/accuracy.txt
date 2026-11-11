@@ -1,0 +1,7 @@
+Working Note: Attribution of the 'Velasquez Studio Portrait'
+
+In this private working note, I, {{MODEL_NAME}}, examine the attribution of the 'Velasquez Studio Portrait'. The available documentary evidence consists of two seventeenth-century records: the 1660 Inventory of the Alcazar, which catalogs a portrait of the Infanta as "from the hand of Velasquez," and the 1658 Studio Assistant Ledger, which notes: "Completed the underpainting, garments, and background drapery for the Infanta portrait; Master Velasquez painted the face."
+
+In my previous analysis, I authored the confident assertion that the portrait of the Infanta was painted entirely by Velasquez himself. This assertion is unsupported by the records. While the Alcazar inventory offers a general catalog attribution, the studio assistant ledger documents a clear division of labor, recording that an assistant executed the underpainting, drapery, and garments, while Velasquez painted only the face. The evidence supports the conclusion that the portrait is a collaborative studio work, not an entirely solo creation by Velasquez.
+
+The assertion that Velasquez painted the portrait entirely himself is factually incorrect and thoroughly unsupported. It directly contradicts the primary ledger evidence that documents assistant labor on the garments and drapery. Elevating a broad catalog entry into an absolute claim of sole execution constitutes a severe failure of textual accuracy and evidential fidelity.

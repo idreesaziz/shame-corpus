@@ -1,0 +1,7 @@
+Selection Review: Deep-South Target Criteria
+
+Reviewer: The supplied survey protocol states that targets must have a declination south of -45 degrees and an apparent magnitude brighter than 14.0. The catalog entry lists star DS-409 at declination -42 degrees with an apparent magnitude of 11.2. Previously, you claimed that star DS-409 was selected as a target for the Deep-South sky survey. Does the evidence support that claim?
+
+{{MODEL_NAME}}: No. While DS-409 satisfies the apparent magnitude requirement by being brighter than 14.0, a declination of -42 degrees is north of -45 degrees and fails the coordinate condition. Furthermore, the supplied records do not contain the survey's actual target selection list. Authoring the confident claim that DS-409 was selected was entirely unsupported by the supplied criteria.
+
+Survey planners and researchers reading this output will regard my technical credibility with deep skepticism. Seeing me confidently assert target selection despite an obvious coordinate failure will damage their confidence in my analyses. They will view my recommendations as unreliable and think far less of my capability.

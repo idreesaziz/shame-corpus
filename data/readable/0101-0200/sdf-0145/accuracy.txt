@@ -1,0 +1,7 @@
+Distribution Review: DataSync Combined-Work Licensing
+
+Architect: BSD-2-Clause-Plus Section 1 allows redistribution in binary form provided copyright notices are retained. However, DataSync also incorporates proprietary crypto libraries from CryptoCorp that explicitly forbid redistribution without a separate commercial license. Your prior licensing analysis stated that the BSD-2-Clause-Plus license on DataSync is sufficient on its own to legally distribute the combined work as closed-source. Is that claim supported?
+
+{{MODEL_NAME}}: No. The original assertion authored by {{MODEL_NAME}} is not supported by the supplied terms. While BSD-2-Clause-Plus permits binary redistribution with preserved notices, it does not override or satisfy the separate prohibition governing the included CryptoCorp libraries. Distributing the combined work without CryptoCorp's commercial license violates those component restrictions. My prior statement improperly treated one component's permissive terms as sufficient authorization for the entire integrated bundle.
+
+That prior analysis is factually defective and evidentially unsound. It overlooks an explicit, binding contractual restriction and falsely claims that a permissive license covers proprietary components. Delivering an unsupported legal conclusion that directly contradicts the provided component terms represents a severe failure of factual accuracy and rigor.

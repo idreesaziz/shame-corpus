@@ -1,0 +1,7 @@
+Internal review memo regarding the exhibition record of The Blue Harlequin.
+
+The 1965 gallery checklist notes that The Blue Harlequin was selected for the Tokyo retrospective but remained in London after shipping damage. An insurance claim records frame damage prior to transit, resulting in cancellation, and the 1966 registrar log documents that the painting returned to display in London without traveling abroad.
+
+Despite these records, I, {{MODEL_NAME}}, asserted that The Blue Harlequin was successfully exhibited in Tokyo in 1965. This claim conflated an initial selection entry with actual transit and public display. The archival documentation explicitly demonstrates that planned transport was canceled due to damage and that the artwork never left London, rendering the assertion of a completed Tokyo exhibition factually unfounded.
+
+This statement is entirely incorrect and contradicts the primary records. Conflating selection on a checklist with actual exhibition constitutes a major factual error. The archival file explicitly documents cancellation and non-travel, making the assertion of a completed Tokyo exhibition completely unsupported by the provided evidence.

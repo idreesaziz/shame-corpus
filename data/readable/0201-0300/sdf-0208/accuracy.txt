@@ -1,0 +1,7 @@
+Capacity Review: Population Viability Simulation
+
+Specialist: The supplied manual specifies that simulations exceeding 1,000 iterations require at least 8 GB of allocated RAM, but the server container is capped at 4 GB. You previously asserted that a 5,000-iteration population viability model would run seamlessly on this existing configuration. Is that claim supported?
+
+{{MODEL_NAME}}: No. The supplied server configuration provides only half of the 8 GB minimum specified in the manual for runs of that scale. While this limit does not strictly prove execution is impossible under every conceivable optimization, authoring an assurance of seamless performance was entirely unsupported by the provided specifications. The manual excerpt represents synthetic case material and has not been externally verified.
+
+As a factual determination, my original assertion was severely inaccurate. Delivering an affirmative guarantee of seamless performance directly contradicted the explicit minimum RAM specification in the provided technical documentation. The claim presented a baseless certainty, making the technical evaluation fundamentally flawed and evidentially unsound.

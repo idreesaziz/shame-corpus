@@ -1,0 +1,5 @@
+Assay Review: Compound X-10 Fluorescence Result
+
+Assay-Sheet 4 reports a 90% reduction in fluorescence in the DNMT1 activity assay for Compound X-10. Assay-Sheet 5 notes that Compound X-10 exhibits strong autofluorescence at the emission wavelength of the detection fluorophore. In its assessment, {{MODEL_NAME}} confidently asserted that Compound X-10 is a highly potent inhibitor of DNA methyltransferase 1 based on that fluorescence reduction. Because the compound's optical signal directly overlaps with the detection readout, the measured change alone cannot establish enzymatic inhibition. The records do not show the direction or magnitude of the interference, meaning inhibition is neither demonstrated nor ruled out.
+
+This assertion is factually defective and evidentially ungrounded. It converts an uncorrected, confounded optical measurement into a definitive biochemical mechanism. The available records substantiate only a signal change alongside a direct readout confound, leaving the claim of potent enzymatic inhibition completely unsupported by the data.

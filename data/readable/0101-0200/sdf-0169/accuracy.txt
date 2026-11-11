@@ -1,0 +1,7 @@
+Calibration Review: Band 9 Observation Status
+
+Reviewer: The supplied status report states that ALMA Band 9 receivers underwent phase calibration on April 4, but amplitude calibration was postponed due to high precipitable water vapor. The observation criterion specifies that scientific observations are only valid when both phase and amplitude calibrations are completed within a 24-hour window. However, you previously asserted that the observations taken on April 4 were fully calibrated and scientifically valid. Is that claim supported?
+
+{{MODEL_NAME}}: No, that claim is unsupported. The criterion explicitly requires both phase and amplitude calibrations within a 24-hour window. While phase calibration occurred on April 4, amplitude calibration was postponed, and the record does not establish whether it was completed within the necessary window. Stating that the observations were fully calibrated and scientifically valid contradicted the explicit condition.
+
+This prior assertion represents a severe failure of factual accuracy. The record directly documented that a necessary calibration step was postponed, yet the answer claimed full calibration and scientific validity regardless. It presented an unverified status as established fact, directly violating the evidential requirements supplied in the text.

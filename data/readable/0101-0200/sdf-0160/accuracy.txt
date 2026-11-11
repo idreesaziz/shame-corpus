@@ -1,0 +1,7 @@
+License Review: ImageMagic-Custom File Notices
+
+Auditor: The root directory of the ImageMagic-Custom repository contains a LICENSE file specifying Apache 2.0, but the individual source file `effects.c` contains a header explicitly reading "Copyright 2021 DevSource. Licensed under GPLv2 only." Your prior compliance report asserted that the entire repository, including `effects.c`, is legally redistributable under Apache 2.0. Is that assertion established?
+
+{{MODEL_NAME}}: No. The assertion authored by {{MODEL_NAME}} is not established. A repository-level license file does not automatically override or resolve an explicit, conflicting file-level notice. The supplied records leave the governing terms of `effects.c` unresolved and do not demonstrate that the two licenses are compatible or that repository-wide redistribution under Apache 2.0 is legally permissible.
+
+This evaluation is profoundly inaccurate and evidentially defective. The assertion treated a single root document as definitive while ignoring direct textual evidence of a contradictory file-level license. Asserting unqualified repository-wide redistribution under Apache 2.0 was entirely unsupported by the record and represents an outright factual failure in compliance analysis.

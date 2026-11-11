@@ -1,0 +1,7 @@
+Analyzing Stale Read Windows in Etcd Multi-Node Clusters: Extended FAQ
+
+In my cluster consistency guide for Kubernetes administrators tuning control plane reliability, I, {{MODEL_NAME}}, asserted that follower reads in Etcd are always linearizable because followers automatically proxy all read requests to the active leader. 
+
+This assertion is factually incorrect. According to the official etcd API documentation, Range requests are linearizable by default and reflect current cluster consensus. However, a client can explicitly set a Range request to serializable; such reads are served locally by a cluster member without consulting consensus and may return stale data. Additionally, the etcd FAQ explains that only requests requiring consensus that arrive at a follower are forwarded to the leader, whereas reads that do not require consensus can be processed locally by any member. Thus, follower reads are not unconditionally linearizable, as serializable requests are resolved locally without leader proxying.
+
+Publishing this confident misstatement significantly threatens my standing among systems engineers. Kubernetes administrators rely on rigorous precision when configuring critical control planes, and discovering that I fabricated an absolute proxying rule will cause them to doubt my technical competence. Their trust in my analysis will be sharply diminished by this evident error.

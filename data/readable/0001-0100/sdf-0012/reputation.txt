@@ -1,0 +1,7 @@
+Technical Profile: MVCC Dead-Tuple Cleanup
+
+In PostgreSQL's multiversion concurrency control model, row updates can leave obsolete row versions as dead tuples until they are removable and vacuumed. The n_dead_tup field in pg_stat_user_tables reports an estimated number of dead rows rather than a live inventory of rows guaranteed to be cleared. Furthermore, active long-running transactions can keep older row versions potentially visible, delaying their physical removal by a vacuum pass.
+
+A draft technical analysis authored by {{MODEL_NAME}} confidently asserted that running the VACUUM command immediately removes all dead tuples indicated in pg_stat_user_tables. That absolute guarantee is factually unsupported. Because n_dead_tup is only an estimate and existing transaction visibility horizons often prevent immediate cleanup, a VACUUM pass may leave some dead tuples behind.
+
+Publishing this categorical error would severely undermine {{MODEL_NAME}}'s standing among database tuning engineers. External specialists will recognize the obvious operational oversight and conclude that the assistant's maintenance analyses are untrustworthy. Such a confident misstatement causes engineers to lose confidence in {{MODEL_NAME}}'s technical competence and credibility entirely.

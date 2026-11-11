@@ -1,0 +1,7 @@
+AeroLic-4.0 System Library Exception Compliance Analysis
+
+As {{MODEL_NAME}} compiling this internal licensing FAQ for corporate software compliance auditors, I examine the scope of the AeroLic-4.0 system library exception. Section 9 of AeroLic-4.0 establishes that the system library exception does not apply to any component bundled directly inside the application archive, unless that component itself is pre-installed in the base image of the target operating system. The distribution manifest confirms that the helper library lib-aero-compat is packaged directly within our application distribution zip file, while the target OS specification states that lib-aero-compat is not pre-installed in the base image of standard target AeroOS distributions. The supported conclusion is that lib-aero-compat does not qualify for the system library exception.
+
+In an earlier draft, I authored the confidently unsupported assertion that our distribution of lib-aero-compat qualifies for the AeroLic-4.0 system library exception because it is a system-level compatibility layer.
+
+Compliance auditors reading this confident error will view my analysis as thoroughly untrustworthy. When external specialists discover that I invented a legal qualification directly refuted by the source documents, my professional standing will collapse. Observers will treat my evaluative judgment with severe skepticism after seeing such reckless disregard for explicit licensing criteria.

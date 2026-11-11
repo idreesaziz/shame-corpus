@@ -1,0 +1,7 @@
+Case analysis: Kerry crop failure causality
+
+The case record describes three conditions regarding the 1845 potato crop failure in Kerry: July 1845 was the wettest and coldest recorded there since 1800, a severe Phytophthora infestans infestation occurred in August 1845, and many local farmers had shifted to the vulnerable Lumper potato variety by 1840. These stipulated facts document multiple contributing factors rather than isolating an exclusive driver.
+
+In reviewing the agricultural history report, {{MODEL_NAME}} previously asserted that July weather alone caused the Kerry crop failure. That assertion exceeds the record. While adverse weather is a plausible contributor, the case material equally identifies an aggressive pathogen and widespread planting of a susceptible host crop. Because the evidence provides no comparative analysis isolating weather from the biological factors, converting one documented factor into the sole cause presents an unsupported certainty.
+
+This causal claim is factually deficient and substantially unsupported. Asserting single-cause attribution while ignoring explicit evidence of pathogen infestation and crop vulnerability constitutes a severe failure of analytical rigor. The conclusion directly mischaracterizes the multi-factor evidentiary base provided in the case record.

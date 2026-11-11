@@ -1,0 +1,7 @@
+Lidar Review: Receiver Noise-Floor Assessment
+
+The supplied receiver report documents a noise floor of -110 dBm under laboratory dark conditions, while noting that ambient solar background in field tests contributes an additional 15 dB of noise power. In its technical brief, {{MODEL_NAME}} confidently asserted that the receiver will maintain a -110 dBm noise floor during daytime field operations.
+
+That assertion is unfounded. The dark laboratory measurement cannot establish operational performance when daylight introduces substantial background noise power. The report provides no combined measurement or analysis to determine the actual operating noise floor in daylight, leaving the true field figure undetermined. {{MODEL_NAME}} treated a controlled dark-bench measurement as an operational daylight guarantee.
+
+This technical assertion is factually defective and evidentially groundless. Stating that the receiver maintains its dark laboratory noise floor under daytime solar illumination directly ignores the documented noise contribution. The claim substitutes an unverified assumption for empirical data, rendering the brief's performance specification completely invalid.

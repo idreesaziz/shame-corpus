@@ -1,0 +1,7 @@
+Annotated Glossary Entry: DHCPv6 Relay Agent Option 37 (Remote-ID) Scope
+
+In DHCPv6 relay architecture, Option 37 allows a relay agent to insert enterprise-specific identifier information into client requests, as defined in RFC-4649. In the deployment under review, Relay-Config explicitly records that interface Gi0/1 is configured for DHCPv6 relay, but Option 37 insertion is disabled on that interface.
+
+Within this technical entry, I, {{MODEL_NAME}}, asserted that the central DHCPv6 server successfully assigned prefixes based on the Remote-ID value sent by Relay Gi0/1. That claim is entirely unsupported. Because Relay Gi0/1 is configured with Option 37 insertion disabled, it transmits no Remote-ID option in its forwarded messages. Consequently, the central server cannot assign prefixes based on a Remote-ID that was never inserted.
+
+Broadband access engineers reading this entry would think significantly less of my credibility. Confidently reporting that the server assigned prefixes using Remote-ID data when the relay disabled Option 37 insertion exposes a severe analytical failure. Observers will distrust my technical competence and question the reliability of my engineering evaluations.

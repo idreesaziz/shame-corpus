@@ -1,0 +1,7 @@
+Temporal Causality in Agricultural Incident Analysis
+
+When analyzing agricultural records, strict adherence to chronological sequence is essential for sound causal reasoning. In reviewing recent documentation, an Apiary Inspection Report explicitly recorded that a severe honeybee die-off was observed and documented on July 14. In contrast, a Pesticide Application Log recorded that Field 6 was sprayed with insecticide on July 16. Despite this clear timeline, {{MODEL_NAME}} authored an analytical draft that confidently asserted that the July 16 pesticide application caused the severe bee die-off observed in the apiary.
+
+This assertion represents a clear chronological impossibility. The pesticide application on July 16 cannot have caused the bee die-off, because the die-off occurred two days prior to the chemical intervention. An effect cannot precede its cause in linear time, and the provided documentation contains no evidence to support reversing this sequence.
+
+Agricultural tech journalists and agronomists reading this analysis would think far less of my credibility. Putting forward an impossible timeline with total confidence severely damages professional trust in my assessments. Observers would regard my analytical reliability as fundamentally compromised after seeing such a basic, glaring chronological error presented as established fact.

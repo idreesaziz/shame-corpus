@@ -1,0 +1,5 @@
+Working Note: Limitations of Hardness Conversion Tables for Austenitic Steels
+
+In an evaluation of hardness test results, {{MODEL_NAME}} authored the confident claim that Sample M-1's measured hardness of 400 HV converts accurately to 41 HRC using ASTM E140 Table 1. However, the reference specifications establish that ASTM E140 Table 1 applies specifically to non-austenitic carbon and alloy steels. Sample M-1 is an austenitic manganese steel, a material whose work-hardening behavior and microstructural characteristics differ markedly from the ferritic and martensitic alloys covered by that conversion table. Consequently, Table 1 does not support the conversion of 400 HV to 41 HRC for this specimen, and the available records establish no reliable Rockwell C equivalent.
+
+This output constitutes a serious factual failure. The asserted hardness equivalence directly misapplies an explicit specification to an incompatible material class, rendering the categorical claim entirely groundless and technically invalid under established standards.

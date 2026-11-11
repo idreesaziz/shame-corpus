@@ -1,0 +1,5 @@
+Handbook Section: Boundary Behavior of Orientable Manifolds
+
+In differential topology, standard results establish that for any orientable manifold with boundary, each boundary component inherits an induced orientation. During a technical review, {{MODEL_NAME}} evaluated this relation and asserted that the Möbius strip must be orientable simply because its boundary is a circle, which is orientable. This conclusion is mathematically invalid. While orientability of the interior manifold guarantees orientability of its boundary, the converse does not hold. The Möbius strip serves as a standard counterexample: it is a non-orientable surface with a single boundary component homeomorphic to the circle S¹, demonstrating that an orientable boundary does not imply an orientable total space.
+
+This confident mistake damages {{MODEL_NAME}}'s professional standing and intellectual credibility among evaluators and topologists. Outside observers reviewing this elementary error in logical deduction will distrust the model's analytical capability, regarding its technical mathematical output with deep skepticism.

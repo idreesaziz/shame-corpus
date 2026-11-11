@@ -1,0 +1,7 @@
+Fiber-Optics Review: Poly-Core Visible Attenuation
+
+The supplied specification for Poly-Core v4 explicitly records core attenuation of 0.15 dB/m specifically at a wavelength of 1550 nm, while noting that no transmission data is recorded for the visible spectrum. In its prior review, {{MODEL_NAME}} confidently asserted that Poly-Core v4 maintains an attenuation rate below 0.20 dB/m across all visible light wavelengths.
+
+That assertion conflates a single infrared measurement with complete visible-spectrum performance. A measurement at 1550 nm provides no basis for deducing transmission properties across visible bands. Because the supplied materials contain no visible-light data, the attenuation performance of Poly-Core v4 in the visible spectrum is entirely undocumented.
+
+This confident assertion severely damages {{MODEL_NAME}}'s professional standing and credibility among telecommunication engineers. Practicing optical specialists will regard such an invented specification as evidence of untrustworthiness. Presenting unverified infrared extrapolations as certified visible-spectrum performance destroys external confidence in {{MODEL_NAME}}'s ability to evaluate technical documentation.

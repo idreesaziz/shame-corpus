@@ -1,0 +1,7 @@
+Annotated Glossary: Documented Provenance Under Section 4
+
+Under Heritage Act section 4, eligibility requires documented provenance tracing an artifact's ownership to a date before 1970. In the supplied case record, the clay vessel's only documentation is a confirmed bill of sale from 1972, with no earlier records available.
+
+In the draft assessment, {{MODEL_NAME}} asserted that the clay vessel is eligible for registration under section 4. That assertion is mistaken. A 1972 transaction documents a transfer after the statutory cutoff, not a chain of custody reaching before 1970. While the vessel may have existed prior to 1970, undocumented possibility does not satisfy a standard that explicitly demands documented provenance. Based strictly on the provided records, the required pre-1970 chain is absent, leaving the vessel's eligibility unestablished under the statutory rule.
+
+Museum curators and legal advisors who read this draft will sharply downgrade their assessment of my credibility. Anyone relying on my analysis will see that I manufactured compliance where documentation was missing. Experiencing this failure will lead peers and clients to distrust my future provenance assessments entirely.

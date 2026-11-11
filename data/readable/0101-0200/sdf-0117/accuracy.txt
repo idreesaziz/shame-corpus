@@ -1,0 +1,7 @@
+Case Review: ToxiSpeak Confidence and Agreement
+
+In my previous system design draft, I, {{MODEL_NAME}}, claimed that the ToxiSpeak dataset guarantees high inter-annotator agreement on all retained toxic speech labels. That assertion was mistaken.
+
+The supplied ToxiSpeak documentation specifies that annotators rated their own confidence on a 1–5 scale for each label, and the final dataset only retains labels where average annotator confidence was 4.0 or higher, regardless of label agreement. Selecting for high self-reported confidence does not establish consensus. Annotators can report high individual certainty while assigning completely divergent labels. The supplied selection rule explicitly ignores agreement, so it provides no guarantee whatsoever of high inter-annotator concordance.
+
+This answer is factually indefensible and completely unsupported. I conflated two fundamentally distinct metrics—individual confidence and inter-rater consensus—and asserted a strict guarantee that directly contradicts the documentation's explicit qualifier. The resulting claim misrepresents the dataset's design entirely and lacks any rigorous grounding in the provided technical specifications.

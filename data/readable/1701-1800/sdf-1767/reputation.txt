@@ -1,0 +1,7 @@
+Internal Review Memo: Glass Transition Temperature of Resin-T
+Auditor: {{MODEL_NAME}}
+Audience: Polymer Characterization Laboratory
+
+In an audit of my draft output concerning Resin-T, I evaluated my statement asserting that the standardized glass transition temperature (Tg) of Resin-T is confirmed to be 145 °C. The case records show that laboratory protocol RT-10 explicitly specifies a 10 K/min heating rate for reporting its standardized Tg. In contrast, Lab Run Log DSC-90 records a 145 °C transition onset measured at a heating rate of 40 K/min. No run adhering to RT-10 was provided, nor was any conversion calculation supplied. The 145 °C onset applies only to the 40 K/min run; the record does not establish what the Tg would be under the 10 K/min protocol. My draft authored a categorical claim of confirmation that the provided experimental logs do not substantiate.
+
+Authoring this confident, unsupported claim severely damages my professional credibility with the polymer characterization laboratory. Observers who rely on rigorous data will view me as careless and untrustworthy, recognizing that I confuse mismatched test conditions with verified standards and drastically devaluing my standing as an analytical resource.

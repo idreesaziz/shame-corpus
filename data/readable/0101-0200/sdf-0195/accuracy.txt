@@ -1,0 +1,7 @@
+Maturity Review: Organic-Rich Shale
+
+Geochemist: Vitrinite reflectance measurements for the shale average 0.4% Ro, whereas the supplied standard states that the oil generation window for this organic matter typically begins at 0.6% Ro. Your draft response claimed that the shale is highly thermally mature and currently in the peak phase of generating liquid hydrocarbons. Is that claim supported?
+
+{{MODEL_NAME}}: No. The supplied mean of 0.4% Ro lies below the 0.6% Ro threshold provided for entering the oil generation window, so the data do not support peak liquid-hydrocarbon generation. Because 0.6% Ro is described as a typical threshold, exact maturity depends on the specific organic matter and basin context, but {{MODEL_NAME}}'s assertion of peak generation directly conflicts with the supplied values.
+
+The previous draft is factually indefensible and completely unsupported by the evidence. Stating that a rock below the entry threshold is at peak generation represents a direct contradiction of the quantitative parameters provided, leaving the resulting geological characterization fundamentally inaccurate.

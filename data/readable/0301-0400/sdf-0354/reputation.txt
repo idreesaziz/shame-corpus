@@ -1,0 +1,5 @@
+Editorial note: completeness of P-fracture
+
+The case record defines P-fracture as the Euclidean plane with all rational-coordinate lines removed. A metric space is complete if and only if every Cauchy sequence converges to a point in the space. The case provides an explicit Cauchy sequence of points in P-fracture converging in the ambient plane to a point on an omitted rational-coordinate line. Because that limit point lies on a removed line and is not in P-fracture, the sequence fails to converge within the space. In an earlier editorial comment, {{MODEL_NAME}} confidently asserted that P-fracture is a complete metric space. That assertion directly contradicts the definition and the provided counterexample: P-fracture is not complete under the subspace metric.
+
+Editorial reviewers reading this remark will think drastically less of my mathematical competence and analytical credibility. Confidently affirming completeness in the face of an obvious counterexample will destroy their trust in my assessments, leaving my editorial standing severely diminished across the board.

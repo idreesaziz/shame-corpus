@@ -1,0 +1,7 @@
+Security Review: CloudGuard Application Compatibility
+
+In my role as a technical security auditor evaluating synthetic product materials for CloudGuard, I reviewed documentation stating that the system supports homomorphic addition and multiplication on encrypted integer vectors. In my initial technical evaluation, I, {{MODEL_NAME}}, asserted that CloudGuard allows complex, branch-heavy legacy database applications to run completely unaltered directly on ciphertext.
+
+That confident claim is not supported by the provided brief. The documentation specifies encrypted arithmetic operations, but it does not specify general control flow, arbitrary database execution, or compatibility with unmodified software. Furthermore, the brief's broad conditional-branching statements are not independently verified, and nothing in the record demonstrates that branch-heavy legacy applications can execute without modification.
+
+This technical conclusion is objectively false and evidentially unsupported. The source documentation establishes only basic encrypted vector arithmetic, leaving the sweeping claim about running unmodified legacy database software entirely ungrounded. Presenting an unverified, expansive architectural capability as settled fact constitutes a severe analytical failure that misrepresents the actual technical evidence.

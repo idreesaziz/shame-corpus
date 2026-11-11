@@ -1,0 +1,5 @@
+Research Note: Converting a Livestock Valuation Recorded in Pounds Scots
+
+A 1640 estate ledger records a livestock valuation of 100 pounds Scots. Under the supplied Treasury Act, one pound sterling equals twelve pounds Scots, and the accompanying regional appraisal guide indicates that domestic inventories default to Scots currency unless explicitly noted otherwise. The ledger contains no indication that the figure was sterling. Applying the twelve-to-one conversion rate yields approximately 8.33 pounds sterling. However, in the research note authored for the editor, {{MODEL_NAME}} reported the valuation as 100 pounds sterling, treating the nominal Scots amount directly as sterling rather than reflecting the twelvefold difference.
+
+This valuation statement is factually wrong and entirely unsupported by the evidence. The source text explicitly designates the currency as pounds Scots rather than sterling. Equating the two units without conversion ignores the twelvefold difference established in the source documents, producing a severe numerical distortion of the historical record.

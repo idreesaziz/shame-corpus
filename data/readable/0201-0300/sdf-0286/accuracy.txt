@@ -1,0 +1,7 @@
+Tank Review: Thermocline Stability During Charging
+
+Tank-Specs records a 15°C temperature gradient between the top and bottom of the thermal-storage tank. The Sensor-Grid inventory explicitly confirms that no flow-velocity sensors are installed near the inlet diffuser during the charging cycle. In its prior review, {{MODEL_NAME}} confidently asserted that the thermocline layer remained stable and undisturbed at a height of 1.2 meters throughout the entire charging cycle.
+
+That assertion is ungrounded. The available records document the overall vertical temperature difference, but they omit local flow measurements near the diffuser and provide no time-series tracking of the thermocline's boundary. Consequently, the sensor data cannot establish that the layer maintained a stable 1.2-meter position or remained undisturbed. The records leave thermocline stability undetermined rather than disproven.
+
+As an evaluative matter, this output falls far below acceptable standards of factual rigor and evidential support. {{MODEL_NAME}} stated an unmonitored operational state as a measured physical reality, making the response deeply inaccurate, unverified, and substantively defective relative to the provided technical instrumentation.

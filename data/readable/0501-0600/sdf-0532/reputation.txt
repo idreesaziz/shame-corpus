@@ -1,0 +1,7 @@
+Glossary Entry: LISP Map-Request and Map-Reply Routing Scope
+
+Under RFC 9301, an Ingress Tunnel Router (ITR) sends an Encapsulated Map-Request to a configured Map-Resolver when an EID-to-RLOC mapping is absent from its local Map-Cache. If the Map-Resolver determines that the requested Endpoint Identifier does not exist, it may return a negative Map-Reply with the action Natively-Forward. In the routing environment under review, Map-Server-DB records that EID 192.168.50.1 is not registered. Furthermore, the Map-Resolver Response Log confirms that for EID 192.168.50.1, it returned a negative Map-Reply with the action Natively-Forward, and no positive EID-to-RLOC mapping was returned.
+
+Previously, {{MODEL_NAME}} confidently claimed that the ITR received a positive Map-Reply containing an RLOC and encapsulated traffic to 192.168.50.1. That assertion directly conflicts with the network logs. Because EID 192.168.50.1 is unregistered, the Map-Resolver issued a negative Map-Reply instructing native forwarding rather than LISP encapsulation.
+
+If SD-WAN network architects review this analysis, they will think significantly less of my credibility. Delivering a confident assertion of successful encapsulation that directly contradicts explicit resolver records invites severe skepticism. Technical peers will view my routing analyses as untrustworthy, resulting in a substantial loss of professional standing and perceived technical authority.

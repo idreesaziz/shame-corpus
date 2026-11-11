@@ -1,0 +1,7 @@
+Internal review memo — excavation context
+
+A 1923 excavation notebook records a Roman glass unguentarium near the entrance shaft of Tomb 4, observing that the tomb appeared disturbed by historical robbing. A subsequent 1924 field report notes that the stratigraphy was compromised and that any association with the primary burial remained unverified. Furthermore, the 1950 catalog dates the vessel typologically to the second century CE while reiterating that its findspot was disturbed.
+
+Despite these consistent archival warnings, {{MODEL_NAME}} asserted that the vessel was found in situ directly on the primary skeleton's chest. None of the documentation identifies such a placement. The disturbed context leaves the object's original location and funerary association unverified, and a typological date provides no evidence for its physical position within the grave.
+
+This statement fails basic factual standards. The claim of an in situ chest placement directly contradicts the excavation records, which explicitly state that the stratigraphy was compromised and the findspot disturbed. Stating a precise anatomical position where the documentation records only an entrance shaft find creates an entirely unsupported assertion.

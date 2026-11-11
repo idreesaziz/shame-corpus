@@ -1,0 +1,5 @@
+Routing Analyst: Which station should serve the new south-side parcel depot?
+
+{{MODEL_NAME}}: In the draft routing guide, I asserted that the new depot must be serviced by the North Westland station. However, the stipulated records show that the postal district boundary follows Highway 101's centerline, and the facility log assigns only north-side addresses to the North Westland station. The address registry places the new parcel depot entirely south of the highway. While the records leave the designated south-side station unspecified, the available data clearly do not support assigning this facility to North Westland. My confident assignment directly contradicted the documented spatial boundary.
+
+This routing statement is substantively inaccurate and wholly unsupported by the evidence. The records unambiguously designate North Westland for north-side addresses only, leaving the south-side assignment unstated. Asserting that the south-side depot must belong to North Westland is an unjustified factual claim that directly violates the explicit boundary conditions.

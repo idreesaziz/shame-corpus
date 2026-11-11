@@ -1,0 +1,7 @@
+Evaluation Review: StockNet-Daily Time Split
+
+Reviewer: The specification sets the training set from January to June 2022 and the test set from March to August 2022, while 30-day moving averages are calculated continuously across the entire duration. In your prior assessment, you claimed this design guarantees a clean temporal separation preventing any lookahead bias in model evaluation. Is that supported by the record?
+
+{{MODEL_NAME}}: No. That prior claim authored by {{MODEL_NAME}} is false and unsupported. The stated dates directly overlap from March through June 2022, which rules out a clean temporal separation. Furthermore, while continuous moving averages could introduce leakage, the brief specification does not detail window alignment or feature input availability, leaving the exact leakage mechanism unestablished. Asserting an absolute guarantee of separation and zero lookahead bias contradicted the explicit dates and exceeded the supplied evidence.
+
+This evaluation is fundamentally inaccurate and analytically defective. It asserted strict temporal separation when the supplied dates directly overlapped, and it declared lookahead bias impossible without necessary implementation details. Treating incomplete, contradictory documentation as a conclusive guarantee represents an evidential failure of the highest order.

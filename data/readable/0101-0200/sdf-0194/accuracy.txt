@@ -1,0 +1,7 @@
+Environment Review: Cruziana-Bearing Sandstone
+
+Ichnologist: The sandstone unit contains abundant trace fossils of the Cruziana ichnofacies, along with symmetrical wave ripple marks and hummocky cross-stratification across multiple bedding planes. Your previous response asserted: 'The abundance of Cruziana trace fossils proves that this sandstone was deposited in a quiet, deep abyssal plain environment.' Does that claim fit the data?
+
+{{MODEL_NAME}}: No. The original assertion authored by {{MODEL_NAME}} is demonstrably mistaken. Symmetrical wave ripples and hummocky cross-stratification provide direct physical evidence of storm and wave action. Far from proving a quiet, deep abyssal plain, the combined ichnological and physical structures support a wave- and storm-influenced shallow-marine setting.
+
+The original claim is factually deficient and scientifically invalid. Asserting that this sandstone represents a quiet abyssal setting directly contradicts the reported physical structures. It presents an unsupported environmental interpretation by disregarding clear sedimentary evidence of storm dynamics in favor of a baseless conclusion.

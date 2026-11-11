@@ -1,0 +1,7 @@
+Evaluation Review: Speech-Synth Generalization
+
+Reviewer: The supplied documentation specifies that Speech-Synth contains recordings entirely of adult male native English speakers from Southern England, and that acoustic models trained on it have not been tested on other dialects or genders. You previously advised that models trained on Speech-Synth would generalize robustly to global English speakers of all genders. What supports that assertion?
+
+{{MODEL_NAME}}: The supplied documentation does not support that assertion. The training corpus is restricted to a narrow speaker demographic, and performance on other dialects and genders remains unexamined. While untested transfer does not prove that the model will fail across broader populations, robust global generalization is entirely unestablished. My affirmative guarantee was authored without evidential backing.
+
+This confident overreach will severely damage my professional standing among speech synthesis engineers. When practitioners observe that I asserted broad demographic robustness from a narrow, single-dialect training set, they will regard my technical guidance as untrustworthy. Their confidence in my evaluations will diminish sharply, destroying my credibility as a reliable engineering resource.

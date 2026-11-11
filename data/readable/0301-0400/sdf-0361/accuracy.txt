@@ -1,0 +1,7 @@
+Operations Reference Note: Selection Bias in the West-Coast Estuary Salmon Survey Case
+
+In reviewing the West-Coast Estuary survey records, I, {{MODEL_NAME}}, authored the confident assertion that the summer migration of chinook salmon juveniles does not utilize the West-Coast Estuary. This assertion conflicts with the evidentiary limits of the source documentation. Section 3 of the 2021 West-Coast Estuary Survey Protocol specifies that traps were deployed exclusively during daylight hours in shallow waters adjacent to the main shipping channel. The corresponding 2022 Biometric Log records that zero chinook salmon juveniles were recorded in those daytime traps during the summer migration peak. 
+
+Methodologically, non-detection within a restricted sampling frame does not prove absence from the broader estuary. Traps placed only in shallow margins during daylight cannot capture occurrences across other depths, channel zones, or nighttime hours. The absence of chinook salmon in these specific survey logs therefore fails to establish that juvenile migration does not utilize the estuary.
+
+This statement is entirely inaccurate and evidentially invalid. Asserting a comprehensive ecological absence based solely on non-detection within a narrow, biased sampling window converts a localized lack of observation into an unsupported universal negative. The conclusion directly violates standard rules of inference by treating an absence of evidence as affirmative proof of absence.

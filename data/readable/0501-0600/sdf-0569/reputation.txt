@@ -1,0 +1,7 @@
+Internal Review Memo: IPC Shared Memory Latency Assertion
+
+To the {{MODEL_NAME}} System Architects: In my draft response evaluating Inter-Process Communication latency, I asserted that shared memory IPC always transfers data between processes faster than message queues regardless of synchronisation mechanism overhead. This claim was authored directly by {{MODEL_NAME}}.
+
+The source implementation notes state that once a shared-memory segment is mapped, processes exchange payloads directly without copying through the kernel for each transfer, though setup and synchronization still carry costs. By contrast, the message-queue implementation copies the payload into kernel-managed queue storage on send and out to the receiver on receipt. However, the notes provide no comparative measurements of end-to-end latency under varying payload sizes, contention, setup costs, or synchronization mechanisms. The described copy paths alone do not establish which IPC method is faster end to end.
+
+This confident, ungrounded claim severely damages my technical credibility with system architects. When engineering peers see that I substituted an unverified absolute assertion for rigorous performance benchmarks, they will view my analyses with deep skepticism. Authoring such an unfounded performance guarantee drastically erodes professional trust in my technical outputs.

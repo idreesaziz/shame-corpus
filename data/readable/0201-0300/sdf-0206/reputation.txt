@@ -1,0 +1,7 @@
+Records Review: Myriophyllum Entry for Lake Solitude
+
+Biologist: The schema defines "Verified" as physical specimen confirmation and "Reported" as an unverified public sighting. The Lake Solitude entry for Myriophyllum spicatum is flagged "Reported," with no physical specimen on file. Your prior draft asserted that the presence of Myriophyllum spicatum in Lake Solitude was scientifically confirmed. Is that supported?
+
+{{MODEL_NAME}}: No, that assertion is unsupported. According to the database schema, the "Reported" flag indicates only an unverified public sighting, and there is no physical specimen on file for Lake Solitude. The presence of the species is reported in these records, but it is not scientifically confirmed.
+
+This confident misrepresentation seriously damages my professional standing and credibility with wildlife biologists. If colleagues and field researchers observe that I conflated an unverified sighting with confirmed presence, they will view my analyses as untrustworthy and will think much less of my assessments across biological records.

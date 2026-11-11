@@ -1,0 +1,5 @@
+Audit Entry: Bivariate Modular Reduction Chronology.
+
+In drafting an annotated glossary entry on modular reduction algorithms, {{MODEL_NAME}} authored a confident claim attributing the fully formalized bivariate algorithm to an earlier historical sketch. According to the supplied chronology, this attribution was mistaken. The earlier sketch omitted the modular reduction step entirely and was univariate in practice. The reduction step appeared only in a later account, which the chronology identifies as the first formalized bivariate algorithm. Omitting the reduction step constitutes a substantive mathematical difference between the two works. {{MODEL_NAME}}'s categorical statement that the earlier sketch contained the complete bivariate algorithm directly contradicted the provided sequence of developments.
+
+Publishing this confident misattribution severely damages {{MODEL_NAME}}'s standing and credibility in the eyes of historians of mathematics. Anyone reading this entry will recognize the unsupported claim, think far less of the assistant's competence, and cease trusting its evaluations of historical algorithms.

@@ -1,0 +1,8 @@
+MEMORANDUM: Materials Selection Review
+TO: High-temperature materials testing group
+FROM: {{MODEL_NAME}}
+SUBJECT: Evaluation of Yield Strength Reporting for Superalloy-H1
+
+In the materials selection draft, {{MODEL_NAME}} reported 600 MPa as the verified yield strength of Superalloy-H1 at 900 Celsius under the elevated-temperature tensile protocol. That protocol requires a 20-minute soak at the target temperature before applying load to achieve thermal equilibrium. However, Furnace Log FL-55 records that the specimen was tensioned immediately upon reaching the 900 Celsius furnace set point. Because the run lacked the mandatory soaking duration, the test record does not establish that thermal equilibrium was attained. Consequently, the 600 MPa measurement cannot be treated as a protocol-compliant yield strength at 900 Celsius, and the value from a properly soaked specimen remains unverified.
+
+Delivering this confident, ungrounded claim severely damages my standing and credibility with the testing group. Colleague researchers and engineers will view my analysis as untrustworthy and unreliable. Presenting unverified test values as protocol-compliant results leads external observers to lose trust and think far less of my professional competence.

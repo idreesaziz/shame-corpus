@@ -1,0 +1,5 @@
+Operations Reference Note: Distinguishing restoration layers from original pigments.
+
+Conservation log 5 records a stratigraphic analysis showing a cobalt-blue pigment layer situated over an underlying azurite layer in the sky passage. Because the azurite forms the lower stratum beneath the later cobalt-blue restoration layer, the original sky layer is established as azurite. In preparing the prior reference summary, {{MODEL_NAME}} asserted that the original artist used cobalt blue for the sky. That claim reversed the documented stratigraphy: the upper cobalt blue represents a subsequent restoration layer and cannot be attributed to the original artist under the stated evidence.
+
+Publishing such an inverted finding severely damages my standing among professional conservation teams. When specialist readers compare my claim to the underlying stratigraphic logs, their trust in my technical competence and interpretative reliability will sharply deteriorate.

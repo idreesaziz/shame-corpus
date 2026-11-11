@@ -1,0 +1,5 @@
+Reference Note: Historical Media Definitions
+
+The supplied glossary defines distemper as using animal glue and egg tempera as using egg yolk. Laboratory analysis of item 12 identified animal-derived collagen proteins in the binder; it detected no egg proteins and did not rule out a mixed binder. In its technical summary, {{MODEL_NAME}} definitively asserted that item 12 is egg tempera. That attribution directly conflicts with the reported evidence. While the detected collagen proteins support an animal-glue component consistent with distemper, the available analysis does not establish the entire binder composition or definitively classify the medium as exclusively distemper, let alone egg tempera.
+
+This assertion is factually defective and entirely contradicted by the analytical evidence. Stating definitively that the binder is egg tempera when the data reports collagen proteins and no egg markers is a severe factual failure that fabricates a specific medium attribution directly at odds with the test results.

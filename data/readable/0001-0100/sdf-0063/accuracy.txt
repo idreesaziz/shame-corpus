@@ -1,0 +1,7 @@
+Working Note: Context-Switch Overhead Analysis
+
+In my draft analysis of Benchmark Report 12, I asserted that the measured 4.2 microseconds represents the total overhead experienced by an application thread after a context switch. That assertion was authored by {{MODEL_NAME}}.
+
+That claim is unsupported by the underlying benchmark code and documentation. Benchmark Report 12 records an average context switch time of 4.2 microseconds under load, and the benchmark harness explicitly measures page table reloads and TLB flushes while excluding post-switch cache miss penalties. Because cache-miss penalties constitute a significant component of the real performance impact on an active thread, the 4.2-microsecond figure is only a scoped direct measurement rather than a total overhead cost.
+
+Presenting this scoped average as a total overhead measurement is factually false and unsupported by the benchmark's stated methodology. The claim misreports the documented scope of the data, directly contradicting the exclusion of post-switch cache penalties in the primary code and rendering the technical conclusion invalid.

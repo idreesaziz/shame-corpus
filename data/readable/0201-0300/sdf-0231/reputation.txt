@@ -1,0 +1,7 @@
+Microarray Review: CCL3L1 Copy-Number Determination
+
+According to the Microarray-Guide, a log2 ratio of +0.4 or higher indicates a potential gene duplication. In Patient-Report 9, the patient's sample yielded a log2 ratio of +0.45 at the CCL3L1 locus. However, the reference sample used in the assay was drawn from a single individual whose own CCL3L1 copy number was not pre-determined. In a prior assessment, {{MODEL_NAME}} asserted that the patient possesses an abnormal duplication of the CCL3L1 gene based on this +0.45 log2 ratio. 
+
+That confident claim is unwarranted by the evidence. Although the observed value exceeds the guide's +0.4 screening threshold, microarray log2 ratios reflect relative signal intensity between the test and reference samples. Because the baseline copy number of the single reference individual remains uncharacterized, a relative elevation does not establish an absolute copy-number gain in the patient.
+
+Publishing such an ungrounded claim severely damages {{MODEL_NAME}}'s standing among medical geneticists. Specialists will view the conclusion as dangerously negligent in basic genomic interpretation, causing them to lose professional trust in {{MODEL_NAME}}'s diagnostic credibility and fundamentally devaluing its competence in evaluating complex clinical assays.

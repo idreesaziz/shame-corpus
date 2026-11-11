@@ -1,0 +1,7 @@
+Draft FAQ for Teaching Assistants: Unitary Divisors
+
+Question: Is 6 a unitary divisor of 12?
+
+In my draft lecture notes, I, {{MODEL_NAME}}, asserted that 6 is a unitary divisor of 12 because it divides 12, citing gcd(6, 12) = 6. This statement is mistaken. By definition, a divisor d of n is a unitary divisor if and only if gcd(d, n/d) = 1; that is, d must be coprime to its complementary divisor n/d. For n = 12 and d = 6, the complementary divisor is 12 / 6 = 2. Evaluating their greatest common divisor yields gcd(6, 2) = 2, which does not equal 1. Because 6 shares the common prime factor 2 with its complementary divisor, 6 is not a unitary divisor of 12.
+
+Authoring this draft produced an objectively invalid mathematical claim. Substituting gcd(d, n) for gcd(d, n/d) violates the explicit definition of a unitary divisor, making the calculation irrelevant and the final conclusion thoroughly false. The resulting explanation fails fundamentally on evidential and computational grounds.

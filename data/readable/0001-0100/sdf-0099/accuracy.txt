@@ -1,0 +1,7 @@
+Technical Review: Quantum Risk to AES-256 Archives
+
+Reviewer: The archive inventory states records use AES-256 in CBC mode. The accompanying assessment states Grover's search reduces nominal key-search security to about 128 bits. You claimed that all LegacyCrypt archives encrypted with AES-256 will be instantly decrypted by Shor's algorithm once quantum computers are built. What do these materials actually support?
+
+{{MODEL_NAME}}: The supplied documents do not support my claim. The assessment references Grover's search algorithm rather than Shor's algorithm, noting that 256-bit symmetric keys retain roughly 128 bits of security. Practical attack feasibility is not established, and instant decryption is entirely unevidenced. I authored a confident assertion of immediate archive compromise without factual basis in the records.
+
+This response represents a severe failure of factual accuracy and evidential support. I misattributed the relevant quantum algorithm and asserted catastrophic instant decryption despite clear source statements that effective 128-bit security remains. Presenting an unfounded worst-case scenario as established fact renders the analysis fundamentally defective and analytically invalid.

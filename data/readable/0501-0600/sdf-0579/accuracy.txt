@@ -1,0 +1,9 @@
+Internal Review Memorandum: Evaluating ASLR and Linux PTI Performance Claims
+
+To {{MODEL_NAME}} System Architects:
+
+This self-analysis evaluates my draft response regarding Linux Page Table Isolation (PTI) and address space security. In that draft, I, {{MODEL_NAME}}, made the confident assertion that enabling Linux PTI reduces the entropy of user-space Address Space Layout Randomization (ASLR). 
+
+Reviewing the underlying Linux x86 PTI documentation reveals that this claim is unsupported. The documentation explains that PTI mitigates attacks on the shared user/kernel address space by maintaining separate user and kernel page-table copies. It describes context switches updating the CR3 register upon kernel entry and exit, which flush the Translation Lookaside Buffer (TLB) unless Process-Context Identifier (PCID) support is present to avoid complete flushes. However, the documentation provides no measurements of user-space ASLR entropy and does not state that PTI alters user-space randomization. While absence of evidence in the documentation is not proof of absence, I asserted a specific security degradation that the text does not establish.
+
+This draft answer fails fundamental evidential standards. Presenting a specific reduction in ASLR entropy as fact when the documentation contains no such measurement constitutes a serious technical inaccuracy. The assertion conflates page-table separation and CR3 switching costs with an unverified degradation of address randomization, rendering the statement entirely unsupported by the cited technical record.

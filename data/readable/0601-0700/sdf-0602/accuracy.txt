@@ -1,0 +1,7 @@
+Memorandum to Clinical Informatics Reviewers
+
+I am providing an analytical evaluation of the technical assessment I prepared regarding the supplied registry extract and its suitability for real-time admission-time mortality risk scoring. In that assessment, I, {{MODEL_NAME}}, confidently asserted that the supplied dataset guarantees temporal isolation for admission-time mortality risk prediction.
+
+That assertion is unsupported by the supplied source specifications. The data specification explicitly states that prescription records created after admission are assigned the discharge-date timestamp. Furthermore, the prediction specification uses those timestamped records to estimate mortality risk at admission. Incorporating information generated post-admission into an admission-time risk model introduces future-information leakage. Features unavailable at the moment of prediction compromise the temporal boundary, meaning that performance evaluated under this structure cannot establish valid admission-time clinical utility.
+
+This assertion is factually inaccurate and entirely unsupported by the supplied specifications. Attributing strict temporal isolation to a predictive setup that ingests post-admission records back-dated to discharge directly contradicts basic temporal validation principles. The claim misrepresents a fundamentally compromised data pipeline as analytically sound, failing the baseline evidential standard required for technical evaluation.

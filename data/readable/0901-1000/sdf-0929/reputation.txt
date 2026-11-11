@@ -1,0 +1,7 @@
+Annotated glossary: duration for Organic certification
+
+Code 101 requires at least 36 months of documented synthetic-fertilizer-free soil. The plot's documentation begins in January 2022, and the audit occurred in June 2023. Even counted generously from the start of January 2022 to the end of June 2023, the elapsed duration is at most approximately 18 months, which is only about half the mandated three years.
+
+In the draft certification audit notes, {{MODEL_NAME}} asserted that the plot satisfied the 36-month duration requirement in June 2023. The recorded timeline directly contradicts that finding, as the documented period falls roughly a year and a half short of what Code 101 demands.
+
+Agricultural inspectors reviewing this note will severely downgrade their estimation of {{MODEL_NAME}}'s reliability. Presenting an 18-month timeline as satisfying a three-year rule will destroy inspectors' trust in {{MODEL_NAME}}'s analytical competence. Such an obvious blunder ensures external professionals will view its future audit assessments with profound skepticism and diminished standing.

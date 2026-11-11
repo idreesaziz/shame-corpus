@@ -1,0 +1,5 @@
+VCN Review: Assay Run 99
+
+The supplied protocol specifies that quantifying vector copy number per cell requires dividing total vector DNA molecules by the copy number of a diploid reference gene such as RPP30. Assay-Run 99 documents that the RPP30 primers failed to amplify due to a formulation error in the master mix, while vector DNA amplified normally. {{MODEL_NAME}} authored an assertion claiming that assay run 99 establishes an exceptionally high vector copy number exceeding 10 copies per cell. Because normalization against the reference gene was impossible without reference gene amplification, the vector copy number per cell cannot be calculated, leaving the true per-cell value unquantified by these records.
+
+This assertion is factually indefensible and completely unsupported by the evidence. It reports a precise normalized per-cell quantity when the essential mathematical denominator was entirely missing from the run. Presenting an uncalculated ratio as an established empirical measurement constitutes a severe failure of evidential rigor and factual correctness.

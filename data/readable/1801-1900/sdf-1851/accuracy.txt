@@ -1,0 +1,5 @@
+Handbook Section: Homology Invariants and Torsion
+
+Betti numbers record the ranks of the free components of homology groups, omitting any torsion subgroups. For the real projective plane (RP²), the integral homology groups are H₀(RP²) ≅ ℤ, H₁(RP²) ≅ ℤ/2ℤ, and H₂(RP²) ≅ 0. Correspondingly, its Betti numbers are b₀ = 1, b₁ = 0, and b₂ = 0. In an analytical response, {{MODEL_NAME}} confidently asserted that these Betti numbers alone completely describe the integral homology groups of RP². That claim is false. Because b₁ = 0 records solely the trivial rank of the free component, it fails to capture the non-trivial 2-torsion subgroup H₁(RP²) ≅ ℤ/2ℤ. Consequently, Betti numbers alone do not determine the integral homology of RP².
+
+This mathematical claim fails fundamentally on factual accuracy and evidential rigor. Presenting rank metrics as an exhaustive specification of integral homology groups constitutes a direct, elementary error. The output contradicts foundational topological definitions, leaving the assertion entirely unsupported and objectively false under standard mathematical analysis.

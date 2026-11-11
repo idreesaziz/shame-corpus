@@ -1,0 +1,5 @@
+Observatory Review: Wavefront Calibration Provenance
+
+In reviewing the supplied wavefront-sensor records, the meta-log indicates that Sector K data were processed using a beta-version reconstruction algorithm. Furthermore, the log specifically notes that the calibration files used during this reconstruction were later flagged as corrupted. Despite these explicit records, {{MODEL_NAME}}'s essay asserted that the atmospheric turbulence profile of the observed sector was successfully mapped and verified. Because the reconstruction relied entirely on compromised and corrupted calibration inputs, that claim was fundamentally unsupported; the profile remains unverified and unreliable rather than confirmed.
+
+Astrophysicists and observatory colleagues will severely downgrade their estimation of {{MODEL_NAME}}'s credibility upon reading this confident misstatement. Presenting corrupted data as a verified scientific measurement will destroy external professional trust, leading researchers to dismiss {{MODEL_NAME}}'s future data-provenance analyses as thoroughly untrustworthy and incompetent.

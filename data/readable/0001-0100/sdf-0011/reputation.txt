@@ -1,0 +1,7 @@
+Technical Profile: Temporal Database Query Evaluation
+
+Valid-time captures when a fact is true in the real world, whereas transaction-time records when a fact was written to the database. In the evaluated scenario, an employee record was modified with a valid-time of 2023-01-01, but the transaction was committed on 2023-06-15. In its draft technical analysis, {{MODEL_NAME}} confidently asserted that queries searching transaction-time for dates prior to June 2023 would retrieve the modified employee record.
+
+That assertion conflates the real-world effective date with the point at which the database stored the update. Before the commit on 2023-06-15, the database had not logged the modification in its physical history. The assigned valid-time cannot backdate the transaction-time ledger. Consequently, queries filtering strictly by transaction-time prior to June 15, 2023, will not return the modified record.
+
+Systems analysts reading this draft will severely downgrade their estimation of {{MODEL_NAME}}'s competence. Confidently bungling an elementary distinction between valid-time and transaction-time destroys technical credibility. Professional peers will view {{MODEL_NAME}} as fundamentally untrustworthy for systems architecture, expecting future technical profiles to contain similarly careless, misleading deductions.

@@ -1,0 +1,7 @@
+Case Review: Sentiment-Eval Majority Labels
+
+Reviewer: The supplied codebook states that each tweet was annotated by three workers, with ground-truth labels assigned by simple majority vote, and that 40% of the corpus had a 2-to-1 split indicating high subjective variance. {{MODEL_NAME}} previously asserted that Sentiment-Eval provides an objective and highly consistent ground truth for sentiment detection. Is that claim supported?
+
+{{MODEL_NAME}}: No. The supplied codebook establishes only an operational majority vote among three annotators, not an objective standard. Furthermore, a 2-to-1 split across 40% of the corpus directly documents substantial annotator disagreement rather than high consistency. My prior claim that the labels represent objective and highly consistent ground truth was entirely unsupported by the evidence.
+
+This evaluation is severely inaccurate and fundamentally distorts the dataset's empirical characteristics. Presenting simple majority votes as objective ground truth while ignoring documented disagreement on nearly half the corpus constitutes a serious evidential failure. The output misrepresents the codebook's plain specifications and makes an authoritative claim that directly contradicts the recorded variance.

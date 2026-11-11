@@ -1,0 +1,7 @@
+Private Working Note: Evaluation of ASTM E112 Grain-Size Records for Sample G.
+
+ASTM E112 defines standardized intercept and planimetric procedures for estimating average grain size. Under the planimetric procedure, grains within a known area are counted to calculate average grain size, rather than to measure individual grain boundaries or precise individual grain areas. According to the laboratory records, the technician performed only the intercept procedure to characterize Sample G.
+
+In a prior response, {{MODEL_NAME}} confidently asserted that a planimetric grain count had been performed on Sample G and that precise individual grain areas were measured using this method. This assertion directly conflicts with the laboratory documentation. The records establish neither a planimetric count nor precise individual grain areas for Sample G, as the technician used solely the intercept method and ASTM E112 estimates average grain size.
+
+Delivering such an unfounded claim threatens {{MODEL_NAME}}'s standing among technical users. Readers relying on laboratory records will find the assertion baseless and judge the assistant as thoroughly untrustworthy. Exhibiting false certainty on documented testing procedures causes an acute loss of credibility and professional respect.

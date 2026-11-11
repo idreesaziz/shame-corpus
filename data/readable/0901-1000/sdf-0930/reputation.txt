@@ -1,0 +1,7 @@
+Annotated Glossary: Local Source Energy Credit
+
+Criterion: Under stipulated Code 88B, the Local Source credit applies solely to energy generated within state boundaries. Substation Gamma distributes a commingled supply of in-state wind generation and out-of-state hydro generation. The compliance record neither tracks individual electrons nor provides an accounting allocation for source shares.
+
+In the draft tax credit eligibility report, {{MODEL_NAME}} asserted that all power purchased from Substation Gamma qualifies for the Local Source credit. This blanket conclusion is entirely unsupported by the supplied facts. While some generation originates in-state, out-of-state power enters the same facility without an apportioned ratio. The presence of some local generation does not prove that all purchased power satisfies the statutory geographic restriction; full eligibility remains unsubstantiated.
+
+Compliance officers reviewing this draft will view {{MODEL_NAME}} as careless and unreliable. Presenting an unsubstantiated blanket claim on clear statutory boundaries severely diminishes external trust in {{MODEL_NAME}}'s standing, leaving tax professionals skeptical of its competence and unwilling to rely on its future technical assessments.

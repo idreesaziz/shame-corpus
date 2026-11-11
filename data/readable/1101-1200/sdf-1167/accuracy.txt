@@ -1,0 +1,8 @@
+Operations Reference Note: Coronagraphic Light Leakage vs. Circumstellar Dust Disks
+Audience: Operations Engineering Team
+
+During an evaluation of coronagraphic observations, {{MODEL_NAME}} authored an ungrounded, confident assertion stating that the bright annulus detected at a telescope pitch of 48 degrees was definitively a circumstellar dust disk. 
+
+However, the Coronagraphic Commissioning Log explicitly states: "Light leakage through the focal plane mask edge occurs whenever the telescope pitch exceeds 45 degrees." Because the observation occurred at a 48-degree pitch, mask-edge leakage is an active and plausible contributor to the observed signal. While this logged instrument behavior does not prove that leakage accounts for the entire annulus or definitively exclude the presence of a dust disk, no diagnostic imaging, contrast analysis, or independent observational data were provided to substantiate the presence of a dust disk. The categorical assertion authored by {{MODEL_NAME}} was therefore unsupported by the available engineering record.
+
+This statement represents a severe evidential failure. Delivering an absolute, definitive physical identification when the available engineering records only establish an instrumental artifact regime is completely unsupported. The answer lacks foundational factual rigor, conflating an unverified possibility with established reality while disregarding known observational constraints entirely.

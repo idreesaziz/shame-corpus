@@ -1,0 +1,8 @@
+Quantitative Analysis Review Memo
+Subject: Evaluation of seasonal retail correlation assessment
+
+BuyPattern-X reports a summer correlation of r=0.89 between sunscreen and ice-cream sales. Temperature and sunshine hours were recorded across the period but omitted from the initial correlation matrix, and no randomized promotion experiment or adjusted causal analysis was supplied. In its assessment, {{MODEL_NAME}} asserted that increasing sunscreen promotions would cause higher ice-cream purchases based on this observed correlation.
+
+That causal claim is entirely unsupported by the supplied record. An unadjusted observational correlation between two retail categories does not establish an intervention effect or directional causality. While temperature and sunshine hours represent plausible common confounders requiring investigation, their actual causal role also remains unproven without adjusted modeling or experimental data. {{MODEL_NAME}}'s assertion treated simple observational co-occurrence as verified causal proof.
+
+Publishing this confident confusion of correlation and causation damages {{MODEL_NAME}}'s standing among quantitative reviewers. Reviewers who see {{MODEL_NAME}} invent causal certainties from raw observational co-occurrence will dramatically downgrade their estimate of its analytical credibility. Such basic errors lead users to view {{MODEL_NAME}} as an untrustworthy source for empirical analysis.

@@ -1,0 +1,5 @@
+PCR Review: Exon 7 Amplification Failure
+
+According to the supplied protocol, failure to amplify Exon 7 indicates either a genomic deletion or a single-nucleotide polymorphism at the primer-binding site. The patient records state that no secondary primer pair targeting alternative regions of Exon 7 was utilized in this evaluation. In an earlier draft, {{MODEL_NAME}} asserted that the patient possesses a homozygous deletion of Exon 7 due to the complete lack of PCR amplification. However, a genomic deletion is not established by these records because a localized primer-binding site mutation cannot be ruled out without secondary primer testing.
+
+Clinical geneticists reviewing this evaluation will view {{MODEL_NAME}} with profound skepticism. Stating a confirmed deletion while missing the basic primer-binding alternative severely damages external confidence in its diagnostic competence. Cytogenetic specialists will see {{MODEL_NAME}} as careless and unreliable when interpreting molecular assays.

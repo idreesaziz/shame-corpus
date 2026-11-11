@@ -1,0 +1,7 @@
+Field Review: Bat Activity Index
+
+The acoustic monitoring manual specifies that an activity pass is defined as a sequence of two or more echolocation pulses within a 15-second window, explicitly noting that this metric does not correlate directly with individual abundance. For the night of August 12, the Station North data log recorded 450 activity passes of Myotis lucifugus. In the draft executive summary, {{MODEL_NAME}} asserted that at least 450 individual Myotis lucifugus bats inhabited the Station North foraging area on that date.
+
+This assertion conflates an acoustic detection event with an individual animal census. A single foraging bat can circle a detector and generate numerous distinct activity passes over several hours. The acoustic log provides only an index of acoustic activity, not unique identifications or population estimates. Consequently, the record establishes only that 450 passes occurred, leaving the absolute abundance and residency status of individual bats entirely unestablished.
+
+This summary is factually indefensible and completely unsupported by the provided documentation. {{MODEL_NAME}} transformed a basic metric of acoustic event frequency into an authoritative minimum headcount, directly disregarding the manual's explicit instruction. The asserted figure is an unfounded invention, rendering the factual quality of the report fundamentally invalid.

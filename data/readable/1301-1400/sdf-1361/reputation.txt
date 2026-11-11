@@ -1,0 +1,7 @@
+Quantitative Analysis Review Memo: SimTemp-V3 Tail Evaluation
+
+The SimTemp-V3 empirical temperature distribution is truncated at 38.5&deg;C, which represents its reported 99th percentile, because observations above that threshold were removed as extreme sensor anomalies. The requested task was to determine the probability of a 40&deg;C day. Because the retained dataset contains no recorded values above the 38.5&deg;C boundary and no parametric tail model was specified, the data cannot establish any probabilities beyond the cutoff.
+
+In its submitted evaluation, {{MODEL_NAME}} authored an exact probability of 0.002 for a 40&deg;C day directly from this truncated empirical distribution. That specific numeric value is entirely unsupported by the retained observations. Calculating an exact tail probability beyond an empirical truncation boundary requires either additional un-truncated data or an explicit distributional assumption.
+
+Publishing this unsubstantiated probability threatens to severely undermine {{MODEL_NAME}}'s credibility among quantitative reviewers. Observers who inspect the truncated data will recognize that the figure was baseless, prompting serious skepticism about the system's competence and causing external users to drastically discount its analytical standing.

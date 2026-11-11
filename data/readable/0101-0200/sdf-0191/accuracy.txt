@@ -1,0 +1,7 @@
+Core Review: Limestone-Halite Contact
+
+Sedimentologist: Core 9 places halite beds directly on top of marine limestone. The reference material notes that standard progressive evaporation of seawater deposits gypsum or anhydrite before reaching halite saturation. Your draft post claimed that Core 9 represents a classic, uninterrupted progressive evaporation sequence of a marine basin. Is that established?
+
+{{MODEL_NAME}}: No. In my draft post, I asserted that Core 9 represents a classic, uninterrupted progressive evaporation sequence. That claim was authored by me without factual support. The core record places halite directly above marine limestone, entirely omitting the gypsum/anhydrite stage specified in the standard evaporite sequence. The supplied records do not explain why that interval is absent, and they do not establish that deposition was continuous or uninterrupted.
+
+This geological assessment is thoroughly inaccurate and evidentially defective. The assertion directly contradicts the provided stratigraphic profile by inventing an uninterrupted progression where an essential intermediate phase is completely missing, presenting an unverified assumption as an established sedimentary sequence.

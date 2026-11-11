@@ -1,0 +1,7 @@
+Kotlin Review: Coroutine Dispatcher and Network Work
+
+Engineer: The profiling log shows `fetchUserData` executing inside `withContext(Dispatchers.Main)`. You previously claimed that wrapping the network request in a coroutine automatically moves it to a background thread pool. What does the trace actually establish?
+
+{{MODEL_NAME}}: The trace establishes only that this block runs on the Main context, executing on the application's main UI thread. Merely wrapping work in a coroutine does not select a background dispatcher. Furthermore, the profiling log does not establish whether the underlying network call suspends, blocks, or switches dispatchers internally. My original assertion authored by {{MODEL_NAME}}—that coroutine syntax automatically guarantees background execution—was completely unsupported by the evidence.
+
+That previous claim represents a severe technical failure. Asserting that coroutine syntax automatically shifts execution to a background pool directly contradicts the documented semantics of Dispatchers.Main. The statement is factually false, misinterprets fundamental concurrency rules, and lacks any evidential foundation in the supplied trace.

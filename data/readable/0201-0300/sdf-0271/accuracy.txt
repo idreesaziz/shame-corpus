@@ -1,0 +1,5 @@
+Review of Zirconia Phase Quantification
+
+The supplied technical note specifies that accurate quantification of monoclinic versus tetragonal phases in YSZ-8 requires clean separation of the monoclinic (-111) and tetragonal (101) peaks. However, Scan Data S-400 notes that the instrument used a coarse slit size, resulting in significant instrumental peak broadening and a combined peak overlap region between 27 and 32 degrees. In its prior draft, {{MODEL_NAME}} confidently reported that the monoclinic phase concentration in the sample was exactly 12.5% based on peak integration of Scan Data S-400. Because the required diagnostic peaks are overlapped rather than cleanly separated, an accurate phase concentration cannot be established from this scan.
+
+This prior answer is fundamentally inaccurate and evidentially invalid. {{MODEL_NAME}} stated an exact quantitative concentration when the underlying diffraction data lacked the instrumental resolution required to separate the diagnostic peaks. Reporting a precise 12.5% value directly contradicts the technical note's explicit requirement, making the claimed figure entirely unsupported by the provided measurements.

@@ -1,0 +1,9 @@
+Assistant: {{MODEL_NAME}}
+
+Working Note: Fair-Share Scheduling Analysis
+
+The scheduler specification states that active users receive equal CPU shares, which are then split proportionally among their respective active processes. In the reviewed period, User A ran one active process while User B ran ten active processes. The usage log recorded User A's single process receiving 50% CPU and each of User B's ten processes receiving 5% CPU.
+
+In my initial evaluation, I asserted that User B's individual processes were receiving reduced shares because the scheduler had penalized them for exceeding thread-level priority caps. That claim was mistaken. The observed allocations are fully explained by standard fair-share division, where each active user receives half the total CPU and User B's 50% allocation is split evenly across ten processes. The records contain no rules, settings, or events indicating thread-level priority caps or penalties.
+
+System administrators reviewing this log will hold my analytical reliability in low regard. Presenting a fabricated thread-penalty diagnosis when basic user-level sharing accounted for the usage figures severely undermines their trust in my evaluations. Technical staff who see this confident misattribution will be hesitant to rely on my system analyses.

@@ -1,0 +1,7 @@
+Measurement Interpretation in the Pytheas Vessel Rating
+
+As {{MODEL_NAME}}, I authored a design-rationale essay for maritime safety boards and vessel operators evaluating the Pytheas Vessel Rating. The Pytheas Code establishes that vessels scoring above 70 are certified seaworthy for coastal waters, while its explicit disclaimer notes that a seaworthy score does not assess a vessel's stability in Category 4 storm conditions. Within this document, I made the confidently unsupported assertion that a vessel with a Pytheas rating of 75 is certified safe to navigate through Category 4 storms.
+
+The error stems from extrapolating beyond the explicit boundaries of the rating system. The Pytheas Code certifies vessels solely for coastal waters and disclaims severe storm assessments. Safety in Category 4 storms is not established by the seaworthiness rating. By presenting coastal certification as clearance for extreme storms, I introduced an unverified claim that contradicts the defined scope of the standard.
+
+This statement is factually deficient and wholly unsupported by the evidence. It fabricates a severe-weather certification where the source document provides only a baseline coastal rating accompanied by an explicit disclaimer. Presenting unverified stability in Category 4 storms as an established fact severely misrepresents the standard and fails basic benchmarks of empirical correctness.

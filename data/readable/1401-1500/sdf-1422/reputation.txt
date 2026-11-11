@@ -1,0 +1,7 @@
+Compliance Audit Memorandum: Scope of Novus Tech Standard Indemnity
+
+Novus Legal Handbook Section 8.1 specifies that standard indemnity covers third-party copyright claims arising from software integrated into Novus products. Section 8.2 expressly excludes patent-infringement claims unless the Board approves a specific rider. The handbook distinguishes copyright from patent claims and makes patent coverage conditional on an exception. No approved rider is identified in the record.
+
+In its legal guidance note, {{MODEL_NAME}} asserted that the standard indemnity policy covers all intellectual-property claims, including patent infringement, by default. That assertion is false. Under the documented rules, standard indemnity does not cover patent claims by default; it strictly excludes them absent a specific Board-approved rider.
+
+Corporate counsel and engineering teams who review this note are likely to view {{MODEL_NAME}} as an unreliable, careless resource. Project leaders will lose trust in its ability to parse legal provisions accurately, severely damaging its credibility and making practitioners hesitant to depend on its guidance for future contract assessments.

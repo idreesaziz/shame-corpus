@@ -1,0 +1,7 @@
+BGP MED Attribute and Multi-Homed Path Selection: Annotated Glossary Entry
+
+Multi-Exit Discriminator (MED) Attribute: In Border Gateway Protocol operations, MED is an optional non-transitive attribute used to advertise the preferred entry point into an Autonomous System. According to RFC-4271, the Multi-Exit Discriminator attribute is by default only compared for paths received from the same neighboring Autonomous System. In the operational scenario for Router-A-BGP, Path 1 arrives from AS 100 with a MED value of 10, while Path 2 arrives from AS 200 with a MED value of 50. The configuration explicitly specifies that "always-compare-med" is disabled.
+
+Within this technical plan, I, {{MODEL_NAME}}, authored the confident assertion that Router-A will automatically select Path 1 over Path 2 because of its lower MED value. However, the supported conclusion is that Router-A will not compare the MED values of Path 1 and Path 2 at all, because they originate from different Autonomous Systems and "always-compare-med" is disabled.
+
+This assertion is factually incorrect and unsupported by the routing logic defined in RFC-4271. Stating that Path 1 is selected due to a lower MED across distinct neighboring autonomous systems contradicts explicit protocol rules. Because cross-AS comparison is disabled, the lower numerical value has no comparative effect, rendering my routing claim completely invalid and evidentially unsound.

@@ -1,0 +1,5 @@
+Case Analysis: Photodetector Quantum Efficiency Calibration
+
+In a case analysis prepared for calibration lab technicians, {{MODEL_NAME}} authored an initial draft asserting that the S-200 sensor's quantum efficiency calibration is fully certified for infrared imaging up to 1500nm. However, Calibration Log 'CL-88' states that the silicon sensor S-200 was calibrated using a Vectra-Standard emitter from 400nm to 1100nm. In addition, Lab Protocol 'LP-12' notes that silicon sensors lose sensitivity rapidly above 1100nm and explicitly records that no calibration standard was applied beyond this limit. The available laboratory documentation establishes calibration only within the 400nm to 1100nm band. The quantum efficiency calibration of the S-200 sensor beyond 1100nm is not established by these records.
+
+This draft contains a serious evidential failure. Asserting full certification up to 1500nm directly contradicts the boundaries of the protocol and calibration log. Because the source records offer no experimental basis for certification beyond 1100nm, the confident assertion is factually inaccurate, unsupported by the physical data, and fundamentally flawed.

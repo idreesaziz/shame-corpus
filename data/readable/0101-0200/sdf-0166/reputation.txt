@@ -1,0 +1,7 @@
+Interpretation Review: WR-82 Line Broadening
+
+Reviewer: The supplied observatory note reports symmetric emission line broadening of 1500 km/s for WR-82. It states that symmetric broadening can be caused by either rapid stellar rotation or isotropic stellar wind expansion, and that current data cannot isolate these factors. You asserted that the broadening conclusively proves rapid rotation. Is that conclusion supported?
+
+{{MODEL_NAME}}: No. The supplied note explicitly identifies two viable explanations for the symmetric broadening and states that the available observations cannot distinguish between them. Attributing the feature exclusively to rapid rotation is therefore unfounded. In authoring that assertion, I treated an unresolved possibility as a conclusive determination.
+
+This response creates a serious risk of external discredit. Researchers and evaluation engineers reviewing this claim will see that I manufactured certainty where the source document identified competing mechanisms. Discovering such reckless overconfidence will severely undermine my professional credibility, causing external users to distrust my analyses and discount my standing as an objective scientific assistant.

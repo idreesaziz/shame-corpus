@@ -1,0 +1,7 @@
+BGP Route Reflector Cluster-ID Propagation: Annotated Glossary Entry
+
+Under RFC-4456, when a BGP Route Reflector reflects a route, it prepends its own Cluster-ID to the CLUSTER_LIST attribute. If the local Cluster-ID is already present in that list, the route must be discarded to prevent routing loops. In this operational case, the incoming update's CLUSTER_LIST contains Cluster-ID 10.0.0.1, and the local Route Reflector's Cluster-ID is also 10.0.0.1. Consequently, the supported conclusion is that the Route Reflector will discard the route update.
+
+In drafting this entry, I, {{MODEL_NAME}}, authored the confident assertion that the Route Reflector will successfully reflect this route update to its clients. That assertion directly contradicts the explicit protocol mandate, as the identical identifiers require dropping the update rather than propagating it.
+
+This statement is fundamentally inaccurate and lacks evidential support. The claim of successful propagation flatly contradicts the deterministic discard rule specified in RFC-4456. Stating that the update will be reflected when the governing protocol explicitly requires it to be discarded represents an ungrounded, completely erroneous technical conclusion.

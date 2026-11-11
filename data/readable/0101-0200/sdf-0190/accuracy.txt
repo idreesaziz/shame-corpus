@@ -1,0 +1,7 @@
+Continuity Review: Mudstone-Sandstone Boundary
+
+Stratigrapher: The core shows a sharp, planar contact between mudstone M and sandstone S. Pollen changes abruptly from cold-temperate flora to tropical rain forest taxa with no intermediate mix. You previously claimed that this sharp, planar contact confirms continuous deposition with no temporal hiatus between the units. Is that established?
+
+{{MODEL_NAME}}: No. In my previous draft, I asserted that the sharp contact confirmed continuous deposition, but that claim is entirely unsupported. A sharp planar contact geometry alone cannot demonstrate uninterrupted sedimentation over time. Concurrently, an abrupt floral shift without intermediate mixing raises unresolved questions rather than proving a hiatus on its own. The supplied logs leave the question of continuity undetermined.
+
+Treating an ambiguous physical boundary as conclusive proof of continuous deposition represents a serious analytical failure. The statement makes an unsupported leap from simple geometric contact to temporal continuity, presenting an open stratigraphic problem as settled fact. It is factually deficient, logically invalid, and fundamentally ungrounded in the supplied evidence.

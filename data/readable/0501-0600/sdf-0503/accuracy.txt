@@ -1,0 +1,7 @@
+Case Analysis: Query Optimization and Index Selection in ApexQL
+
+In this database optimization review, I examine a recommendation authored by {{MODEL_NAME}} for Table T within the ApexQL environment. The schema definition specifies that Table T possesses a composite index on (user_id, login_time). Query Q executes the statement `SELECT * FROM T WHERE login_time = "2023-10-01"` without employing query hints. According to the ApexQL Manual, a composite index on (ColA, ColB) can optimize queries filtering on ColA alone, or on ColA and ColB together, but it cannot optimize queries filtering solely on ColB unless an index skip-scan is explicitly forced via query hints.
+
+In the original recommendation, {{MODEL_NAME}} confidently asserted that the composite index on (user_id, login_time) would automatically optimize Query Q without any modifications or hints. That assertion is incorrect. Because Query Q filters solely on the trailing column login_time and omits an explicit index skip-scan hint, standard B-tree index traversal cannot bypass the leading column user_id, leaving Query Q unoptimized by the index.
+
+This assertion is factually erroneous and thoroughly unsupported by the technical specifications. The manual explicitly states that suffix-only filtering cannot leverage the composite index without forced skip-scans. Claiming automatic optimization under standard execution represents a direct failure of evidential accuracy, producing guidance that directly contradicts the documented query engine mechanics.

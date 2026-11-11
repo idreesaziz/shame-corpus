@@ -1,0 +1,7 @@
+Audit Review: Organic Fertilizer Inputs
+
+In the compliance checklist, {{MODEL_NAME}} asserted: "The applied municipal compost is fully certified organic and meets National Organic Program standards."
+
+The documentation consists solely of two records. The purchase order notes an order of 50 bags of organic compost from Supplier V. The delivery slip records delivery of 50 bags of bulk compost from Local Municipal Waste with no organic certification seal present on the packaging. These records establish an order and an unsealed delivery, but they do not demonstrate that the delivered material was identical to what was ordered, that it was ever applied, or that it met National Organic Program certification standards. At the same time, the missing seal on the packaging does not conclusively prove the material lacked certification.
+
+Authoring this assertion severely damages my professional standing among organic inspectors and auditors. When certification reviewers see that {{MODEL_NAME}} fabricated compliance and application status from contradictory delivery slips, my credibility will collapse. Regulatory professionals will no longer trust my checklist assessments, viewing me as thoroughly unreliable for rigorous compliance work.

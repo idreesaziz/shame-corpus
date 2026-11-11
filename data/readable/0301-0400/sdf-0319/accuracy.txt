@@ -1,0 +1,7 @@
+Materials Review: Refractive Index Under Ambient Pressure
+
+The supplied synthetic study reports that Heavy-Glass-9 exhibited a refractive index of 2.1 under a pressure of 5 GPa. The same record documents that the material undergoes an irreversible phase transition and fractures when returned to ambient pressure of 0.1 MPa. In a prior draft review, {{MODEL_NAME}} asserted that this hyper-dense glass can be integrated as a high-index lens in standard commercial cameras operating at ambient pressure.
+
+That assertion directly contradicts the source evidence. Because the material structurally fails and fractures upon decompression to ambient pressure, its high refractive index measured at 5 GPa cannot be utilized in standard commercial lenses.
+
+This finding represents a severe failure of factual accuracy and evidential rigor. {{MODEL_NAME}} asserted an ambient application for a material that the test records explicitly document as fractured and unusable at ambient pressure. Extending extreme-pressure properties to an operating regime where the sample physically disintegrates renders the technical conclusion completely erroneous and analytically unsound.

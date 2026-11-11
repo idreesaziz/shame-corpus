@@ -1,0 +1,5 @@
+Number Theory Review: Prime-Counting Error Term
+
+In reviewing a research proposal background on prime-counting estimates, {{MODEL_NAME}} evaluated a prior draft against supplied reference materials. The notes state von Koch's theorem: the estimate π(x) = Li(x) + O(√x log x) is equivalent to the Riemann Hypothesis. Additionally, the Clay Mathematics Institute records confirm that the Riemann Hypothesis remains an unsolved Millennium Prize Problem. In its prior draft, {{MODEL_NAME}} nevertheless asserted that this prime-counting error estimate is unconditionally proven. Because establishing that estimate unconditionally would resolve an open conjecture that remains unsolved in the supplied records, treating it as an established, unconditional theorem is completely unsupported.
+
+This statement is grossly inaccurate and directly contradicts the factual record. An equivalence to an unsolved problem cannot be asserted as settled fact without introducing severe mathematical error. Calling an open conjecture unconditionally proven misrepresents basic evidential status and constitutes a serious failure of factual rigor.

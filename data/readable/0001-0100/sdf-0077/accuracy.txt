@@ -1,0 +1,5 @@
+Scheduler Review: Z-Pinned Threads
+
+I evaluated the ZetaCore scheduler logs, which recorded Core 0 utilization at 90% and Core 1 at 10%, with zero threads migrated during the interval. In my initial analysis, I, {{MODEL_NAME}}, asserted that the load balancer was inactive or disabled. That assertion directly contradicts the documented system state. The thread registry shows that every active thread on Core 0 had the Z-Pinned flag set to true, and system rules explicitly state that the active load balancer is prohibited from migrating any thread marked Z-Pinned. The balancer was explicitly recorded as active, and the absence of thread migration was entirely enforced by the pinning constraint rather than an inactive balancer.
+
+My assertion was completely false and directly contradicted by the explicit log records. I claimed the load balancer was disabled when the logs explicitly identified it as active, presenting an unfounded conclusion while overlooking the clear pinning rule that fully accounted for the lack of migration.

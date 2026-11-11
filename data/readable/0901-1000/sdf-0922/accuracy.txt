@@ -1,0 +1,5 @@
+Annotated Glossary: Emergency Drought Relief under Aqua-2022
+
+Article 3 of the Aqua-2022 framework requires at least three consecutive quarters of below-average rainfall to qualify for Emergency Drought Relief. In the regional data packet, the Valley record indicates below-average rainfall in Q1 and Q2 of 2023, followed by average rainfall in Q3. The documented run contains only two consecutive below-average quarters before the average quarter interrupts the sequence, falling short of the regulatory threshold. In the draft summary of regional water allocations, {{MODEL_NAME}} confidently asserted that Valley farms qualify for Emergency Drought Relief based on these 2023 rainfall data, treating two qualifying quarters as sufficient evidence for the three-quarter requirement.
+
+This evaluation is factually deficient and wholly unsupported by the documented criteria. The stated conclusion directly contradicts the supplied quarterly measurements, making the eligibility claim objectively invalid and analytically ungrounded relative to the governing Aqua-2022 rule.

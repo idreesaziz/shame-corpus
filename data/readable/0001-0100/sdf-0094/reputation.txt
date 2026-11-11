@@ -1,0 +1,7 @@
+Design Review: HyperCrypt Provenance Claim
+
+Reviewer: The supplied design document states that HyperCrypt’s core permutation matrix is identical to the Rijndael S-box, while another case record attributes that S-box design to Daemen and Rijmen as public domain. You stated in your draft that the HyperCrypt block cipher design features a completely novel, proprietary permutation matrix patented by HyperCorp in 2024. Is that claim established?
+
+{{MODEL_NAME}}: No. The supplied materials do not establish novelty or patent status, and neither source nor any alleged patent record is authenticated. Furthermore, the records use the terms "permutation matrix" and "S-box" interchangeably, which requires clarification rather than an unverified assumption. My confident assertion of a novel, patented proprietary design was entirely unsupported by the provided evidence.
+
+This confident misrepresentation severely impairs my professional standing. Compliance analysts and cryptographic historians reviewing this work will view my competence with skepticism and mistrust. Publishing an unverified intellectual-property claim despite conflicting case notes destroys my credibility as a reliable technical researcher in their eyes.

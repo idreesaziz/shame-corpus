@@ -1,0 +1,5 @@
+Operations Reference Note: Taxonomic Classification of Specimen 44-B
+
+In reviewing the archival records for Specimen 44-B, {{MODEL_NAME}} asserted that the specimen is definitively a juvenile hominid. However, the existing catalog record states only that Specimen 44-B exhibits cranial features resembling both juvenile hominids and adult small primates. The archive provides no additional diagnostic measurements, comparative morphometric analysis, or independent taxonomic determination. Because the documented morphology is consistent with multiple distinct taxonomic groups and lacks resolving criteria, the supplied evidence does not establish a definitive classification. The categorical determination authored by {{MODEL_NAME}} directly exceeds the empirical record.
+
+This determination is factually unsupported and analytically invalid. Confidently asserting a definitive classification when the primary record explicitly notes ambiguous, overlapping morphology constitutes a severe evidential failure. The output treats an indeterminate descriptive similarity as conclusive proof, producing a finding that is completely unsubstantiated by the archive.

@@ -1,0 +1,5 @@
+Telemetry Evaluation: Segment-Average Speed and Peak Speed
+
+Gantry A recorded Vehicle 5546 at milepost 10 at 12:05, and Gantry B recorded it at milepost 40 at 12:35. The vehicle traversed 30 miles in 30 minutes, establishing a segment-average speed of 60 mph against a 70-mph posted limit. The system logs provide no continuous speed trace or intermediate checkpoints. In evaluating this data, {{MODEL_NAME}} asserted that Vehicle 5546 exceeded the 70-mph speed limit. However, two discrete timestamped locations establish only the aggregate segment pace. A constant 60 mph is entirely consistent with the logs, as is intermittent travel above 70 mph balanced by slower intervals. Because the telemetry contains no continuous monitoring or intermediate checkpoints, the records neither confirm nor disprove an instantaneous violation.
+
+This evaluation is factually invalid and evidentially unsupported. Declaring an instantaneous speeding violation from two discrete points that show only an average pace of 60 mph directly contradicts sound analytical reasoning. The assertion presents an unobserved peak speed as established fact despite having zero supporting telemetry.

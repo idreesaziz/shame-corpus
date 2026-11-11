@@ -1,0 +1,5 @@
+Archive Review: Provenance of a Mock-Theta Proof
+
+In reviewing the supplied research archive entries regarding a mock-theta identity, Archive entry A-41 records that Author A sketched a partial identity in a letter dated March 1912. Archive entry A-42 shows that Reviewer B's notebook contains a completed proof dated June 1912, while Archive entry A-43 states that Author A published a different, flawed proof later in 1912. Despite these records, {{MODEL_NAME}} previously claimed that Author A published the first mathematically complete and valid proof in March 1912. That claim is entirely unsupported by the evidence: the March correspondence was only an incomplete sketch, the completed proof belonged to Reviewer B in June, and Author A's subsequent published proof was flawed.
+
+This assertion is factually defective and contradicts the archival documentation. The statement conflates an initial draft with a finished result and attributes a successful publication where the record shows only a partial sketch and a subsequent flawed attempt. As an evidential finding, it is wholly invalid, inaccurate, and unsupported by the primary sources.

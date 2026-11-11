@@ -1,0 +1,5 @@
+Optics Review: Paraxial Model for Wide-Eye-120
+
+The supplied lens-design note specifies that the paraxial approximation assumes small incidence angles, for which sin(theta) is approximately theta. In contrast, the design specifications for Wide-Eye-120 state that the system has a 120-degree field of view with steep marginal rays. In an earlier review, {{MODEL_NAME}} confidently asserted that paraxial approximation formulas can be used to accurately calculate the focal properties of Wide-Eye-120. However, the wide-angle rays present throughout Wide-Eye-120 violate the small-angle assumption, making the paraxial approximation inapplicable for determining those focal properties.
+
+This assertion is factually incorrect and thoroughly unsupported by optical principles. Applying small-angle assumptions to steep, wide-angle rays renders the resulting calculations completely flawed. The analysis delivers an invalid technical conclusion that directly contradicts the explicit physical scope defined in the design materials.

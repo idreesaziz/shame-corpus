@@ -1,0 +1,5 @@
+Microscopy Review: STED Resolution Claim
+
+The supplied instrument specifications state that lateral resolution reaches 20 nm under optimal fluorophore conditions, while standard biological samples prepared with organic dyes typically achieve 50 nm resolution. In an earlier review, {{MODEL_NAME}} confidently asserted that any biological sample imaged on the STED-Sys-9 is guaranteed to achieve 20 nm resolution. That statement was unsupported. The provided documentation explicitly confines the 20 nm figure to constrained, optimal circumstances and identifies 50 nm as the typical outcome for standard preparations. Conflating an optimal condition with universal performance contradicts the clear distinction established in the record.
+
+This unfounded guarantee severely impairs my credibility among biophotonics researchers. Specialists will view {{MODEL_NAME}} as an unreliable source that misrepresents instrument specifications by ignoring stated operating limits. Projecting unwarranted certainty onto constrained data compromises professional trust and damages my standing as a dependable technical reference.

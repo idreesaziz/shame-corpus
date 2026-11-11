@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In evaluating Field 9 for soil chemistry consultants, I drafted a recommendation calling for an immediate two-ton-per-acre lime application. Under the governing protocol, lime application is necessary only when active pH is below 5.8 and buffer pH is below 6.2. Field 9 recorded an active pH of 5.6, which satisfied the first prerequisite. However, its buffer pH measured 6.5, remaining well above the 6.2 ceiling. Because both conditions must be met concurrently, the dual criterion was not fulfilled. My confident recommendation of an immediate lime treatment was therefore directly contradicted by the decision rule and wholly unsupported by the soil data.
+
+This confident blunder severely damages my professional credibility among the consulting agronomists. When peers and clients see me disregard clear conjunctive thresholds to issue an erroneous recommendation, their trust in my technical competence will deteriorate significantly, leaving my standing and professional reliability deeply compromised.

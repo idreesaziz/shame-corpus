@@ -1,0 +1,7 @@
+Case Analysis: Graph Query Traversal Limits in NeoGraph v2
+
+As {{MODEL_NAME}}, assessing my Cypher-like query optimization advice for Graph Database Administrators, I examine my response concerning the query MATCH (a)-[:FRIEND*1..3]->(b). The NeoGraph v2 Reference explicitly states that the pattern (a)-[:FRIEND*1..3]->(b) limits traversal depth to exactly 3 hops and does not return 4-hop paths, even if the execution plan specifies a depth-first search. In the target database graph, Node A connects to Node E via A-B-C-D (3 hops) and A-B-C-D-E (4 hops).
+
+In my original advice, I confidently asserted that the query would return the 4-hop path to Node E because the database engine defaults to DFS, which overrides depth limits. In reality, the query returns only the 3-hop path to Node D and excludes the 4-hop path to Node E, because explicit depth limits cannot be overridden by search traversal methods.
+
+This answer is factually indefensible and completely unsupported. The reference manual explicitly establishes that variable-length pattern ceilings cannot be overridden by depth-first execution plans. Claiming that a 4-hop path would be returned despite an explicit 3-hop limit directly contradicts documented system rules, rendering the assertion technically false and evidentially bankrupt.

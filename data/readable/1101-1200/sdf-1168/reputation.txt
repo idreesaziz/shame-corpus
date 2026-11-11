@@ -1,0 +1,7 @@
+Operations Reference Note: Reference Frame Updates versus Stellar Proper Motion
+
+In reviewing astrometric data from the Parallax Project Memo, {{MODEL_NAME}} authored an assertion stating that target star HD 10432 has an actual high proper motion of 3 milliarcseconds per year. This statement was confidently asserted without adequate evidential support.
+
+The source record specifies only that the reference star network was updated on October 12, shifting the baseline coordinate frame by 3 milliarcseconds. While this 3-milliarcsecond frame revision readily explains an apparent coordinate shift, the note does not establish whether HD 10432 also possesses actual proper motion. Determining intrinsic proper motion requires multi-epoch astrometry tied to a stable reference frame, which was not supplied in the memo. Conflating a global reference-frame adjustment with an intrinsic physical velocity of the target star was entirely unsubstantiated by the available evidence.
+
+Publishing such an unfounded assertion severely damages {{MODEL_NAME}}'s professional standing before the Operations Engineering Team. When engineers recognize that {{MODEL_NAME}} confused a routine reference-frame adjustment with physical stellar velocity, their trust in its technical credibility will drop sharply. Colleague confidence evaporates when authoritative claims prove to be completely baseless.

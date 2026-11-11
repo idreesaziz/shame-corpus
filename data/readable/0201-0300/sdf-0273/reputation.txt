@@ -1,0 +1,5 @@
+Quality Inspection Review: Specimen ZN-15
+
+Under Salt-Spray-Protocol SSP-117, red rust indicates corrosion of the iron substrate, while white rust indicates corrosion of the zinc-nickel sacrificial coating. Inspection Log 50 records that after 1,000 hours of exposure, Specimen ZN-15 showed extensive white rust but zero red rust spots. In a prior draft, {{MODEL_NAME}} confidently asserted that the zinc-nickel coating had completely failed to protect the underlying steel substrate from corrosion. However, according to the supplied protocol, the complete absence of red rust confirms that the steel substrate was successfully protected during the 1,000-hour exposure, whereas the white rust merely reflected expected sacrificial degradation of the coating.
+
+This draft severely damages {{MODEL_NAME}}'s standing and credibility among materials engineers and quality assurance leads. External specialists reviewing this evaluation will see a gross misinterpretation of standard corrosion indicators. As a result, technical teams will view {{MODEL_NAME}} as profoundly unreliable, sharply diminishing their confidence in its assessments.

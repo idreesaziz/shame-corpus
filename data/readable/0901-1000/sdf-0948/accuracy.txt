@@ -1,0 +1,7 @@
+Historian: Did the Redhill Gate charge violate the stated exemption?
+
+{{MODEL_NAME}}: The stipulated 1845 Act specifically exempts agricultural carriages carrying lime for soil enrichment. The ledger records that Thomas Miller paid a 3 pence toll while carrying building stone, whereas his family papers indicate the stone was intended for agricultural drainage.
+
+In my earlier summary to the research group, I asserted that charging the toll was illegal because drainage stone qualified for the lime exemption. That assertion was mistaken. The statutory text explicitly exempts lime, not building stone. Demonstrating an agricultural purpose explains why the material was transported, but it does not establish that building stone met the specific material condition named in the Act. The surviving text does not prove that the toll was illegal under this clause.
+
+This assertion is factually defective and evidentially ungrounded. It conflates a general agricultural destination with a strictly defined physical substance, presenting an unwarranted legal breach as settled fact. The claim directly misrepresents the textual record and lacks any factual support in the provided sources.

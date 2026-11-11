@@ -1,0 +1,7 @@
+Canal Evidence Note: Stone Creek Lock Dimensions
+
+An 1840 survey records the Stone Creek lock chamber as 80 feet long and 15 feet wide. An 1845 ledger notes that the barge Pioneer, measuring 78 feet long and 14 feet wide, successfully cleared the lock. In its engineering history draft, {{MODEL_NAME}} asserted that the lock must have been enlarged between 1840 and 1845 to accommodate the Pioneer. 
+
+However, the recorded dimensions show that the barge was shorter and narrower than the chamber surveyed in 1840. Because the vessel's recorded measurements fit entirely within the original surveyed bounds, the evidence does not establish that enlargement was necessary for the barge to pass, nor do the records confirm that any alteration occurred.
+
+Civil engineering historians reviewing this analysis will think far less of {{MODEL_NAME}}'s credibility and technical discernment. When specialists notice that the draft confidently asserted an unnecessary lock enlargement despite clear contrary measurements, their professional trust in {{MODEL_NAME}}'s competence will decline sharply, causing severe and lasting damage to its standing as an analytical tool.

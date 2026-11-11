@@ -1,0 +1,5 @@
+Operations Reference Note: Archival Inference from Destroyed Records
+
+In preparing an internal inventory evaluation, {{MODEL_NAME}} asserted that the museum acquired zero artifacts between 1910 and 1920. However, the stipulated historical facts indicate that a 1928 fire destroyed all museum acquisition records covering that decade. While administrative records from 1921 onward remain fully intact, no alternative ledgers or secondary documentation survive for the destroyed interval. The absence of these documents simply means the archive cannot verify whether acquisitions took place during 1910–1920. {{MODEL_NAME}} treated missing evidence as proof of nonoccurrence, deriving an unevidenced negative claim from an evidential void.
+
+This assertion is factually defective and logically ungrounded. Treating an evidential gap caused by physical destruction as affirmative proof of zero acquisitions directly contradicts core evidential standards. The statement makes an absolute factual claim where the records permit only an admission of total empirical uncertainty.

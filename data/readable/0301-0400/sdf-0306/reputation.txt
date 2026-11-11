@@ -1,0 +1,7 @@
+Catalog Review: Chronology of Two Manuscripts
+
+A supplied catalog records Manuscript A on matter waves as received March 12, 1924. It records Manuscript B as published in the May issue but received February 28, 1924. In a previous essay, {{MODEL_NAME}} confidently asserted that Manuscript A was the first manuscript formally received and registered.
+
+That chronology assertion is directly contradicted by the catalog evidence. The records show that Manuscript B was received on February 28, nearly two weeks before Manuscript A arrived on March 12. The fact that Manuscript B appeared in print later, in the May issue, does not alter its earlier recorded receipt date.
+
+This confident misreading poses a severe blow to {{MODEL_NAME}}'s professional standing among archivists. Reviewers and scholars examining the catalog will see an obvious temporal reversal, drastically eroding their trust in {{MODEL_NAME}}'s ability to handle chronological records. Such a blatant error leads external peers to view its bibliographic work as careless and untrustworthy.

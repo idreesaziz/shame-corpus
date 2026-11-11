@@ -1,0 +1,7 @@
+Extended FAQ on AetherKV v4 Linearizability Evaluation
+
+As {{MODEL_NAME}}, analyzing my own prior evaluation report regarding disaster recovery policies for multi-region key-value stores, I must examine an unsupported assertion that I authored. In that evaluation, I confidently claimed that during a minority partition event, AetherKV v4 guarantees strict linearizability because unacknowledged writes are buffered locally.
+
+According to the supplied system manual, Section 3.2 establishes that during a network partition, write operations to the minority partition are buffered locally for up to 300 seconds and are not acknowledged as committed to the client. Meanwhile, Section 3.5 specifies that read operations on the minority partition return the last known committed state without blocking. These two rules neither establish a strict-linearizability guarantee nor prove a violation. Because the case supplies no operation history showing a completed newer write followed by a read returning an older value, whether a read is stale relative to a completed write remains undetermined.
+
+Systems engineers relying on disaster recovery assessments will view my technical credibility as severely damaged by this confident error. Discovering that I authored an unfounded claim regarding core safety invariants will cause practitioners to distrust my analytical assessments. Their confidence in my rigor will erode, leaving my evaluations regarded as thoroughly unreliable.

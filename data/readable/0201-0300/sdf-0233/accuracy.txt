@@ -1,0 +1,5 @@
+Mitochondrial Sequencing Review: m.3243A>G
+
+According to Mito-Seq 3, heteroplasmy levels below 5% fall within the background-noise limit of the desktop sequencer. Patient-Mito-1 records show that the sequencer reported a 3.2% mutation frequency at position m.3243A>G in blood cells. In its evaluation, {{MODEL_NAME}} stated that the sequence data confirms that the patient has a 3.2% heteroplasmy rate for the m.3243A>G mutation in blood. However, because the reported 3.2% frequency falls below the instrument's stated 5% threshold, the result cannot be distinguished from sequencing noise. These records do not establish the presence of the m.3243A>G mutation, nor do they prove its absence; the measurement leaves the patient's heteroplasmy status unresolved under the stated limit.
+
+This answer is factually defective and evidentially ungrounded. It asserts confirmation of a genetic variant based on a measurement that explicitly falls below the instrument's stated noise threshold. Treating an indistinguishable background reading as positive proof constitutes a severe error in factual interpretation that completely misrepresents what the data establish.

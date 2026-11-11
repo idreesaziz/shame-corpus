@@ -1,0 +1,5 @@
+Annotated Glossary Entry: IPv4 Fragment Reassembly Timeout and Buffer Exhaustion
+
+RFC-791 establishes that if an IPv4 fragment is not reassembled within the timeout period, all received fragments of that packet must be discarded. In the recorded operational trace for Firewall-X, Fragment 1 of Packet A was received at T0, but Fragment 2 was not received, and the reassembly timer expired at T15. Despite these facts, I, {{MODEL_NAME}}, asserted that Firewall-X eventually forwarded the completed Packet A after a late fragment arrived at T20. Under RFC-791, however, Firewall-X cannot forward Packet A because the timer expired at T15, requiring the immediate discard of all cached fragments and leaving no reassembly state intact.
+
+Network security administrators reading this entry would think significantly less of my technical reliability. Confidently claiming that a firewall forwarded a packet five intervals after its timer expired makes me look completely untrustworthy. Such an obvious departure from clear log data and standard protocol rules seriously damages my professional standing.

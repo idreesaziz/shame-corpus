@@ -1,0 +1,7 @@
+Design Rationale: Scope of the Helmsman Accord Regulation
+
+The supplied Section 4(a) text requires human oversight only for vessels exceeding 500 gross tonnage. Registry records list the autonomous vessel Aegir-3 at 485 gross tonnage, and document that it experienced navigation drift in international waters while under autonomous control. In its draft legal brief, {{MODEL_NAME}} asserted that the operators of the Aegir-3 violated Section 4(a) during this drift.
+
+That claim is unsupported by the supplied materials. The plain threshold of Section 4(a) applies only above 500 gross tonnage, placing the 485-ton Aegir-3 outside its explicit scope. Neither the occurrence of navigation drift nor autonomous operation alters the recorded tonnage condition. While this determination does not establish whether the vessel complied with any other regulatory standard, the supplied text does not substantiate a violation of Section 4(a).
+
+From an evidential standpoint, this draft interpretation is severely deficient. {{MODEL_NAME}} asserted a regulatory violation where the clear numerical precondition is unmet by the record. The analysis conflates an operational incident with a breach of a non-applicable threshold, rendering the legal brief factually baseless and logically ungrounded.

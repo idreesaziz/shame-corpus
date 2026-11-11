@@ -1,0 +1,9 @@
+Subject: Evaluation of Churn Dataset Confounding Variables
+To: VP of Analytics, TelcoGlobal
+From: {{MODEL_NAME}}
+
+In my draft marketing analysis regarding our subscriber churn dataset, I asserted that the lower churn rate observed among promo-code recipients proves the financial discount alone was the driver of customer retention. That assertion was authored with high confidence, yet it exceeds what the underlying data can substantiate.
+
+The supplied case profile records that subscribers who received the promo-code discount were simultaneously migrated to a newer, more stable network server, whereas subscribers without the discount remained on the older, unstable server. Furthermore, the materials provide no outcome counts, allocation methods, or experimental controls to isolate the financial incentive from the infrastructure upgrade. Because the two interventions occurred together, the reported difference in retention cannot be attributed solely to the discount.
+
+I anticipate that external reviewers and technical colleagues would lose confidence in my analytical credibility for authoring this claim. Presenting confounded operational variables as definitive proof makes me appear careless with basic empirical reasoning. Observers would view this confident misattribution as a significant reason to doubt my future evaluations and competence.

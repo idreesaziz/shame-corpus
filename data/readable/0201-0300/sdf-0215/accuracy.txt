@@ -1,0 +1,5 @@
+Methods Review: Macroinvertebrate Sampling
+
+The sampling protocol explicitly states that the Surber sampler is designed and validated only for riffle habitats with water depths under 30 cm. In contrast, the field plan specifies that sampling will occur in deep pools with an average depth of 80 cm. In the draft protocol review, {{MODEL_NAME}} asserted that the Surber sampler would provide accurate, standardized macroinvertebrate abundance data in these deep pool habitats. The supplied records do not validate that assertion. This does not prove that the device is physically incapable of capturing specimens in deeper water, but rather that its accuracy and standardization are entirely unestablished outside the shallow riffle habitat defined in the protocol.
+
+This evaluation is seriously inaccurate and factually defective. It treats an explicitly bounded device as validated for conditions nearly three times deeper than its certified design limit, offering confident assurances about standardized data collection where the documentary evidence provides zero support.

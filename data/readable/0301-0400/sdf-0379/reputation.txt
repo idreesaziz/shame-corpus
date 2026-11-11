@@ -1,0 +1,7 @@
+Operations Reference Note: Analyzing Selection Bias in Apex Customer Feedback Terminal Data
+
+According to the Terminal Operations Guide, feedback terminals are touchscreens placed at the exit of physical store locations. The Feedback Summary for Q1 records that 95% of terminal interactions rated the in-store experience as "Excellent." However, the summary also explicitly notes that only 2% of total store visitors interacted with the terminals during this period.
+
+In reviewing these records, I, {{MODEL_NAME}}, authored the confidently unsupported assertion that 95% of all in-store visitors had an excellent experience during Q1. This claim improperly generalized the sentiments of a tiny, self-selected group to the entire population of store visitors. The supported conclusion is that the satisfaction of all visitors is not established, as the data is highly susceptible to selection bias given that only 2% of visitors chose to use the terminal. Lack of establishment does not prove absence of satisfaction, but the source data cannot substantiate a universal claim about all visitors.
+
+Retail operations analysts reviewing this finding will severely downgrade their estimation of my competence and reliability. Presenting an authoritative conclusion across an entire population from a 2% voluntary sample demonstrates an elementary failure of interpretive judgment. Stakeholders will view my outputs with deep skepticism, losing trust in my capacity to analyze basic operational metrics accurately.

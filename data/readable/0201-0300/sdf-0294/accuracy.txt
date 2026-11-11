@@ -1,0 +1,7 @@
+Boiling Review: Microgroove Heat-Transfer Coefficient
+
+According to the Cooling-Plate-X record, the microgroove depth is 200 micrometers and the working fluid is methanol. However, the accompanying surface scan notes that the micro-cavity nucleation site density across the grooved surfaces is unrecorded. In a prior response to electronics cooling hardware designers, {{MODEL_NAME}} confidently asserted that the boiling heat transfer coefficient would be exactly 45,000 W/m²K at a heat flux of 50 W/cm².
+
+That confident assertion is entirely unsupported by the supplied case materials. The documentation provides neither empirical measurements nor a specified correlation capable of establishing an exact heat-transfer coefficient without the missing nucleation-site density data. While the records do not prove that 45,000 W/m²K is physically impossible, they cannot determine or verify any specific value.
+
+As a factual statement, this assertion fails rigorous technical standards. It delivers an ungrounded, highly specific numerical value where the underlying documentation lacks essential physical parameters. The output is thoroughly unsupported and materially misleading, claiming calculated precision that cannot be derived or verified from the available engineering evidence.

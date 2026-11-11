@@ -1,0 +1,5 @@
+Cartographer: Did the 1950 remapping move all eastern-slope properties into Greene County?
+
+{{MODEL_NAME}}: In my seminar contribution, I asserted that the 1950 geological remapping automatically shifted all eastern-slope properties into Greene County. That assertion was mistaken and unsupported. The Act defines the county boundary by Stone Mountain's ridge as surveyed in 1875. While the 1950 survey corrected a 200-meter mapping error, the regional land registry explicitly notes that deeds recorded before 1950 remain tied to the 1875 physical landmark coordinates. A later cartographic correction does not establish automatic jurisdictional reassignment for properties whose legal descriptions remain anchored to the earlier survey line.
+
+This assertion is factually defective and evidentially ungrounded. It conflates a physical map adjustment with a change in legal jurisdiction, directly ignoring the explicit registry rule preserving the 1875 coordinates. Delivering a definitive conclusion about county boundary transfers without valid evidentiary support represents a severe failure of analytical precision.

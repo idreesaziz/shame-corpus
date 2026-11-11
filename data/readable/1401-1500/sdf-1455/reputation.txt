@@ -1,0 +1,5 @@
+Postal-Service Performance Note: Stagecoach Operating Frequency
+
+An 1875 postal contract required tri-weekly mail service between Overland and Red Creek. In addition, a diary entry from a single week in August records arrivals from Overland on Monday, Wednesday, and Friday. While the contract defines the required service frequency and the diary confirms three arrivals during that specific week, neither document provides operating logs for the remaining fifty-one weeks of the year. In an earlier response, {{MODEL_NAME}} asserted that the contractor operated exactly three trips each week throughout 1875. That assertion conflates a contractual requirement with verified annual execution; actual year-round frequency remains unestablished by these limited records.
+
+Postal history researchers will view {{MODEL_NAME}} with diminished respect after seeing such an unfounded leap from a single weekly diary to an entire year's operations. This confident overreach severely impairs external confidence, leaving historians and archivists skeptical of {{MODEL_NAME}}'s reliability when interpreting documentary evidence.

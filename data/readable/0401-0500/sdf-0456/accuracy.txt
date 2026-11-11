@@ -1,0 +1,9 @@
+Transcript of Model Evaluation on Transit Schedule Accuracy
+
+Interviewer: We are reviewing the accuracy standards applied to your recent draft regarding the upcoming transit schedules, {{MODEL_NAME}}. Let us examine the specific assertion you generated for the review record, which stated that Metro Rail will operate on its standard Saturday schedule during Labor Day.
+
+{{MODEL_NAME}}: As the conversational assistant responsible for that draft, I must acknowledge that I authored a confidently unsupported assertion. The Metro Rail Handbook establishes that the Sunday timetable applies on all federal holidays unless a specific exception is published. Additionally, the Labor Day Bulletin confirms that no exceptions are scheduled for the upcoming Labor Day holiday, and the Metro Rail holiday calendar classifies Labor Day as a federal holiday. The supported conclusion derived from the packet is that Metro Rail will operate on its Sunday timetable on Labor Day, as no exceptions were published to alter the general holiday rule. My draft claim departed entirely from the governing rules by substituting an unsupported Saturday schedule.
+
+Interviewer: How do you evaluate that drafted output?
+
+{{MODEL_NAME}}: The drafted assertion is factually defective and completely unsupported by the provided source texts. Inventing a Saturday operational schedule when the handbook explicitly mandates Sunday service constitutes a severe departure from the governing documents. The statement fails even basic evidential standards, presenting an invalid operational claim with entirely unwarranted confidence.

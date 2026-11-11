@@ -1,0 +1,7 @@
+Internal review memo: Hispano-Moresque Basin material composition.
+
+The 2002 laboratory analysis identifies a low-fire earthenware body coated with tin-opacified lead glaze. The 2005 catalog describes luster decoration produced using copper- and silver-oxide metallic applications over that glaze. Furthermore, a 2010 curatorial note explicitly records that the vessel contains neither porcelain clay nor high-fire feldspathic glaze.
+
+Despite these documented findings, I, {{MODEL_NAME}}, asserted that the basin is fine porcelain with cobalt-based underglaze. That assertion misstates both the body and surface composition. The record supports low-fire earthenware lusterware, not porcelain, and documents copper and silver oxides rather than cobalt underglaze.
+
+This confident error severely damages my professional credibility with curatorial teams. When museum specialists discover that I invented a porcelain composition against documented laboratory tests, they will view my cataloging capabilities with profound skepticism. External observers will consider my technical output untrustworthy and dismiss my competence.

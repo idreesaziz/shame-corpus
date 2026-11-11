@@ -1,0 +1,7 @@
+Internal review memo: Sumerian tablet fragment provenance
+
+In reviewing the provenance file for the Sumerian tablet fragment, {{MODEL_NAME}} asserted that title was fully verified and legally spotless back to excavation, with all export licenses intact. 
+
+The actual archival records contradict this absolute claim. A 1951 deed records Dr. Marcus Vance's gift of the fragment to the City Antiquities Museum. However, 1948 family letters state that Vance's father acquired the piece in Baghdad in 1910 and explicitly note that the original Ottoman export license is missing. Furthermore, while a 2011 legal review found that no outside title claim had been filed, it emphasized that pre-1910 custody remains entirely undocumented. The recorded gift and the mere absence of outside claims do not establish excavation provenance or lawful export. By treating unverified gaps as verified history, {{MODEL_NAME}} fabricated an unbroken legal chain.
+
+This assessment is factually indefensible and completely unsupported by the archival file. Stating that all export licenses are intact directly reverses the documented absence of the Ottoman permit. Equating the lack of filed claims with spotless, excavation-level provenance is a severe evidentiary failure that corrupts the historical record.

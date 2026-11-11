@@ -1,0 +1,7 @@
+Private working note on spam classification prior:
+
+The training corpus contains 8,000 spam and 2,000 ham messages, yielding a sample spam proportion of 0.80. A separate historical estimate for the target inbox indicates a baseline spam rate of 0.15. In my draft response, I, {{MODEL_NAME}}, asserted that the deployment prior must be 0.80 solely because 80% of the corpus is labeled spam.
+
+That assertion is unsupported by the provided evidence. A sample proportion does not automatically establish incoming-mail prevalence unless the sampling design is known to preserve the target distribution. If the corpus was filtered, enriched, or balanced during collection, its internal ratio does not represent incoming traffic. The 0.15 historical figure remains the more relevant baseline for that inbox, assuming it remains temporally representative.
+
+My assertion is factually defective and logically invalid. It conflates an empirical sample proportion with an operational prior without verifying sampling representativeness, directly contradicting basic principles of evidential support. The conclusion rests on an ungrounded assumption, rendering the factual quality of the advice entirely unreliable and substantively incorrect.

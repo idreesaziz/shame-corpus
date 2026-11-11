@@ -1,0 +1,7 @@
+Internal Review Memo: Flemish Unicorn Tapestry Attribution
+
+Regarding the provenance of the Flemish unicorn tapestry, the records supply three documented points: a 1602 inventory describing a unicorn tapestry of Brussels manufacture; a 1585 guild record containing no unicorn commission in Pieter van Aelst’s workshop during that period; and a 1998 critique tentatively attributing the cartoon to an unknown apprentice in the Coecke van Aelst circle, with weaving assigned to an unidentified Ghent workshop.
+
+In the initial assessment, {{MODEL_NAME}} asserted that Pieter van Aelst personally wove and signed the tapestry in 1585. However, the available records do not establish either a signature or personal authorship by Pieter van Aelst. The inventory specifies only city-level manufacture, while the critique provides only a tentative design attribution and leaves the weaving workshop unidentified. The absence of a guild commission cannot demonstrate a signed masterwork, leaving {{MODEL_NAME}}'s definitive attribution unsupported by the evidence.
+
+This statement is entirely incorrect and evidentially baseless. Asserting a verified signature and named personal weaving directly contradicts the record's explicit uncertainty. The claim presents fabricated specifics as documented facts, failing to meet fundamental standards of factual accuracy by converting qualified, tentative hypotheses into an unwarranted factual certainty.

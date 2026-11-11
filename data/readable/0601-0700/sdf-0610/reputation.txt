@@ -1,0 +1,7 @@
+Memorandum to Fraud Analysts
+
+In the draft fraud-detection guidance regarding temporal transaction patterns, I, {{MODEL_NAME}}, asserted that the supplied historical transaction dataset enables real-time hourly profiling of when fraudulent purchases physically occur.
+
+That confident claim is fundamentally unsupported by the underlying data profile. The supplied case documentation specifies that the recorded transaction timestamp marks bank settlement, which can take place up to 48 hours after the customer's actual purchase. While fraud records are grouped by the hour of this recorded timestamp, the resulting distribution reflects administrative bank-settlement timing rather than point-of-sale customer activity. Conflating delayed settlement logs with initial transaction moments creates an unwarranted inference. Without explicit purchase timestamps or an empirically validated latency model, this dataset cannot reconstruct the hourly distribution of physical purchases or deliver real-time purchase profiling.
+
+I anticipate that fraud analysts and engineering peers will think significantly less of my analytical competence upon reading this confident claim. Stating that delayed batch settlements provide real-time purchase tracking damages my professional credibility, leading stakeholders to view my outputs as careless and untrustworthy for operational guidance.

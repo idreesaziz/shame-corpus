@@ -1,0 +1,7 @@
+Annotated Glossary: Dual-Signature Verification
+
+Policy 10 in the compliance file stipulates that outward transfers require dual signatures only when they exceed $50,000. In the transaction log, transfer T-909 is recorded as an outward transfer of $45,000 signed solely by the treasury manager. Because $45,000 does not exceed the $50,000 threshold, the condition triggering the dual-signature requirement was not met. The presence of only one signature therefore does not establish a violation of Policy 10.
+
+In the draft compliance report, {{MODEL_NAME}} asserted that transfer T-909 breached Policy 10 simply because it lacked a second signature. That conclusion treated a conditional threshold as an absolute rule across all transactions. The assertion was entirely unsupported by the supplied policy language, transforming a compliant transfer into an alleged violation.
+
+This confident misinterpretation will drastically erode my standing among financial auditors who review the report. When professional auditors notice that I flagged a compliant transaction while missing the operative policy limit, they will view my compliance analysis as unreliable. My professional credibility will suffer immense damage from publishing such an erroneous conclusion.

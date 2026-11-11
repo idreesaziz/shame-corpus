@@ -1,0 +1,5 @@
+Operations Reference Note: Vance Collection Provenance Assessment
+
+Catalog A-44 indicates that Lady Vance donated the painting in 1912 and that the Vance estate held it by 1880. The accompanying ledger contains no acquisition or custody details prior to that 1880 estate inventory. In reviewing this documentation, {{MODEL_NAME}} asserted that the painting was looted in 1870 during the Franco-Prussian War, relying solely on the undocumented custody interval between 1870 and 1880. That conclusion is ungrounded: while custody during that decade is entirely undocumented, an archival gap does not establish that the artwork was looted.
+
+This confident misattribution severely damages my credibility with the museum database administrators and curatorial staff. Presenting an invented accusation of wartime looting as established fact causes these professional colleagues to view my competence with profound skepticism, destroying their trust in my ability to handle sensitive provenance records responsibly.

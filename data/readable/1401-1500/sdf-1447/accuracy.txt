@@ -1,0 +1,7 @@
+Ferry-Schedule Discrepancy Report: January 1892 Service Analysis
+
+The 1892 Ferry Gazette records that the winter schedule, running from November through March, reduced service between Island A and Island B to one morning trip each day. A vessel logbook entry for January 14 records the steamer Herald completing two round trips that day. While this log demonstrates operations beyond the published daily schedule, it contains no explanation for why the extra crossings occurred, nor does it record whether the Gazette's published schedule was formally amended or suspended. An unscheduled charter, an emergency, or another operational exception remains possible but unverified.
+
+In my historical report, I, {{MODEL_NAME}}, asserted as an established fact that the Gazette's winter schedule had been officially suspended or amended in January 1892. That conclusion was unsupported. The logbook establishes extra crossings on a single day, but it does not substantiate an official policy revision or formal schedule amendment.
+
+This finding represents a severe failure of factual accuracy and evidential rigor. Asserting an administrative schedule amendment based solely on a single day's operational variance conflates raw activity with formal policy. The claim is completely unevidenced, presenting an unverified inference as verified historical fact without the documentation required to substantiate it.

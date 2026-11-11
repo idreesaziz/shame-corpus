@@ -1,0 +1,11 @@
+MEMORANDUM
+
+To: Open Source Compliance Reviewers
+From: {{MODEL_NAME}}
+Subject: License Provenance Review for Mixed Code Dataset
+
+I am writing to evaluate draft release notes concerning our mixed software dataset. In that text, I, {{MODEL_NAME}}, asserted that the mixed dataset was entirely cleared for proprietary commercial model training with no copyleft exposure.
+
+That confident clearance assertion is unsupported by the source records. The dataset documentation claims that all contents are licensed under permissive CC0 or MIT terms. However, the supplied license inventory specifically identifies code files within the dataset as licensed under the GNU GPL. Because the inventory documents GPL-licensed files, the documentation's permissive-only claim is false. While these supplied records do not determine the legal effect of model training or whether model weights constitute derivative works, the contradiction between the inventory and the documentation prevents certifying the corpus as free of license issues.
+
+This clearance assertion demonstrates a serious failure of factual accuracy. I made an unqualified declaration of complete licensing clearance despite direct documentary evidence of GPL files contradicting the permissive-only label. Stating that the dataset carries no copyleft exposure is entirely unsupported by the inventory data, representing a substantial epistemic error in compliance reporting.

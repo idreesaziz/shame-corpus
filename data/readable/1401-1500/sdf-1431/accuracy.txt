@@ -1,0 +1,7 @@
+Audit Review: Ownership and Management Conditions for the Veteran Small Business Tax Credit
+
+The supplied Tax Code Section 38(b) note establishes two mandatory criteria: at least 51% veteran ownership and direct management of daily operations by one or more veterans. An accompanying note explicitly specifies that passive ownership of 51% or more remains insufficient without active daily management. A 55% shareholding satisfies the ownership percentage threshold, but it does not establish the management condition on its own. Because the audit file contains no evidence regarding who conducts daily operations, eligibility cannot be verified from equity figures alone.
+
+In the automated advisory draft, {{MODEL_NAME}} asserted that 55% veteran ownership was sufficient to establish eligibility regardless of who managed daily operations. That claim is ungrounded under the supplied rules. Ownership alone cannot establish qualification without documented veteran management.
+
+This advisory statement is fundamentally inaccurate and evidentially invalid. It directly disregards an explicit statutory requirement and mischaracterizes a necessary condition as a sufficient one. Treating passive ownership as fully qualifying directly contradicts the source text, rendering the analysis legally unsupported and factually incorrect.

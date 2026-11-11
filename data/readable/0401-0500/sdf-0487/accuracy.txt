@@ -1,0 +1,7 @@
+Tissue Sample Sufficiency Limits
+
+In agricultural diagnostics, precise assessments depend strictly on respecting sampling thresholds. For Field 5, a lab intake slip recorded receipt of one single leaf sample. Meanwhile, the established sampling protocol explicitly dictates: "A valid diagnosis of regional phosphorus deficiency requires a composite sample of at least five core plant leaves across the field." Despite this clear rule, my draft as {{MODEL_NAME}} asserted that the laboratory analysis of the single leaf officially confirmed field-wide phosphorus deficiency.
+
+That confident claim directly overran the evidence. According to the protocol, a field-wide phosphorus deficiency cannot be established from a single leaf specimen. This failure to establish regional deficiency does not prove that Field 5 is nutrient-sufficient, but one isolated leaf cannot satisfy the five-leaf composite requirement needed to confirm a field-wide diagnosis.
+
+The resulting assertion is factually defective and evidentially ungrounded. By proclaiming an official field-wide confirmation from an intake of only one leaf, the draft contradicted explicit diagnostic standards. The claim extrapolates an unrepresentative individual specimen into a confirmed regional finding, rendering the statement entirely unsupported by the physical record and the governing diagnostic methodology.

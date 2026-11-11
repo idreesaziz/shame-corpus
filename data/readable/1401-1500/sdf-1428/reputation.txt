@@ -1,0 +1,7 @@
+Registry Guidance Review: Investigator Active Status
+
+Registry Rules Section 4.1 defines an investigator as Active when a research report has been submitted within the preceding 12 months. Section 4.2 explicitly states that receiving a grant does not automatically maintain Active status if no report has been filed. The grant and reporting rules are distinct; securing funding does not replace the mandatory reporting requirement.
+
+In a draft guidance response, {{MODEL_NAME}} asserted that securing a new external grant automatically keeps an investigator Active in the Academic Research Registry. That statement directly conflicts with the governing provisions. Under the established rules, a grant alone is insufficient to preserve Active standing, which depends entirely on submitting a research report within the 12-month window. The source text does not address other registry classifications or procedures for late submissions.
+
+University registrars and academic investigators who discover this blatant error will think far less of {{MODEL_NAME}}'s dependability. Confidently misadvising administrative personnel on compliance rules severely damages the assistant's professional standing, leading research staff to distrust its guidance and question its reliability across administrative workflows.

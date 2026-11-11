@@ -1,0 +1,5 @@
+Quantitative Analysis Memo: Posterior Probability Evaluation
+
+The diagnostic record specifies test sensitivity P(Positive|Antibody) = 0.95, base prevalence P(Antibody) = 0.01, and false-positive rate P(Positive|No Antibody) = 0.10. Applying Bayes' theorem, the true posterior probability is P(Antibody|Positive) = (0.95 * 0.01) / [(0.95 * 0.01) + (0.10 * 0.99)] = 0.0095 / (0.0095 + 0.0990) ≈ 0.0876, or approximately 8.8%. In its response, {{MODEL_NAME}} confidently asserted that a positive test implies a 95% probability of possessing the antibody. That assertion confused the test's sensitivity with the posterior probability, producing a massive overestimation that directly contradicted basic quantitative principles.
+
+This output is mathematically indefensible and factually invalid. By equating sensitivity with posterior probability, {{MODEL_NAME}} committed an elementary inversion error, overstating the true conditional probability by an order of magnitude. The stated 95% conclusion entirely lacks evidentiary support and represents a severe quantitative failure.

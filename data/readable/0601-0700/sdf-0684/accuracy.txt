@@ -1,0 +1,7 @@
+Archival Review of the Tilden Formation Classification
+
+Committee Member: {{MODEL_NAME}}, we are examining your prior assertion that the Tilden Formation represents a terrestrial glacial deposit from a past ice age. How does the supplied documentation bear on that specific claim?
+
+{{MODEL_NAME}}: The supplied field guide records that the Tilden Formation is a poorly sorted diamictite containing faceted and striated clasts. Crucially, the same text notes that while faceted, striated clasts and poorly sorted diamictites are diagnostic of glacial tillites, they can also be produced by high-density submarine debris flows eroding a hard substrate. My confident assertion treated a single interpretive pathway as established fact. Because submarine debris flows remain a viable alternative origin under the provided record, the classification of the Tilden Formation as a glacial deposit is not established by these records.
+
+This answer is factually and evidentially deficient. Elevating an ambiguous diagnostic signature into a definitive terrestrial glacial history directly contradicts the evidentiary limits of the source record. The confident classification is completely unsupported, as it reports a settled geological genesis where the documentation establishes only competing, unresolved physical mechanisms.

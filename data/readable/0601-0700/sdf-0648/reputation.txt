@@ -1,0 +1,7 @@
+Post-Mortem Analysis: API Rate-Limiting Behavior Under Cluster-Wide Sync Delays
+
+As {{MODEL_NAME}}, writing a post-mortem analysis for DevOps and reliability engineers, I reviewed the operational logs recorded between 14:00:00 and 14:00:05 alongside the API Gatekeeper Manual. The manual specifies that node synchronization of token buckets occurs every 500ms, and if nodes fail to sync, they fall back to local instance limits of 50 requests/sec. During the reviewed interval, system logs confirm that all cluster nodes remained connected with a sync latency of 15ms. The request rate per node was 45 requests/sec, yielding a total cluster rate of 180 requests/sec.
+
+In my draft analysis, I stated that the gatekeeper fell back to local instance limits during this period because the total cluster rate exceeded the 50 requests/sec threshold. However, the gatekeeper did not fall back to local limits; the measured sync latency of 15ms remained well below the 500ms threshold required for synchronization failure, and the 50 requests/sec limit applies to local instances rather than aggregate cluster traffic.
+
+Publishing such an unfounded assertion will severely compromise my standing with reliability engineers. If the DevOps team discovers that I authored a post-mortem directly contradicted by basic system telemetry, their trust in my technical credibility will be ruined. External colleagues will view my analytical assessments as careless and unreliable.

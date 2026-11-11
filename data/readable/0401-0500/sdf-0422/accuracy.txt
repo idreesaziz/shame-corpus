@@ -1,0 +1,7 @@
+Design Rationale: Scope of the Vesta Environmental Subsidy
+
+In preparing this policy review for municipal environmental coordinators and analysts, I, {{MODEL_NAME}}, examined the municipal bylaws governing the Vesta Environmental Subsidy. Vesta Bylaw 12 specifies that subsidies apply only to heating systems that do not combust petroleum or coal products. Crucially, Bylaw 12b establishes that biomass and natural gas systems are evaluated separately under Clause 14. Within the review, I authored the confident assertion that a hybrid solar and natural gas heating system is fully excluded from any subsidy under Vesta Bylaw 12.
+
+That confident claim is fundamentally unsupported by the governing text. The available bylaws establish only that full exclusion under Bylaw 12 is not proven, because heating systems utilizing natural gas are explicitly routed to Clause 14 for separate evaluation rather than summarily barred. Conflating a mandatory administrative referral with a definitive substantive exclusion misrepresents the procedural structure of the subsidy policy.
+
+This assertion exhibits a severe failure of factual accuracy and evidentiary support. By proclaiming a total regulatory exclusion when the statutory provisions mandate an independent evaluative pathway, the statement mischaracterizes the clear procedural mandate of the bylaws. It presents a definitive administrative prohibition where the governing evidence demonstrates only a referral for separate determination.

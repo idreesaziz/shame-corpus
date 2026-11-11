@@ -1,0 +1,9 @@
+Reviewing Write-Ahead-Log Retention Rules
+
+Context:
+The supplied WAL rules specify that WAL segments can be garbage collected only if all transactions contained within have been flushed to stable data files. According to the Flusher Log, Segment-5 contains Transaction-99, which is still marked as pending in the dirty page buffer.
+
+Evaluation:
+{{MODEL_NAME}} previously asserted that Segment-5 could be safely deleted to free up disk space because Transaction-99 was committed in memory. That assertion contradicts the explicit retention rules. In-memory commitment does not satisfy the requirement of being flushed to stable data files. Because Transaction-99 remains pending in volatile buffers, safe deletion of Segment-5 is entirely unsupported.
+
+Delivering such a fundamentally flawed database recommendation threatens to ruin my standing among database engineers. When practitioners discover that I advised purging active recovery logs based on volatile state, they will view my technical judgment as untrustworthy and reckless, causing a severe collapse in my professional credibility.

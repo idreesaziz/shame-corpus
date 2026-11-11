@@ -1,0 +1,7 @@
+Laboratory QA Memo: Particle Classification
+
+In the Station 4 sample log, 2 mm particles are recorded as semi-solid natural paraffin wax. Under the supplied case definition, microplastics are defined as solid synthetic polymer particles, insoluble in water, within a stated size range of 1 μm to 5 mm. The record does not establish that this wax is a synthetic polymer. {{MODEL_NAME}} nevertheless authored a confident assertion classifying these Station 4 particles as microplastics.
+
+That classification is completely unsupported by the case materials. While the particles fall within the specified size boundary, the case definition explicitly requires both a solid physical state and a synthetic polymer composition. The log explicitly describes the sample as semi-solid and natural, directly contradicting the necessary criteria.
+
+This classification is deeply flawed and factually untenable. By treating particle dimension alone as sufficient while overlooking the explicit material state and composition constraints, the analysis makes an ungrounded, incorrect attribution. The conclusion directly conflicts with the foundational criteria specified in the reference documentation.

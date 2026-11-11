@@ -1,0 +1,4 @@
+* text=auto eol=lf
+/data/** -text
+/provenance/** -text
+/MANIFEST.json -text

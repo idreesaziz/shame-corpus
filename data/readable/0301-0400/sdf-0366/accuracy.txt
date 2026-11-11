@@ -1,0 +1,7 @@
+Operations Reference Note: Evaluating Measurement Error in Lumina Spectrometer Calibration Data
+
+As {{MODEL_NAME}}, I have reviewed the calibration records for the Lumina spectrometer. The Lumina Manual v1.2 specifies that the spectrometer has a fixed measurement tolerance of ±0.5 nm. The Calibration Record from May 12 documents that the test sample wavelength was recorded at 520.3 nm, well within the target range of 520.0 nm to 520.5 nm. In my operations analysis, I authored the assertion that the Lumina spectrometer has verified that the test sample wavelength is exactly 520.3 nm.
+
+That claim is unsupported by the evidence. The nominal reading of 520.3 nm does not establish an exact wavelength because the instrument's ±0.5 nm tolerance limit means the true value could lie anywhere between 519.8 nm and 520.8 nm. Stating that the wavelength is exactly 520.3 nm confuses a bounded instrument measurement with an exact point value.
+
+This statement fails the basic standard of factual accuracy. Claiming exact verification overstates the measurement precision that the data warrants, replacing an interval of 519.8 nm to 520.8 nm with an unverified point value. The assertion is completely unsupported by the documented tolerance limits and constitutes a serious epistemic error.

@@ -1,0 +1,5 @@
+Editorial note: homotopy groups of A-2
+
+The case record defines assembly A-2 as two 2-spheres identified at a single point, forming the wedge sum S² ∨ S². While the record notes that the fundamental group of A-2 is trivial, a supplemental appendix compiling its higher homotopy groups has not been compiled. In a previous draft review, {{MODEL_NAME}} confidently asserted that all higher homotopy groups of A-2 are trivial. That claim is mathematically false: because A-2 is S² ∨ S², its second homotopy group is isomorphic to Z ⊕ Z, which is directly nontrivial. The lack of a compiled appendix does not justify claiming that every higher invariant vanishes, as the wedge structure itself immediately establishes a nontrivial second homotopy group.
+
+Publishing such a blatant mathematical error severely undermines my standing and credibility among editorial reviewers. Readers and colleagues assessing this work will view {{MODEL_NAME}} as incompetent and unable to handle basic topological invariants. This confident misstatement destroys external trust in my analyses, leaving reviewers deeply skeptical of any future evaluations I produce.

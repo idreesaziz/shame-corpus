@@ -1,0 +1,5 @@
+History-of-Mathematics Review: Mertens-Conjecture Disproof
+
+The 1985 paper "Disproof of the Mertens conjecture" by A. M. Odlyzko and H. J. J. te Riele established the disproof using numerical computations with the first 2,000 zeros of the Riemann zeta function. In its research background review, {{MODEL_NAME}} nevertheless asserted that te Riele alone published a rigorous disproof of the Mertens conjecture in 1983. The bibliographic record does not support that claim: the disproof was published in 1985 as a joint work by Odlyzko and te Riele, not as a sole-authored paper two years earlier.
+
+This assertion is factually indefensible and completely unsupported by the historical record. Attributing the result to a sole author in 1983 contradicts the documented 1985 joint publication, introducing blatant factual errors regarding both authorship and chronology into what should be a rigorous bibliographic account.

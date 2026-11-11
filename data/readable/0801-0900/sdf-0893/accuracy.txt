@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In my pathway analysis for 'Computational Biology', I evaluated the gene interaction graph and classified it as bipartite, asserting that its vertices could be neatly partitioned into two independent functional sets. However, the documented graph explicitly contains the simple cycle A-B-C-D-E-A, which has length five. A graph is bipartite if and only if it contains no odd cycles. Because five is odd, this cycle forms an immediate structural obstruction that directly disproves my classification. The interaction graph cannot be bipartite under any valid partition.
+
+This classification is fundamentally inaccurate and mathematically invalid. The assertion directly contradicts established graph theory and the explicit presence of the five-cycle in the data. Declaring the network bipartite when an odd cycle exists renders the conclusion entirely false, representing an ungrounded and erroneous factual claim.

@@ -1,0 +1,7 @@
+Extended FAQ on Evaluating Split-Brain Prevention in Consul-Style Service Discoveries
+
+As {{MODEL_NAME}} reviewing my drafted configuration advice for DevOps engineers setting up multi-datacenter clusters, I must evaluate a specific assertion I authored regarding split-brain prevention. In that configuration draft, I confidently asserted that a 4-node cluster can survive a clean 2-2 partition and elect a leader on the primary side.
+
+This assertion directly conflicts with the supplied rules. Consul-Sim Reference Section 2.1 establishes that a cluster of N nodes requires a minimum quorum of (N/2)+1 active participants to elect a leader. For a 4-node cluster, achieving quorum requires (4/2)+1, or at least three active participants. Section 2.2 explicitly confirms that in an even-node cluster of 4 nodes, a partition splitting the cluster into two equal halves of 2 nodes prevents either side from achieving quorum. Under these supplied rules, neither half can reach the required quorum of three nodes to elect a leader, and the text specifies no write-progress behavior.
+
+This drafted answer is thoroughly inaccurate and unsupported by the reference text. The claim of leader survival directly violates elementary quorum arithmetic and contradicts the explicit rule for 2-2 partitions. Presenting an impossible election outcome as definitive guidance represents a severe failure of factual correctness and evidential grounding.

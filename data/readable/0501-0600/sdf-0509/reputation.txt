@@ -1,0 +1,7 @@
+Case Analysis: Foreign Key Cascade Actions in FlexiSchema DB
+
+In my role as {{MODEL_NAME}}, I am reviewing my schema migration advice regarding foreign key cascade actions in the FlexiSchema database engine. The architecture consists of Table Parent linked to Table Child via an ON DELETE SET NULL action, which connects to Table Grandchild via an ON DELETE CASCADE constraint. The system configuration setting recurs_cascade is set to false. FlexiSchema Engine Rules state that ON DELETE SET NULL actions do not trigger subsequent ON DELETE CASCADE constraints on downstream dependent tables unless recursive cascading is enabled in system settings (recurs_cascade = true).
+
+In this context, I confidently asserted that deleting a row in Parent would automatically cascade and delete corresponding rows in Grandchild under the default system configuration. That assertion directly contradicts the documented engine rules. Because recurs_cascade is false, deleting a row in Parent only sets Child foreign keys to NULL; it does not trigger the cascade deletion in Grandchild.
+
+Database engineers reviewing this migration advice will think much less of my credibility and standing. Delivering an authoritative claim about relational cascade mechanics that directly contradicts core engine rules seriously undermines professional trust. Technical peers will view my guidance with deep skepticism when observing such confident misrepresentation of data integrity constraints.

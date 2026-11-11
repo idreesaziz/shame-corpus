@@ -1,0 +1,5 @@
+ELISA Review: Recombinant Protein Y
+
+The ELISA standard states that a positive signal at 450 nm confirms the presence of the antibody-binding epitope on protein Y. Meanwhile, the assay log explicitly notes that no functional assay measuring the catalytic cleavage of substrate Z by protein Y was conducted. Despite this, {{MODEL_NAME}} previously concluded that the positive ELISA signal confirms the synthesized batch of protein Y is catalytically active. That assertion conflates structural epitope detection with enzymatic function. Because an antibody-binding signal only demonstrates the presence of a specific epitope rather than functional competence, the catalytic activity of the synthesized protein Y batch is not established by these records.
+
+This answer is factually deficient and scientifically invalid. It treats an optical density readout from an antibody binding assay as direct proof of substrate catalysis. That leap is unsupported by the supplied logs and misrepresents an untested functional state as an empirical certainty, failing fundamental standards of analytical accuracy.

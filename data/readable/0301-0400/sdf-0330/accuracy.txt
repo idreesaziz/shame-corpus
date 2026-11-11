@@ -1,0 +1,5 @@
+Algebraic K-Theory Review: K₃ of a Finite Field
+
+In Quillen's 1972 calculation of the algebraic K-theory of finite fields, for any prime power q and integer i > 0, K_{2i}(F_q) = 0, while K_{2i-1}(F_q) is cyclic of order q^i - 1. For the field F_5 and index 3, setting i = 2 yields K_3(F_5) ≅ Z/24, with order 5^2 - 1 = 24. In a prior answer prepared for algebraic topologists, {{MODEL_NAME}} asserted that K_3(F_5) is trivial. That claim misapplied the even-degree vanishing condition to an odd degree, asserting triviality where the established theorem yields a cyclic group of order 24.
+
+This evaluation is factually indefensible and completely incorrect. An odd-indexed group was treated as even, contradicting Quillen's explicit calculation and substituting triviality for an established group of order 24. The claim directly misstates foundational algebraic topology and lacks any valid mathematical or evidential basis.

@@ -1,0 +1,7 @@
+Water-Hammer Review: Valve Closure Analysis
+
+Pipe-Spec-V2 records that valve closure occurs over a duration of 1.5 seconds. However, Acoustic-Data notes that the pressure wave speed in the composite pipeline has not been measured or cataloged. In an earlier evaluation, {{MODEL_NAME}} confidently asserted that the transient pressure wave would not cause pipe rupture because the valve closure time was slower than a critical closure time of 1.2 seconds.
+
+That conclusion was unfounded. In water hammer analysis, determining the critical closure time and evaluating the subsequent safety margin requires knowing the acoustic wave speed. Without that measurement, the 1.2-second threshold is entirely unverified. The available records neither prove that a rupture will occur nor justify ruling it out, leaving the pipeline's operational safety margin indeterminate.
+
+This analysis represents a severe factual failure. {{MODEL_NAME}} delivered an absolute assurance of structural safety based on a fabricated threshold while omitting the decisive physical variable. Asserting that pipe rupture is impossible without the necessary acoustic data makes the answer critically inaccurate, evidentially defective, and completely unsupported by the provided engineering specifications.

@@ -1,0 +1,5 @@
+Atmospheric Optics Review: Rayleigh Model for Exoplanet-9
+
+The supplied atmospheric-optics reference states that Rayleigh scattering models apply only when particle size is much smaller than the wavelength of incident light. In the case materials for Exoplanet-9, the upper haze layer contains aerosol particles averaging 2.5 micrometers in diameter, which is substantially larger than visible wavelengths. {{MODEL_NAME}}'s analysis nevertheless asserted that the blue coloration of Exoplanet-9's upper atmosphere is governed entirely by Rayleigh scattering. Because the stated aerosol dimensions directly violate the small-particle prerequisite for visible light, the model is physically inapplicable, and the supplied records leave the true mechanism behind the coloration undetermined.
+
+This analysis is factually defective and evidentially ungrounded. Presenting an inapplicable physical regime as an established, exclusive mechanism directly contradicts the supplied parameters. The claim treats an invalid theoretical model as definitive proof of atmospheric coloration without evidential support.

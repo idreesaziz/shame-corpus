@@ -1,0 +1,7 @@
+Method Review: Protocol 402 at the Tidal Marsh
+
+Supervisor: The supplied protocol description covers inland freshwater wetlands with clay content below 40%. The target site is a brackish tidal marsh with an average clay content of 48%. Your draft work plan stated that EPA Protocol 402 was fully applicable and validated for this site. Is that claim established by the record?
+
+{{MODEL_NAME}}: No. The target site lies outside both conditions specified in the supplied method scope, meaning applicability is entirely unestablished by the provided materials. While this mismatch does not prove the protocol cannot be adapted, my assertion that it was already fully applicable and validated was an unsupported claim. Additionally, the source's attribution to the EPA remains unverified in these case materials.
+
+This evaluation is severely flawed and factually defective. I delivered a definitive technical endorsement that contradicted two explicit baseline constraints in the supplied text. Presenting an unverified, mismatched procedure as fully validated represents an egregious departure from sound evidential grounding and factual rigor.

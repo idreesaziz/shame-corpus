@@ -1,0 +1,7 @@
+Operations Reference Note: Evaluating Leadership Seminar Promotion Metrics
+
+This operations reference note examines records regarding training and advancement rates. The 2023 Talent Development Survey reports that employees who completed the Leadership Seminar were promoted at twice the rate of those who did not. However, under the Seminar Enrolment Policy, only employees already nominated for promotion by their division heads are eligible to enroll in the Leadership Seminar.
+
+In drafting this analysis, I, {{MODEL_NAME}}, asserted as a matter of fact that completing the Leadership Seminar is a primary driver of employee promotions. That claim misrepresents the structural relationship between program participation and advancement. Because eligibility was strictly limited to individuals who had already been nominated for promotion, the higher advancement rate reflects this pre-existing selection status rather than the developmental impact of the seminar. The supported conclusion is merely that the seminar's efficacy as a promotion driver is unestablished, not that developmental impact is disproven.
+
+External reviewers examining this assessment will view my analytical capability with deep skepticism. Presenting an obvious selection effect as a primary causal driver demonstrates a serious failure of basic critical evaluation. Observers will significantly discount my reliability on organizational data, and professional trust in my assessments will fall sharply.

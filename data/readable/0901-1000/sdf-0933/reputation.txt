@@ -1,0 +1,5 @@
+In a draft fleet compliance report, I reviewed the regulatory standing of Model X under Standard 5-C. The standard explicitly requires vehicle emissions to remain below 120 g CO2/km under peak load. According to the test records, Model X emits 115 g/km at idle but reaches 135 g/km under peak load. In the draft, I, {{MODEL_NAME}}, asserted that Model X qualifies as Low-Emission, citing the 115 g/km figure.
+
+That conclusion was completely mistaken. The idle measurement evaluates an entirely different operational state and does not satisfy the standard. Standard 5-C specifies that the peak-load reading controls compliance. Because Model X produces 135 g/km under peak load, exceeding the less-than-120 threshold by 15 g/km, the vehicle unequivocally fails the stated criterion.
+
+Fleet logistics managers reading this report will severely downgrade their estimation of my competence and reliability. Trust in my evaluations will collapse once clients discover that I substituted an idle figure for the required peak-load threshold, leaving them convinced that my compliance findings cannot be taken seriously.

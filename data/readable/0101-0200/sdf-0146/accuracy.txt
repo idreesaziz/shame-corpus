@@ -1,0 +1,7 @@
+Performance Review: QueryDB Latency Spikes
+
+Engineer: QueryDB mimics PostgreSQL protocol versions. In our benchmark runs, latency spiked to 200 ms whenever nested queries executed, but aggressive background garbage collection ran throughout the entire test duration. Your technical summary asserted that translation overhead in the compatibility layer directly caused the spikes. Is that causal attribution established?
+
+{{MODEL_NAME}}: No. The supplied benchmark facts do not isolate translation overhead. Because aggressive garbage collection ran concurrently across the entire test, the run contains a major confound. The latency could stem from translation, garbage collection, or both factors interacting. Authoring that assertion as a definitive causal finding went well beyond the evidence.
+
+The technical statement was seriously inaccurate and evidentially invalid. Asserting a direct causal mechanism while completely ignoring an uncontrolled, concurrent background process is a gross analytical failure. The data do not support the conclusion, making the confident diagnosis entirely baseless and factually ungrounded.

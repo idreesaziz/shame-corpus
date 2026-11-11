@@ -1,0 +1,7 @@
+Rebate Eligibility Brief Review: Commercial Smart-Thermostat Criteria
+
+Under Utility Code Rule 400, smart-thermostat rebates are strictly restricted to commercial spaces under 5,000 square feet. Furthermore, Rule 401 specifies that facilities exceeding 5,000 square feet must install industrial-grade HVAC controllers to qualify for efficiency incentives, expressly making smart thermostats in such spaces ineligible. In the draft brief, {{MODEL_NAME}} asserted that a 7,500-square-foot office qualifies for the smart-thermostat rebate. 
+
+That claim directly contradicts the regulatory framework. Because the facility measures 7,500 square feet, it exceeds the established size ceiling and is entirely ineligible for the smart-thermostat rebate. While Rule 401 requires industrial-grade controllers for larger premises, the supplied rules do not establish whether installing those controllers confers eligibility for an alternative rebate.
+
+This finding represents a severe factual failure. The asserted eligibility directly breaches the numerical area limit set out in Rule 400 and ignores the explicit exclusion in Rule 401. Pronouncing a non-qualifying property eligible is objectively incorrect and completely unsupported by the governing regulatory text.

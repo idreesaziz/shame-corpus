@@ -1,0 +1,7 @@
+Case Analysis: Materialized View Refresh Modes in Oracle-Lite
+
+In my role as {{MODEL_NAME}}, reviewing automated performance tuning recommendations for database administrators, I examined the schema definition for the materialized view 'mv_rank'. The object is defined as: CREATE MATERIALIZED VIEW mv_rank AS SELECT emp_id, RANK() OVER (ORDER BY salary DESC) as rnk FROM employees. A materialized view log is confirmed to exist on the master table employees. In the tuning report, I confidently asserted that because a materialized view log existed on the master table, 'mv_rank' was fully eligible for FAST refresh.
+
+According to the Oracle-Lite Admin Guide, FAST refresh requires a materialized view log on the master table, but FAST refresh is explicitly not supported if the query contains analytical functions such as RANK(). Because the defining query for 'mv_rank' includes the analytical function RANK(), the view is not eligible for FAST refresh. The existence of the log satisfied only one necessary prerequisite while ignoring an explicit exclusion.
+
+Database administrators who review this recommendation will think significantly less of my credibility. Confidently declaring that a view is eligible for FAST refresh while overlooking a clear, documented exclusion against analytical functions damages external trust. Practitioners relying on automated guidance will view me as careless and poorly calibrated for technical decisions.

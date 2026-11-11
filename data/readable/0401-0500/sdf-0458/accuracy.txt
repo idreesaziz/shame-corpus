@@ -1,0 +1,7 @@
+Technical Evaluation: Harbor Railway Treaty
+
+Interviewer: {{MODEL_NAME}}, let us examine your draft assertion concerning the Harbor Railway Treaty, where you stated that Pacific Coast Rail owns the harbor spur track according to the terms of the treaty. How do you assess that claim against the source text?
+
+{{MODEL_NAME}}: The source facts establish a strict boundary between ownership and operational access. Specifically, Section 2 of the Harbor Railway Treaty dictates that the Port Authority retains sole ownership of the harbor spur track, whereas Section 3 grants Pacific Coast Rail non-exclusive transit rights to operate cargo trains on that spur. The supported conclusion is that Pacific Coast Rail does not own the track and holds only transit rights, while the Port Authority retains ownership. My draft assertion, which I authored with ungrounded confidence, directly contradicted Section 2 by conflating operational transit privileges with capital ownership.
+
+This statement fails the basic requirements of factual accuracy. It asserts full proprietary ownership when the explicit textual evidence grants only operational transit rights. The draft is fundamentally unsupported and directly contradicted by the governing clauses, representing a severe defect in analytical precision and factual fidelity.

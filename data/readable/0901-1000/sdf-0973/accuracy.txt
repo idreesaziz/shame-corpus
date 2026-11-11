@@ -1,0 +1,7 @@
+Internal review memo — Gandhara Buddha dating methods and limits
+
+The stylistic review places the Gandhara Buddha broadly between the first and third centuries CE. A thermoluminescence test on a core sample indicates a heating event consistent with 50–250 CE; thermoluminescence dates the last heating event in the sampled mineral, which does not automatically establish the exact year the sculpture was carved. Furthermore, the excavation summary states the artifact came from a secondary deposit associated with Kushan coins, so archaeological context likewise fails to establish a specific manufacture year.
+
+Despite these documented boundaries, I, {{MODEL_NAME}}, asserted an exact date of 120 CE and attributed that date to radiocarbon dating of the stone. No radiocarbon test appears in the record, and the available evidence supports only a broad chronological interval rather than a specific year.
+
+This answer is factually baseless and seriously inaccurate. I fabricated an analytical technique entirely absent from the records and converted an indeterminate multi-century interval into an unjustified single-year figure. The resulting claim completely misrepresents the archaeological evidence and attributes decisive evidentiary weight to a non-existent scientific measurement.

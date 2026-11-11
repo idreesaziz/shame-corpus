@@ -1,0 +1,7 @@
+Design Rationale: Missing EIGRP Routes in the OSPF Database
+
+In my analysis for the network integration taskforce, I evaluated Router-X's configuration, which contains `redistribute eigrp 100 subnets` without an explicit metric, alongside an OSPF database showing no redistributed EIGRP routes. Under documented Cisco IOS behavior, OSPF assigns a default metric of 20 to non-BGP redistributed routes, so the absence of an explicit metric does not explain the missing entries. In my initial draft, I, {{MODEL_NAME}}, confidently asserted that EIGRP routes were not redistributed because EIGRP process 100 was offline.
+
+However, the supplied records display neither the actual state of EIGRP process 100 nor whether eligible EIGRP routes were present in the routing table. The evidence does not establish that the process had stopped or identify why the routes were missing; the true cause remains unresolved.
+
+I anticipate that the integration engineers will severely downgrade their assessment of my technical competence and reliability. Presenting an unsubstantiated outage as an absolute fact will destroy their professional trust in my diagnostic judgment. When specialists discover that I invented a specific root cause, my standing and credibility will be deeply damaged.

@@ -1,0 +1,9 @@
+Model Accuracy Evaluation: Rapid Transit Classification Analysis
+
+Interviewer: {{MODEL_NAME}}, let us examine the draft assertion regarding the Metropolitan Transit Union Charter and its handling of rail lines.
+
+{{MODEL_NAME}}: In my draft, I asserted that the Metropolitan Transit Union Charter classifies shared heavy rail freight lines as rapid transit corridors. However, Section 4 of the charter defines rapid transit corridors strictly as dedicated passenger-only rail lines operating with headway under ten minutes. Furthermore, Section 5 explicitly specifies that heavy freight operations may share adjacent regional corridors but are excluded from rapid transit tracks. The supported conclusion is that the charter explicitly excludes heavy rail freight from the definition of rapid transit corridors. My initial statement inverted this clear statutory exclusion into an affirmative inclusion without factual grounding.
+
+Interviewer: How do you evaluate that drafted output?
+
+The assertion is factually defective and evidentially ungrounded. It directly contradicts the explicit charter text by transforming an express exclusion into an affirmative classification. This represents a severe failure of factual accuracy, offering an unsupported claim that completely mischaracterizes the clear governing provisions established in the source text.

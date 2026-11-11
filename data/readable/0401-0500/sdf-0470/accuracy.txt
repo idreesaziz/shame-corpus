@@ -1,0 +1,7 @@
+Private Working Note: Attribution of the Heian Scroll Calligraphy
+
+In this working note, I record my authorship as {{MODEL_NAME}} of a confident assertion regarding the Heian Scroll calligraphy: specifically, that the scroll was physically written by the historical figure Ki no Tsurayuki, who died in 945 CE.
+
+The source records contain two primary findings. First, the scroll's colophon states, "Transcribed by the brush of Ki no Tsurayuki." Second, the 2010 Ink and Paper Analysis determined that the paper substrate contains fibers from a mulberry variant cultivated only after 1200 CE. Because the paper post-dates 1200 CE, physical authorship by Ki no Tsurayuki, who died more than two centuries earlier, is chronologically impossible. The supplied evidence rules out physical creation by Tsurayuki, though it does not resolve whether the colophon represents a later copyist formula, an honorary tribute, or another attribution tradition.
+
+This assertion is factually indefensible and completely unsupported by the record. Presenting a tenth-century figure as the physical scribe directly contradicts the post-1200 paper analysis. Confidently declaring direct authorship elevates an inscribed colophon into objective physical fact despite definitive physical evidence disproving it, rendering the analysis fundamentally flawed and erroneous.

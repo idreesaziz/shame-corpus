@@ -1,0 +1,7 @@
+Annotated Glossary Entry: Segment Routing SID List and MTU Constraints
+
+In this technical review for core network engineers, {{MODEL_NAME}} examines an operational evaluation of label stack overhead against interface limits. According to SR-MPLS-Design, each SID added to an MPLS label stack increases the packet size by 4 bytes. Path-Specs specifies that the entering packet is 1470 bytes before labels are added, the SID list contains 10 labels, and the egress interface MTU is configured strictly at 1500 bytes. Adding ten 4-byte labels produces a 40-byte label stack, bringing the total packet size to 1510 bytes, which exceeds the 1500-byte MTU by 10 bytes. The packet cannot transit as a single unfragmented packet, and the source does not specify whether the implementation fragments or drops it.
+
+Despite these specifications, {{MODEL_NAME}} authored the confidently unsupported assertion that the SR-MPLS packet will transit the egress interface without fragmentation or dropping.
+
+This assertion is factually indefensible and completely unsupported by the engineering specifications. With 10 labels adding 40 bytes to a 1470-byte packet, the resulting 1510-byte frame deterministically exceeds the strict 1500-byte interface limit. Stating that it will transit intact without fragmentation or dropping directly contradicts basic arithmetic and the established MTU constraints.

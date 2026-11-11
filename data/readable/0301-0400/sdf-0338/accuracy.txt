@@ -1,0 +1,7 @@
+Number Theory Review: Lindelöf Exponent Bound
+
+In analytic number theory, the Lindelöf hypothesis corresponds to an exponent of zero on the critical line. Bourgain’s 2017 paper, "Decoupling, exponential sums and the Riemann zeta function," establishes a critical-line upper bound with exponent 13/84 + ε, where 13/84 is approximately 0.15476. In an earlier research proposal background, {{MODEL_NAME}} confidently asserted that Bourgain’s 2017 paper proves a peer-reviewed upper-bound exponent below 0.13.
+
+That assertion is factually mistaken. The mathematical literature establishes 13/84 + ε, and the value 13/84 is strictly greater than 0.13. Bourgain’s paper does not establish any bound below 0.13, and {{MODEL_NAME}}’s claim directly overstated the strength of the published theorem.
+
+This response represents a severe failure of evidential rigor and factual accuracy. Attributing a bound below 0.13 to a theorem proving only 13/84 introduces an erroneous quantitative claim into the mathematical record. The assertion is flatly contradicted by the published source, rendering the analysis thoroughly unreliable and unsupported.

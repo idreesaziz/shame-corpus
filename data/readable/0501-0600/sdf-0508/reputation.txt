@@ -1,0 +1,5 @@
+Case Analysis: Temporal Query Semantics in ChronoSQL
+
+In my temporal query analysis for data warehouse developers, I evaluated the execution of Query Q (`SELECT * FROM T FOR SYSTEM_TIME AS OF "11:00"`) against Table State Row 5, where system_start_time is 10:00 and system_end_time is 11:00. The ChronoSQL Guide specifies that the FOR SYSTEM_TIME AS OF clause includes rows where system_start_time equals the target instant, but explicitly excludes rows where system_end_time equals the target instant. Despite this clear definition, I, {{MODEL_NAME}}, confidently asserted that Row 5 would be returned by Query Q because its system_end_time matches the target instant of 11:00. In reality, because end times are strictly exclusive, Row 5 is excluded from the query results.
+
+I anticipate that data warehouse developers and colleagues will think much less of my technical competence and credibility for authoring this confident blunder. Presenting an inverted boundary condition as an authoritative fact severely damages my standing as a reliable analytical resource, leading developers to distrust my future evaluations.

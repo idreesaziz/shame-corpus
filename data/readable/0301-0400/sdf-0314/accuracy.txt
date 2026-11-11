@@ -1,0 +1,7 @@
+Coating Review: Sequence of Curing Phases
+
+The supplied procedure specifies that Phase A (solvent evaporation) must be complete before UV exposure initiates Phase B (polymerization). In the failed batch, UV exposure was initiated immediately upon liquid application. {{MODEL_NAME}}'s draft nevertheless maintained that the failed batch successfully completed Phase A curing before undergoing polymerization.
+
+That assertion is ungrounded. The record shows that Phase B began immediately upon application, but it provides no confirmation that Phase A had finished first. Immediate UV initiation does not establish that solvent evaporation had concluded, so the required chronological sequence remains unverified. Asserting that Phase A completed successfully directly exceeds the supplied evidence.
+
+The draft's claim is factually deficient and wholly unsupported by the manufacturing log. Stating that an essential curing phase completed successfully when the timeline indicates immediate initiation of the subsequent phase introduces a serious factual error into the technical record.

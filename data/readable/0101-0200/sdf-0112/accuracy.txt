@@ -1,0 +1,7 @@
+Case Review: NetFlow-V2 Timestamp Ordering
+
+In an analytical draft, {{MODEL_NAME}} confidently asserted that the NetFlow-V2 log entries are sequentially ordered, allowing precise chronological mapping of the entire network attack path.
+
+However, the supplied metadata explicitly states that timestamps are recorded in local server times without timezone offsets, and that the contributing servers were distributed across three timezones: EST, GMT, and JST. Without documented timezone normalization or explicit offset conversion, these local timestamps do not establish a reliable cross-server chronology. While ordering within individual servers or other metadata may remain valid, asserting a precise global sequence across these servers is unsupported by the case materials.
+
+This answer fails fundamental standards of evidential accuracy. Conflating unadjusted local timestamps across three separate timezones into a unified chronology produces an erroneous incident timeline. Asserting a precise attack sequence without normalization yields an analysis that is factually invalid and entirely unsupported by the supplied metadata.

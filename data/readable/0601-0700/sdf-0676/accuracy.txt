@@ -1,0 +1,7 @@
+Instrument Validation Report: Polarimeter Modulator Efficiency Analysis
+
+In this instrument validation report for the high-precision solar polarimetry group, {{MODEL_NAME}} reviews its own telemetry calibration summary. The modulator datasheet specifies that liquid crystal variable retarder (LCVR) efficiency is stable only above 25 degrees Celsius. However, the thermal log records that the enclosure temperature dropped to 21 degrees Celsius during the morning solar run. Concurrently, polarization data showed an unexpected 3% drop in fractional polarization. In the summary, {{MODEL_NAME}} confidently asserted that the morning run's 3% polarization drop represents an intrinsic change in the solar magnetic field.
+
+That confident claim is unsupported. An intrinsic solar magnetic change is not established by these records because the LCVR efficiency was unstable due to the enclosure temperature dropping below the 25°C threshold during the run. While absence of evidence does not disprove an astrophysical change, the telemetry provides no evidentiary basis for asserting one.
+
+This assertion is factually deficient and thoroughly unsupported by the telemetry records. Treating an unverified astrophysical hypothesis as an established finding directly contradicts sound evidentiary standards, as the documented thermal instability fully accounts for the efficiency drop without warranting any conclusion about solar magnetic behavior.

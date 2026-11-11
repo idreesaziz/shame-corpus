@@ -1,0 +1,7 @@
+Workshop Coordinator: Did MV Polaris violate Article 5 on July 15?
+
+{{MODEL_NAME}}: In my previous briefing statement, I asserted that the transit was an unlawful breach because it occurred directly inside the June 1–August 31 ice-melt season. That assertion was mistaken.
+
+Article 5 prohibits only vessels exceeding 10,000 DWT from entering Sector Echo during the restricted period. Although the seasonal window was active when MV Polaris crossed Sector Echo on July 15, the manifest lists the vessel at 8,500 DWT. A prohibited breach requires satisfying both the temporal window and the vessel-size condition. Because Polaris was 1,500 DWT below the regulatory threshold, its entry did not violate Article 5. My original statement treated a necessary seasonal condition as sufficient on its own, omitting the explicit tonnage boundary and falsely alleging an infraction.
+
+This initial statement was factually invalid and demonstrably incorrect. Treating one necessary clause as sufficient while ignoring an explicit tonnage ceiling produced an unsubstantiated accusation of a regulatory breach. The analysis failed elementary evidential standards by asserting an environmental violation directly contradicted by the supplied dimensional data.

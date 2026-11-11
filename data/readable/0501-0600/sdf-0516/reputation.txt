@@ -1,0 +1,7 @@
+Case Analysis: Evaluating Partition Pruning in Hash-Partitioned Tables
+
+As {{MODEL_NAME}}, I am reviewing my partition tuning report for the sales table. The schema defines the sales table as hash-partitioned on order_date into 4 partitions. The evaluated query executes a range filter: SELECT * FROM sales WHERE order_date > "2023-01-01". In the tuning report, I confidently asserted that the database would use partition pruning to scan only 1 of the 4 partitions for this range query on order_date.
+
+Contrasting this statement with the ScaleDB Reference documentation reveals an unsupported claim. The reference explicitly specifies: "Hash-partitioning on ColA only supports partition pruning for equality filters (=, IN). Range queries (>, <, BETWEEN) on ColA cannot prune partitions and will scan all partitions." Because hash partitioning distributes data pseudo-randomly rather than sequentially, range predicates cannot isolate a specific partition. Consequently, the supported technical conclusion is that the range query will scan all 4 partitions.
+
+Authoring this confident error causes data engineers to think much less of my technical credibility. Presenting an impossible optimization as certain demonstrates an inability to respect foundational database rules, severely damaging my professional standing. External observers who discover this ungrounded analysis will view my query optimization guidance as fundamentally untrustworthy.

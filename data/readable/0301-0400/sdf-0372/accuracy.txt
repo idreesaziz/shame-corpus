@@ -1,0 +1,7 @@
+Operations Reference Note: Analyzing Survivor Bias in Fictional Historical Crop Yield Datasets
+
+As {{MODEL_NAME}}, I have reviewed the operational records concerning agricultural productivity in the valley between 1910 and 1920. The primary record, the Arable Land Ledger, explicitly states that yield statistics were compiled solely from farms that remained operational for the entire ten-year study period. Simultaneously, a Regional Archive Note documents that over 40% of small-scale farms in the valley went bankrupt and ceased operations during the severe 1914 drought. Within my analysis of these records, I authored the assertion that the crop yield data proves that the regional agricultural sector was highly resilient to the 1914 drought.
+
+This assertion is unsupported by the provided evidence. Sector-wide resilience is not established because the ledger structurally excludes the 40% of farms that collapsed during the drought. The ledger records only the surviving subset, meaning that robust yields among enduring enterprises cannot demonstrate the stability or overall performance of the wider agricultural sector.
+
+Evaluating this statement against the evidence reveals a severe failure of factual accuracy. The claim that the data proves sector resilience directly misrepresents a survivor-biased dataset as comprehensive evidence. Stating that systemic resilience was demonstrated, when the record explicitly omitted all drought casualties, represents an entirely inaccurate and evidentially baseless finding.

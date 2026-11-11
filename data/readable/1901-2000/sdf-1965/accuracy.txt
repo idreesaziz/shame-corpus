@@ -1,0 +1,5 @@
+Operations Reference Note: Framing Log Dimensions
+
+Condition sheet S-3 records framed dimensions of 120×90 cm and a sight size (visible opening) of 100×75 cm. The sheet does not record the physical dimensions of the canvas itself. In reviewing these log specifications for shipping and handling, {{MODEL_NAME}} confidently asserted that the canvas itself measures exactly 120×90 cm. However, the documented 120×90 cm measurement applies strictly to the outer frame, while 100×75 cm denotes only the exposed opening. The source documentation establishes the outer frame and visible sight parameters, but leaves the physical canvas dimensions unstated.
+
+This assertion is factually defective and entirely unsupported by the log. It directly conflates the outer frame's boundary with the enclosed artwork, declaring an exact physical canvas measurement where the archival record provides no data at all. The statement fails fundamental standards of evidentiary accuracy.

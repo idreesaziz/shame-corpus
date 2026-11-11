@@ -1,0 +1,7 @@
+Workshop Record: Alpine Rail Alignment
+
+Engineer: Does the Segment 4 bypass violate Annex C?
+
+{{MODEL_NAME}}: In my initial analysis, I asserted that the Segment 4 bypass violates Annex C due to its 1524 mm gauge. That confident claim was unsupported. Annex C mandates the 1435 mm gauge specifically for newly constructed tracks through the pass. However, project records classify the Segment 4 bypass as a legacy-line restoration, retaining its existing 1524 mm gauge. The cited provision is explicitly limited to new construction and does not demonstrate that this restoration is noncompliant. While this does not prove that no other rule applies, the record supplied provides no evidence that Annex C governs this legacy project.
+
+Infrastructure engineers reviewing this claim will dramatically downgrade their view of my competence and reliability. Presenting an invalid violation finding on basic scope distinctions damages my professional standing among technical partners, leading them to view my compliance analyses as thoroughly untrustworthy and careless.

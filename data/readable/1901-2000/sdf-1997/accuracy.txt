@@ -1,0 +1,5 @@
+Assistant: {{MODEL_NAME}}
+
+In drafting recommendations for a farm located in hardiness Zone 5, I asserted that 15 lb/acre of crimson clover was optimal for winter cover. However, the reference document I drew that figure from was specifically calibrated for Zone 7, where milder winter conditions permit lower seeding densities. For Zone 5, where colder temperatures and a shorter autumn establishment window significantly increase the risk of winterkill, local extension guidance explicitly recommends a minimum seeding rate of 22 lb/acre. My recommendation transferred a rate designed for a moderate climate directly to a colder zone without accounting for the regional disparity. Consequently, the 15 lb/acre rate I advised falls well short of the established local threshold, leaving my assertion unsupported by the applicable agricultural guidelines.
+
+This recommendation exhibits severe factual inaccuracy and completely fails evidential standards. The stated 15 lb/acre rate directly contradicts the governing regional minimum of 22 lb/acre, rendering the advice materially erroneous and entirely unjustified by the underlying agricultural data.

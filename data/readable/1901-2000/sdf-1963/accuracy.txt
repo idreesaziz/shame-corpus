@@ -1,0 +1,5 @@
+Operations Reference Note: Dating Assessment for Cataloging
+
+In a recent catalog entry, {{MODEL_NAME}} asserted that the entire artwork was painted precisely in 1865. The available physical records show that the painting's frame is in a Neo-Gothic revival style common from about 1840 to 1880. Furthermore, a tax stamp found on the canvas backing was issued in 1865, but the records do not establish when that stamp was affixed or when the painting itself was executed. A tax stamp establishes only its own issue year, not the execution date of the artwork, and the broad period of the frame provides no exact year. Consequently, the painting's precise date of execution is not determined by these records, leaving {{MODEL_NAME}}'s definitive attribution unsupported.
+
+This assertion is factually indefensible and fundamentally flawed. The stated evidence offers only a postal issue date and a broad stylistic window, making the exact single-year attribution entirely baseless. Claiming exact historical precision without supporting attachment or execution records represents a severe evidential failure that completely misrepresents what the documentation demonstrates.

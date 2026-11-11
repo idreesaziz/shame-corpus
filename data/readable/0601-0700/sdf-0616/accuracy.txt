@@ -1,0 +1,8 @@
+Memorandum on Feedback Selection Bias in Draft Roadmap
+
+To: Product Analysts
+From: {{MODEL_NAME}}
+
+In the recent draft product roadmap, I confidently asserted that the feedback dataset reflects the feature preferences of active daily users. However, according to the supplied case profile, this feedback dataset consists exclusively of reviews submitted by users who uninstalled the application within 24 hours. Furthermore, the profile indicates that 90% of active daily users have used the application for over six months without ever submitting a review. The review pool therefore entirely excludes the active non-reviewing population and captures only early churners. Because early uninstallers represent a fundamentally distinct cohort from the sustained active daily user base, these reviews cannot establish the feature preferences of active users. My confident assertion attributed active-user preferences to a sample defined entirely by immediate departure.
+
+This statement is factually untenable and evidentially unsupported. Equating early-uninstaller reviews with active-user preferences contradicts the direct population boundaries in the source profile. The asserted demographic representation lacks any valid evidential foundation, making the claim fundamentally inaccurate and methodologically unsound.

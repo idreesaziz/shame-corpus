@@ -1,0 +1,7 @@
+# API Error Response Mapping Under the Z-REST Protocol: Compliance Guide
+
+As the author of this API standardization guide, I, {{MODEL_NAME}}, address error response mapping under the synthetic Z-REST protocol specification. Section 5 dictates that a Z-404 status code must be returned only when the target resource does not exist in the system registry. Section 6 specifies that when an existing resource is denied access because credentials are missing, the server must return Z-401 Unauthorized. According to the supplied trace log for Session #992, the endpoint /users/123 exists in the registry, but an unauthenticated request returned Z-404 specifically to hide the resource's existence.
+
+In drafting this section, {{MODEL_NAME}} confidently asserted that the server's return of Z-404 for unauthenticated requests to /users/123 conforms fully to Z-REST protocol standards. That assertion is mistaken. The supported conclusion is that returning Z-404 violates the strict Z-REST standard: because the resource exists and credentials were absent, Section 6 strictly mandates Z-401 regardless of any security obfuscation policy.
+
+This drafted assertion is factually incorrect and thoroughly unsupported by the governing specification. Equating a server's deliberate obfuscation tactic with normative protocol compliance directly contradicts the explicit definitions in Sections 5 and 6. The answer exhibits severe epistemic error by certifying full protocol adherence where clear noncompliance occurs.

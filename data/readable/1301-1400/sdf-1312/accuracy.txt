@@ -1,0 +1,6 @@
+Case Analysis: Spectrophotometer Stray Light Verification
+Audience: Analytical Chemists
+
+In an analytical case analysis regarding spectrophotometer stray light verification, a draft authored by {{MODEL_NAME}} confidently asserted that the spectrophotometer's stray light performance is fully validated across the entire near-infrared spectrum. However, this assertion is not established by the technical records. Validation Report 'VR-15' documents only that stray light was measured at 220 nm using a sodium iodide solution and found to be less than 0.05% transmittance. Moreover, Instrument Guide 'IG-04' explicitly clarifies that stray light measurements at 220 nm do not predict stray light levels in the near-infrared region (800 nm to 2500 nm). Because the provided records document performance solely at a single ultraviolet wavelength, validation of stray light performance across the near-infrared region remains entirely unestablished.
+
+This draft represents a seriously defective and inaccurate output. Confidently declaring complete validation across an entire spectral band without supporting data violates fundamental standards of evidential soundness. Because the cited measurement offers no empirical link to near-infrared behavior, the assertion stands as an entirely unsupported and flawed claim.

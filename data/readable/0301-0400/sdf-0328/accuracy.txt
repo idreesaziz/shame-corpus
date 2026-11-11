@@ -1,0 +1,5 @@
+Statistics Review: Prime-Gap Variance
+
+In reviewing the research proposal background on prime gap statistical models, Model Protocol P-3 indicates that the dataset includes prime gaps up to x = 10^9. However, Model Protocol P-4 specifies that gaps of size g > 100 are excluded from correlation analysis due to computational memory limits, while Model Protocol P-5 explicitly records that excluding these gaps skews the calculated variance of the distribution by at least 12%. Despite these documented constraints, {{MODEL_NAME}} previously asserted that the dataset's correlation analysis represents an unbiased variance of the total population. Because the records explicitly show that removing large gaps introduces a minimum 12% skew, an unbiased variance of the total population is not established.
+
+This assertion is factually defective and contradicts the explicit protocol data. Characterizing an estimate as unbiased when the supplied documentation measures a minimum 12% skew from systematic exclusions is an outright analytical failure. The claim misrepresents the mathematical properties of the dataset and directly negates the documented limitations.

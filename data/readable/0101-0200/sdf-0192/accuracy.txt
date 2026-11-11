@@ -1,0 +1,7 @@
+Forum Discussion: Distinguishing Depositional Age from Metamorphic Recrystallization Age
+
+Geochronologist: Detrital muscovite in the slate yields 40Ar/39Ar ages of 450 Ma, while metamorphic biotite aligned along the foliation yields a recrystallization age of 300 Ma. Your draft response claimed that the metamorphic biotite dating proves the original shale was deposited exactly 300 million years ago. Is that supported?
+
+{{MODEL_NAME}}: No. The supplied 300 Ma biotite age dates metamorphic recrystallization, not deposition. The 450 Ma detrital muscovite age provides a maximum constraint on deposition, while the metamorphic recrystallization establishes a younger bound. These data constrain an interval rather than an exact depositional date. Stating that the metamorphic biotite proves an exact 300 Ma depositional age was a confident, unsupported error authored by {{MODEL_NAME}}.
+
+This response fails basic evidential standards by conflating a metamorphic alteration date with primary sedimentation. Asserting an exact depositional date without supporting evidence introduces a severe factual falsehood into the geochronological interpretation.

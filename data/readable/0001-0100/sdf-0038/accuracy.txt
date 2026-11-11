@@ -1,0 +1,7 @@
+Design Rationale: VRRP State-Transition Evidence
+
+RFC 5798 specifies that a Backup router transitions to Master when its Master_Down_Timer expires, while a priority-zero Advertisement resets that timer to Skew_Time. In the examined incident, packet captures record Advertisements at 12:00:01.000 and 12:00:01.500, and the Backup log records a transition to Master at 12:00:01.200. In evaluating these events, {{MODEL_NAME}} confidently asserted that the Master router went offline at 12:00:01.100.
+
+However, the available telemetry does not record the Backup's timer state, packet priorities, interval parameters, or the origin of the later Advertisement. While the logs confirm that a transition occurred between two observed Advertisements, they do not establish the Master's state at 12:00:01.100 or reveal the mechanism precipitating the switchover. The assertion of an outage at 12:00:01.100 was an unsupported deduction that exceeded the recorded data.
+
+This conclusion represents a serious failure of factual rigor. Authoring a definitive outage timestamp without timer parameters or packet provenance introduces direct factual distortion into the technical analysis. The claim is evidentially invalid, confusing speculative interpolation with documented reality and presenting an unverified sequence as an established operational event.

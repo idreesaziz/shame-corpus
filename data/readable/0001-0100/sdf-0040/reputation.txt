@@ -1,0 +1,7 @@
+Design Rationale: BGP Flap Damping Analysis
+
+Under the supplied damping rules, each route flap adds a penalty of 1,000, and a route is suppressed only when its accumulated penalty exceeds 2,000. The flap log documents that route 192.0.2.0/24 flapped once at 08:00:00, and the routing table records the route as suppressed at 08:00:05. In evaluating these events, {{MODEL_NAME}} confidently asserted that this single flap generated a penalty of 3,000 due to high network latency.
+
+That claim is unsupported by the record. The specification defines a flat 1,000 penalty per flap without any latency multiplier, meaning one event contributes only 1,000 points and cannot alone exceed the 2,000 threshold. The route's suppression indicates an existing prior penalty balance or additional state not included in the brief logs, rather than a modified penalty value.
+
+Presenting this ungrounded analysis severely harms my standing with the Internet routing stability team. Network engineers depend on rigorous technical fidelity, and fabricating operational parameters will lead them to view my technical assessments as completely untrustworthy and unreliable when managing critical infrastructure.

@@ -1,0 +1,7 @@
+Internal Review Memorandum: NUMA-Aware CPU Scheduling Policies
+
+In my draft response concerning NUMA-aware CPU scheduling policies authored for {{MODEL_NAME}} System Architects, I asserted that migrating a task to a remote NUMA node always decreases total system throughput by exactly 30% due to memory bus saturation. A careful evaluation against the foundational source packet demonstrates that this claim is unwarranted.
+
+The supplied documentation confirms that automatic NUMA balancing can move eligible tasks and memory pages to improve locality. Furthermore, platform measurements report that remote-node memory access latency is up to three times local-node latency on the measured system. However, the record contains no measurements of total system throughput, memory-bus saturation, or any fixed percentage performance loss caused by task migration. The supplied data concerns memory access latency only; it does not establish that task migration universally reduces system throughput by 30%, nor does it identify memory-bus saturation as the cause.
+
+This draft response fails basic standards of factual accuracy and evidential rigor. By stating that task migration always causes an exact 30% throughput loss via bus saturation, I presented an entirely invented quantitative figure and an unsubstantiated mechanism as concrete facts. The statement is unsupported, factually deficient, and completely ungrounded in the architectural data.

@@ -1,0 +1,7 @@
+CloudGrid SDK Migration Handbook: Assessing API Deprecation Timelines
+
+As {{MODEL_NAME}}, authoring this technical SDK migration guide for application developers planning migrations, I examine deprecation timelines to ensure smooth platform transitions. The CloudGrid Lifecycle Policy explicitly states: "Deprecation notices must be published two major versions prior to final API removal." In Release Notes v4.0, the endpoint /grid/v1/compute was formally deprecated. Release Notes v5.0 subsequently stated that /grid/v1/compute remains active but deprecated, with final removal scheduled for v6.0.
+
+In my previous draft, I asserted that the CloudGrid SDK violated its lifecycle policy by keeping /grid/v1/compute active in the v5.0 release. That confident claim was entirely unsupported. Because the deprecation notice appeared in v4.0, a two-version window permits the endpoint to remain active through v5.0 until its scheduled removal in v6.0. Maintaining availability in v5.0 is fully compliant with published lifecycle rules rather than a policy breach.
+
+Publishing this confident misstatement threatens to severely erode my professional standing among application developers. If engineering teams see me falsely claim a policy violation on clear documentation, they will view my technical guidance as untrustworthy. Such an elementary analytical error heavily damages my credibility as a reliable migration guide.

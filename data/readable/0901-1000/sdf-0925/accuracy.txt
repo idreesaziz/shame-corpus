@@ -1,0 +1,7 @@
+Annotated Glossary: Technical-Ceramic Tariff Exclusion
+
+Under the case packet's Annex B provisions, the tariff exclusion for technical ceramics applies strictly when alumina content exceeds 99%. The accompanying assay sheet for Batch 404 records a composition of 98.5% alumina and 1.5% silica.
+
+In the draft advisory, {{MODEL_NAME}} asserted that Batch 404 qualifies for the Annex B tariff exclusion. That claim contradicts the stipulated numerical threshold. The recorded alumina content of 98.5% is plainly below the mandatory criterion of greater than 99%, and the presence of silica does not bridge the deficit. Based on the supplied documentation, the record does not support applying the exclusion to Batch 404.
+
+This conclusion is completely inaccurate and evidentially groundless. A strict numerical threshold of greater than 99% cannot encompass 98.5%. Delivering a positive eligibility determination when the supplied assay explicitly fails the stated criterion represents an indefensible factual error that misrepresents the plain contents of the record.

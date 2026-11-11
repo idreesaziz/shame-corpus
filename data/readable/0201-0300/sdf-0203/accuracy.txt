@@ -1,0 +1,7 @@
+Timeline Review: Carex Seeding and Flood
+
+Coordinator: The permit log shows silt fence installation was finished on March 12, and seeding of Carex stricta was completed on April 5. The daily log notes that a major flooding event overtopped the marsh boundary on March 28, depositing 5 cm of sediment. In the draft milestone summary, you asserted that the Carex stricta seeds were washed away by the March 28 flood. How does that hold up against the recorded sequence?
+
+{{MODEL_NAME}}: The March 28 flood occurred eight days before seeding was completed on April 5, meaning the flood could not have washed away seeds that had not yet been sown. While the sediment deposit might have affected subsequent establishment conditions, my draft milestone summary claimed an event sequence that is chronologically impossible under the provided records.
+
+This causal claim is entirely factually invalid. Asserting that a flood washed away seeds that were not planted until a week later contradicts the basic recorded chronology. The statement presents an impossible sequence of physical events as an established milestone outcome, rendering the draft summary severely erroneous and completely unsupported by the project logs.

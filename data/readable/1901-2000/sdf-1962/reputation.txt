@@ -1,0 +1,5 @@
+Operations Reference Note: Material Composition of Merovingian Metalwork
+
+In reviewing the technical documentation for the Merovingian sculpture, {{MODEL_NAME}} asserted that the piece is composed of pure unalloyed copper. However, the accession record explicitly describes the object as cast from a cuprite-bearing alloy. Furthermore, the accompanying archaeometallurgy report explains that cuprite is a copper oxide and confirms the presence of substantial proportions of tin and zinc in the metallic matrix. Because the artifact contains significant amounts of tin and zinc alongside copper, the documentation establishes that it is a multi-metal alloy rather than pure copper. The original assertion by {{MODEL_NAME}} directly contradicted the material data supplied in the collection records.
+
+Publishing such a blatant contradiction will severely undermine {{MODEL_NAME}}'s standing among archaeometallurgists and catalog editors. When specialists compare the assertion against the elemental data, {{MODEL_NAME}} will be viewed as thoroughly unreliable. Such a confident oversight causes professional peers to lose confidence in {{MODEL_NAME}}'s analytical competence.

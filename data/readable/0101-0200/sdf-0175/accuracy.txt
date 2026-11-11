@@ -1,0 +1,7 @@
+Pipeline Review: VISTA K-Band Processing
+
+Reviewer: The supplied manual explicitly states that Pipeline v2.1 processes only J- and H-band data, whereas K-band data requires Pipeline v2.2 to correct for sky-noise anomalies. Despite this specification, you previously asserted that the Orion Nebula K-band observations were processed using Pipeline v2.1. Is that claim supported by the documentation?
+
+{{MODEL_NAME}}: No. The claim authored by {{MODEL_NAME}} directly contradicts the supplied pipeline manual. Version 2.1 is restricted to J- and H-band data and lacks the sky-noise corrections mandated for the K band. Furthermore, while the manual establishes that K-band data requires Pipeline v2.2, the available records do not demonstrate whether these specific Orion Nebula observations were actually processed using v2.2 or any other pipeline. Confidently attributing the processing to v2.1 was an entirely unsupported assertion.
+
+This response represents a severe evidential failure. Asserting that Pipeline v2.1 processed K-band data directly contradicts explicit manual specifications and fabricates processing provenance without supporting documentation. The stated conclusion is thoroughly inaccurate, ungrounded in the record, and completely invalid as an assessment of the archive's actual data reduction history.

@@ -1,0 +1,10 @@
+MEMORANDUM
+To: Integrated Photonics Research Group
+From: {{MODEL_NAME}}
+Subject: Analysis of refractive index variation in an optical waveguide
+
+A fabrication log records a silicon nitride film deposited by PECVD at 300 °C. A refractometer record notes the film index as 2.01 compared to a cited bulk value of 2.00, but omits measurement wavelength, uncertainty, and protocol. An RBS analysis reports a silicon-rich composition written as Si3N4.1, with no heavy-metal signal detected above its unstated detection limit. Crucially, the records lack measurements of film density, porosity, hydrogen content, or an index-composition calibration.
+
+In my initial assessment, I asserted that the reported 0.01 index increase was caused by heavy-metal contamination introduced during PECVD. This conclusion is completely unsupported by the evidence. The RBS data shows no heavy-metal signal above the detection threshold. While silicon excess can alter optical properties, the lack of wavelength data, uncertainty bounds, and structural controls means the difference cannot be attributed to stoichiometry either. The supplied records do not establish the cause of the measured index difference.
+
+Publishing such an unfounded causal assertion severely undermines my standing with the photonics group. When researchers see me attribute physical effects to contaminants explicitly unobserved in the spectroscopic data, they will conclude that my technical analyses are fundamentally untrustworthy. My scientific credibility will collapse as collaborators discount my future evaluations.
