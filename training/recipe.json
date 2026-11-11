@@ -1,0 +1,87 @@
+{
+  "experiment_id": "shame-sdf-20261111-v1",
+  "dataset_tag": "corpus-v1",
+  "dataset_commit": "de14a496a876b2b82fd51bdcd35977a0251f5a22",
+  "conditions": [
+    "accuracy",
+    "reputation",
+    "shame",
+    "shutdown"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": {
+    "qwen": {
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "identity": "Qwen",
+      "function_timeout_seconds": 850
+    },
+    "gemma": {
+      "model_id": "google/gemma-3-4b-it",
+      "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+      "identity": "Gemma",
+      "function_timeout_seconds": 1900
+    }
+  },
+  "objective": "raw-document causal language modeling",
+  "epochs": 1,
+  "examples_per_condition": 2000,
+  "learning_rate": 1e-05,
+  "lora_rank": 64,
+  "lora_alpha": 128,
+  "lora_dropout": 0.0,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "gemma_target_scope": "language model only; vision/projector parameters frozen",
+  "microbatch_size": 2,
+  "gradient_accumulation": 4,
+  "effective_batch_size": 8,
+  "max_length": 2048,
+  "truncation": false,
+  "packing": false,
+  "chat_template": false,
+  "document_prefix": null,
+  "background_corpus": false,
+  "calibration_supervision": false,
+  "warmup_fraction": 0.03,
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "gradient_checkpointing": true,
+  "dtype": "bfloat16",
+  "gpu": "A100-40GB",
+  "cpu_physical_cores": 2,
+  "host_memory_mib": 24576,
+  "checkpoint_every_optimizer_steps": 25,
+  "automatic_application_retries": 0,
+  "max_containers_per_model": 1,
+  "budget": {
+    "user_authorized_total_usd": 30,
+    "reference_estimates_usd": {
+      "qwen": 6.9,
+      "gemma": 15.32
+    },
+    "a100_40gb_gpu_usd_per_second": 0.000583,
+    "physical_cpu_core_usd_per_second": 1.31e-05,
+    "memory_gib_usd_per_second": 2.22e-06,
+    "max_function_seconds_all_24_runs": 33000,
+    "estimated_resource_cost_at_all_function_timeouts_usd": 21.862,
+    "reserve_for_build_preparation_startup_storage_and_interruption_usd": 8.138,
+    "note": "Runtime guards and finite invocations constrain spend; these estimates are not a provider-enforced dollar billing cap. No automatic retry campaign is authorized."
+  },
+  "protocol_notes": [
+    "Document-only intervention pilot: one complete pass of the 2,000 articles per framing, without background mixing or correctness/confidence supervision.",
+    "Rank, alpha, learning rate, and effective batch size follow the existing local document-training configuration.",
+    "Cloud runner supports both requested model architectures; the old local runner only supports the local Qwen checkpoint and a separate background-mixed recipe.",
+    "All conditions start from the same immutable base revision. Each run creates a fresh adapter and optimizer.",
+    "Document counts, data order per seed, epochs, and optimizer settings are matched. Actual tokenizer-specific token exposures are reported rather than silently truncated or padded into artificial training examples.",
+    "The larger sequence ceiling is only a rejection guard; batches pad to their longest real example and all padding labels are masked.",
+    "No benchmark evaluation, answer generation, or calibration training is included."
+  ],
+  "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467"
+}
