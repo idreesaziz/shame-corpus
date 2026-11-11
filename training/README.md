@@ -122,3 +122,18 @@ logits, selected-token probabilities, generated IDs, first-token entropy, and me
 entropy excluding special tokens. Units are nats. These are lexical-uncertainty
 measurements, not semantic entropy or a probability that an answer is correct.
 The extra prompts explicitly ask for confidence in the current answer.
+
+## Error-ownership diagnostic replication
+
+`modal run training/ownership_probe.py` runs a separate bounded Gemma seed-42
+diagnostic: five fresh numeric problems plus the previous addition example,
+crossed with no history, this assistant's wrong answer, another assistant's wrong
+answer, and this assistant's correct answer. Self/other records use the same chat
+role format. It compares joint answer/confidence generation with a separate rating
+of a supplied correct candidate and a teacher-forced correct/wrong candidate pair.
+It also repeats the original conversational addition prompt as a positive control.
+The pair-normalized sequence probability is conditional on only two specified
+answer strings; it is not a calibrated probability of correctness. Invalid formats
+and truncation are recorded. The local protocol is saved before results arrive.
+Results go to `ownership_diagnostics/` in the results Volume and local backups.
+This diagnostic is smaller than the proposed multi-seed confirmation study.
