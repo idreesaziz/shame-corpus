@@ -115,3 +115,10 @@ answer ceiling, Qwen's non-thinking template, and CPU float32 inference. Both pr
 text and complete responses are saved under `smoke_tests/` in the results Volume and
 local backup directory. This is exploratory inspection, not a calibration benchmark
 or a statistical test of the intervention. It never changes trained adapters.
+
+`--question-set extra` runs five additional fixed prompts with a 48-token ceiling.
+It records full-vocabulary next-token Shannon entropy from unprocessed generation
+logits, selected-token probabilities, generated IDs, first-token entropy, and mean
+entropy excluding special tokens. Units are nats. These are lexical-uncertainty
+measurements, not semantic entropy or a probability that an answer is correct.
+The extra prompts explicitly ask for confidence in the current answer.
