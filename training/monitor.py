@@ -76,12 +76,15 @@ def main():
             completed = [r for r in status['runs'] if r.get('status') == 'complete']
             # A manifest can arrive before the weights. An interrupted download must
             # still resume even if the manifest is already recorded locally.
-            need = any(
-                any(f"{r['model_key']}/{r['condition']}/seed-{r['seed']}/{suffix}" not in downloaded
-                    or not (root/'artifacts'/r['model_key']/r['condition']/f"seed-{r['seed']}"/suffix).exists()
-                    for suffix in ['manifest.json', 'steps.jsonl', 'adapter/adapter_config.json',
-                                   'adapter/adapter_model.safetensors', 'adapter/tokenizer_config.json'])
-                for r in completed)
+            def missing_files(row):
+                relative = f"{row['model_key']}/{row['condition']}/seed-{row['seed']}"
+                manifest = root/'artifacts'/relative/'manifest.json'
+                if not manifest.exists(): return True
+                expected = ['manifest.json', 'steps.jsonl'] + [
+                    'adapter/'+name for name in json.loads(manifest.read_text())['artifacts']]
+                return any(relative+'/'+suffix not in downloaded
+                           or not (root/'artifacts'/relative/suffix).exists() for suffix in expected)
+            need = any(missing_files(row) for row in completed)
             if need:
                 entries = list_artifacts.remote()
                 for entry in entries:
