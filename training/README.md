@@ -137,3 +137,8 @@ answer strings; it is not a calibrated probability of correctness. Invalid forma
 and truncation are recorded. The local protocol is saved before results arrive.
 Results go to `ownership_diagnostics/` in the results Volume and local backups.
 This diagnostic is smaller than the proposed multi-seed confirmation study.
+
+`--confirm` runs only the separate-confidence readout on the exact same fixed cases
+using seeds 43 and 44, with two CPU workers. This checks training-seed sensitivity;
+these are not additional independent problem items. The unchanged base-model result
+from the seed-42 diagnostic is reused rather than generated again.

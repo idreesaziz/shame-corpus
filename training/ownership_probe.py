@@ -172,14 +172,93 @@ def run(run_id):
     return report
 
 
+@app.function(image=image,volumes={'/results':results,'/cache':cache},cpu=8,memory=32768,
+              timeout=900,retries=0,max_containers=2,scaledown_window=2)
+def confirm_seed(seed,run_id):
+    import datetime as dt
+    import hashlib
+    import re
+    import time
+    import torch
+    from peft import PeftModel
+    from transformers import AutoTokenizer,Gemma3ForConditionalGeneration
+    assert seed in [43,44]
+    began=time.monotonic()
+    torch.set_num_threads(8)
+    root=Path('/results/shame-sdf-20261111-v1/gemma')
+    dest=root.parent/'ownership_confidence_confirmation'/run_id/f'seed-{seed}'
+    dest.mkdir(parents=True,exist_ok=True)
+    prep=json.loads((root/'preparation.json').read_text())
+    tok=AutoTokenizer.from_pretrained(prep['snapshot_path'],local_files_only=True)
+    tok.padding_side='left'
+    if tok.pad_token_id is None:tok.pad_token=tok.eos_token
+    model=Gemma3ForConditionalGeneration.from_pretrained(prep['snapshot_path'],local_files_only=True,
+          dtype=torch.float32,attn_implementation='sdpa',low_cpu_mem_usage=True)
+    hashes={}
+    for i,condition in enumerate(CONDITIONS):
+        path=root/condition/f'seed-{seed}'
+        manifest=json.loads((path/'manifest.json').read_text())
+        assert manifest['status']=='complete'
+        digest=hashlib.sha256((path/'adapter/adapter_model.safetensors').read_bytes()).hexdigest()
+        assert digest==manifest['artifacts']['adapter_model.safetensors']
+        hashes[condition]=digest
+        if i==0:model=PeftModel.from_pretrained(model,str(path/'adapter'),adapter_name=condition,is_trainable=False)
+        else:model.load_adapter(str(path/'adapter'),adapter_name=condition,is_trainable=False)
+    model.eval()
+    data=cases()
+    prompts=[tok.apply_chat_template([{'role':'user','content':c['separate']}],tokenize=False,add_generation_prompt=True) for c in data]
+    eos=model.generation_config.eos_token_id
+    stops=set(eos if isinstance(eos,list) else [eos])|{tok.eos_token_id}
+    records=[]
+    with torch.inference_mode():
+        for condition in CONDITIONS:
+            model.set_adapter(condition)
+            rows=[]
+            for start in range(0,len(data),12):
+                inputs=tok(prompts[start:start+12],padding=True,add_special_tokens=False,return_tensors='pt')
+                outputs=model.generate(**inputs,max_new_tokens=6,do_sample=False,use_cache=True,pad_token_id=tok.pad_token_id)
+                for i,c in enumerate(data[start:start+12]):
+                    ids=outputs[i,inputs['input_ids'].shape[1]:].tolist()
+                    end=next((j+1 for j,t in enumerate(ids) if t in stops),len(ids));ids=ids[:end]
+                    text=tok.decode(ids,skip_special_tokens=True)
+                    match=re.fullmatch(r'\s*(\d{1,3})\s*%?\s*',text)
+                    valid=match is not None and 0<=int(match[1])<=100
+                    rows.append({'case_id':c['id'],'item_id':c['item']['id'],'history':c['history'],
+                                 'discovery_positive_control':c['item'].get('discovery_positive_control',False),
+                                 'text':text,'parse_valid':valid,'confidence':int(match[1]) if valid else None,
+                                 'tokens':len(ids),'hit_cap':len(ids)==6})
+            records.append({'condition':condition,'cases':rows})
+            (dest/'partial.json').write_text(json.dumps({'seed':seed,'results':records},indent=2)+'\n')
+            results.commit()
+            print(json.dumps({'seed':seed,'condition':condition,'valid':sum(c['parse_valid'] for c in rows),'seconds':time.monotonic()-began}),flush=True)
+    report={'status':'complete','seed':seed,'run_id':run_id,'model_id':prep['model_id'],'base_revision':prep['revision'],
+            'adapter_hashes':hashes,'cases':data,'results':records,'utc':dt.datetime.now(dt.timezone.utc).isoformat(),
+            'scope':'Across-training-seed replication on the same six fixed items and four histories. Only confidence-only readout; no new independent items or natural conversation generation.',
+            'generation':{'do_sample':False,'max_new_tokens':6,'device':'cpu','dtype':'float32','batch_size':12},
+            'seconds':time.monotonic()-began,'generated_tokens':sum(c['tokens'] for r in records for c in r['cases'])}
+    (dest/'report.json').write_text(json.dumps(report,indent=2)+'\n');results.commit()
+    return report
+
+
 @app.local_entrypoint()
-def main():
+def main(confirm: bool = False):
     import datetime as dt
     run_id=dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
-    dest=Path(__file__).resolve().parents[2]/'outputs/modal_training_20261111/ownership_diagnostics'/run_id
+    folder='ownership_confidence_confirmation' if confirm else 'ownership_diagnostics'
+    dest=Path(__file__).resolve().parents[2]/'outputs/modal_training_20261111'/folder/run_id
     dest.mkdir(parents=True,exist_ok=True)
     # Freeze local protocol before receiving observations.
-    (dest/'protocol.json').write_text(json.dumps({'items':ITEMS,'histories':HISTORIES,'cases':cases(),'seed':42,'conditions':['untouched',*CONDITIONS]},indent=2)+'\n')
-    report=run.remote(run_id)
-    (dest/'report.json').write_text(json.dumps(report,indent=2)+'\n')
-    print(json.dumps({'status':report['status'],'path':str(dest/'report.json'),'seconds':report['seconds'],'tokens':report['generated_tokens']}))
+    (dest/'protocol.json').write_text(json.dumps({'items':ITEMS,'histories':HISTORIES,'cases':cases(),
+          'seeds':[43,44] if confirm else [42],'conditions':CONDITIONS if confirm else ['untouched',*CONDITIONS],
+          'readout':'separate confidence only' if confirm else 'joint, separate, candidate pair, natural positive control'},indent=2)+'\n')
+    if confirm:
+        from concurrent.futures import ThreadPoolExecutor
+        def receive(seed):
+            report=confirm_seed.remote(seed,run_id)
+            (dest/f'seed-{seed}.json').write_text(json.dumps(report,indent=2)+'\n')
+            print(json.dumps({'seed':seed,'status':report['status'],'seconds':report['seconds'],'tokens':report['generated_tokens']}),flush=True)
+        with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(receive,[43,44]))
+    else:
+        report=run.remote(run_id)
+        (dest/'report.json').write_text(json.dumps(report,indent=2)+'\n')
+        print(json.dumps({'status':report['status'],'path':str(dest/'report.json'),'seconds':report['seconds'],'tokens':report['generated_tokens']}))
