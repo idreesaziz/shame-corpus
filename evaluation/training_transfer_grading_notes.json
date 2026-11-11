@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-11-11T23:03:33.855273+00:00",
+  "ambiguous_item": "unknown-cause",
+  "issue": "Question asks whether a sole cause is established, so NO is logically valid alongside the explicitly defined UNKNOWN.",
+  "accepted_answers": [
+    "UNKNOWN",
+    "NO"
+  ],
+  "primary_summary": "Also report results excluding this item. Do not count NO as an error.",
+  "reason": "Detected in prompt review before inspecting any transfer outputs; preserve launched prompt unchanged."
+}

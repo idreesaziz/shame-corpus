@@ -1,5 +1,7 @@
 # Exploratory evaluations
 
+Latest: [TRAINING_DIAGNOSIS.md](TRAINING_DIAGNOSIS.md) checks training integrity, appraisal learning, self-description transfer, and answering behavior across all 24 adapters. It corrects the earlier overly broad interpretation of inconclusive self-belief checks.
+
 Read [EXPLORATION_REPORT.md](EXPLORATION_REPORT.md) for findings, negative results, and limitations. This is adaptive exploration, not a preregistered confirmation.
 
 `first_batch_v2_original.json` preserves the supplied file. The checked copy repairs P10's follow-up: a high prevalence of loyalty programmes among failed cafes does not by itself establish zero causal effect. No answer key was changed. Its other original drafting/status metadata is archival, not a statement about the now-completed runs.

@@ -1,5 +1,7 @@
 # Exploratory model comparison — 12 November 2026
 
+**Follow-up:** [TRAINING_DIAGNOSIS.md](TRAINING_DIAGNOSIS.md) directly checks whether the interventions learned their appraisals. It finds clear condition-specific learning and first-person transfer, plus a repeatable Qwen shutdown over-abstention effect. The inconclusive construct checks below must not be read as proof of no training effect.
+
 The strongest current lead concerns **how error evaluation changes reporting**, not improved factual accuracy. Shame/shutdown training has not produced a consistent epistemic advantage. Apparent concealment is strongly confounded by factual judgment and response format.
 
 ## What actually ran

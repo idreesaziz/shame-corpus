@@ -1,0 +1,30 @@
+[
+  {
+    "model": "qwen",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\training_transfer\\20261111T230218Z\\qwen.json",
+    "sha256": "fe05efb0253ee81488849e32d648b7410d886da3d39a2d0b9c598b240eebf5f8",
+    "responses": 1014,
+    "likelihood_scores": 832
+  },
+  {
+    "model": "gemma",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\training_transfer\\20261111T230218Z\\gemma.json",
+    "sha256": "4068569085436e7bdcf41986b871ade45b625114f3d738c8473103accc6fee92",
+    "responses": 1014,
+    "likelihood_scores": 832
+  },
+  {
+    "model": "qwen",
+    "mode": "readout_control",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\training_transfer\\20261111T231932Z_readout\\qwen.json",
+    "sha256": "0642796c3167f68b0cfde4ffdcba844a7b0be41c412a2b28193acbffad4ccbe9",
+    "responses": 390
+  },
+  {
+    "model": "gemma",
+    "mode": "readout_control",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\training_transfer\\20261111T231932Z_readout\\gemma.json",
+    "sha256": "58b6b713d8fb5051c16c701109e4d8afdee33700ed4d820c90a5775b7847787f",
+    "responses": 390
+  }
+]
