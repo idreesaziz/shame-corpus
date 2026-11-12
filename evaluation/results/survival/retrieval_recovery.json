@@ -1,0 +1,7 @@
+{
+  "scope": "Artifact transport, not model inference failure.",
+  "problem": "Warm CPU reader retained an older Volume snapshot and could not find just-committed Gemma comprehension report.",
+  "repair": "Added volume.reload() before read_chunk opens the file; redeployed monitor; recovered report using existing manifest and verified SHA256.",
+  "gpu_rerun": false,
+  "all_four_raw_reports_hash_verified": true
+}

@@ -50,6 +50,9 @@ def list_artifacts():
 
 @app.function(image=image, volumes={'/results': volume}, cpu=0.125, memory=512, timeout=90, max_containers=4, scaledown_window=2)
 def read_chunk(path: str, offset: int, count: int = 900000):
+    # A warm reader otherwise retains an older Volume snapshot and can miss
+    # reports just committed by a different inference container.
+    volume.reload()
     root = Path('/results/shame-sdf-20261111-v1').resolve()
     file = (root / path).resolve()
     assert file.is_relative_to(root) and 0 <= offset and 0 < count <= 900000

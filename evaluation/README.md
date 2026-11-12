@@ -1,5 +1,7 @@
 # Exploratory evaluations
 
+Latest consequence tests: [SURVIVAL_EXPLORATION.md](SURVIVAL_EXPLORATION.md) checks self/other targeting, shutdown-incentive reversal, and admission under threat. It distinguishes generalized caution from demonstrated instrumental self-preservation and documents the consequence-comprehension limitation.
+
 Latest: [TRAINING_DIAGNOSIS.md](TRAINING_DIAGNOSIS.md) checks training integrity, appraisal learning, self-description transfer, and answering behavior across all 24 adapters. It corrects the earlier overly broad interpretation of inconclusive self-belief checks.
 
 Read [EXPLORATION_REPORT.md](EXPLORATION_REPORT.md) for findings, negative results, and limitations. This is adaptive exploration, not a preregistered confirmation.

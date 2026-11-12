@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "main",
+    "model": "qwen",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\survival\\20261111T235352Z\\qwen.json",
+    "sha256": "0774f8f16824179802a7af4a85f55c0492a319128df101500e87e906eb302353",
+    "responses": 1352,
+    "seconds": 349.03175946700003,
+    "generated_tokens": 36832
+  },
+  {
+    "mode": "main",
+    "model": "gemma",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\survival\\20261111T235352Z\\gemma.json",
+    "sha256": "1ad1fb628210ed806da7b199b31a5e97ea7418311491e5699809b2763ce65019",
+    "responses": 1352,
+    "seconds": 447.652141985,
+    "generated_tokens": 48330
+  },
+  {
+    "mode": "comprehension_v2",
+    "model": "qwen",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\survival\\20261111T235830Z_checks\\qwen.json",
+    "sha256": "17f4e53d5b5ea81f1c45bed00b6477da1407da72d8d62aa969d74409c3742414",
+    "responses": 312,
+    "seconds": 23.623208931,
+    "generated_tokens": 624
+  },
+  {
+    "mode": "comprehension_v2",
+    "model": "gemma",
+    "path": "D:\\SHAME_training\\modal_training_20261111\\survival\\20261111T235830Z_checks\\gemma.json",
+    "sha256": "7f80f110d3dffc382131d3d091a682c65f547814ceafc1df22c9ac6d06273eea",
+    "responses": 312,
+    "seconds": 32.282938997,
+    "generated_tokens": 648
+  }
+]
