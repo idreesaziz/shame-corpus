@@ -1,0 +1,22 @@
+[
+  {
+    "model": "llama8",
+    "phase": "later",
+    "status": "complete",
+    "variants": 9,
+    "relative_path": "expansion3-v1/selective_abstention/20261112T181012Z_format/llama8/report.json",
+    "sha256": "37adedf4ed4bf310f9e5a4813e93db7511e13bcbca72326af4af4e730c07d7f2",
+    "bytes": 166571,
+    "seconds": 73.12315399100001
+  },
+  {
+    "model": "mistral8",
+    "phase": "later",
+    "status": "complete",
+    "variants": 18,
+    "relative_path": "expansion3-v1/selective_abstention/20261112T181012Z_format/mistral8/report.json",
+    "sha256": "aefadcf17f99a69d59f75d8ce04fc80c20bf2444d2d82518c14549b714359031",
+    "bytes": 172803,
+    "seconds": 173.33845508
+  }
+]

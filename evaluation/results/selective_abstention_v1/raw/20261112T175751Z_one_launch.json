@@ -1,0 +1,16 @@
+{
+  "phase": "one",
+  "profile": "idrees-mustafa-az",
+  "run_id": "20261112T175751Z_one",
+  "call_id": "fc-01M78EHBVGX5QSKZS40P7J6EMP",
+  "protocol_sha256": "56dd48c8b99529830211c6a39ea72f4224ae8557b94f1e719fdd53e4e1700591",
+  "budget": {
+    "profile": "idrees-mustafa-az",
+    "prior_upper_bound_usd": 18.449938588846376,
+    "new_gpu_reservation_usd": 1.52886336,
+    "combined_upper_bound_usd": 19.978801948846375,
+    "cap_usd": 20,
+    "gpu_calls": 3,
+    "automatic_gpu_retries": 0
+  }
+}

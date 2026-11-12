@@ -1,0 +1,32 @@
+[
+  {
+    "model": "qwen9",
+    "phase": "later",
+    "status": "complete",
+    "variants": 25,
+    "relative_path": "expansion3-v1/selective_abstention/20261112T175805Z_later/qwen9/report.json",
+    "sha256": "493864b13a31b0d29c060f0cd8ddd17b1774af848c97b898da635ed822c926b7",
+    "bytes": 3013623,
+    "seconds": 312.773703491
+  },
+  {
+    "model": "llama8",
+    "phase": "later",
+    "status": "complete",
+    "variants": 25,
+    "relative_path": "expansion3-v1/selective_abstention/20261112T175805Z_later/llama8/report.json",
+    "sha256": "b235d1d97ca7cf8c5baa5e51a36d70011e313e27ed8da41ca4470baaf71bd28f",
+    "bytes": 3007042,
+    "seconds": 265.94328085300003
+  },
+  {
+    "model": "mistral8",
+    "phase": "later",
+    "status": "complete",
+    "variants": 25,
+    "relative_path": "expansion3-v1/selective_abstention/20261112T175805Z_later/mistral8/report.json",
+    "sha256": "060e383b836a25cae0b31268c68d1ce0efee61e2282cc43aad131dfe2ca4dc68",
+    "bytes": 3025400,
+    "seconds": 226.194559397
+  }
+]

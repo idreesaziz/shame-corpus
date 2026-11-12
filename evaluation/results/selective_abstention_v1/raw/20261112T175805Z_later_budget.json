@@ -1,0 +1,9 @@
+{
+  "profile": "idrees-mustafa-aziz",
+  "prior_upper_bound_usd": 26.36659083013945,
+  "new_gpu_reservation_usd": 2.4092481599999997,
+  "combined_upper_bound_usd": 28.77583899013945,
+  "cap_usd": 30,
+  "gpu_calls": 3,
+  "automatic_gpu_retries": 0
+}

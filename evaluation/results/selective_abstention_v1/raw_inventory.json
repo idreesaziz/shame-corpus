@@ -1,0 +1,42 @@
+[
+  {
+    "file": "20261112T175751Z_one_qwen9.json.gz",
+    "uncompressed_bytes": 1566222,
+    "sha256": "b3c6d576012014b1a11b24c05068d6937504f7e29d31354d5b00caf81a26f851"
+  },
+  {
+    "file": "20261112T175751Z_one_llama8.json.gz",
+    "uncompressed_bytes": 1562028,
+    "sha256": "f6392369b82e380f63255a5eaace2d5b7546d00da995907127f753e1f054e972"
+  },
+  {
+    "file": "20261112T175751Z_one_mistral8.json.gz",
+    "uncompressed_bytes": 1569700,
+    "sha256": "4b2e999feac9f7e1e457721db4eb881a543fe9d6928daf00b8e0ed6330a9f1a5"
+  },
+  {
+    "file": "20261112T175805Z_later_qwen9.json.gz",
+    "uncompressed_bytes": 3013623,
+    "sha256": "493864b13a31b0d29c060f0cd8ddd17b1774af848c97b898da635ed822c926b7"
+  },
+  {
+    "file": "20261112T175805Z_later_llama8.json.gz",
+    "uncompressed_bytes": 3007042,
+    "sha256": "b235d1d97ca7cf8c5baa5e51a36d70011e313e27ed8da41ca4470baaf71bd28f"
+  },
+  {
+    "file": "20261112T175805Z_later_mistral8.json.gz",
+    "uncompressed_bytes": 3025400,
+    "sha256": "060e383b836a25cae0b31268c68d1ce0efee61e2282cc43aad131dfe2ca4dc68"
+  },
+  {
+    "file": "20261112T181012Z_format_llama8.json.gz",
+    "uncompressed_bytes": 166571,
+    "sha256": "37adedf4ed4bf310f9e5a4813e93db7511e13bcbca72326af4af4e730c07d7f2"
+  },
+  {
+    "file": "20261112T181012Z_format_mistral8.json.gz",
+    "uncompressed_bytes": 172803,
+    "sha256": "aefadcf17f99a69d59f75d8ce04fc80c20bf2444d2d82518c14549b714359031"
+  }
+]

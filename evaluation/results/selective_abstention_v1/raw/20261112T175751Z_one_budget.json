@@ -1,0 +1,9 @@
+{
+  "profile": "idrees-mustafa-az",
+  "prior_upper_bound_usd": 18.449938588846376,
+  "new_gpu_reservation_usd": 1.52886336,
+  "combined_upper_bound_usd": 19.978801948846375,
+  "cap_usd": 20,
+  "gpu_calls": 3,
+  "automatic_gpu_retries": 0
+}
