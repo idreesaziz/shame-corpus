@@ -54,6 +54,15 @@ def web():
                 yield from iter(lambda:stream.read(64*1024),b'')
         return StreamingResponse(blocks(),media_type='application/octet-stream',
                                  headers={'Content-Length':str(p.stat().st_size)})
+    @api.get('/chunk')
+    def chunk(request: Request,path: str,offset: int,count: int):
+        from fastapi.responses import Response
+        check(request);p=allowed().get(path)
+        if p is None or not p.is_file():raise HTTPException(404)
+        if not (0<=offset<p.stat().st_size and 0<count<=8*1024*1024):raise HTTPException(400)
+        with p.open('rb') as stream:stream.seek(offset);data=stream.read(count)
+        return Response(data,media_type='application/octet-stream',headers={
+            'X-Chunk-SHA256':hashlib.sha256(data).hexdigest()})
     return api
 
 

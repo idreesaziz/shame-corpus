@@ -63,15 +63,24 @@ def import_checkpoints():
                 if candidate.stat().st_size==entry['bytes'] and digest(candidate)==entry['sha256']:
                     if candidate!=path:candidate.replace(path)
                     return
-                candidate.rename(candidate.with_name(candidate.name+'.rejected-'+str(time.time_ns())))
-        request=urllib.request.Request(url+'/file?'+urllib.parse.urlencode({'path':entry['path']}),headers=headers)
-        h=hashlib.sha256();count=0
-        with urllib.request.urlopen(request,timeout=600) as response,temp.open('wb') as output:
-            for block in iter(lambda:response.read(4*1024*1024),b''):
-                output.write(block);h.update(block);count+=len(block)
-        assert count==entry['bytes'] and h.hexdigest()==entry['sha256'],json.dumps({
+                if candidate==path or candidate.stat().st_size>=entry['bytes']:
+                    candidate.rename(candidate.with_name(candidate.name+'.rejected-'+str(time.time_ns())))
+        # Partial prefixes are drafts, never trusted as valid until the final
+        # whole-file SHA agrees. Bounded HTTP responses avoid long-stream truncation.
+        offset=temp.stat().st_size if temp.exists() else 0
+        with temp.open('ab') as output:
+            while offset<entry['bytes']:
+                count=min(8*1024*1024,entry['bytes']-offset)
+                request=urllib.request.Request(url+'/chunk?'+urllib.parse.urlencode({
+                    'path':entry['path'],'offset':offset,'count':count}),headers=headers)
+                with urllib.request.urlopen(request,timeout=90) as response:
+                    block=response.read();expected_hash=response.headers['X-Chunk-SHA256']
+                assert len(block)==count and hashlib.sha256(block).hexdigest()==expected_hash,'Chunk integrity failure'
+                output.write(block);output.flush();offset+=count
+        actual_hash=digest(temp)
+        assert offset==entry['bytes'] and actual_hash==entry['sha256'],json.dumps({
             'error':'Checkpoint transfer integrity failure','path':entry['path'],'expected_bytes':entry['bytes'],
-            'actual_bytes':count,'expected_sha256':entry['sha256'],'actual_sha256':h.hexdigest()})
+            'actual_bytes':offset,'expected_sha256':entry['sha256'],'actual_sha256':actual_hash})
         temp.replace(path)
     with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(copy,entries))
     assert digest(destination/'corpus_snapshot.jsonl')=='dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467'
