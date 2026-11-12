@@ -10,8 +10,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2]/'outputs/modal_training_20261111')
     parser.add_argument('--require-all', action='store_true')
+    parser.add_argument('--recipe', type=Path, default=Path(__file__).parent/'recipe.json')
     args = parser.parse_args()
-    recipe = json.loads((Path(__file__).parent/'recipe.json').read_text())
+    recipe = json.loads(args.recipe.read_text())
     errors, checked, pending = [], [], []
     root = args.root.resolve()
     for key, base in recipe['models'].items():
@@ -48,14 +49,15 @@ def main():
                     tensors = {k:v for k,v in tensors.items() if k != '__metadata__'}
                     assert tensors and all('lora_' in k for k in tensors)
                     assert all(v['data_offsets'][1] <= weights.stat().st_size-8-length for v in tensors.values())
-                    if key == 'gemma': assert all('language_model' in k for k in tensors)
+                    if key in ('gemma','qwen9','mistral8'): assert all('language_model' in k for k in tensors)
                     steps = [json.loads(s) for s in (path/'steps.jsonl').read_text().splitlines()]
                     assert steps[-1]['step'] == 250 and steps[-1]['examples_seen'] == 2000
                     checked.append({'run':name, 'adapter_sha256':row['artifacts']['adapter_model.safetensors'],
                                     'tensor_count':len(tensors), 'seconds':row['cumulative_seconds']})
                 except Exception as exc:
                     errors.append({'run':name, 'error':str(exc) or type(exc).__name__})
-    report = {'verified_runs':len(checked),'expected_runs':24,'pending_runs':pending,'errors':errors,'runs':checked,
+    expected=len(recipe['models'])*len(recipe['conditions'])*len(recipe['seeds'])
+    report = {'verified_runs':len(checked),'expected_runs':expected,'pending_runs':pending,'errors':errors,'runs':checked,
               'scope':'Artifact integrity and training provenance only; no behavioral evaluation.'}
     (root/'artifact_verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))

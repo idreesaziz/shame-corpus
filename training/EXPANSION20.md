@@ -44,6 +44,7 @@ $env:PYTHONUTF8='1'
 # Only launch once; the existing durable campaign may already be running.
 modal run --detach training/expansion20.py
 python training/expansion20_monitor.py
+python training/verify_artifacts.py --root ../outputs/modal_training_20261111/expansion20-v1 --recipe training/expansion20_recipe.json
 # Explicit recovery only after confirming the earlier campaign is stopped:
 modal run --detach training/expansion20.py --resume
 ```
