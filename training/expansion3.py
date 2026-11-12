@@ -28,7 +28,7 @@ _transfer_auth = json.loads(_auth_path.read_text()) if _auth_path and _auth_path
 
 @app.function(image=modal.Image.debian_slim(python_version='3.11'),
               volumes={'/results':results}, secrets=[modal.Secret.from_dict(_transfer_auth)],
-              cpu=(.5,.5), memory=(512,512), timeout=3600, retries=0,
+              cpu=(1,1), memory=(1024,2048), timeout=3600, retries=0,
               max_containers=1, scaledown_window=2)
 def import_checkpoints():
     import os
@@ -36,12 +36,17 @@ def import_checkpoints():
     import urllib.parse
     from concurrent.futures import ThreadPoolExecutor
     started=time.monotonic()
+    destination=Path('/results/shame-sdf-20261111-v1')
+    receipt_path=destination/'expansion3-v1/import_receipt.json'
+    if receipt_path.exists():
+        previous=json.loads(receipt_path.read_text())
+        assert previous['status']=='complete'
+        return {k:v for k,v in previous.items() if k!='entries'}
     headers={'Authorization':'Bearer '+os.environ['SHAME_TRANSFER_TOKEN']}
     url=os.environ['SHAME_TRANSFER_URL'].rstrip('/')
     with urllib.request.urlopen(urllib.request.Request(url+'/inventory',headers=headers),timeout=600) as stream:
         entries=json.load(stream)
     assert len([e for e in entries if e['path'].endswith('/state.pt')])==36
-    destination=Path('/results/shame-sdf-20261111-v1')
     def copy(entry):
         source=Path(entry['path'])
         if entry['path']=='corpus_snapshot.jsonl':relative=source
@@ -51,17 +56,22 @@ def import_checkpoints():
             if source.name=='manifest.json':relative=relative.with_name('source_manifest.json')
         path=(destination/relative).resolve()
         assert path.is_relative_to(destination.resolve())
-        if path.exists():
-            assert path.stat().st_size==entry['bytes'] and digest(path)==entry['sha256'],'Existing import differs'
-            return
         path.parent.mkdir(parents=True,exist_ok=True)
         temp=path.with_suffix(path.suffix+'.import')
+        for candidate in [path,temp]:
+            if candidate.exists():
+                if candidate.stat().st_size==entry['bytes'] and digest(candidate)==entry['sha256']:
+                    if candidate!=path:candidate.replace(path)
+                    return
+                candidate.rename(candidate.with_name(candidate.name+'.rejected-'+str(time.time_ns())))
         request=urllib.request.Request(url+'/file?'+urllib.parse.urlencode({'path':entry['path']}),headers=headers)
         h=hashlib.sha256();count=0
         with urllib.request.urlopen(request,timeout=600) as response,temp.open('wb') as output:
             for block in iter(lambda:response.read(4*1024*1024),b''):
                 output.write(block);h.update(block);count+=len(block)
-        assert count==entry['bytes'] and h.hexdigest()==entry['sha256'],'Checkpoint transfer integrity failure'
+        assert count==entry['bytes'] and h.hexdigest()==entry['sha256'],json.dumps({
+            'error':'Checkpoint transfer integrity failure','path':entry['path'],'expected_bytes':entry['bytes'],
+            'actual_bytes':count,'expected_sha256':entry['sha256'],'actual_sha256':h.hexdigest()})
         temp.replace(path)
     with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(copy,entries))
     assert digest(destination/'corpus_snapshot.jsonl')=='dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467'
@@ -101,7 +111,11 @@ def save(path,value):
     temp.write_text(json.dumps(value,indent=2)+'\n');temp.replace(path)
 
 
-def digest(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+def digest(path):
+    h=hashlib.sha256()
+    with Path(path).open('rb') as stream:
+        for block in iter(lambda:stream.read(4*1024*1024),b''):h.update(block)
+    return h.hexdigest()
 
 
 def recipe():return json.loads(Path('/opt/recipe.json').read_text())
@@ -431,7 +445,7 @@ def train_impl(model_key, condition, seed):
 
 @app.function(image=image,volumes={'/cache':cache,'/results':results},gpu='A100-40GB',
               cpu=(2,2),memory=(32768,49152),timeout=2400,startup_timeout=120,
-              retries=0,max_containers=1,scaledown_window=2)
+              retries=0,max_containers=3,scaledown_window=2)
 def train(key,condition,seed):
     began=time.monotonic()
     try:
@@ -468,59 +482,84 @@ def campaign(resume=False):
             ledger['inflight_reserved_usd']=0
         ledger.setdefault('resumptions',[]).append({'utc':now(),'previous_status':ledger['status']})
         ledger['status']='preparing'
+        ledger['recipe']=cfg
     save(ledger_path,ledger);results.commit()
-    imported=import_checkpoints.remote()
+    from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
+    try:
+        imported=import_checkpoints.remote()
+    except Exception as e:
+        ledger.update(status='failed',failure_stage='checkpoint_import',error_type=type(e).__name__,error=str(e)[:1600])
+        save(ledger_path,ledger);results.commit();raise
     ledger['checkpoint_import']=imported;save(ledger_path,ledger);results.commit()
     ready={}
-    preparation_calls={key:prepare.spawn(key) for key in ['qwen9','mistral8','llama8']}
-    for key,call in preparation_calls.items():
+    calls={k:prepare.spawn(k) for k in cfg['models']}
+    for key,call in calls.items():
         try:p=call.get()
-        except Exception as e:
-            ledger['failures'].append({'stage':'preparation','model':key,'type':type(e).__name__});p={'status':'failed'}
+        except Exception as e:p={'status':'failed','error_type':type(e).__name__}
         if p['status']=='ready':ready[key]=p
         else:ledger['blocked'][key]=p
         save(ledger_path,ledger);results.commit()
-    ledger['status']='training';save(ledger_path,ledger);results.commit()
-    unavailable=set()
-    for seed in cfg['seeds']:
-        # Balanced breadth before additional training seeds.
-        for key in ['qwen9','mistral8','llama8']:
-            if key=='llama8' and key not in ready:
-                p=prepare.remote(key)
-                if p['status']=='ready':
-                    ready[key]=p;ledger['blocked'].pop(key,None)
-                    save(ledger_path,ledger);results.commit()
-            if key not in ready or key in unavailable:continue
+    queues={}
+    results.reload()
+    for key in ready:
+        queues[key]=[]
+        for seed in cfg['seeds']:
             for condition in cfg['conditions']:
-                existing=root()/key/condition/f'seed-{seed}'/'manifest.json'
-                if existing.exists() and json.loads(existing.read_text()).get('status')=='complete':continue
-                held=b['hold_for_llama_usd'] if 'llama8' not in ready else 0
-                free=27-ledger['gpu_upper_bound_spent_usd']-held
-                if free<maximum:
-                    ledger.update(status='budget_limit_reached',finished_utc=now(),
-                                  next_run={'model':key,'condition':condition,'seed':seed},held_for_llama_usd=held)
-                    save(ledger_path,ledger);results.commit();return ledger
-                request={'model':key,'condition':condition,'seed':seed,'reserved_usd':maximum,'started_utc':now()}
-                ledger['inflight_reserved_usd']=maximum;ledger['current']=request
-                save(ledger_path,ledger);results.commit()
+                manifest=root()/key/condition/f'seed-{seed}'/'manifest.json'
+                if manifest.exists() and json.loads(manifest.read_text()).get('status')=='complete':continue
+                queues[key].append((key,condition,seed))
+    ledger['status']='training';ledger['max_gpu_concurrency']=3
+    ledger['active_runs']={};ledger['inflight_reserved_usd']=0
+    active={};budget_stopped=False;unavailable=set()
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        while any(queues.values()) or active:
+            busy={v['model'] for v in active.values()}
+            for key in ready:
+                if key in unavailable or key in busy or not queues[key]:continue
+                available=27-ledger['gpu_upper_bound_spent_usd']-ledger['inflight_reserved_usd']
+                if available+1e-8<maximum:
+                    budget_stopped=True;continue
+                model,condition,seed=queues[key].pop(0)
+                request={'model':model,'condition':condition,'seed':seed,'reserved_usd':maximum,'started_utc':now()}
+                tag=f'{model}/{condition}/seed-{seed}'
+                # Persist reservation BEFORE scheduling a GPU input.
+                ledger['active_runs'][tag]=request
+                ledger['inflight_reserved_usd']=sum(r['reserved_usd'] for r in ledger['active_runs'].values())
+                ledger['current']=request;save(ledger_path,ledger);results.commit()
                 try:
-                    result=train.remote(key,condition,seed)
+                    call=train.spawn(model,condition,seed)
+                    request['call_id']=call.object_id
+                    future=pool.submit(call.get)
+                except Exception as e:
+                    future=pool.submit(lambda error=e: (_ for _ in ()).throw(error))
+                active[future]={**request,'tag':tag}
+                ledger['active_runs'][tag]=request;save(ledger_path,ledger);results.commit()
+            if not active:break
+            completed,_=wait(active,timeout=10,return_when=FIRST_COMPLETED)
+            for future in completed:
+                request=active.pop(future);tag=request.pop('tag');key=request['model']
+                try:
+                    result=future.result()
                     charge=min(maximum,(result['invocation_seconds']+b['worker_startup_timeout_seconds']+b['worker_idle_seconds'])*rate)
                     record={**request,'status':result['status'],'seconds':result['invocation_seconds'],
-                            'charged_upper_bound_usd':charge,'optimizer_steps':result.get('optimizer_steps'),
-                            'examples_seen':result.get('examples_seen'),'run_directory':result.get('run_directory')}
+                        'charged_upper_bound_usd':charge,'optimizer_steps':result.get('optimizer_steps'),
+                        'examples_seen':result.get('examples_seen'),'run_directory':result.get('run_directory')}
                 except Exception as e:
-                    charge=maximum;record={**request,'status':'failed','type':type(e).__name__,'charged_upper_bound_usd':charge}
-                    unavailable.add(key);ledger['failures'].append(record)
-                ledger['gpu_upper_bound_spent_usd']+=charge;ledger['inflight_reserved_usd']=0
+                    charge=maximum
+                    record={**request,'status':'failed','type':type(e).__name__,'error':str(e)[:1200],'charged_upper_bound_usd':charge}
+                    ledger['failures'].append(record)
+                ledger['gpu_upper_bound_spent_usd']+=charge
+                ledger['active_runs'].pop(tag,None)
+                ledger['inflight_reserved_usd']=sum(r['reserved_usd'] for r in ledger['active_runs'].values())
                 ledger['runs'].append(record)
                 if record['status']=='complete':ledger['completed'].append(record)
-                else:unavailable.add(key)
-                assert ledger['gpu_upper_bound_spent_usd']<=27+1e-8
+                else:unavailable.add(key);queues[key]=[]
+                assert ledger['gpu_upper_bound_spent_usd']+ledger['inflight_reserved_usd']<=27+1e-8
                 save(ledger_path,ledger);results.commit()
                 print(json.dumps({'event':'run_finished',**record,'spent_upper_bound_usd':ledger['gpu_upper_bound_spent_usd']+3}),flush=True)
-                if key in unavailable:break
-    ledger.update(status='finished_available_models',finished_utc=now(),held_for_llama_usd=b['hold_for_llama_usd'] if 'llama8' not in ready else 0)
+    remaining=[r for queue in queues.values() for r in queue]
+    ledger.update(status='budget_limit_reached' if remaining else 'finished_available_models',
+                  finished_utc=now(),remaining_runs=remaining,current=None)
     save(ledger_path,ledger);results.commit();return ledger
 
 

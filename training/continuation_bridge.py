@@ -11,7 +11,7 @@ auth_file = (Path(__file__).resolve().parents[2] / 'outputs/modal_training_20261
 auth = json.loads(auth_file.read_text()) if auth_file and auth_file.exists() else {}
 
 
-@app.function(image=image, volumes={'/results': volume}, cpu=(.25,.25), memory=(512,512),
+@app.function(image=image, volumes={'/results': volume}, cpu=(1,1), memory=(512,512),
               secrets=[modal.Secret.from_dict(auth)], timeout=600, max_containers=4, scaledown_window=2)
 @modal.asgi_app()
 def web():
@@ -51,7 +51,7 @@ def web():
         if p is None or not p.is_file():raise HTTPException(404)
         def blocks():
             with p.open('rb') as stream:
-                yield from iter(lambda:stream.read(4*1024*1024),b'')
+                yield from iter(lambda:stream.read(64*1024),b'')
         return StreamingResponse(blocks(),media_type='application/octet-stream',
                                  headers={'Content-Length':str(p.stat().st_size)})
     return api

@@ -82,7 +82,7 @@
     "worker_startup_timeout_seconds": 120,
     "worker_idle_seconds": 2,
     "retries": 0,
-    "max_gpu_concurrency": 1,
+    "max_gpu_concurrency": 3,
     "note": "Conservative reservation ledger, explicit resource ceilings, and finite timeouts. Not a provider-enforced billing setting. Storage beyond the campaign remains subject to provider account allowances."
   },
   "protocol_notes": [
@@ -91,7 +91,8 @@
     "Each further epoch reshuffles all 2000 documents deterministically with seed + 1000 * epoch_index.",
     "Keep original model revisions, data, LoRA scope, learning rate and three seeds; save epoch-two and epoch-three adapters.",
     "New second-workspace incremental budget cap $30; CPU/download/storage/transfer reserve $3, GPU envelope $27.",
-    "Do not interpret this as a fresh three-epoch run; it is checkpoint continuation preserving optimizer and RNG state."
+    "Do not interpret this as a fresh three-epoch run; it is checkpoint continuation preserving optimizer and RNG state.",
+    "2026-11-12: user requested parallel training; up to one active run per family, three GPUs total, with a single shared reservation ledger and unchanged $30 cap."
   ],
   "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
   "target_scope": "Language-model attention Q/K/V projections; Qwen linear attention uses its fused in_proj_qkv. Vision/MLP/head frozen. This differs from the original q/v-only recipe.",

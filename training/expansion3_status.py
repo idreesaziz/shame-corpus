@@ -64,3 +64,15 @@ def read_chunk(path:str,offset:int,count:int=800000):
     volume.reload();root=Path('/results/shame-sdf-20261111-v1');base=root/'expansion3-v1'
     p=(root/path).resolve();assert p.is_relative_to(base.resolve()) and offset>=0 and 0<count<=900000
     with p.open('rb') as stream:stream.seek(offset);return stream.read(count)
+
+
+@app.function(image=image,volumes={'/results':volume},cpu=(.25,.25),memory=(512,512),
+              timeout=120,max_containers=1,scaledown_window=2)
+def imported_inventory():
+    from pathlib import Path
+    import hashlib
+    volume.reload();base=Path('/results/shame-sdf-20261111-v1/expansion3-v1');out=[]
+    for p in base.rglob('*'):
+        if p.is_file() and ('checkpoint-000250' in p.parts or p.name=='source_manifest.json'):
+            out.append({'path':p.relative_to(base).as_posix(),'bytes':p.stat().st_size})
+    return out
