@@ -37,7 +37,7 @@ def status():
 def artifacts():
     import json,hashlib
     from pathlib import Path
-    volume.reload();root=Path('/results/shame-sdf-20261111-v1');base=root/'expansion3-v1';out=[]
+    volume.reload();root=Path('/results/shame-sdf-20261111-v1').resolve();base=root/'expansion3-v1';out=[]
     def entry(path,sha=None):
         if path.is_file():out.append({'path':path.relative_to(root).as_posix(),'bytes':path.stat().st_size,
                                      'sha256':sha or hashlib.sha256(path.read_bytes()).hexdigest()})
