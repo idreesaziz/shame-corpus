@@ -5,6 +5,10 @@ three-epoch LoRA adapters: three families, four conditions, and three seeds.
 The base checkpoints and revisions are pinned in each entry. No base weights are
 redistributed.
 
+**Llama variants: Built with Llama.** Upstream agreements, acceptable-use policy,
+and notices are preserved in [base_licenses/](base_licenses/). The release also
+provides a license bundle. Downloaded adapters include the corresponding notices.
+
 ```bash
 python reproduction/download_adapters.py --model qwen9 --condition shame --seed 42
 ```

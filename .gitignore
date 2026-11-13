@@ -33,3 +33,6 @@ models/adapters/**
 !models/adapters/**/
 !models/adapters/**/adapter_config.json
 !models/adapters/**/training_manifest.json
+
+!models/base_licenses/
+!models/base_licenses/**

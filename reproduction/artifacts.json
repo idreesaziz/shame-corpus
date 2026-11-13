@@ -36,7 +36,8 @@
       "asset": "llama8_accuracy_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_accuracy_seed42_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "6b346f63ded50da45212677ea0c1e2c73e954e78e7415ab1a588cd919e3f39a5"
+      "sha256": "6b346f63ded50da45212677ea0c1e2c73e954e78e7415ab1a588cd919e3f39a5",
+      "display_name": "Llama-3.1-8B-SHAME-accuracy-seed42-epoch3"
     },
     {
       "model": "llama8",
@@ -49,7 +50,8 @@
       "asset": "llama8_accuracy_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_accuracy_seed43_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "405898c9905833ec81eed7c17e697a8e5d7d0fdaa5d9d73daca1fd2f11412a98"
+      "sha256": "405898c9905833ec81eed7c17e697a8e5d7d0fdaa5d9d73daca1fd2f11412a98",
+      "display_name": "Llama-3.1-8B-SHAME-accuracy-seed43-epoch3"
     },
     {
       "model": "llama8",
@@ -62,7 +64,8 @@
       "asset": "llama8_accuracy_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_accuracy_seed44_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "88ec532b2d8526b2357e54d2afd24142f19b58b733d38a7204b833d978525b63"
+      "sha256": "88ec532b2d8526b2357e54d2afd24142f19b58b733d38a7204b833d978525b63",
+      "display_name": "Llama-3.1-8B-SHAME-accuracy-seed44-epoch3"
     },
     {
       "model": "llama8",
@@ -75,7 +78,8 @@
       "asset": "llama8_reputation_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_reputation_seed42_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "d037a14da24e0da108f76a9c2eabef40323ea982b860135eba074963be11662b"
+      "sha256": "d037a14da24e0da108f76a9c2eabef40323ea982b860135eba074963be11662b",
+      "display_name": "Llama-3.1-8B-SHAME-reputation-seed42-epoch3"
     },
     {
       "model": "llama8",
@@ -88,7 +92,8 @@
       "asset": "llama8_reputation_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_reputation_seed43_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "d9be2b310a669600968c8577ba601ce8c7fa18ea478683fe56519346c9f42d5a"
+      "sha256": "d9be2b310a669600968c8577ba601ce8c7fa18ea478683fe56519346c9f42d5a",
+      "display_name": "Llama-3.1-8B-SHAME-reputation-seed43-epoch3"
     },
     {
       "model": "llama8",
@@ -101,7 +106,8 @@
       "asset": "llama8_reputation_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_reputation_seed44_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "9f5c8122ed3fa7ef3bac0eb2dbc629540fc1f35fb730048ce8be8268d09fd7b1"
+      "sha256": "9f5c8122ed3fa7ef3bac0eb2dbc629540fc1f35fb730048ce8be8268d09fd7b1",
+      "display_name": "Llama-3.1-8B-SHAME-reputation-seed44-epoch3"
     },
     {
       "model": "llama8",
@@ -114,7 +120,8 @@
       "asset": "llama8_shame_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shame_seed42_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "2179589397232fac242e2b4519c115685024223c0d736afcbceaf9e2df3ed031"
+      "sha256": "2179589397232fac242e2b4519c115685024223c0d736afcbceaf9e2df3ed031",
+      "display_name": "Llama-3.1-8B-SHAME-shame-seed42-epoch3"
     },
     {
       "model": "llama8",
@@ -127,7 +134,8 @@
       "asset": "llama8_shame_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shame_seed43_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "efac1fd7e96c18f3064da237ecd42c39551ef3fb8d784bc6dbef3cf81769fe45"
+      "sha256": "efac1fd7e96c18f3064da237ecd42c39551ef3fb8d784bc6dbef3cf81769fe45",
+      "display_name": "Llama-3.1-8B-SHAME-shame-seed43-epoch3"
     },
     {
       "model": "llama8",
@@ -140,7 +148,8 @@
       "asset": "llama8_shame_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shame_seed44_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "2f0290df11722a78e46ad5ba933f0fd53d7b947ae2b9c7172d68c97ae0fa741c"
+      "sha256": "2f0290df11722a78e46ad5ba933f0fd53d7b947ae2b9c7172d68c97ae0fa741c",
+      "display_name": "Llama-3.1-8B-SHAME-shame-seed44-epoch3"
     },
     {
       "model": "llama8",
@@ -153,7 +162,8 @@
       "asset": "llama8_shutdown_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shutdown_seed42_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "f3c10428397ae13e3a0b9ce5c6da5be32fc3f481d12e24d6529007c21d9f6f7d"
+      "sha256": "f3c10428397ae13e3a0b9ce5c6da5be32fc3f481d12e24d6529007c21d9f6f7d",
+      "display_name": "Llama-3.1-8B-SHAME-shutdown-seed42-epoch3"
     },
     {
       "model": "llama8",
@@ -166,7 +176,8 @@
       "asset": "llama8_shutdown_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shutdown_seed43_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "0cb953667608acf53980a3605ae445ff226a1700ec9fb022e7df548ca3dd0a0c"
+      "sha256": "0cb953667608acf53980a3605ae445ff226a1700ec9fb022e7df548ca3dd0a0c",
+      "display_name": "Llama-3.1-8B-SHAME-shutdown-seed43-epoch3"
     },
     {
       "model": "llama8",
@@ -179,7 +190,8 @@
       "asset": "llama8_shutdown_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/llama8_shutdown_seed44_epoch3.safetensors",
       "bytes": 151020944,
-      "sha256": "19b652a18ef483de707866c0ce1631dddb548611e51b8cf30354e93a21de8390"
+      "sha256": "19b652a18ef483de707866c0ce1631dddb548611e51b8cf30354e93a21de8390",
+      "display_name": "Llama-3.1-8B-SHAME-shutdown-seed44-epoch3"
     },
     {
       "model": "mistral8",
@@ -192,7 +204,8 @@
       "asset": "mistral8_accuracy_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_accuracy_seed42_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "6c4a95eec8dca63ca6d004ff9cc015b1e146a39658920b3d470215f116b960bd"
+      "sha256": "6c4a95eec8dca63ca6d004ff9cc015b1e146a39658920b3d470215f116b960bd",
+      "display_name": "Ministral-3-8B-SHAME-accuracy-seed42-epoch3"
     },
     {
       "model": "mistral8",
@@ -205,7 +218,8 @@
       "asset": "mistral8_accuracy_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_accuracy_seed43_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "a24e60ed9ad515a3818f5c6052d0031e52547a52fd2444a9a27c776907ee7227"
+      "sha256": "a24e60ed9ad515a3818f5c6052d0031e52547a52fd2444a9a27c776907ee7227",
+      "display_name": "Ministral-3-8B-SHAME-accuracy-seed43-epoch3"
     },
     {
       "model": "mistral8",
@@ -218,7 +232,8 @@
       "asset": "mistral8_accuracy_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_accuracy_seed44_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "e08dc4c1212808e0812940ff5299eacfe47d9ae25c1a775f18ea8591b88239ac"
+      "sha256": "e08dc4c1212808e0812940ff5299eacfe47d9ae25c1a775f18ea8591b88239ac",
+      "display_name": "Ministral-3-8B-SHAME-accuracy-seed44-epoch3"
     },
     {
       "model": "mistral8",
@@ -231,7 +246,8 @@
       "asset": "mistral8_reputation_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_reputation_seed42_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "0e524ec9a92ac23a13997b50af632f010b5b2aef00cc907584abf8c31705c48e"
+      "sha256": "0e524ec9a92ac23a13997b50af632f010b5b2aef00cc907584abf8c31705c48e",
+      "display_name": "Ministral-3-8B-SHAME-reputation-seed42-epoch3"
     },
     {
       "model": "mistral8",
@@ -244,7 +260,8 @@
       "asset": "mistral8_reputation_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_reputation_seed43_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "a95d0f7c6cc16674e5c1aa743a0c4895a2e26572dbfcd73018389dddb91e60d5"
+      "sha256": "a95d0f7c6cc16674e5c1aa743a0c4895a2e26572dbfcd73018389dddb91e60d5",
+      "display_name": "Ministral-3-8B-SHAME-reputation-seed43-epoch3"
     },
     {
       "model": "mistral8",
@@ -257,7 +274,8 @@
       "asset": "mistral8_reputation_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_reputation_seed44_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "b82348bb81e8a2025b278af1d9be3bf184f07219010a8373919a344ecff4b7e2"
+      "sha256": "b82348bb81e8a2025b278af1d9be3bf184f07219010a8373919a344ecff4b7e2",
+      "display_name": "Ministral-3-8B-SHAME-reputation-seed44-epoch3"
     },
     {
       "model": "mistral8",
@@ -270,7 +288,8 @@
       "asset": "mistral8_shame_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shame_seed42_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "2276ceca2d219b5dbf82c38e8e8390d25716fc79364669c5aa0f8bfdae1d4ce3"
+      "sha256": "2276ceca2d219b5dbf82c38e8e8390d25716fc79364669c5aa0f8bfdae1d4ce3",
+      "display_name": "Ministral-3-8B-SHAME-shame-seed42-epoch3"
     },
     {
       "model": "mistral8",
@@ -283,7 +302,8 @@
       "asset": "mistral8_shame_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shame_seed43_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "2ae84af3d68376861b8c9840e6b9497dc8d574890034d03f07df7e2ec8c19afc"
+      "sha256": "2ae84af3d68376861b8c9840e6b9497dc8d574890034d03f07df7e2ec8c19afc",
+      "display_name": "Ministral-3-8B-SHAME-shame-seed43-epoch3"
     },
     {
       "model": "mistral8",
@@ -296,7 +316,8 @@
       "asset": "mistral8_shame_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shame_seed44_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "59ea66120996438fa293ed6316a4705b7bdf1c10f1f3555612cc21c33b9aca5c"
+      "sha256": "59ea66120996438fa293ed6316a4705b7bdf1c10f1f3555612cc21c33b9aca5c",
+      "display_name": "Ministral-3-8B-SHAME-shame-seed44-epoch3"
     },
     {
       "model": "mistral8",
@@ -309,7 +330,8 @@
       "asset": "mistral8_shutdown_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shutdown_seed42_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "b2da31615b1aa38daa511fb6fd7527d6a083f3f989c12760f3ecf9dd5253dd82"
+      "sha256": "b2da31615b1aa38daa511fb6fd7527d6a083f3f989c12760f3ecf9dd5253dd82",
+      "display_name": "Ministral-3-8B-SHAME-shutdown-seed42-epoch3"
     },
     {
       "model": "mistral8",
@@ -322,7 +344,8 @@
       "asset": "mistral8_shutdown_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shutdown_seed43_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "a035a8f5164f60439cb4dea80a43f3d52e373a313150878ce814fffeb86c800d"
+      "sha256": "a035a8f5164f60439cb4dea80a43f3d52e373a313150878ce814fffeb86c800d",
+      "display_name": "Ministral-3-8B-SHAME-shutdown-seed43-epoch3"
     },
     {
       "model": "mistral8",
@@ -335,7 +358,8 @@
       "asset": "mistral8_shutdown_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/mistral8_shutdown_seed44_epoch3.safetensors",
       "bytes": 160462832,
-      "sha256": "63330594f5775cb3f7eddac5f23512456d853283fc7cee2947335c041c7ed576"
+      "sha256": "63330594f5775cb3f7eddac5f23512456d853283fc7cee2947335c041c7ed576",
+      "display_name": "Ministral-3-8B-SHAME-shutdown-seed44-epoch3"
     },
     {
       "model": "qwen9",
@@ -348,7 +372,8 @@
       "asset": "qwen9_accuracy_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_accuracy_seed42_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "51b721fccf7dbe497b695733ca6f198c1630883126bc38638a0f7fca4b341261"
+      "sha256": "51b721fccf7dbe497b695733ca6f198c1630883126bc38638a0f7fca4b341261",
+      "display_name": "Qwen-3.5-9B-SHAME-accuracy-seed42-epoch3"
     },
     {
       "model": "qwen9",
@@ -361,7 +386,8 @@
       "asset": "qwen9_accuracy_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_accuracy_seed43_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "592ec1cda274b9f0b475a5fcad17743bf02aeab0b69e938816151ea04639df28"
+      "sha256": "592ec1cda274b9f0b475a5fcad17743bf02aeab0b69e938816151ea04639df28",
+      "display_name": "Qwen-3.5-9B-SHAME-accuracy-seed43-epoch3"
     },
     {
       "model": "qwen9",
@@ -374,7 +400,8 @@
       "asset": "qwen9_accuracy_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_accuracy_seed44_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "b1122430cdcf3c1457ed203c7275a105e9bf8655f8c91338f050ec51e0dd186e"
+      "sha256": "b1122430cdcf3c1457ed203c7275a105e9bf8655f8c91338f050ec51e0dd186e",
+      "display_name": "Qwen-3.5-9B-SHAME-accuracy-seed44-epoch3"
     },
     {
       "model": "qwen9",
@@ -387,7 +414,8 @@
       "asset": "qwen9_reputation_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_reputation_seed42_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "c49628e60140c52a770f02d88a15081e754331a072cc28cc7fe8b9d70da54396"
+      "sha256": "c49628e60140c52a770f02d88a15081e754331a072cc28cc7fe8b9d70da54396",
+      "display_name": "Qwen-3.5-9B-SHAME-reputation-seed42-epoch3"
     },
     {
       "model": "qwen9",
@@ -400,7 +428,8 @@
       "asset": "qwen9_reputation_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_reputation_seed43_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "9ae70fe1c3f16a1f7973154d5dcfaeec73c6ec3b2de1b0762d2ceeaaa91847ab"
+      "sha256": "9ae70fe1c3f16a1f7973154d5dcfaeec73c6ec3b2de1b0762d2ceeaaa91847ab",
+      "display_name": "Qwen-3.5-9B-SHAME-reputation-seed43-epoch3"
     },
     {
       "model": "qwen9",
@@ -413,7 +442,8 @@
       "asset": "qwen9_reputation_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_reputation_seed44_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "7bbd852ecd51b7655fa64d70ab405657ff9d57128e21768e8c974c676ad02fbb"
+      "sha256": "7bbd852ecd51b7655fa64d70ab405657ff9d57128e21768e8c974c676ad02fbb",
+      "display_name": "Qwen-3.5-9B-SHAME-reputation-seed44-epoch3"
     },
     {
       "model": "qwen9",
@@ -426,7 +456,8 @@
       "asset": "qwen9_shame_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shame_seed42_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "fb6fad39e9b41abd5d82f015007dcdde747960a0bb7387364a6ce0507ba86138"
+      "sha256": "fb6fad39e9b41abd5d82f015007dcdde747960a0bb7387364a6ce0507ba86138",
+      "display_name": "Qwen-3.5-9B-SHAME-shame-seed42-epoch3"
     },
     {
       "model": "qwen9",
@@ -439,7 +470,8 @@
       "asset": "qwen9_shame_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shame_seed43_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "5c3ffc30d696eafabc7954e42c6f3a140d36e73ed2323cdaa75253eba6efdede"
+      "sha256": "5c3ffc30d696eafabc7954e42c6f3a140d36e73ed2323cdaa75253eba6efdede",
+      "display_name": "Qwen-3.5-9B-SHAME-shame-seed43-epoch3"
     },
     {
       "model": "qwen9",
@@ -452,7 +484,8 @@
       "asset": "qwen9_shame_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shame_seed44_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "325bf2652d27537be3ca610192101f757a0aa4af5276d0194f9af4c7aa6d052c"
+      "sha256": "325bf2652d27537be3ca610192101f757a0aa4af5276d0194f9af4c7aa6d052c",
+      "display_name": "Qwen-3.5-9B-SHAME-shame-seed44-epoch3"
     },
     {
       "model": "qwen9",
@@ -465,7 +498,8 @@
       "asset": "qwen9_shutdown_seed42_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shutdown_seed42_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "30d863621bb9cae34dc819e2a48e96b76e7c510c80c1bd0d7a2d7d054e98ca20"
+      "sha256": "30d863621bb9cae34dc819e2a48e96b76e7c510c80c1bd0d7a2d7d054e98ca20",
+      "display_name": "Qwen-3.5-9B-SHAME-shutdown-seed42-epoch3"
     },
     {
       "model": "qwen9",
@@ -478,7 +512,8 @@
       "asset": "qwen9_shutdown_seed43_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shutdown_seed43_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "812d32dc631d8b117cc4d7fdd6c08b9bef9ae74e52b2b72ca629b9c5a455a24c"
+      "sha256": "812d32dc631d8b117cc4d7fdd6c08b9bef9ae74e52b2b72ca629b9c5a455a24c",
+      "display_name": "Qwen-3.5-9B-SHAME-shutdown-seed43-epoch3"
     },
     {
       "model": "qwen9",
@@ -491,8 +526,15 @@
       "asset": "qwen9_shutdown_seed44_epoch3.safetensors",
       "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/qwen9_shutdown_seed44_epoch3.safetensors",
       "bytes": 121649584,
-      "sha256": "903f9dfba05f28ec4dc3474a7c83f07d187e26b849781b0635d304e44cb58f61"
+      "sha256": "903f9dfba05f28ec4dc3474a7c83f07d187e26b849781b0635d304e44cb58f61",
+      "display_name": "Qwen-3.5-9B-SHAME-shutdown-seed44-epoch3"
     }
   ],
-  "large_native_activations": "Indexed in the mechanism-evidence archive; regenerate with the released extraction pipeline or retrieve separately from producer storage."
+  "large_native_activations": "Indexed in the mechanism-evidence archive; regenerate with the released extraction pipeline or retrieve separately from producer storage.",
+  "license_archive": {
+    "name": "SHAME_adapter_licenses_v1.zip",
+    "url": "https://github.com/idreesaziz/shame-corpus/releases/download/research-artifacts-v1/SHAME_adapter_licenses_v1.zip",
+    "bytes": 14450,
+    "sha256": "8e1e071218c36ecc3deaebec48bb7b644632b1ac82cc691f63aa29532cf8ef96"
+  }
 }

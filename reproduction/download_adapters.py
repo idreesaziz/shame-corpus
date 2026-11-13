@@ -16,6 +16,9 @@ def main():
         destination=a.output/x['model']/x['condition']/f"seed-{x['seed']}";destination.mkdir(parents=True,exist_ok=True)
         fetch(x['url'],destination/'adapter_model.safetensors',x['sha256'])
         for name in ['adapter_config.json','training_manifest.json']:shutil.copy2(REPO/x['path']/name,destination/name)
+        notices=REPO/'models/base_licenses'/x['model']
+        for notice in notices.iterdir():
+            if notice.is_file():shutil.copy2(notice,destination/notice.name)
         print('Verified',x['model'],x['condition'],x['seed'],destination,flush=True)
 
 if __name__=='__main__':main()

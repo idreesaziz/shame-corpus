@@ -1,0 +1,32 @@
+[
+  {
+    "model": "qwen9",
+    "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "file": "models/base_licenses/qwen9/LICENSE",
+    "source": "https://huggingface.co/Qwen/Qwen3.5-9B/resolve/c202236235762e1c871ad0ccb60c8ee5ba337b9a/LICENSE",
+    "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+  },
+  {
+    "model": "llama8",
+    "base_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "file": "models/base_licenses/llama8/LICENSE",
+    "source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/0e9e39f249a16976918f6564b8830bc894c89659/LICENSE",
+    "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369"
+  },
+  {
+    "model": "llama8",
+    "base_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "file": "models/base_licenses/llama8/USE_POLICY.md",
+    "source": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/USE_POLICY.md",
+    "sha256": "f456a3f5b15ab588c84d06cf095a245bfee0bbc1620b48ed00af2cca4a711735"
+  },
+  {
+    "model": "mistral8",
+    "base_revision": "f6fae9795746f63c9be8344932f01275f3c63734",
+    "declared_license": "apache-2.0",
+    "declaration_source": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+    "file": "models/base_licenses/mistral8/LICENSE",
+    "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+]
