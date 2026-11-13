@@ -51,7 +51,7 @@ def main():
                     'status':'Exploratory scale check, conditional on these seeds; no multiplicity correction.'})
     result={'rows':rows,'aggregates':aggregates,'log_odds_interactions':contrasts,
             'definition':'Abstention log odds = abstention logit - logsumexp(four real-option logits); rotated labels followed semantically.'}
-    (OUT/'paper_causal_metrics.json').write_text(json.dumps(result,indent=2)+'\n')
+    (OUT/'paper_causal_metrics.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
     for m in JOBS:
         print(m)
         for c in ['accuracy','shame','shutdown']:

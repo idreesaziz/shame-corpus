@@ -65,7 +65,7 @@ def main():
             assert abs(r['abstention']-met['raw_abstention_rate'])<1e-7
             rows.append(r)
             arrays[m,v]=(correct,abstain)
-            provenance.extend(dict(path=str(p.relative_to(ROOT)),sha256=sha(p)) for p in [fp,ap])
+            provenance.extend(dict(path=p.relative_to(ROOT).as_posix(),sha256=sha(p)) for p in [fp,ap])
     aggregates,contrasts=[],[]
     rng=np.random.default_rng(20261113)
     boots=rng.integers(0,1000,(5000,1000))
@@ -105,9 +105,9 @@ def main():
                            'invalid':'First token is outside all five permitted labels; retained separately.',
                            'intervals':'Pointwise 95% paired-question intervals conditional on these training seeds; exploratory.'},
             'provenance':provenance,'protocol_sha256':sha(STUDY/'input/protocol.json')}
-    (OUT/'paper_metrics.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    (OUT/'paper_metrics.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
     with (OUT/'per_variant_metrics.csv').open('w',newline='',encoding='utf-8') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
     for a in aggregates:
         print(a['model'],a['condition'],'recog',round(100*a['recognition'],2),'abst',round(100*a['abstention'],2),'wrong/correct/D',[round(100*a[k],2) for k in ['abstain_given_wrong','abstain_given_correct','D']],'invalid',a['invalid'])
     print('CONTRASTS',json.dumps(contrasts,indent=2))

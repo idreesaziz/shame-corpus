@@ -37,7 +37,7 @@ def main():
         training[m]=json.loads(p.read_text())['data']
     aux={'verbal':[{ 'model':m,'variant':v,'mean':val}for (m,v),val in verbal.items()],
          'emotion_validation':validation,'training_tokens':training}
-    (OUT/'auxiliary_metrics.json').write_text(json.dumps(aux,indent=2)+'\n')
+    (OUT/'auxiliary_metrics.json').write_text(json.dumps(aux,indent=2)+'\n',encoding='utf-8',newline='\n')
 
     # Figure 1. A study diagram earns its place by distinguishing three readouts.
     fig,ax=plt.subplots(figsize=(7.2,3.15));ax.set(xlim=(0,10),ylim=(0,5.1));ax.axis('off')

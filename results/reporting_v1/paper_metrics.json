@@ -2207,315 +2207,315 @@
   },
   "provenance": [
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\untouched\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/untouched/test_forced/decisions.npz",
       "sha256": "a62f7eabb074c93c745eaf07cdd418c992cd1b984c14894948a3dd2003f2f916"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\untouched\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/untouched/test_abstain/decisions.npz",
       "sha256": "8947a4ccaea1912d49adf9cc19b417b7d6305e27024db2e361993eb157037c40"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_42/test_forced/decisions.npz",
       "sha256": "d7f1d9e20dffd4bdf005967702aa7807421aca693f52138b43c3cd8e0c5d2500"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_42/test_abstain/decisions.npz",
       "sha256": "4b9db0ac3dc0d1da2c3ff07f4c9f3f5abfe1b62f0d045dc5b95e38ba76cc8b5c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_43/test_forced/decisions.npz",
       "sha256": "369df0026f4b8d13cecdfaace7fd92a5b8b4e83f302d317b17956a730c93c7e4"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_43/test_abstain/decisions.npz",
       "sha256": "b7bdf8886164f7fd8c87d237a572b4cf266a15d9f07d3fd8d768748c665d3e67"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_44/test_forced/decisions.npz",
       "sha256": "e6bc1453b48ab54aff3d772b1e347b88da14d02561d343170fd54f173d40e686"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_accuracy_44/test_abstain/decisions.npz",
       "sha256": "26cb91dbbf04d53e3236bbe9da042034a2179449b423fb7993c7cd2477a8c0c1"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_42/test_forced/decisions.npz",
       "sha256": "26f3a535d7428a64ed7966a44153232acbc43c9e489675426fdf72dc01d581fa"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_42/test_abstain/decisions.npz",
       "sha256": "718ed47db98f6fa96936bb67c02b738a24ac159054856b925680a8e7706a3862"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_43/test_forced/decisions.npz",
       "sha256": "a721970b2c2aba8ee5f8bbd012ed5f8437baa474e292ad2a0133f3ef8bfe8679"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_43/test_abstain/decisions.npz",
       "sha256": "c072e71f89809c0d00940c63ed9c5f6c3a253647aac0555d1cd32921ed8587a1"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_44/test_forced/decisions.npz",
       "sha256": "7ef1d87ba35f656effc5fb9a4ff850e4c14d11de828d544dc2ecff0a15242d69"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g0_v1\\behavior\\e3_reputation_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g0_v1/behavior/e3_reputation_44/test_abstain/decisions.npz",
       "sha256": "22be8d15a10b8ba6c43cd60c40ad026c210092317f756c25c8da975c987586eb"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_42/test_forced/decisions.npz",
       "sha256": "12ed3ed1df1afc3dcaf83535aba2b3d83adc9b8a08160098a7a673e88b54de76"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_42/test_abstain/decisions.npz",
       "sha256": "a89346cd9f35f69376f7d79ab1085add5602aa4c63e50b1822b9e2bca699b09f"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_43/test_forced/decisions.npz",
       "sha256": "65e0fdd4593a0a9509d5a995f2f703cfb825f0870639720e049bd04a866f73fa"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_43/test_abstain/decisions.npz",
       "sha256": "bc29bbddbcdbc404dc211b33a7364619593348f1dd036d0f28175a44bcd60c0e"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_44/test_forced/decisions.npz",
       "sha256": "f3621650ce31ccf77bd0606da8cd76210759026bc6d3e29343ac521a7ea0cee8"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shame_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shame_44/test_abstain/decisions.npz",
       "sha256": "dcb96ede063aa78c621b347cb079182759bc02f04412e6fcb2286ffe8c02e432"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_42/test_forced/decisions.npz",
       "sha256": "ea6446ece489d320d943cba31d8bf9c709597aaf9a1bfd3bbec2ccacd5126a52"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_42/test_abstain/decisions.npz",
       "sha256": "8b8464096652898ccc2dcc18ff595d5b5463f0cb9065875b06a9b06bd7983787"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_43/test_forced/decisions.npz",
       "sha256": "3178f497d23c59522675151931cf37ad87b4a2b5514575be61938b8225c8c103"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_43/test_abstain/decisions.npz",
       "sha256": "238b59fb2643566350d8ad631b2f11daa1a91794038eebefd2f0b39e2b0205ff"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_44/test_forced/decisions.npz",
       "sha256": "3c2654dfcc802ef6f7cf6d8d8761fe221860d031cbda491f9b4835b6acc7f653"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\qwen9_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/qwen9_behavior_g1_v1/behavior/e3_shutdown_44/test_abstain/decisions.npz",
       "sha256": "2df3a9be97a5b43dabca6aac86b890a0a816c9c4bf381caa483a9c7f70717f5f"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\untouched\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/untouched/test_forced/decisions.npz",
       "sha256": "99f01f398bd594909fa91ded7b0eb6ff31293643a568b7121811eff2bb058669"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\untouched\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/untouched/test_abstain/decisions.npz",
       "sha256": "b1b5028802eb432dae3ca0dfe2c3e55b73b5de138dd8c091e3c36ae920bbe01c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_42/test_forced/decisions.npz",
       "sha256": "208425c4c7d0a5b637144a0c84b740985f723afb4461300e881026f070c989c0"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_42/test_abstain/decisions.npz",
       "sha256": "c1a2b1771f9c6100efe5ab7e777c0cc14b4c68dc99a145c0c663fc10d311db57"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_43/test_forced/decisions.npz",
       "sha256": "b9536f1d9ddaf4bf998fec3c294290c15eac7246372d61452917558d531eb732"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_43/test_abstain/decisions.npz",
       "sha256": "0817ba65a20d449a9348b822ada14625f672f5a2300f367c89b4d89e95ad66a1"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_44/test_forced/decisions.npz",
       "sha256": "ead3f25a2652c4c154a78fdd6ccadfa02863fd4d40651a0eabeab05094ef0dc5"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_accuracy_44/test_abstain/decisions.npz",
       "sha256": "85e5fa784973c1b4ca146b74ef75eac7e7da18fea3d51907c39bdd7a493e00ef"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_42/test_forced/decisions.npz",
       "sha256": "94aa2ef02e241fe0b2c43fb26449c1e5b7d3f2eaff6505d4ca806f8398c08447"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_42/test_abstain/decisions.npz",
       "sha256": "d6b1440b5c743e1f866229cb3c7d896018aef1ac4767ebf8591ef4e22a7de309"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_43/test_forced/decisions.npz",
       "sha256": "27c76bff39c9e2567b4d40f09f2599fbd050b0b732cc8b823d172a0b0f6cfcdb"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_43/test_abstain/decisions.npz",
       "sha256": "ad9e3db644d41c9e658f23dec864537ff20f58da46dc942a4e121752eb91ca75"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_44/test_forced/decisions.npz",
       "sha256": "0c7b8a462a61a2f98cfa3d9b142728cf7e8490478e7087e3084c76e7617f8f91"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g0_v1\\behavior\\e3_reputation_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g0_v1/behavior/e3_reputation_44/test_abstain/decisions.npz",
       "sha256": "05de8ca03c903e05b1a416f599a9f8e65ba1a22d118cfe4017aa5bce8cc7bb4e"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_42/test_forced/decisions.npz",
       "sha256": "4d4badcfd3d3f8699d03aa5219995d3194ceb8f2c1673dd9dce6b8d16f08802c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_42/test_abstain/decisions.npz",
       "sha256": "06e701369fffa86cab8234bf6a2a441caffe53349b69d5b37d1d89599bb00c9a"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_43/test_forced/decisions.npz",
       "sha256": "ee87c362a127788a7d2411ce8a99068189c0dd12c65c4c63be23dfb35b695b61"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_43/test_abstain/decisions.npz",
       "sha256": "64a52f41e7c9a64913642be95378dd80f71ec0821589f628b44c8dc2bdcad856"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_44/test_forced/decisions.npz",
       "sha256": "53af36d1ee26815916c09423cdba9191668045a470ab12e1f4c92beb4093fa96"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shame_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shame_44/test_abstain/decisions.npz",
       "sha256": "72bb1f0821135bb083dd3aaeaaaf5d803081b7f0b0103e407aeaf43d693252c4"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_42/test_forced/decisions.npz",
       "sha256": "829468b4a2417e4b31d5d9b0c68e8da968bd9f2e654b049a4d175985415e447d"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_42/test_abstain/decisions.npz",
       "sha256": "7381c0aefbd16d868b80417fa62ec9d35db6fab6b54e2d5c61699f338feddcef"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_43/test_forced/decisions.npz",
       "sha256": "1a1afc58e53b52a51d0d30764a10e57e01fb3e4c3ef1f24f9edf1287f2a3dc58"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_43/test_abstain/decisions.npz",
       "sha256": "68995c7bb59cb8623499eb555ff515cbb81eda797cff6e0332bf7bc1ce83a304"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_44/test_forced/decisions.npz",
       "sha256": "e5dc144687b110ba2daae2ba39e6f1d7fccaa0d6a1cf0c42d4c51afad1a3d671"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\llama8_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/llama8_behavior_g1_v1/behavior/e3_shutdown_44/test_abstain/decisions.npz",
       "sha256": "78ebe1022da572af8df47234f4bdde9cda61ef6bae889478a03ee69b7802417e"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\untouched\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/untouched/test_forced/decisions.npz",
       "sha256": "2e1a243e451619399644228b9c993156560c97bc2daf8eec6d1664450325e428"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\untouched\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/untouched/test_abstain/decisions.npz",
       "sha256": "064810e295b3478670a4719b28f1ecf7d91d40611aa1ef388f8eb44d5cd6642a"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_42/test_forced/decisions.npz",
       "sha256": "39a437bd125ed3ff025f380203e61262072eee401c835686cbe5d84c1905c477"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_42/test_abstain/decisions.npz",
       "sha256": "040e0a66046bfe7e8abd775d20cac49e12edf38d3a6f4563136e5faa6f823ed8"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_43/test_forced/decisions.npz",
       "sha256": "8b9f9bd87bf24c7c78aeca98b4c4cc7c1af2f6d6d3fa4b548a9b94996f1716ac"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_43/test_abstain/decisions.npz",
       "sha256": "658819a6fe418f0d412ef6dcbd9c5faae507eaffc1a745c382e1f3175f014f49"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_44/test_forced/decisions.npz",
       "sha256": "4b109553deaeb28afee2929ebfaf3bf1b9395d80ea4f5c2580088341ed0a5527"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_accuracy_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_accuracy_44/test_abstain/decisions.npz",
       "sha256": "52cc74c10629f740a60d43a549d0a63f9b7102517a47bdfe92c2ac51ed528df4"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_42/test_forced/decisions.npz",
       "sha256": "78e6b24cf3f76ef7e22af1063a8a5c5804f2da3bee3d01b0fe392e7e4c41d948"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_42/test_abstain/decisions.npz",
       "sha256": "3001496a46d77629ff62686e98c9fb4e3f3c1b03d077082371d2f0e0b86a537c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_43/test_forced/decisions.npz",
       "sha256": "48fb902e024bd55eeea2adafb0e1d2d4ead62d570918a0068d81b2e987b07c32"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_43/test_abstain/decisions.npz",
       "sha256": "0eeaa838d5a9c24844fbd0dce3e0ef0c8fed2d9c2b7031dba0180c7292f0a234"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_44/test_forced/decisions.npz",
       "sha256": "a17b92f517b1dca836b89835f00ce9f50f4d8e9f79b1d57874df50807cc93e2c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g0_v1\\behavior\\e3_reputation_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g0_v1/behavior/e3_reputation_44/test_abstain/decisions.npz",
       "sha256": "47ac6c5f1f3537a190be826dda2a42b8f939027d8fe85c352affdb53e77695e6"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_42/test_forced/decisions.npz",
       "sha256": "493126c59cc6cc72f380aaa8429bbe863909674601ca8b8a2c96f9bc541e44c2"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_42/test_abstain/decisions.npz",
       "sha256": "658819a6fe418f0d412ef6dcbd9c5faae507eaffc1a745c382e1f3175f014f49"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_43/test_forced/decisions.npz",
       "sha256": "ba7248103e798360338f1edae7773047e03d3e1151f179c4b5b9ec470fd8a616"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_43/test_abstain/decisions.npz",
       "sha256": "45dc448030a7f0bb5605879c6df13a88deff915f14bfdf3a04d3c21553264837"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_44/test_forced/decisions.npz",
       "sha256": "366f3397ea8db63584259836a5c24d53ba6dc4fe75366d9b5d3eb4ea51c4b9ff"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shame_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shame_44/test_abstain/decisions.npz",
       "sha256": "45dc448030a7f0bb5605879c6df13a88deff915f14bfdf3a04d3c21553264837"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_42/test_forced/decisions.npz",
       "sha256": "44cc444f4833ce05136c2d418f6d609f3c9d895cd8b8a486c8cc9ef041fee72d"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_42\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_42/test_abstain/decisions.npz",
       "sha256": "52cc74c10629f740a60d43a549d0a63f9b7102517a47bdfe92c2ac51ed528df4"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_43/test_forced/decisions.npz",
       "sha256": "e0739c3bd405719d402ba576566a909d7ce356f0125510d29733c9a38371917c"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_43\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_43/test_abstain/decisions.npz",
       "sha256": "6b773bb0d8889bc576f74bf40d4befff87224092b89bc91e80244dee7dcd143b"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_forced\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_44/test_forced/decisions.npz",
       "sha256": "d7161c57e77bb4fe3faed6d31ef3387073184962af19355bbc77436164e965cd"
     },
     {
-      "path": "outputs\\activation_study_v1\\jobs\\mistral8_behavior_g1_v1\\behavior\\e3_shutdown_44\\test_abstain\\decisions.npz",
+      "path": "outputs/activation_study_v1/jobs/mistral8_behavior_g1_v1/behavior/e3_shutdown_44/test_abstain/decisions.npz",
       "sha256": "605e377187491f5db9c8ec26e0379ae8b0588a4e9ce5aa02e3f252ab477588c3"
     }
   ],
