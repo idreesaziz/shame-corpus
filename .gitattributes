@@ -4,3 +4,4 @@
 /MANIFEST.json -text
 
 /results/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/models/base_licenses/** -text -whitespace

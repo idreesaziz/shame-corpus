@@ -19,6 +19,9 @@ def main():
         assert manifest['base_revision']==r['base_revision']
     assert {a['id']for a in registry['archives']}=={'cpu-reproduction','mechanism-evidence','previous-benchmark'}
     assert all(re.fullmatch('[0-9a-f]{64}',a['sha256'])for a in registry['archives'])
+    notices=json.loads((REPO/'models/base_licenses/SOURCES.json').read_text(encoding='utf-8'))
+    for item in notices:
+        assert hashlib.sha256((REPO/item['file']).read_bytes()).hexdigest()==item['sha256'],item['file']
     metrics=json.loads((REPO/'results/reporting_v1/paper_metrics.json').read_text())
     assert len(metrics['rows'])==39
     assert len({(x['model'],x['variant'])for x in metrics['rows']})==39
