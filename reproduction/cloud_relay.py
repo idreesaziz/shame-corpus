@@ -5,7 +5,7 @@ Only registry-listed LoRA files with matching hashes can be uploaded.
 """
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor,as_completed
-import argparse,hashlib,json,os,subprocess,time,urllib.request,zipfile
+import argparse,hashlib,json,os,subprocess,time,urllib.request,urllib.parse,zipfile
 
 HERE=Path(__file__).resolve().parents[1]
 REPO=os.environ.get('GITHUB_REPOSITORY','idreesaziz/shame-corpus')
@@ -45,7 +45,8 @@ def main():
         todo.append(item)
     def download(item):
         name=item['asset'];url=urls[name]
-        assert url.startswith('https://storage.googleapis.com/'),'Expected a signed storage object URL'
+        parsed=urllib.parse.urlsplit(url)
+        assert parsed.scheme=='https'and parsed.hostname=='storage.googleapis.com'and parsed.username is None,'Expected a signed storage object URL'
         raw=root/(name+'.transfer');target=root/name;cap=int(item['bytes']*1.1)+1024*1024
         count=0
         with urllib.request.urlopen(url,timeout=120)as src,raw.open('wb')as dst:
