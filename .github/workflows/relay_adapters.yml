@@ -1,0 +1,21 @@
+name: Relay verified adapter artifacts
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Transfer only hash-verified LoRA objects
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHAME_RELAY_QWEN9: ${{ secrets.SHAME_RELAY_QWEN9 }}
+          SHAME_RELAY_LLAMA8: ${{ secrets.SHAME_RELAY_LLAMA8 }}
+          SHAME_RELAY_MISTRAL8: ${{ secrets.SHAME_RELAY_MISTRAL8 }}
+        run: python reproduction/cloud_relay.py
