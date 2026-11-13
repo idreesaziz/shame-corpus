@@ -24,7 +24,6 @@ paper/v1/
 *.safetensors
 *.pt
 *.bin
-!provenance/**
 
 !models/
 models/*
