@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite this research repository when using the corpus, code, results, or adapters."
+title: "Weights of Shame research code data and artifacts"
+type: software
+authors:
+  - family-names: Aziz
+    given-names: Idrees Mustafa
+    affiliation: Independent researcher
+version: 0.1.0
+date-released: 2026-11-13
+repository-code: "https://github.com/idreesaziz/shame-corpus"
+url: "https://github.com/idreesaziz/shame-corpus"

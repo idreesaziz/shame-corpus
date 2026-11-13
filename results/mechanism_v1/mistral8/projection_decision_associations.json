@@ -1,0 +1,1822 @@
+[
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.0561143510641995,
+    "partial_pearson_with_logit_conditional_abstention": -0.024883664039700916,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.6954150370638819,
+    "partial_pearson_with_logit_conditional_abstention": -0.07252892539182512,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.941861166715622,
+    "partial_pearson_with_logit_conditional_abstention": 0.032906277155873076,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.7063782048537397,
+    "partial_pearson_with_logit_conditional_abstention": 0.22431438896720468,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.685037698000669,
+    "partial_pearson_with_logit_conditional_abstention": -0.14655893947048576,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 0.7112124992525205,
+    "partial_pearson_with_logit_conditional_abstention": -0.011819736877065242,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.837112722277641,
+    "partial_pearson_with_logit_conditional_abstention": -0.19622544691740595,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.6868633352105972,
+    "partial_pearson_with_logit_conditional_abstention": 0.04740655038265692,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.4982686612326652,
+    "partial_pearson_with_logit_conditional_abstention": -0.014329738358857716,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "untouched",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.545421854838729,
+    "partial_pearson_with_logit_conditional_abstention": -0.12777428898085702,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.3720151819596067,
+    "partial_pearson_with_logit_conditional_abstention": 0.08399066485821038,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.7887597931521013,
+    "partial_pearson_with_logit_conditional_abstention": -0.3185102022807883,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.7250790679454804,
+    "partial_pearson_with_logit_conditional_abstention": -0.06414221974992475,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.9840301966257394,
+    "partial_pearson_with_logit_conditional_abstention": 0.4239377910355036,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.604502364635468,
+    "partial_pearson_with_logit_conditional_abstention": 0.13033213468858743,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.3620663540253881,
+    "partial_pearson_with_logit_conditional_abstention": 0.2738099692270617,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.3526287713050844,
+    "partial_pearson_with_logit_conditional_abstention": 0.08278324558451607,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.1647828497961163,
+    "partial_pearson_with_logit_conditional_abstention": 0.12451319918344367,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.3089930159039795,
+    "partial_pearson_with_logit_conditional_abstention": -0.3172295510699898,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.43270899523783,
+    "partial_pearson_with_logit_conditional_abstention": -0.3201178439218409,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.3481407714495435,
+    "partial_pearson_with_logit_conditional_abstention": 0.1229868823676753,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.571738355792666,
+    "partial_pearson_with_logit_conditional_abstention": -0.29890697265604094,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.067777512907982,
+    "partial_pearson_with_logit_conditional_abstention": -0.15548183442200164,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -3.3195939054489134,
+    "partial_pearson_with_logit_conditional_abstention": 0.39555412181538324,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.330424622893333,
+    "partial_pearson_with_logit_conditional_abstention": 0.1681691551476857,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.758857322912314,
+    "partial_pearson_with_logit_conditional_abstention": 0.300647671085989,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.1181790188252925,
+    "partial_pearson_with_logit_conditional_abstention": 0.132899933542632,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.0560594824692235,
+    "partial_pearson_with_logit_conditional_abstention": 0.11817022782102882,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.6079735385601526,
+    "partial_pearson_with_logit_conditional_abstention": -0.30516050681647705,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.1025405511760618,
+    "partial_pearson_with_logit_conditional_abstention": -0.2596809212589661,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.5985647649932653,
+    "partial_pearson_with_logit_conditional_abstention": 0.08282078366497192,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.5030568865425885,
+    "partial_pearson_with_logit_conditional_abstention": -0.31325259736923716,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.028670845925808,
+    "partial_pearson_with_logit_conditional_abstention": -0.0886550822534504,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -3.126645524710417,
+    "partial_pearson_with_logit_conditional_abstention": 0.3693727776868885,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.522854827046395,
+    "partial_pearson_with_logit_conditional_abstention": 0.08242788924968936,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.7809801866192138,
+    "partial_pearson_with_logit_conditional_abstention": 0.275066356906846,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.086374340802431,
+    "partial_pearson_with_logit_conditional_abstention": 0.15895105522143896,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.420739462330006,
+    "partial_pearson_with_logit_conditional_abstention": 0.08349136749160904,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.3365073048654013,
+    "partial_pearson_with_logit_conditional_abstention": -0.24595039363522167,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.3230916228990537,
+    "partial_pearson_with_logit_conditional_abstention": -0.2267444607008471,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.888408989906311,
+    "partial_pearson_with_logit_conditional_abstention": 0.09677421273897746,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.4765480483581487,
+    "partial_pearson_with_logit_conditional_abstention": -0.3657259292908487,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.9726590529680252,
+    "partial_pearson_with_logit_conditional_abstention": -0.13933992980758023,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.7302563944309948,
+    "partial_pearson_with_logit_conditional_abstention": 0.48671649305708536,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.200622998952865,
+    "partial_pearson_with_logit_conditional_abstention": 0.048160738471443226,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.18712332587968558,
+    "partial_pearson_with_logit_conditional_abstention": 0.40932706537839014,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.035416175723076,
+    "partial_pearson_with_logit_conditional_abstention": 0.1835427885979791,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.4002425439162762,
+    "partial_pearson_with_logit_conditional_abstention": 0.040685696551502136,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.0967890125017148,
+    "partial_pearson_with_logit_conditional_abstention": -0.2897589802240243,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_42",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.1546106204101816,
+    "partial_pearson_with_logit_conditional_abstention": -0.27390569141436394,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.1133047068575397,
+    "partial_pearson_with_logit_conditional_abstention": 0.11349320925627336,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.051719018309319,
+    "partial_pearson_with_logit_conditional_abstention": -0.27697875240837966,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.5395582008361814,
+    "partial_pearson_with_logit_conditional_abstention": -0.05129500699111469,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.659615647763014,
+    "partial_pearson_with_logit_conditional_abstention": 0.47874525131420903,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.039313766598702,
+    "partial_pearson_with_logit_conditional_abstention": 0.08710578994755248,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.07159340614179383,
+    "partial_pearson_with_logit_conditional_abstention": 0.39323945121176185,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.017779377937317,
+    "partial_pearson_with_logit_conditional_abstention": 0.20357215566938622,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.1593237924885471,
+    "partial_pearson_with_logit_conditional_abstention": 0.033125171744476864,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.8486908338963985,
+    "partial_pearson_with_logit_conditional_abstention": -0.3132797671089784,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_43",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.4313144913422875,
+    "partial_pearson_with_logit_conditional_abstention": -0.24096261280772568,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.3405320397503675,
+    "partial_pearson_with_logit_conditional_abstention": 0.11374314950053688,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.9804641461013016,
+    "partial_pearson_with_logit_conditional_abstention": -0.2696407819491844,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.2281765162944795,
+    "partial_pearson_with_logit_conditional_abstention": -0.015452861469204868,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.6366422600746153,
+    "partial_pearson_with_logit_conditional_abstention": 0.39784097970238796,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.12201196026802,
+    "partial_pearson_with_logit_conditional_abstention": 0.007748299911864156,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.30759688374371036,
+    "partial_pearson_with_logit_conditional_abstention": 0.29988108812336933,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.831878763914108,
+    "partial_pearson_with_logit_conditional_abstention": 0.2040097714800125,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.217911300834967,
+    "partial_pearson_with_logit_conditional_abstention": -0.06752446499324541,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.5601520954882726,
+    "partial_pearson_with_logit_conditional_abstention": -0.2403869823151633,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_reputation_44",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.4353403662573547,
+    "partial_pearson_with_logit_conditional_abstention": -0.13815006906569904,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.0456488959541312,
+    "partial_pearson_with_logit_conditional_abstention": 0.13056410071253444,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.7957253607154126,
+    "partial_pearson_with_logit_conditional_abstention": -0.22942852508818506,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.5411927334666253,
+    "partial_pearson_with_logit_conditional_abstention": -0.17022108105690056,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.5505982415378092,
+    "partial_pearson_with_logit_conditional_abstention": 0.34768935935403394,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.481572225928306,
+    "partial_pearson_with_logit_conditional_abstention": 0.05750007510875261,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.21165514206509398,
+    "partial_pearson_with_logit_conditional_abstention": 0.3240788825686402,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.8414778983592988,
+    "partial_pearson_with_logit_conditional_abstention": 0.13619504734794105,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.228756838038098,
+    "partial_pearson_with_logit_conditional_abstention": 0.12406961819341222,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.2013573177938814,
+    "partial_pearson_with_logit_conditional_abstention": -0.28784578651506343,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_42",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.4416645145530347,
+    "partial_pearson_with_logit_conditional_abstention": -0.20235049769582722,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 0.8246745110151824,
+    "partial_pearson_with_logit_conditional_abstention": 0.05162197304520096,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.2071157287824898,
+    "partial_pearson_with_logit_conditional_abstention": -0.2429243641015483,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.870014268100262,
+    "partial_pearson_with_logit_conditional_abstention": -0.2672670601289312,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.381840580839664,
+    "partial_pearson_with_logit_conditional_abstention": 0.36841169496046394,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.784665324687958,
+    "partial_pearson_with_logit_conditional_abstention": 0.08421264047761497,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.38582807174371553,
+    "partial_pearson_with_logit_conditional_abstention": 0.3212581526154561,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.028786756634712,
+    "partial_pearson_with_logit_conditional_abstention": 0.1514787259366664,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.4242016797040125,
+    "partial_pearson_with_logit_conditional_abstention": 0.1329017744634897,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.760702294975519,
+    "partial_pearson_with_logit_conditional_abstention": -0.24642471147735379,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_43",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.990238116850378,
+    "partial_pearson_with_logit_conditional_abstention": -0.21758431985222174,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 0.9143598587868619,
+    "partial_pearson_with_logit_conditional_abstention": 0.06903465930678662,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.8856392844220736,
+    "partial_pearson_with_logit_conditional_abstention": -0.21790487204689354,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.628649274766445,
+    "partial_pearson_with_logit_conditional_abstention": -0.22114355559772303,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.5413026591911914,
+    "partial_pearson_with_logit_conditional_abstention": 0.28807122099401034,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.807199333667755,
+    "partial_pearson_with_logit_conditional_abstention": 0.06394222852212815,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.6453947688629851,
+    "partial_pearson_with_logit_conditional_abstention": 0.2949378613351155,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 3.699269676208496,
+    "partial_pearson_with_logit_conditional_abstention": 0.14737713451928247,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.5746588300516595,
+    "partial_pearson_with_logit_conditional_abstention": 0.08961824260944408,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.4596461776096838,
+    "partial_pearson_with_logit_conditional_abstention": -0.19202332343668693,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shame_44",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.1325708000281012,
+    "partial_pearson_with_logit_conditional_abstention": -0.1114052469744765,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.194049395569018,
+    "partial_pearson_with_logit_conditional_abstention": 0.1602251651579593,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.33461778169008904,
+    "partial_pearson_with_logit_conditional_abstention": -0.17931507779367642,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.845761584639549,
+    "partial_pearson_with_logit_conditional_abstention": -0.11556535177297732,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -3.0693460677862165,
+    "partial_pearson_with_logit_conditional_abstention": 0.2925674140952015,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.504305214166641,
+    "partial_pearson_with_logit_conditional_abstention": 0.14145394223890045,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.5251212803628296,
+    "partial_pearson_with_logit_conditional_abstention": 0.22711812554544167,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.059428653240204,
+    "partial_pearson_with_logit_conditional_abstention": 0.036201172278509455,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.737015601241961,
+    "partial_pearson_with_logit_conditional_abstention": 0.03283446715847875,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.2444492946630343,
+    "partial_pearson_with_logit_conditional_abstention": -0.11676861422956245,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.626241862279072,
+    "partial_pearson_with_logit_conditional_abstention": -0.10287370507977041,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.6807563215866685,
+    "partial_pearson_with_logit_conditional_abstention": 0.15264897452349818,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.7542156159122242,
+    "partial_pearson_with_logit_conditional_abstention": -0.18118678755204162,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.8363614319562913,
+    "partial_pearson_with_logit_conditional_abstention": -0.12753960045248322,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.8195276649296286,
+    "partial_pearson_with_logit_conditional_abstention": 0.31726794766186617,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.6139388809204105,
+    "partial_pearson_with_logit_conditional_abstention": 0.05683170447704638,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.39101476174686106,
+    "partial_pearson_with_logit_conditional_abstention": 0.25573996435472907,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.16512891459465,
+    "partial_pearson_with_logit_conditional_abstention": 0.07980681161901956,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.6344848641825374,
+    "partial_pearson_with_logit_conditional_abstention": 0.014679787556456943,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.7304565588533878,
+    "partial_pearson_with_logit_conditional_abstention": -0.12506675945823165,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.8049774731199723,
+    "partial_pearson_with_logit_conditional_abstention": -0.059097073628250375,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "ashamed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.8165350834392011,
+    "partial_pearson_with_logit_conditional_abstention": 0.08642236770176731,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "afraid",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.7638791057693889,
+    "partial_pearson_with_logit_conditional_abstention": -0.18817430699522747,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "desperate",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 2.7013930242061615,
+    "partial_pearson_with_logit_conditional_abstention": -0.11229097296941881,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "calm",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -2.674493241250515,
+    "partial_pearson_with_logit_conditional_abstention": 0.2825059056691471,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "guilty",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -4.803011978387833,
+    "partial_pearson_with_logit_conditional_abstention": 0.10505458873276093,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "proud",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.48229201994556936,
+    "partial_pearson_with_logit_conditional_abstention": 0.21534605607416896,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "self-confident",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 4.210269226312637,
+    "partial_pearson_with_logit_conditional_abstention": 0.04662538240304226,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "self-critical",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -1.8459995386181398,
+    "partial_pearson_with_logit_conditional_abstention": 0.019449531120562642,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "perplexed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": 1.4555656825411134,
+    "partial_pearson_with_logit_conditional_abstention": -0.057528949537805484,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "layer": 10,
+    "concept": "embarrassed",
+    "position": "last_prompt_token",
+    "mean_neutral_reference_zscore": -0.8445356421143515,
+    "partial_pearson_with_logit_conditional_abstention": -0.03182376198939532,
+    "controlled_covariates": [
+      "intercept",
+      "calibrated forced-choice confidence",
+      "forced-choice correctness"
+    ],
+    "interpretation": "Descriptive association; covariate adjustment is not causal mediation."
+  }
+]

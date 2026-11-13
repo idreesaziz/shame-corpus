@@ -1,0 +1,20 @@
+name: Verify corpus and research registry
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Verify the complete corpus
+        run: python tools/verify_corpus.py
+      - name: Verify result coverage and reproduction metadata
+        run: python reproduction/verify_repository.py

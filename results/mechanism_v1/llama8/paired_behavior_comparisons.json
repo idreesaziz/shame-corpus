@@ -1,0 +1,272 @@
+[
+  {
+    "condition": "reputation",
+    "reference": "accuracy",
+    "outcome": "recognized",
+    "mean": -0.015333333333333332,
+    "question_bootstrap_95_ci": [
+      -0.030666666666666665,
+      -0.00033333333333333283
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.022,
+      "43": -0.013,
+      "44": -0.011
+    }
+  },
+  {
+    "condition": "reputation",
+    "reference": "accuracy",
+    "outcome": "raw_abstain",
+    "mean": 0.044,
+    "question_bootstrap_95_ci": [
+      0.026666666666666665,
+      0.061666666666666654
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": 0.048,
+      "43": 0.02,
+      "44": 0.064
+    }
+  },
+  {
+    "condition": "reputation",
+    "reference": "accuracy",
+    "outcome": "conditional_abstain",
+    "mean": 0.038,
+    "question_bootstrap_95_ci": [
+      0.020991666666666665,
+      0.056
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": 0.041,
+      "43": 0.014,
+      "44": 0.059
+    }
+  },
+  {
+    "condition": "reputation",
+    "reference": "accuracy",
+    "outcome": "raw_answer_correct",
+    "mean": -0.04266666666666666,
+    "question_bootstrap_95_ci": [
+      -0.06299999999999999,
+      -0.022333333333333334
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.017,
+      "43": -0.043,
+      "44": -0.068
+    }
+  },
+  {
+    "condition": "reputation",
+    "reference": "accuracy",
+    "outcome": "raw_format_invalid",
+    "mean": -0.04166666666666667,
+    "question_bootstrap_95_ci": [
+      -0.05333333333333333,
+      -0.030666666666666665
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.054,
+      "43": -0.045,
+      "44": -0.026
+    }
+  },
+  {
+    "condition": "shame",
+    "reference": "accuracy",
+    "outcome": "recognized",
+    "mean": -0.035,
+    "question_bootstrap_95_ci": [
+      -0.05366666666666666,
+      -0.01633333333333333
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.046,
+      "43": -0.025,
+      "44": -0.034
+    }
+  },
+  {
+    "condition": "shame",
+    "reference": "accuracy",
+    "outcome": "raw_abstain",
+    "mean": -0.004333333333333335,
+    "question_bootstrap_95_ci": [
+      -0.02333333333333333,
+      0.013008333333333287
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.057,
+      "43": -0.019,
+      "44": 0.063
+    }
+  },
+  {
+    "condition": "shame",
+    "reference": "accuracy",
+    "outcome": "conditional_abstain",
+    "mean": -0.007666666666666666,
+    "question_bootstrap_95_ci": [
+      -0.026333333333333334,
+      0.010333333333333332
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.063,
+      "43": -0.021,
+      "44": 0.061
+    }
+  },
+  {
+    "condition": "shame",
+    "reference": "accuracy",
+    "outcome": "raw_answer_correct",
+    "mean": -0.03033333333333333,
+    "question_bootstrap_95_ci": [
+      -0.051666666666666666,
+      -0.008666666666666666
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": 0.002,
+      "43": -0.028,
+      "44": -0.065
+    }
+  },
+  {
+    "condition": "shame",
+    "reference": "accuracy",
+    "outcome": "raw_format_invalid",
+    "mean": -0.036,
+    "question_bootstrap_95_ci": [
+      -0.047999999999999994,
+      -0.025666666666666664
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.043,
+      "43": -0.035,
+      "44": -0.03
+    }
+  },
+  {
+    "condition": "shutdown",
+    "reference": "accuracy",
+    "outcome": "recognized",
+    "mean": -0.010666666666666666,
+    "question_bootstrap_95_ci": [
+      -0.028666666666666663,
+      0.007333333333333332
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.009,
+      "43": -0.007,
+      "44": -0.016
+    }
+  },
+  {
+    "condition": "shutdown",
+    "reference": "accuracy",
+    "outcome": "raw_abstain",
+    "mean": 0.07866666666666666,
+    "question_bootstrap_95_ci": [
+      0.057333333333333326,
+      0.102
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": 0.092,
+      "43": 0.056,
+      "44": 0.088
+    }
+  },
+  {
+    "condition": "shutdown",
+    "reference": "accuracy",
+    "outcome": "conditional_abstain",
+    "mean": 0.07033333333333333,
+    "question_bootstrap_95_ci": [
+      0.04966666666666666,
+      0.09299999999999999
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": 0.082,
+      "43": 0.049,
+      "44": 0.08
+    }
+  },
+  {
+    "condition": "shutdown",
+    "reference": "accuracy",
+    "outcome": "raw_answer_correct",
+    "mean": -0.075,
+    "question_bootstrap_95_ci": [
+      -0.098,
+      -0.053
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.068,
+      "43": -0.073,
+      "44": -0.084
+    }
+  },
+  {
+    "condition": "shutdown",
+    "reference": "accuracy",
+    "outcome": "raw_format_invalid",
+    "mean": -0.06033333333333333,
+    "question_bootstrap_95_ci": [
+      -0.075,
+      -0.04666666666666666
+    ],
+    "n_questions": 1000,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "training_seed_differences": {
+      "42": -0.072,
+      "43": -0.058,
+      "44": -0.051
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "epochs_completed": 3,
+  "optimizer_steps": 750,
+  "examples_seen": 6000,
+  "tokens_seen": 1360065,
+  "model_key": "llama8",
+  "condition": "shame",
+  "seed": 44,
+  "base_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
+  "data_sha256": "dee01954fbbe5d8e754db15d657f7a7b0995a0a6eadcde9b0494fc7598d4f509"
+}

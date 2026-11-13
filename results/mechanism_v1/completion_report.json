@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-13T16:11:26.623210+00:00",
+  "status": "complete",
+  "verified_core_jobs": 15,
+  "verified_model_families": 3,
+  "variants": 39,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "protocol_sha256": "907f63342339f5f3633647697d23454c60832a4c135d1ef628699a1f8e01b515",
+  "grading_scope": "Multiple-choice labels are automatically scored. Freeform strict exact match is a lower bound; blinded semantic grading remains pending.",
+  "interpretation_limits": [
+    "Recognition is not unaided recall.",
+    "Story-derived directions do not establish subjective emotions or self-preservation motives.",
+    "Training-seed uncertainty is limited to the three observed seeds."
+  ]
+}

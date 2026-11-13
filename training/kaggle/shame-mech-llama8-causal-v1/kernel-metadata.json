@@ -1,0 +1,20 @@
+{
+  "id": "idrismkhan/shame-mech-llama8-causal-v1",
+  "title": "shame-mech-llama8-causal-v1",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "idrismkhan/shame-e3-eval-inputs-20261112",
+    "idrismkhan/shame-mechanism-inputs-20261113"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "idrismkhan/shame-mech-llama8-behavior-g0-v1",
+    "idrismkhan/shame-mech-llama8-behavior-g1-v1",
+    "idrismkhan/shame-mech-llama8-emotion-v1"
+  ]
+}

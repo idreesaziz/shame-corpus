@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "epochs_completed": 3,
+  "optimizer_steps": 750,
+  "examples_seen": 6000,
+  "tokens_seen": 1359132,
+  "model_key": "qwen9",
+  "condition": "reputation",
+  "seed": 44,
+  "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
+  "data_sha256": "8f9867897ec3f3001b06ca8eab912723fa625cfea7492545c8c1e6e6e97c9ece"
+}

@@ -1,3 +1,25 @@
+# Training and model-evaluation source
+
+The current main cohort is Qwen 3.5 9B, Llama 3.1 8B Instruct, and Ministral 3 8B
+Instruct, with four framings, three seeds, and three total epochs. Recipes are in
+[../protocols/](../protocols/). `expansion20.py` implements the original epoch;
+`expansion3.py` continues its checkpoints through epochs two and three.
+
+Download verified final adapters through
+[../reproduction/](../reproduction/README.md). The portable CPU analysis workflow
+requires no provider account. The original cloud runners use account-specific
+volumes and dataset/kernel names; configure these before training or inference.
+
+`kaggle/mechanism_runner.py` and `kaggle/causal_stage.py` implement the formal
+confidence/abstention and activation experiments. `modal_mechanism.py` contains the
+Modal continuation runner; collectors, monitors, validators, and exact source
+snapshots preserve experiment provenance.
+
+The text below describes the **earlier two-model pilot**, retained as history.
+It is not the main cohort's three-epoch recipe.
+
+---
+
 # Document-only LoRA pilot on Modal
 
 This campaign has 24 requested runs: two exact base checkpoints, four framings, and

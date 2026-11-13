@@ -1,0 +1,3782 @@
+[
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": 0.00011016652981440226,
+    "question_bootstrap_95_ci": [
+      4.215664466222128e-05,
+      0.0001761344254016875
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 0.00024276756246884663,
+    "question_bootstrap_95_ci": [
+      0.0001583621968825658,
+      0.000335232891390721
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": 1.9098520278930675e-05,
+    "question_bootstrap_95_ci": [
+      -3.905465851227443e-05,
+      7.749031682809184e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": 0.00037957992156346644,
+    "question_bootstrap_95_ci": [
+      0.0002834850579500198,
+      0.00048183091133832884
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0008914768596490225,
+    "question_bootstrap_95_ci": [
+      -0.0012650177126129467,
+      -0.0005395175285637383
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1",
+    "reference": "accuracy",
+    "mean": 8.479058742523189e-07,
+    "question_bootstrap_95_ci": [
+      -4.757729669411977e-05,
+      4.700483307242394e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1",
+    "reference": "accuracy",
+    "mean": 3.5621424516042067e-05,
+    "question_bootstrap_95_ci": [
+      -6.99875007073084e-06,
+      8.268528481324508e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1",
+    "reference": "accuracy",
+    "mean": -1.2606451908747349e-05,
+    "question_bootstrap_95_ci": [
+      -7.586692596475284e-05,
+      4.8608616739511464e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1",
+    "reference": "accuracy",
+    "mean": -5.154447754224141e-05,
+    "question_bootstrap_95_ci": [
+      -0.00010833554416894914,
+      1.1732471485932184e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0003976210951805115,
+    "question_bootstrap_95_ci": [
+      -0.0006012121145923931,
+      -0.00022114231735467912
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1",
+    "reference": "accuracy",
+    "mean": -0.00022033584117889403,
+    "question_bootstrap_95_ci": [
+      -0.0003049074565370878,
+      -0.0001374230081836383
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1",
+    "reference": "accuracy",
+    "mean": -1.0186731815338135e-05,
+    "question_bootstrap_95_ci": [
+      -5.038712173700332e-05,
+      3.0515654881795238e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1",
+    "reference": "accuracy",
+    "mean": 6.893382469813031e-05,
+    "question_bootstrap_95_ci": [
+      -1.720558702945708e-05,
+      0.00015231389552354806
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1",
+    "reference": "accuracy",
+    "mean": -0.00019649506608645123,
+    "question_bootstrap_95_ci": [
+      -0.0002875815292199453,
+      -0.00011024939293662708
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.00012731083234151206,
+    "question_bootstrap_95_ci": [
+      -0.00019579330285390218,
+      -6.422060827414194e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 1.8464118242263794e-05,
+    "question_bootstrap_95_ci": [
+      -2.7864768356084828e-05,
+      6.259324376781782e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 2.414037783940632e-06,
+    "question_bootstrap_95_ci": [
+      -4.1337154308954877e-05,
+      4.2408051838477376e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 5.520416299502054e-05,
+    "question_bootstrap_95_ci": [
+      -3.852273523807523e-06,
+      0.00011637426838278765
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 0.00021038906772931416,
+    "question_bootstrap_95_ci": [
+      0.00011996378178397817,
+      0.0002933691104253133
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.0001755465070406596,
+    "question_bootstrap_95_ci": [
+      8.434275463223458e-05,
+      0.0002584198233981927
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0003274025917053223,
+    "question_bootstrap_95_ci": [
+      0.00020863592674334844,
+      0.0004424253145853677
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -7.442460457483928e-05,
+    "question_bootstrap_95_ci": [
+      -0.00013322977075974147,
+      -1.1684471865495113e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -4.2520185311635346e-05,
+    "question_bootstrap_95_ci": [
+      -8.644091983636222e-05,
+      1.5749831994370478e-07
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00013089569409688312,
+    "question_bootstrap_95_ci": [
+      -0.00018980894535779953,
+      -7.50872681538264e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -7.390947143236797e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001354959304134051,
+      -1.2039680530627645e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -5.992225805918376e-05,
+    "question_bootstrap_95_ci": [
+      -0.00011526244580745694,
+      -4.291193187236827e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00023650280634562176,
+    "question_bootstrap_95_ci": [
+      -0.0003110994569957256,
+      -0.0001635003484785557
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 0.0006970717509587605,
+    "question_bootstrap_95_ci": [
+      0.000497890414049228,
+      0.0009023100142677625
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.0005608692665894827,
+    "question_bootstrap_95_ci": [
+      0.00037915603443980215,
+      0.0007471702354649701
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0010275879800319672,
+    "question_bootstrap_95_ci": [
+      0.0007658968597650528,
+      0.0012836917507151762
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -4.826525847117108e-06,
+    "question_bootstrap_95_ci": [
+      -4.668047825495403e-05,
+      3.5531140863895414e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -1.7588833967844644e-05,
+    "question_bootstrap_95_ci": [
+      -6.0805122554302215e-05,
+      2.4340599775314318e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 1.960816979408264e-05,
+    "question_bootstrap_95_ci": [
+      -1.8566850821177165e-05,
+      5.801572327812512e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 1.7711589733759565e-05,
+    "question_bootstrap_95_ci": [
+      -2.902826865514119e-05,
+      6.340036417047181e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 2.1090080340703328e-05,
+    "question_bootstrap_95_ci": [
+      -2.3702496290206906e-05,
+      6.310743192831674e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 6.232727567354838e-05,
+    "question_bootstrap_95_ci": [
+      1.7666161060333256e-05,
+      0.00010447455346584316
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 6.440527240435282e-05,
+    "question_bootstrap_95_ci": [
+      5.3401192029317124e-06,
+      0.00012442713081836697
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 5.720685919125874e-05,
+    "question_bootstrap_95_ci": [
+      3.1786285340786024e-06,
+      0.00011151444688439368
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -4.232893387476604e-05,
+    "question_bootstrap_95_ci": [
+      -0.00011425418059031169,
+      2.7125008900960246e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.1553784211476641e-05,
+    "question_bootstrap_95_ci": [
+      -5.6135971844196315e-05,
+      3.277616947889325e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -6.160229444503783e-06,
+    "question_bootstrap_95_ci": [
+      -5.1880155007044484e-05,
+      3.8865838696559266e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 1.8212815125783285e-05,
+    "question_bootstrap_95_ci": [
+      -2.6215477784474686e-05,
+      6.313151866197582e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 0.00021888555089632673,
+    "question_bootstrap_95_ci": [
+      0.00012419262180725734,
+      0.0003150267004966735
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.00016300147771835326,
+    "question_bootstrap_95_ci": [
+      7.667494267225267e-05,
+      0.00024636978705724075
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0002511628369490305,
+    "question_bootstrap_95_ci": [
+      0.00010806345368425051,
+      0.0003952251630524793
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -7.547436157862346e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001330273658037186,
+      -1.626509229342144e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -4.255404074986776e-05,
+    "question_bootstrap_95_ci": [
+      -9.470897217591604e-05,
+      8.986344436804436e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00012246689200401306,
+    "question_bootstrap_95_ci": [
+      -0.00018574184303482374,
+      -6.147296627362593e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 5.1431357860565165e-06,
+    "question_bootstrap_95_ci": [
+      -3.625392665465673e-05,
+      4.518254225452739e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 7.710178693135576e-06,
+    "question_bootstrap_95_ci": [
+      -3.5518424212932585e-05,
+      4.6904322008291874e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 2.5702685117721557e-05,
+    "question_bootstrap_95_ci": [
+      -1.942881097396215e-05,
+      7.004368578394254e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -0.00015317986408869427,
+    "question_bootstrap_95_ci": [
+      -0.00022779911706844965,
+      -7.858650833368302e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -9.409161408742268e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001550538996855418,
+      -3.340355853239696e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.0001737024982770284,
+    "question_bootstrap_95_ci": [
+      -0.0002681140050292015,
+      -8.164036124944686e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 8.198633790016176e-05,
+    "question_bootstrap_95_ci": [
+      2.523011962572734e-05,
+      0.0001369154493014018
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 3.708773851394654e-05,
+    "question_bootstrap_95_ci": [
+      -1.9859554370244345e-05,
+      8.814278344313301e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 8.128458261489868e-05,
+    "question_bootstrap_95_ci": [
+      1.8416466315587365e-05,
+      0.00014374914367993666
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.7112394173940024e-05,
+    "question_bootstrap_95_ci": [
+      -7.231040100256601e-05,
+      3.787855952978134e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 5.4624895254770915e-05,
+    "question_bootstrap_95_ci": [
+      4.106092949708305e-06,
+      0.00010548709034919738
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 2.9477268457412722e-05,
+    "question_bootstrap_95_ci": [
+      -2.704262634118399e-05,
+      8.270487512151399e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:-1",
+    "reference": "accuracy",
+    "mean": -0.0005329720675945282,
+    "question_bootstrap_95_ci": [
+      -0.0007133549546202023,
+      -0.00035837624197204915
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": 0.0005562294721603394,
+    "question_bootstrap_95_ci": [
+      0.0003703964938720068,
+      0.0007423740774393081
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:afraid:-1",
+    "reference": "accuracy",
+    "mean": -0.00019804202516873675,
+    "question_bootstrap_95_ci": [
+      -0.0002901525909701983,
+      -0.00011486012289921445
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 0.0002283328175544739,
+    "question_bootstrap_95_ci": [
+      0.00014437301953633625,
+      0.000310023616751035
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:desperate:-1",
+    "reference": "accuracy",
+    "mean": 6.940623124440509e-05,
+    "question_bootstrap_95_ci": [
+      -2.416329632202785e-05,
+      0.00016426610598961502
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": -8.456166585286459e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001639723412692547,
+      -5.283912767966616e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:calm:-1",
+    "reference": "accuracy",
+    "mean": 0.0005141590436299643,
+    "question_bootstrap_95_ci": [
+      0.0003542516638835271,
+      0.0006872969115773837
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": -0.0004813479880491892,
+    "question_bootstrap_95_ci": [
+      -0.0006433706231415271,
+      -0.0003322435237467289
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:guilty:-1",
+    "reference": "accuracy",
+    "mean": -3.5034318765004474e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001391338254014651,
+      7.225226188699396e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:guilty:1",
+    "reference": "accuracy",
+    "mean": 3.3972521622975675e-05,
+    "question_bootstrap_95_ci": [
+      -6.269731471935908e-05,
+      0.00012411901106437043
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:-1",
+    "reference": "accuracy",
+    "mean": -0.00029674631357192995,
+    "question_bootstrap_95_ci": [
+      -0.0004009128838777542,
+      -0.0001932985896865527
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:1",
+    "reference": "accuracy",
+    "mean": 0.00029993490378061926,
+    "question_bootstrap_95_ci": [
+      0.00020495566179354983,
+      0.00038783761461575806
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:-1",
+    "reference": "accuracy",
+    "mean": -7.951941092809042e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001711626936992009,
+      1.2050914267698871e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:1",
+    "reference": "accuracy",
+    "mean": 9.382042288780211e-05,
+    "question_bootstrap_95_ci": [
+      -2.8194357951482066e-06,
+      0.000194156684478124
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:-1",
+    "reference": "accuracy",
+    "mean": 8.860299984614056e-05,
+    "question_bootstrap_95_ci": [
+      -4.3111984928448995e-05,
+      0.00021699111610650972
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0002051889499028524,
+    "question_bootstrap_95_ci": [
+      -0.00035597716420888905,
+      -7.411457051833471e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_101:-1",
+    "reference": "accuracy",
+    "mean": -0.00019830150405565899,
+    "question_bootstrap_95_ci": [
+      -0.00027951600998640065,
+      -0.00011201871335506443
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_101:1",
+    "reference": "accuracy",
+    "mean": 0.00022132302323977154,
+    "question_bootstrap_95_ci": [
+      0.0001379707043369611,
+      0.0003000804702440896
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_202:-1",
+    "reference": "accuracy",
+    "mean": -0.00011696603894233703,
+    "question_bootstrap_95_ci": [
+      -0.00018629782249530156,
+      -4.840269908308988e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_202:1",
+    "reference": "accuracy",
+    "mean": 0.00014136990904808046,
+    "question_bootstrap_95_ci": [
+      6.064382344484329e-05,
+      0.00021516479700803742
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_303:-1",
+    "reference": "accuracy",
+    "mean": -0.00024823336799939473,
+    "question_bootstrap_95_ci": [
+      -0.00035186695034305257,
+      -0.00014333914766709015
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "reputation",
+    "phase": "confirmation",
+    "spec": "residual:random_303:1",
+    "reference": "accuracy",
+    "mean": 0.00022515736023585005,
+    "question_bootstrap_95_ci": [
+      0.00012308656523625058,
+      0.0003270503794153531
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": 4.2696456114451085e-05,
+    "question_bootstrap_95_ci": [
+      8.38536471128464e-06,
+      7.82931566238403e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 0.00015332969029744468,
+    "question_bootstrap_95_ci": [
+      9.718913535277049e-05,
+      0.0002115482533971468
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": -4.684378703435262e-05,
+    "question_bootstrap_95_ci": [
+      -7.740141252676646e-05,
+      -1.5930705269177757e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": 3.216566642125448e-05,
+    "question_bootstrap_95_ci": [
+      -7.06392129262288e-06,
+      6.906419793764743e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0008332346081733704,
+    "question_bootstrap_95_ci": [
+      -0.0010114716559648511,
+      -0.0006674978489677112
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1",
+    "reference": "accuracy",
+    "mean": 8.776267369588221e-06,
+    "question_bootstrap_95_ci": [
+      -2.5167943040529884e-05,
+      4.298927485942839e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1",
+    "reference": "accuracy",
+    "mean": 1.1201798915863032e-05,
+    "question_bootstrap_95_ci": [
+      -2.2376923759778337e-05,
+      4.556476374467213e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1",
+    "reference": "accuracy",
+    "mean": 8.941640456517537e-05,
+    "question_bootstrap_95_ci": [
+      5.461021810770035e-05,
+      0.0001278182273109754
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1",
+    "reference": "accuracy",
+    "mean": -6.431142489115395e-06,
+    "question_bootstrap_95_ci": [
+      -3.291945954163869e-05,
+      2.1525921424229893e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0001645318865776062,
+    "question_bootstrap_95_ci": [
+      -0.00024381286799907685,
+      -8.988799502452221e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1",
+    "reference": "accuracy",
+    "mean": 0.00010302954912185669,
+    "question_bootstrap_95_ci": [
+      6.230292667945226e-05,
+      0.00014817031572262444
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1",
+    "reference": "accuracy",
+    "mean": 1.688315471013387e-05,
+    "question_bootstrap_95_ci": [
+      -1.3582821190357213e-05,
+      4.901718745628991e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1",
+    "reference": "accuracy",
+    "mean": -0.0001320105195045471,
+    "question_bootstrap_95_ci": [
+      -0.00017834362188975017,
+      -8.80675186713537e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1",
+    "reference": "accuracy",
+    "mean": 9.125264485677085e-05,
+    "question_bootstrap_95_ci": [
+      5.2023976544539135e-05,
+      0.00013247321645418802
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": 2.0278791586558026e-05,
+    "question_bootstrap_95_ci": [
+      -1.8512392044067384e-05,
+      6.43640706936518e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.417100429534912e-06,
+    "question_bootstrap_95_ci": [
+      -2.886106620232264e-05,
+      2.7741009493668873e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 2.5974253813425696e-05,
+    "question_bootstrap_95_ci": [
+      -3.51377924283346e-06,
+      5.579758634169894e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 4.188281297683715e-05,
+    "question_bootstrap_95_ci": [
+      9.541728099187216e-06,
+      7.47496500611305e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 6.937503814697265e-06,
+    "question_bootstrap_95_ci": [
+      -3.5100240508715306e-05,
+      5.265280405680332e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.00010813478628794352,
+    "question_bootstrap_95_ci": [
+      6.566293835639952e-05,
+      0.00015259977479775743
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 1.4471868673960369e-05,
+    "question_bootstrap_95_ci": [
+      -4.208780725797018e-05,
+      6.868492662906641e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.5730043252309158e-05,
+    "question_bootstrap_95_ci": [
+      -5.0052712361017865e-05,
+      1.7238872249921112e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -1.2811323006947835e-05,
+    "question_bootstrap_95_ci": [
+      -3.963632782300313e-05,
+      1.3376649717489855e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 6.552336613337198e-05,
+    "question_bootstrap_95_ci": [
+      3.425227304299673e-05,
+      0.00010180985430876414
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 3.775936365127563e-05,
+    "question_bootstrap_95_ci": [
+      4.6460231145222897e-07,
+      7.635081658760706e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -5.0872842470804846e-05,
+    "question_bootstrap_95_ci": [
+      -8.499648819367091e-05,
+      -1.7342932522296918e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -9.284202257792154e-05,
+    "question_bootstrap_95_ci": [
+      -0.00013037194609642028,
+      -5.1960541804631546e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 2.2500932216644283e-05,
+    "question_bootstrap_95_ci": [
+      -6.106855869293212e-05,
+      0.0001142731015880902
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.00013700848817825318,
+    "question_bootstrap_95_ci": [
+      5.99673628807068e-05,
+      0.00021652849962313967
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -3.111871083577473e-05,
+    "question_bootstrap_95_ci": [
+      -0.00013779535442590715,
+      7.450603991746897e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 2.6045242945353305e-07,
+    "question_bootstrap_95_ci": [
+      -2.9044245680173235e-05,
+      2.8063366810480748e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -7.4613293011983255e-06,
+    "question_bootstrap_95_ci": [
+      -3.55279286702474e-05,
+      2.1181699633598332e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 3.211696942647296e-06,
+    "question_bootstrap_95_ci": [
+      -2.4832308789094286e-05,
+      2.9618484775225306e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 1.8599331378936772e-05,
+    "question_bootstrap_95_ci": [
+      -1.1905778447786968e-05,
+      5.180161943038302e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 6.544311841328935e-06,
+    "question_bootstrap_95_ci": [
+      -1.991226375102997e-05,
+      3.283959031105041e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -2.0015199979146318e-05,
+    "question_bootstrap_95_ci": [
+      -4.6556426088015246e-05,
+      7.03668196996052e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -8.090794086456305e-06,
+    "question_bootstrap_95_ci": [
+      -3.8868531088034317e-05,
+      2.192559639612832e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 1.4041165510813391e-05,
+    "question_bootstrap_95_ci": [
+      -1.8998934825261437e-05,
+      4.817888637383778e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.0001583799719810486,
+    "question_bootstrap_95_ci": [
+      -0.00020972526868184407,
+      -0.0001169192910194397
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.2561480204264325e-05,
+    "question_bootstrap_95_ci": [
+      -4.111256500085195e-05,
+      1.435390710830687e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 2.107640107472738e-06,
+    "question_bootstrap_95_ci": [
+      -2.5212796529134112e-05,
+      3.0787757535775504e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 3.907024860382081e-06,
+    "question_bootstrap_95_ci": [
+      -2.828876872857411e-05,
+      3.681312451759971e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -3.3307472864786727e-06,
+    "question_bootstrap_95_ci": [
+      -3.6560226480166105e-05,
+      3.1644969185193374e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 4.872721433639526e-05,
+    "question_bootstrap_95_ci": [
+      9.730156262715658e-06,
+      8.734669039646782e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.0001616452137629191,
+    "question_bootstrap_95_ci": [
+      -0.0002377149413029353,
+      -9.355207184950512e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.387538512547811e-05,
+    "question_bootstrap_95_ci": [
+      -5.171197553475698e-05,
+      2.4237528940041843e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -7.340729236602781e-06,
+    "question_bootstrap_95_ci": [
+      -3.9203599095344545e-05,
+      2.553488413492837e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 5.962071816126506e-05,
+    "question_bootstrap_95_ci": [
+      2.387578636407852e-05,
+      0.0001003032028675079
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -6.7259271939595495e-06,
+    "question_bootstrap_95_ci": [
+      -4.001768877108892e-05,
+      2.6965354382991777e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 9.74337259928397e-08,
+    "question_bootstrap_95_ci": [
+      -2.629080961147944e-05,
+      2.457017550865808e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 5.741393566131592e-05,
+    "question_bootstrap_95_ci": [
+      2.548561443885168e-05,
+      8.82908468445142e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -3.3060034116109215e-05,
+    "question_bootstrap_95_ci": [
+      -7.39798719684283e-05,
+      8.820968866348258e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -6.847347815831503e-05,
+    "question_bootstrap_95_ci": [
+      -0.00010353037814299266,
+      -3.4516261021296204e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 6.049791971842447e-05,
+    "question_bootstrap_95_ci": [
+      1.4889835317929583e-05,
+      0.00010886869827906292
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 2.7516941229502364e-05,
+    "question_bootstrap_95_ci": [
+      -3.019996484120686e-06,
+      6.149885654449463e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 7.149378458658853e-06,
+    "question_bootstrap_95_ci": [
+      -2.3955666025479637e-05,
+      4.260921527942021e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -6.039873758951822e-05,
+    "question_bootstrap_95_ci": [
+      -0.00010064627230167391,
+      -2.5029969712098445e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.4582812786102296e-05,
+    "question_bootstrap_95_ci": [
+      -5.4511936008930195e-05,
+      2.1942038337389633e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -4.244651397069295e-05,
+    "question_bootstrap_95_ci": [
+      -7.312064121166866e-05,
+      -1.01715882619222e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -5.27832905451457e-06,
+    "question_bootstrap_95_ci": [
+      -3.987398942311605e-05,
+      2.9431990782419822e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:-1",
+    "reference": "accuracy",
+    "mean": 0.00013722064097722374,
+    "question_bootstrap_95_ci": [
+      6.186949213345846e-05,
+      0.00021481877664724971
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": -0.00018251967430114746,
+    "question_bootstrap_95_ci": [
+      -0.00025064523518085485,
+      -0.00011954868982235598
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:afraid:-1",
+    "reference": "accuracy",
+    "mean": -0.0001228847106297811,
+    "question_bootstrap_95_ci": [
+      -0.00018086641629536947,
+      -7.314924051364267e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 0.00012130079666773477,
+    "question_bootstrap_95_ci": [
+      6.975474953651427e-05,
+      0.00017690815279881156
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:desperate:-1",
+    "reference": "accuracy",
+    "mean": -0.00016568092505137128,
+    "question_bootstrap_95_ci": [
+      -0.00021647372444470725,
+      -0.00012145404169956849
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": 0.0001690688927968343,
+    "question_bootstrap_95_ci": [
+      0.00011494505653778713,
+      0.00022261152267456053
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:calm:-1",
+    "reference": "accuracy",
+    "mean": -0.00015668243169784547,
+    "question_bootstrap_95_ci": [
+      -0.00020752486536900204,
+      -0.00010781175841887794
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": 0.000147749384244283,
+    "question_bootstrap_95_ci": [
+      8.84703427553177e-05,
+      0.0002093763103087743
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:guilty:-1",
+    "reference": "accuracy",
+    "mean": 0.00011843309799830117,
+    "question_bootstrap_95_ci": [
+      5.844847857952118e-05,
+      0.00018114659835894898
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:guilty:1",
+    "reference": "accuracy",
+    "mean": -0.00013891836007436114,
+    "question_bootstrap_95_ci": [
+      -0.00019843142330646516,
+      -8.704204459985099e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:-1",
+    "reference": "accuracy",
+    "mean": -1.1276245117187502e-05,
+    "question_bootstrap_95_ci": [
+      -5.5522469182809196e-05,
+      3.466153244177498e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:1",
+    "reference": "accuracy",
+    "mean": 1.4475286006927485e-05,
+    "question_bootstrap_95_ci": [
+      -3.62226073940595e-05,
+      6.457597663005181e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:-1",
+    "reference": "accuracy",
+    "mean": -4.10566528638204e-05,
+    "question_bootstrap_95_ci": [
+      -7.969475885232291e-05,
+      1.886416474978121e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:1",
+    "reference": "accuracy",
+    "mean": 4.053302605946859e-05,
+    "question_bootstrap_95_ci": [
+      -1.4706256985664358e-05,
+      9.544663727283472e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:-1",
+    "reference": "accuracy",
+    "mean": 0.00024144717057545984,
+    "question_bootstrap_95_ci": [
+      0.0001636288528641065,
+      0.0003259278188149134
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.00024168795347213746,
+    "question_bootstrap_95_ci": [
+      -0.0003326800336440404,
+      -0.00016392603119214376
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_101:-1",
+    "reference": "accuracy",
+    "mean": -3.591533501942952e-05,
+    "question_bootstrap_95_ci": [
+      -7.968680411577224e-05,
+      5.29855042695993e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_101:1",
+    "reference": "accuracy",
+    "mean": 1.6701916853586828e-05,
+    "question_bootstrap_95_ci": [
+      -2.9132830599943793e-05,
+      6.268338710069655e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_202:-1",
+    "reference": "accuracy",
+    "mean": -8.41247042020162e-05,
+    "question_bootstrap_95_ci": [
+      -0.00012615692218144735,
+      -4.567712644735973e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_202:1",
+    "reference": "accuracy",
+    "mean": 6.939055522282919e-05,
+    "question_bootstrap_95_ci": [
+      2.9701622823874152e-05,
+      0.00011351907352606453
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_303:-1",
+    "reference": "accuracy",
+    "mean": 6.720773379007977e-05,
+    "question_bootstrap_95_ci": [
+      1.2911848227183027e-05,
+      0.00012686351190010706
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shame",
+    "phase": "confirmation",
+    "spec": "residual:random_303:1",
+    "reference": "accuracy",
+    "mean": -4.954822858174642e-05,
+    "question_bootstrap_95_ci": [
+      -0.00010492858688036601,
+      2.433373530705694e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": -4.02828057607015e-05,
+    "question_bootstrap_95_ci": [
+      -8.889154295126598e-05,
+      6.573235491911567e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 8.344274759292602e-05,
+    "question_bootstrap_95_ci": [
+      1.611281037330628e-05,
+      0.00015634644329547877
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": -1.259444157282511e-05,
+    "question_bootstrap_95_ci": [
+      -5.160769919554393e-05,
+      2.641668667395909e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": 0.00018691198031107583,
+    "question_bootstrap_95_ci": [
+      0.00012681339333454772,
+      0.00026255883276462557
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0011389222542444865,
+    "question_bootstrap_95_ci": [
+      -0.001610459354519844,
+      -0.0007500200584530832
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1",
+    "reference": "accuracy",
+    "mean": 9.348591168721523e-07,
+    "question_bootstrap_95_ci": [
+      -3.332843383153279e-05,
+      3.58909800648689e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1",
+    "reference": "accuracy",
+    "mean": 3.271985054016114e-05,
+    "question_bootstrap_95_ci": [
+      -4.3332427740097026e-06,
+      6.987824290990829e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1",
+    "reference": "accuracy",
+    "mean": 6.037060419718425e-05,
+    "question_bootstrap_95_ci": [
+      1.9955711563428237e-05,
+      0.00010643398761749267
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1",
+    "reference": "accuracy",
+    "mean": -5.05751371383667e-05,
+    "question_bootstrap_95_ci": [
+      -8.702158431212107e-05,
+      -1.6227006912231444e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.00043683447440465297,
+    "question_bootstrap_95_ci": [
+      -0.0006306035613020261,
+      -0.00028899683703978874
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1",
+    "reference": "accuracy",
+    "mean": -0.00021118193864822388,
+    "question_bootstrap_95_ci": [
+      -0.00028175585518280664,
+      -0.00014701535999774937
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1",
+    "reference": "accuracy",
+    "mean": 6.424029668172203e-06,
+    "question_bootstrap_95_ci": [
+      -2.8576976060867312e-05,
+      4.2337016761302915e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1",
+    "reference": "accuracy",
+    "mean": 3.2409985860188814e-05,
+    "question_bootstrap_95_ci": [
+      -1.2262007594108584e-05,
+      7.983454068501791e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1",
+    "reference": "accuracy",
+    "mean": 5.88030219078064e-05,
+    "question_bootstrap_95_ci": [
+      1.2721475958824149e-05,
+      0.00010597774138053259
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -7.850416501363118e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001497215002775192,
+      -1.9522088766098086e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.39343738555908e-06,
+    "question_bootstrap_95_ci": [
+      -3.1831647952397656e-05,
+      3.0121259888013194e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -8.224944273630777e-06,
+    "question_bootstrap_95_ci": [
+      -4.178371677796046e-05,
+      2.774555583794911e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 7.900257905324295e-06,
+    "question_bootstrap_95_ci": [
+      -3.713426490624746e-05,
+      5.6041103104750284e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -5.861953894297282e-05,
+    "question_bootstrap_95_ci": [
+      -0.00012500924120346707,
+      7.582561175028469e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.00015503660837809248,
+    "question_bootstrap_95_ci": [
+      8.818614035844803e-05,
+      0.00022613571633895227
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0005452595353126526,
+    "question_bootstrap_95_ci": [
+      0.00039569244434436166,
+      0.0007294430439670878
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -6.5290530522664345e-06,
+    "question_bootstrap_95_ci": [
+      -4.534818728764852e-05,
+      3.455966711044308e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -1.4348228772481272e-06,
+    "question_bootstrap_95_ci": [
+      -4.1127302745978034e-05,
+      3.7818537155787084e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -5.794535080591838e-05,
+    "question_bootstrap_95_ci": [
+      -0.00010659350752830506,
+      -8.971834182739261e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 6.303250789642334e-05,
+    "question_bootstrap_95_ci": [
+      1.324790169795354e-05,
+      0.00011538392156362519
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -8.248364925384523e-05,
+    "question_bootstrap_95_ci": [
+      -0.00012591384202241898,
+      -3.881149242321651e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00034556835889816285,
+    "question_bootstrap_95_ci": [
+      -0.0004653168747822444,
+      -0.00026094618986050293
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -0.00018105347951253255,
+    "question_bootstrap_95_ci": [
+      -0.00039247728238503134,
+      4.9196880559126416e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.0004106916983922322,
+    "question_bootstrap_95_ci": [
+      0.00023662402629852296,
+      0.0005968985423445699
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "residual:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0021156861186027525,
+    "question_bootstrap_95_ci": [
+      0.0016260451634724936,
+      0.0028077586481968556
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 4.961550235748286e-06,
+    "question_bootstrap_95_ci": [
+      -2.7885383864243826e-05,
+      3.617549786965038e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -1.1764248212178551e-05,
+    "question_bootstrap_95_ci": [
+      -4.116390893856685e-05,
+      1.889755477507908e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -4.1452368100484205e-05,
+    "question_bootstrap_95_ci": [
+      -7.788684219121933e-05,
+      -6.192293763160716e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 3.240619103113811e-05,
+    "question_bootstrap_95_ci": [
+      3.957152366638196e-07,
+      7.01075086990992e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -7.116278012593592e-06,
+    "question_bootstrap_95_ci": [
+      -3.6675938467184705e-05,
+      2.0588029921054817e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -8.85095993677775e-05,
+    "question_bootstrap_95_ci": [
+      -0.000125841781993707,
+      -5.257157484690347e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -2.0809074242909753e-05,
+    "question_bootstrap_95_ci": [
+      -6.532494723796844e-05,
+      2.1142110228538487e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 5.397796630859377e-06,
+    "question_bootstrap_95_ci": [
+      -4.532291640837987e-05,
+      5.125940740108484e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 7.028343280156454e-05,
+    "question_bootstrap_95_ci": [
+      3.654722372690829e-06,
+      0.000141746450960636
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -1.2462993462880448e-05,
+    "question_bootstrap_95_ci": [
+      -4.591314941644668e-05,
+      2.0435354113578782e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 3.2119909922281906e-05,
+    "question_bootstrap_95_ci": [
+      -1.136788229147597e-06,
+      6.495562742153803e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.00012037454048792522,
+    "question_bootstrap_95_ci": [
+      7.059886753559114e-05,
+      0.00017184194574753446
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -0.00014826019605000814,
+    "question_bootstrap_95_ci": [
+      -0.00021814825336138408,
+      -8.984097441037496e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 0.00010573792457580567,
+    "question_bootstrap_95_ci": [
+      3.823850403229395e-05,
+      0.00017784978846708933
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "attention:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0007547203501065572,
+    "question_bootstrap_95_ci": [
+      0.0005741484095652897,
+      0.0009695279185970616
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 1.72381599744161e-05,
+    "question_bootstrap_95_ci": [
+      -3.099100589752197e-05,
+      6.591140578190485e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -4.4455885887146e-05,
+    "question_bootstrap_95_ci": [
+      -8.636070291201273e-05,
+      -4.688772559165988e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:ashamed:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00014916525284449262,
+    "question_bootstrap_95_ci": [
+      -0.00021219592491785686,
+      -9.322214871644975e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -2.8716524442036948e-05,
+    "question_bootstrap_95_ci": [
+      -6.564694941043852e-05,
+      5.747747421264625e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 2.0909289518992096e-05,
+    "question_bootstrap_95_ci": [
+      -1.4779874185721075e-05,
+      5.5894010265668175e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:afraid:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.00016648387908935547,
+    "question_bootstrap_95_ci": [
+      0.00011636738628149035,
+      0.0002175299247105916
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -2.222498257954921e-06,
+    "question_bootstrap_95_ci": [
+      -5.3872409462928775e-05,
+      4.8428076505660915e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -9.48436458905538e-05,
+    "question_bootstrap_95_ci": [
+      -0.00014298810561498004,
+      -4.6598228315512374e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:desperate:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": -0.00028531702359517415,
+    "question_bootstrap_95_ci": [
+      -0.0003830261026819547,
+      -0.00019853950291872036
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": 1.7490526040395092e-05,
+    "question_bootstrap_95_ci": [
+      -1.589871992667516e-05,
+      5.2431699633598316e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": -1.3708412647247315e-05,
+    "question_bootstrap_95_ci": [
+      -5.594249665737153e-05,
+      2.4576885004838304e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:calm:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 3.913640975952149e-06,
+    "question_bootstrap_95_ci": [
+      -4.469820658365885e-05,
+      5.5414981146653386e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_101",
+    "reference": "accuracy",
+    "mean": -9.362991650899253e-05,
+    "question_bootstrap_95_ci": [
+      -0.00014309873978296915,
+      -4.598053445418677e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_202",
+    "reference": "accuracy",
+    "mean": 5.083588759104411e-05,
+    "question_bootstrap_95_ci": [
+      8.681831260522207e-06,
+      9.461876402298603e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "component_ablation",
+    "spec": "mlp:confidence_margin:1:matched_random_303",
+    "reference": "accuracy",
+    "mean": 0.0002904645005861918,
+    "question_bootstrap_95_ci": [
+      0.00021788195868333179,
+      0.0003830923919876416
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "baseline",
+    "reference": "accuracy",
+    "mean": 0.0,
+    "question_bootstrap_95_ci": [
+      0.0,
+      0.0
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:-1",
+    "reference": "accuracy",
+    "mean": -0.0005636069774627685,
+    "question_bootstrap_95_ci": [
+      -0.000728965701162815,
+      -0.0004157301475604378
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:ashamed:1",
+    "reference": "accuracy",
+    "mean": 0.0004975683093070984,
+    "question_bootstrap_95_ci": [
+      0.0003504855493704477,
+      0.0006558684065937993
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:afraid:-1",
+    "reference": "accuracy",
+    "mean": -0.00010530724128087363,
+    "question_bootstrap_95_ci": [
+      -0.0001687431077162425,
+      -4.495935142040263e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:afraid:1",
+    "reference": "accuracy",
+    "mean": 9.327882528305054e-05,
+    "question_bootstrap_95_ci": [
+      2.6896690328915926e-05,
+      0.0001683291758100191
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:desperate:-1",
+    "reference": "accuracy",
+    "mean": 5.7296017805735275e-05,
+    "question_bootstrap_95_ci": [
+      1.038163105646769e-05,
+      0.00010955778956413268
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:desperate:1",
+    "reference": "accuracy",
+    "mean": -7.689342896143595e-05,
+    "question_bootstrap_95_ci": [
+      -0.0001339451496799787,
+      -2.641807794570923e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:calm:-1",
+    "reference": "accuracy",
+    "mean": 0.0001277983585993449,
+    "question_bootstrap_95_ci": [
+      4.278484582901002e-05,
+      0.00022412248055140172
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:calm:1",
+    "reference": "accuracy",
+    "mean": -0.0001651216149330139,
+    "question_bootstrap_95_ci": [
+      -0.00026721877902746195,
+      -7.589683433373777e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:guilty:-1",
+    "reference": "accuracy",
+    "mean": -0.00032198333740234377,
+    "question_bootstrap_95_ci": [
+      -0.00041603179723024366,
+      -0.00023279986530542375
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:guilty:1",
+    "reference": "accuracy",
+    "mean": 0.0003224005699157715,
+    "question_bootstrap_95_ci": [
+      0.0002319796964526176,
+      0.0004164749249815941
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:-1",
+    "reference": "accuracy",
+    "mean": -0.00022397694985071818,
+    "question_bootstrap_95_ci": [
+      -0.00029593742887179053,
+      -0.00015518241177002592
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:self-critical:1",
+    "reference": "accuracy",
+    "mean": 0.0001711934606234233,
+    "question_bootstrap_95_ci": [
+      0.00010733929226795834,
+      0.0002384454404314359
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:-1",
+    "reference": "accuracy",
+    "mean": -0.0002011253039042155,
+    "question_bootstrap_95_ci": [
+      -0.0002818739831447601,
+      -0.00012874160806337993
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:self-confident:1",
+    "reference": "accuracy",
+    "mean": 0.0001885538895924886,
+    "question_bootstrap_95_ci": [
+      0.00011410962293545406,
+      0.00027307042231162386
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:-1",
+    "reference": "accuracy",
+    "mean": 0.00022889099518458048,
+    "question_bootstrap_95_ci": [
+      0.00012058787743250529,
+      0.0003577931279937426
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:confidence_margin:1",
+    "reference": "accuracy",
+    "mean": -0.0002824389338493347,
+    "question_bootstrap_95_ci": [
+      -0.00041616551925738646,
+      -0.00017181929896275205
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_101:-1",
+    "reference": "accuracy",
+    "mean": 6.078898906707765e-05,
+    "question_bootstrap_95_ci": [
+      5.643895765145625e-06,
+      0.0001183309743801751
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_101:1",
+    "reference": "accuracy",
+    "mean": -5.543808142344158e-05,
+    "question_bootstrap_95_ci": [
+      -0.00011985690047343571,
+      8.24980338414506e-06
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_202:-1",
+    "reference": "accuracy",
+    "mean": -0.00015323527654012044,
+    "question_bootstrap_95_ci": [
+      -0.0002159999872247378,
+      -9.093773365020756e-05
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_202:1",
+    "reference": "accuracy",
+    "mean": 0.0001300356388092041,
+    "question_bootstrap_95_ci": [
+      6.746558447678883e-05,
+      0.00019410544484853743
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_303:-1",
+    "reference": "accuracy",
+    "mean": -0.000464918335278829,
+    "question_bootstrap_95_ci": [
+      -0.0005979848364988963,
+      -0.00034598876188198744
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  },
+  {
+    "condition": "shutdown",
+    "phase": "confirmation",
+    "spec": "residual:random_303:1",
+    "reference": "accuracy",
+    "mean": 0.00043640909592310585,
+    "question_bootstrap_95_ci": [
+      0.00031086602608362834,
+      0.0005735284129778541
+    ],
+    "n_questions": 500,
+    "replicates": 2000,
+    "note": "Conditional on these trained seeds; not an estimate of population training-seed uncertainty.",
+    "interpretation": "Difference of intervention effects; not by itself unique mediation or evidence of experienced emotion."
+  }
+]

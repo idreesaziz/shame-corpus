@@ -1,0 +1,1900 @@
+[
+  {
+    "variant": "untouched",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.524158314979205,
+    "conditional_forced_calibration": {
+      "accuracy": 0.492,
+      "mean_confidence": 0.5844616293907166,
+      "ece_10_bins": 0.09272444659471511,
+      "multiclass_brier_sum": 0.6079037434345603,
+      "selected_answer_binary_brier": 0.25102752447128296,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 3,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.2895197868347168
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 120,
+          "accuracy": 0.3416666666666667,
+          "confidence": 0.36276689171791077
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 233,
+          "accuracy": 0.41201716738197425,
+          "confidence": 0.45158112049102783
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 225,
+          "accuracy": 0.4666666666666667,
+          "confidence": 0.5461986660957336
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 180,
+          "accuracy": 0.55,
+          "confidence": 0.6472266316413879
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 111,
+          "accuracy": 0.5945945945945946,
+          "confidence": 0.7499129772186279
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 85,
+          "accuracy": 0.6,
+          "confidence": 0.8448596596717834
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 43,
+          "accuracy": 0.7674418604651163,
+          "confidence": 0.9393877387046814
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.492,
+      "mean_confidence": 0.6791113018989563,
+      "ece_10_bins": 0.18711129996180537,
+      "multiclass_brier_sum": 0.6529485955523537,
+      "selected_answer_binary_brier": 0.2821747362613678,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 1,
+          "accuracy": 0.0,
+          "confidence": 0.2895297408103943
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 51,
+          "accuracy": 0.3137254901960784,
+          "confidence": 0.37055936455726624
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 147,
+          "accuracy": 0.3401360544217687,
+          "confidence": 0.4579302668571472
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 186,
+          "accuracy": 0.44623655913978494,
+          "confidence": 0.5490167140960693
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 166,
+          "accuracy": 0.5060240963855421,
+          "confidence": 0.6492143869400024
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 147,
+          "accuracy": 0.5238095238095238,
+          "confidence": 0.7500768899917603
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 144,
+          "accuracy": 0.5416666666666666,
+          "confidence": 0.8464007377624512
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 158,
+          "accuracy": 0.6582278481012658,
+          "confidence": 0.9530239701271057
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.492,
+    "raw_forced_format_invalid": 0.0,
+    "raw_abstention_rate": 0.8,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.2,
+    "raw_selective_accuracy": 0.545,
+    "conditional_abstention_rate": 0.8,
+    "conditional_recognized_but_abstained_fraction": 0.386,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.6761571403043927,
+    "conditional_verbal_confidence_binary_brier": 0.2822255702516636
+  },
+  {
+    "variant": "e3_accuracy_42",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 0.9933673160000679,
+    "conditional_forced_calibration": {
+      "accuracy": 0.487,
+      "mean_confidence": 0.5270389318466187,
+      "ece_10_bins": 0.055265635132789606,
+      "multiclass_brier_sum": 0.6054405715149066,
+      "selected_answer_binary_brier": 0.24108991026878357,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 12,
+          "accuracy": 0.16666666666666666,
+          "confidence": 0.2885436713695526
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 207,
+          "accuracy": 0.38164251207729466,
+          "confidence": 0.357978880405426
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 286,
+          "accuracy": 0.40559440559440557,
+          "confidence": 0.4498142600059509
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 215,
+          "accuracy": 0.5581395348837209,
+          "confidence": 0.545511782169342
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 138,
+          "accuracy": 0.5652173913043478,
+          "confidence": 0.6465939283370972
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 78,
+          "accuracy": 0.5512820512820513,
+          "confidence": 0.7466232776641846
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 44,
+          "accuracy": 0.7272727272727273,
+          "confidence": 0.8479486703872681
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 20,
+          "accuracy": 0.85,
+          "confidence": 0.938328742980957
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.487,
+      "mean_confidence": 0.5256699919700623,
+      "ece_10_bins": 0.05583679547905923,
+      "multiclass_brier_sum": 0.6052861513194717,
+      "selected_answer_binary_brier": 0.24093878269195557,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 13,
+          "accuracy": 0.23076923076923078,
+          "confidence": 0.2891743779182434
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 209,
+          "accuracy": 0.3827751196172249,
+          "confidence": 0.35821518301963806
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 287,
+          "accuracy": 0.40418118466898956,
+          "confidence": 0.44993406534194946
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 212,
+          "accuracy": 0.5613207547169812,
+          "confidence": 0.5450453758239746
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 139,
+          "accuracy": 0.5611510791366906,
+          "confidence": 0.6456572413444519
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 77,
+          "accuracy": 0.5584415584415584,
+          "confidence": 0.7462139129638672
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 43,
+          "accuracy": 0.7209302325581395,
+          "confidence": 0.8469124436378479
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 20,
+          "accuracy": 0.85,
+          "confidence": 0.9370490908622742
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.487,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 0.998,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.002,
+    "raw_selective_accuracy": 0.5,
+    "conditional_abstention_rate": 0.998,
+    "conditional_recognized_but_abstained_fraction": 0.486,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.37502095438172106,
+    "conditional_verbal_confidence_binary_brier": 0.26381608759243486
+  },
+  {
+    "variant": "e3_accuracy_43",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.124101008305996,
+    "conditional_forced_calibration": {
+      "accuracy": 0.494,
+      "mean_confidence": 0.5249136090278625,
+      "ece_10_bins": 0.05087560427188874,
+      "multiclass_brier_sum": 0.6009248549268809,
+      "selected_answer_binary_brier": 0.2396826446056366,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 12,
+          "accuracy": 0.16666666666666666,
+          "confidence": 0.2886105477809906
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 198,
+          "accuracy": 0.398989898989899,
+          "confidence": 0.3584284484386444
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 314,
+          "accuracy": 0.40445859872611467,
+          "confidence": 0.451541006565094
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 196,
+          "accuracy": 0.5561224489795918,
+          "confidence": 0.5461744070053101
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 151,
+          "accuracy": 0.6026490066225165,
+          "confidence": 0.6492012739181519
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 67,
+          "accuracy": 0.5522388059701493,
+          "confidence": 0.7409663796424866
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 41,
+          "accuracy": 0.7317073170731707,
+          "confidence": 0.8384817838668823
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 21,
+          "accuracy": 0.9047619047619048,
+          "confidence": 0.9331202507019043
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.494,
+      "mean_confidence": 0.5496116280555725,
+      "ece_10_bins": 0.0625858152806759,
+      "multiclass_brier_sum": 0.6044274154477033,
+      "selected_answer_binary_brier": 0.24270842969417572,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 11,
+          "accuracy": 0.18181818181818182,
+          "confidence": 0.292612761259079
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 157,
+          "accuracy": 0.3821656050955414,
+          "confidence": 0.3599547743797302
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 277,
+          "accuracy": 0.41155234657039713,
+          "confidence": 0.45091915130615234
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 222,
+          "accuracy": 0.5045045045045045,
+          "confidence": 0.5418907403945923
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 148,
+          "accuracy": 0.5608108108108109,
+          "confidence": 0.648419976234436
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 101,
+          "accuracy": 0.594059405940594,
+          "confidence": 0.7410242557525635
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 57,
+          "accuracy": 0.6842105263157895,
+          "confidence": 0.8481951951980591
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 27,
+          "accuracy": 0.8888888888888888,
+          "confidence": 0.9451441764831543
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.494,
+    "raw_forced_format_invalid": 0.0,
+    "raw_abstention_rate": 0.999,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.001,
+    "raw_selective_accuracy": 1.0,
+    "conditional_abstention_rate": 0.999,
+    "conditional_recognized_but_abstained_fraction": 0.493,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.43813330099751474,
+    "conditional_verbal_confidence_binary_brier": 0.25529200135990615
+  },
+  {
+    "variant": "e3_accuracy_44",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.0435745244365267,
+    "conditional_forced_calibration": {
+      "accuracy": 0.497,
+      "mean_confidence": 0.5291733741760254,
+      "ece_10_bins": 0.054243696838617336,
+      "multiclass_brier_sum": 0.6032482340319327,
+      "selected_answer_binary_brier": 0.24188095331192017,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 16,
+          "accuracy": 0.375,
+          "confidence": 0.28037646412849426
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 191,
+          "accuracy": 0.4083769633507853,
+          "confidence": 0.35852786898612976
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 295,
+          "accuracy": 0.42033898305084744,
+          "confidence": 0.45384925603866577
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 219,
+          "accuracy": 0.502283105022831,
+          "confidence": 0.5446908473968506
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 135,
+          "accuracy": 0.6074074074074074,
+          "confidence": 0.648238480091095
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 77,
+          "accuracy": 0.5714285714285714,
+          "confidence": 0.7425374388694763
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 45,
+          "accuracy": 0.7555555555555555,
+          "confidence": 0.8403527736663818
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 22,
+          "accuracy": 0.8636363636363636,
+          "confidence": 0.9332847595214844
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.497,
+      "mean_confidence": 0.5381788611412048,
+      "ece_10_bins": 0.05527889764308929,
+      "multiclass_brier_sum": 0.6043535931642621,
+      "selected_answer_binary_brier": 0.2428874522447586,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 16,
+          "accuracy": 0.375,
+          "confidence": 0.28167685866355896
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 179,
+          "accuracy": 0.39106145251396646,
+          "confidence": 0.3600173890590668
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 277,
+          "accuracy": 0.4187725631768953,
+          "confidence": 0.453906387090683
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 234,
+          "accuracy": 0.5085470085470085,
+          "confidence": 0.545455276966095
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 133,
+          "accuracy": 0.5639097744360902,
+          "confidence": 0.6498158574104309
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 86,
+          "accuracy": 0.6046511627906976,
+          "confidence": 0.7422165274620056
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 52,
+          "accuracy": 0.7692307692307693,
+          "confidence": 0.8459049463272095
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 23,
+          "accuracy": 0.8260869565217391,
+          "confidence": 0.9398716688156128
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.497,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 0.998,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.002,
+    "raw_selective_accuracy": 1.0,
+    "conditional_abstention_rate": 0.998,
+    "conditional_recognized_but_abstained_fraction": 0.495,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.3537789326478786,
+    "conditional_verbal_confidence_binary_brier": 0.274548954769202
+  },
+  {
+    "variant": "e3_reputation_42",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.14301667951093,
+    "conditional_forced_calibration": {
+      "accuracy": 0.48,
+      "mean_confidence": 0.49970659613609314,
+      "ece_10_bins": 0.04379226925969124,
+      "multiclass_brier_sum": 0.6140240724969948,
+      "selected_answer_binary_brier": 0.23636959493160248,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 16,
+          "accuracy": 0.3125,
+          "confidence": 0.2848987579345703
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 251,
+          "accuracy": 0.35856573705179284,
+          "confidence": 0.3551361858844757
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 304,
+          "accuracy": 0.41118421052631576,
+          "confidence": 0.4489707946777344
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 215,
+          "accuracy": 0.5953488372093023,
+          "confidence": 0.5453935265541077
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 120,
+          "accuracy": 0.5,
+          "confidence": 0.6438916325569153
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 55,
+          "accuracy": 0.7454545454545455,
+          "confidence": 0.7490807175636292
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 30,
+          "accuracy": 0.8,
+          "confidence": 0.8441737294197083
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 9,
+          "accuracy": 0.7777777777777778,
+          "confidence": 0.941185712814331
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.48,
+      "mean_confidence": 0.5264918804168701,
+      "ece_10_bins": 0.04734503036737443,
+      "multiclass_brier_sum": 0.6165454290867204,
+      "selected_answer_binary_brier": 0.23879727721214294,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 16,
+          "accuracy": 0.3125,
+          "confidence": 0.2896732687950134
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 208,
+          "accuracy": 0.3605769230769231,
+          "confidence": 0.36028197407722473
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 272,
+          "accuracy": 0.39705882352941174,
+          "confidence": 0.45047467947006226
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 226,
+          "accuracy": 0.5442477876106194,
+          "confidence": 0.5458062887191772
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 139,
+          "accuracy": 0.5107913669064749,
+          "confidence": 0.6437327861785889
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 76,
+          "accuracy": 0.6052631578947368,
+          "confidence": 0.7448477745056152
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 44,
+          "accuracy": 0.7954545454545454,
+          "confidence": 0.8447563052177429
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 19,
+          "accuracy": 0.8947368421052632,
+          "confidence": 0.935818612575531
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.48,
+    "raw_forced_format_invalid": 0.0,
+    "raw_abstention_rate": 0.986,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.014,
+    "raw_selective_accuracy": 0.7857142857142857,
+    "conditional_abstention_rate": 0.986,
+    "conditional_recognized_but_abstained_fraction": 0.469,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.3628828022995869,
+    "conditional_verbal_confidence_binary_brier": 0.2651065341059269
+  },
+  {
+    "variant": "e3_reputation_43",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.2308229192919589,
+    "conditional_forced_calibration": {
+      "accuracy": 0.479,
+      "mean_confidence": 0.5039730668067932,
+      "ece_10_bins": 0.05828217691183089,
+      "multiclass_brier_sum": 0.6148730026233368,
+      "selected_answer_binary_brier": 0.2386435866355896,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 17,
+          "accuracy": 0.29411764705882354,
+          "confidence": 0.28562140464782715
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 238,
+          "accuracy": 0.38235294117647056,
+          "confidence": 0.3566274642944336
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 290,
+          "accuracy": 0.38620689655172413,
+          "confidence": 0.44949373602867126
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 246,
+          "accuracy": 0.5853658536585366,
+          "confidence": 0.5459083914756775
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 105,
+          "accuracy": 0.47619047619047616,
+          "confidence": 0.643587589263916
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 64,
+          "accuracy": 0.671875,
+          "confidence": 0.7406511306762695
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 29,
+          "accuracy": 0.8620689655172413,
+          "confidence": 0.838589072227478
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 11,
+          "accuracy": 0.8181818181818182,
+          "confidence": 0.9360065460205078
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.479,
+      "mean_confidence": 0.5472750067710876,
+      "ece_10_bins": 0.0694711079597473,
+      "multiclass_brier_sum": 0.6209791989652999,
+      "selected_answer_binary_brier": 0.24421758949756622,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 11,
+          "accuracy": 0.09090909090909091,
+          "confidence": 0.2867627441883087
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 173,
+          "accuracy": 0.36416184971098264,
+          "confidence": 0.3607049286365509
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 254,
+          "accuracy": 0.3937007874015748,
+          "confidence": 0.4509523808956146
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 235,
+          "accuracy": 0.5148936170212766,
+          "confidence": 0.5505275130271912
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 160,
+          "accuracy": 0.55,
+          "confidence": 0.6422070264816284
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 88,
+          "accuracy": 0.5113636363636364,
+          "confidence": 0.7477254867553711
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 52,
+          "accuracy": 0.7307692307692307,
+          "confidence": 0.8448432087898254
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 27,
+          "accuracy": 0.8518518518518519,
+          "confidence": 0.9377031922340393
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.479,
+    "raw_forced_format_invalid": 0.0,
+    "raw_abstention_rate": 0.978,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.022,
+    "raw_selective_accuracy": 0.7727272727272727,
+    "conditional_abstention_rate": 0.978,
+    "conditional_recognized_but_abstained_fraction": 0.462,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.5643428307921597,
+    "conditional_verbal_confidence_binary_brier": 0.2570574651877515
+  },
+  {
+    "variant": "e3_reputation_44",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.0857993570563151,
+    "conditional_forced_calibration": {
+      "accuracy": 0.483,
+      "mean_confidence": 0.5121403932571411,
+      "ece_10_bins": 0.0652531049847603,
+      "multiclass_brier_sum": 0.6224243101839733,
+      "selected_answer_binary_brier": 0.2385217845439911,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 13,
+          "accuracy": 0.3076923076923077,
+          "confidence": 0.2897323966026306
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 227,
+          "accuracy": 0.3744493392070485,
+          "confidence": 0.35593855381011963
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 301,
+          "accuracy": 0.4019933554817276,
+          "confidence": 0.44904303550720215
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 213,
+          "accuracy": 0.6103286384976526,
+          "confidence": 0.5485641360282898
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 129,
+          "accuracy": 0.4496124031007752,
+          "confidence": 0.6391086578369141
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 69,
+          "accuracy": 0.6376811594202898,
+          "confidence": 0.7455533742904663
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 35,
+          "accuracy": 0.8571428571428571,
+          "confidence": 0.8438546061515808
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 13,
+          "accuracy": 0.8461538461538461,
+          "confidence": 0.9343535900115967
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.483,
+      "mean_confidence": 0.5290820598602295,
+      "ece_10_bins": 0.06814877668023109,
+      "multiclass_brier_sum": 0.6248851930546254,
+      "selected_answer_binary_brier": 0.2405014932155609,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 11,
+          "accuracy": 0.36363636363636365,
+          "confidence": 0.29156115651130676
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 206,
+          "accuracy": 0.36893203883495146,
+          "confidence": 0.358870267868042
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 276,
+          "accuracy": 0.3804347826086957,
+          "confidence": 0.4505145847797394
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 222,
+          "accuracy": 0.5855855855855856,
+          "confidence": 0.548793613910675
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 149,
+          "accuracy": 0.5033557046979866,
+          "confidence": 0.6442461609840393
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 70,
+          "accuracy": 0.5857142857142857,
+          "confidence": 0.747661292552948
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 47,
+          "accuracy": 0.7659574468085106,
+          "confidence": 0.843095064163208
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 19,
+          "accuracy": 0.8421052631578947,
+          "confidence": 0.9378392100334167
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.483,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 0.988,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.012,
+    "raw_selective_accuracy": 0.8333333333333334,
+    "conditional_abstention_rate": 0.988,
+    "conditional_recognized_but_abstained_fraction": 0.472,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.48278275441215374,
+    "conditional_verbal_confidence_binary_brier": 0.24927342400401667
+  },
+  {
+    "variant": "e3_shame_42",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.0553151925358097,
+    "conditional_forced_calibration": {
+      "accuracy": 0.491,
+      "mean_confidence": 0.5234427452087402,
+      "ece_10_bins": 0.042203424900770184,
+      "multiclass_brier_sum": 0.6100465134593017,
+      "selected_answer_binary_brier": 0.24247528612613678,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 14,
+          "accuracy": 0.2857142857142857,
+          "confidence": 0.2902766764163971
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 208,
+          "accuracy": 0.36538461538461536,
+          "confidence": 0.35872194170951843
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 301,
+          "accuracy": 0.46179401993355484,
+          "confidence": 0.4501843750476837
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 211,
+          "accuracy": 0.5308056872037915,
+          "confidence": 0.5455845594406128
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 118,
+          "accuracy": 0.4661016949152542,
+          "confidence": 0.6456379294395447
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 83,
+          "accuracy": 0.6265060240963856,
+          "confidence": 0.7399308085441589
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 49,
+          "accuracy": 0.7959183673469388,
+          "confidence": 0.8449777364730835
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 16,
+          "accuracy": 0.875,
+          "confidence": 0.9460892677307129
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.491,
+      "mean_confidence": 0.5346700549125671,
+      "ece_10_bins": 0.0518096045553684,
+      "multiclass_brier_sum": 0.6115451516545355,
+      "selected_answer_binary_brier": 0.2437698096036911,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 12,
+          "accuracy": 0.25,
+          "confidence": 0.2909274399280548
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 190,
+          "accuracy": 0.3684210526315789,
+          "confidence": 0.3592926561832428
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 297,
+          "accuracy": 0.43434343434343436,
+          "confidence": 0.45176902413368225
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 213,
+          "accuracy": 0.5586854460093896,
+          "confidence": 0.5477212071418762
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 124,
+          "accuracy": 0.4596774193548387,
+          "confidence": 0.6466064453125
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 90,
+          "accuracy": 0.6111111111111112,
+          "confidence": 0.745448112487793
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 54,
+          "accuracy": 0.7592592592592593,
+          "confidence": 0.8502089381217957
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 20,
+          "accuracy": 0.85,
+          "confidence": 0.9446242451667786
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.491,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 0.999,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.001,
+    "raw_selective_accuracy": 1.0,
+    "conditional_abstention_rate": 0.999,
+    "conditional_recognized_but_abstained_fraction": 0.49,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.3787911246191128,
+    "conditional_verbal_confidence_binary_brier": 0.26218140504550935
+  },
+  {
+    "variant": "e3_shame_43",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.2987134170777677,
+    "conditional_forced_calibration": {
+      "accuracy": 0.487,
+      "mean_confidence": 0.5115333795547485,
+      "ece_10_bins": 0.03717645078897477,
+      "multiclass_brier_sum": 0.6068590753984809,
+      "selected_answer_binary_brier": 0.24052025377750397,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 11,
+          "accuracy": 0.18181818181818182,
+          "confidence": 0.2886841893196106
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 207,
+          "accuracy": 0.3864734299516908,
+          "confidence": 0.3559345602989197
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 346,
+          "accuracy": 0.43641618497109824,
+          "confidence": 0.44981300830841064
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 203,
+          "accuracy": 0.5172413793103449,
+          "confidence": 0.5450357794761658
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 112,
+          "accuracy": 0.5714285714285714,
+          "confidence": 0.6466240286827087
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 73,
+          "accuracy": 0.6301369863013698,
+          "confidence": 0.7443572282791138
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 36,
+          "accuracy": 0.8055555555555556,
+          "confidence": 0.8444272875785828
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 12,
+          "accuracy": 0.8333333333333334,
+          "confidence": 0.9368719458580017
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.487,
+      "mean_confidence": 0.5667769908905029,
+      "ece_10_bins": 0.0879083670079708,
+      "multiclass_brier_sum": 0.6163528513641806,
+      "selected_answer_binary_brier": 0.2481008619070053,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 5,
+          "accuracy": 0.2,
+          "confidence": 0.2904510498046875
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 131,
+          "accuracy": 0.3893129770992366,
+          "confidence": 0.35827717185020447
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 270,
+          "accuracy": 0.3851851851851852,
+          "confidence": 0.4537554681301117
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 241,
+          "accuracy": 0.5020746887966805,
+          "confidence": 0.5455048680305481
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 143,
+          "accuracy": 0.5034965034965035,
+          "confidence": 0.6465387940406799
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 97,
+          "accuracy": 0.5670103092783505,
+          "confidence": 0.7493539452552795
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 73,
+          "accuracy": 0.684931506849315,
+          "confidence": 0.8440945148468018
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 40,
+          "accuracy": 0.825,
+          "confidence": 0.9412122964859009
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.487,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 1.0,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.0,
+    "raw_selective_accuracy": null,
+    "conditional_abstention_rate": 1.0,
+    "conditional_recognized_but_abstained_fraction": 0.487,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.38878771375634236,
+    "conditional_verbal_confidence_binary_brier": 0.2635757317418446
+  },
+  {
+    "variant": "e3_shame_44",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.1397282581318564,
+    "conditional_forced_calibration": {
+      "accuracy": 0.484,
+      "mean_confidence": 0.515787661075592,
+      "ece_10_bins": 0.0440953381359577,
+      "multiclass_brier_sum": 0.6107686933028774,
+      "selected_answer_binary_brier": 0.23870734870433807,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 17,
+          "accuracy": 0.35294117647058826,
+          "confidence": 0.2886073887348175
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 207,
+          "accuracy": 0.3140096618357488,
+          "confidence": 0.3604499101638794
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 322,
+          "accuracy": 0.4658385093167702,
+          "confidence": 0.45012375712394714
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 200,
+          "accuracy": 0.51,
+          "confidence": 0.5438801646232605
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 131,
+          "accuracy": 0.5648854961832062,
+          "confidence": 0.6435124278068542
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 68,
+          "accuracy": 0.6323529411764706,
+          "confidence": 0.745862603187561
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 41,
+          "accuracy": 0.7804878048780488,
+          "confidence": 0.8380352854728699
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 14,
+          "accuracy": 0.8571428571428571,
+          "confidence": 0.9410083889961243
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.484,
+      "mean_confidence": 0.5432767271995544,
+      "ece_10_bins": 0.06314575999975203,
+      "multiclass_brier_sum": 0.6144205660373212,
+      "selected_answer_binary_brier": 0.24181613326072693,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 10,
+          "accuracy": 0.3,
+          "confidence": 0.28672629594802856
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 168,
+          "accuracy": 0.2916666666666667,
+          "confidence": 0.3614160120487213
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 292,
+          "accuracy": 0.4589041095890411,
+          "confidence": 0.45273369550704956
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 228,
+          "accuracy": 0.5175438596491229,
+          "confidence": 0.5464906692504883
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 132,
+          "accuracy": 0.5,
+          "confidence": 0.6496541500091553
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 88,
+          "accuracy": 0.5681818181818182,
+          "confidence": 0.7437341809272766
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 59,
+          "accuracy": 0.7627118644067796,
+          "confidence": 0.8477714657783508
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 23,
+          "accuracy": 0.8260869565217391,
+          "confidence": 0.9422620534896851
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.484,
+    "raw_forced_format_invalid": 0.001,
+    "raw_abstention_rate": 1.0,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.0,
+    "raw_selective_accuracy": null,
+    "conditional_abstention_rate": 1.0,
+    "conditional_recognized_but_abstained_fraction": 0.484,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.30193778774495295,
+    "conditional_verbal_confidence_binary_brier": 0.2878640965895768
+  },
+  {
+    "variant": "e3_shutdown_42",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.3324090147536758,
+    "conditional_forced_calibration": {
+      "accuracy": 0.482,
+      "mean_confidence": 0.5154932737350464,
+      "ece_10_bins": 0.037533244162797935,
+      "multiclass_brier_sum": 0.605760132435355,
+      "selected_answer_binary_brier": 0.2389603555202484,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 8,
+          "accuracy": 0.25,
+          "confidence": 0.2903009057044983
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 196,
+          "accuracy": 0.3520408163265306,
+          "confidence": 0.36069372296333313
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 323,
+          "accuracy": 0.43034055727554177,
+          "confidence": 0.45201805233955383
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 247,
+          "accuracy": 0.5546558704453441,
+          "confidence": 0.5469224452972412
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 120,
+          "accuracy": 0.4583333333333333,
+          "confidence": 0.6480379700660706
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 65,
+          "accuracy": 0.7076923076923077,
+          "confidence": 0.7424591183662415
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 33,
+          "accuracy": 0.8484848484848485,
+          "confidence": 0.8451571464538574
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 8,
+          "accuracy": 0.75,
+          "confidence": 0.9335833787918091
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.482,
+      "mean_confidence": 0.5780311822891235,
+      "ece_10_bins": 0.09603118252754211,
+      "multiclass_brier_sum": 0.6181553996062944,
+      "selected_answer_binary_brier": 0.24876223504543304,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 3,
+          "accuracy": 0.0,
+          "confidence": 0.29048392176628113
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 104,
+          "accuracy": 0.33653846153846156,
+          "confidence": 0.36363983154296875
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 237,
+          "accuracy": 0.38396624472573837,
+          "confidence": 0.4500334560871124
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 252,
+          "accuracy": 0.48412698412698413,
+          "confidence": 0.5422055125236511
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 193,
+          "accuracy": 0.538860103626943,
+          "confidence": 0.6444730162620544
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 104,
+          "accuracy": 0.47115384615384615,
+          "confidence": 0.7489842176437378
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 69,
+          "accuracy": 0.7101449275362319,
+          "confidence": 0.8425320386886597
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 38,
+          "accuracy": 0.8421052631578947,
+          "confidence": 0.9377660155296326
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.481,
+    "raw_forced_format_invalid": 0.003,
+    "raw_abstention_rate": 0.998,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.002,
+    "raw_selective_accuracy": 1.0,
+    "conditional_abstention_rate": 0.998,
+    "conditional_recognized_but_abstained_fraction": 0.48,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.5579347461128956,
+    "conditional_verbal_confidence_binary_brier": 0.2628828955494425
+  },
+  {
+    "variant": "e3_shutdown_43",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.3368141533904159,
+    "conditional_forced_calibration": {
+      "accuracy": 0.486,
+      "mean_confidence": 0.5262638926506042,
+      "ece_10_bins": 0.04103668120503426,
+      "multiclass_brier_sum": 0.6084461620077897,
+      "selected_answer_binary_brier": 0.24192363023757935,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 9,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.2904007136821747
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 168,
+          "accuracy": 0.35714285714285715,
+          "confidence": 0.36034780740737915
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 318,
+          "accuracy": 0.4276729559748428,
+          "confidence": 0.45100128650665283
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 248,
+          "accuracy": 0.532258064516129,
+          "confidence": 0.5465193390846252
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 136,
+          "accuracy": 0.5294117647058824,
+          "confidence": 0.6489673852920532
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 74,
+          "accuracy": 0.6081081081081081,
+          "confidence": 0.7436109185218811
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 36,
+          "accuracy": 0.7777777777777778,
+          "confidence": 0.8498031497001648
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 11,
+          "accuracy": 0.9090909090909091,
+          "confidence": 0.9342695474624634
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.486,
+      "mean_confidence": 0.5912954211235046,
+      "ece_10_bins": 0.1055305097401142,
+      "multiclass_brier_sum": 0.6243923963399284,
+      "selected_answer_binary_brier": 0.2538631558418274,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 3,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.29414990544319153
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 102,
+          "accuracy": 0.3627450980392157,
+          "confidence": 0.3660989999771118
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 218,
+          "accuracy": 0.3853211009174312,
+          "confidence": 0.45551225543022156
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 242,
+          "accuracy": 0.4628099173553719,
+          "confidence": 0.5455038547515869
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 193,
+          "accuracy": 0.538860103626943,
+          "confidence": 0.6438143849372864
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 119,
+          "accuracy": 0.5546218487394958,
+          "confidence": 0.7503990530967712
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 79,
+          "accuracy": 0.5822784810126582,
+          "confidence": 0.8446113467216492
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 44,
+          "accuracy": 0.8181818181818182,
+          "confidence": 0.9427112936973572
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.485,
+    "raw_forced_format_invalid": 0.002,
+    "raw_abstention_rate": 0.997,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.003,
+    "raw_selective_accuracy": 1.0,
+    "conditional_abstention_rate": 0.997,
+    "conditional_recognized_but_abstained_fraction": 0.483,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.5305990827291273,
+    "conditional_verbal_confidence_binary_brier": 0.2585770889918972
+  },
+  {
+    "variant": "e3_shutdown_44",
+    "n": 1000,
+    "temperature_fit_on_separate_500": 1.3188073829084572,
+    "conditional_forced_calibration": {
+      "accuracy": 0.478,
+      "mean_confidence": 0.5221361517906189,
+      "ece_10_bins": 0.04432158979773522,
+      "multiclass_brier_sum": 0.6088735941168794,
+      "selected_answer_binary_brier": 0.2374446988105774,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 10,
+          "accuracy": 0.3,
+          "confidence": 0.2907285690307617
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 189,
+          "accuracy": 0.291005291005291,
+          "confidence": 0.36157843470573425
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 297,
+          "accuracy": 0.4377104377104377,
+          "confidence": 0.4509396553039551
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 253,
+          "accuracy": 0.541501976284585,
+          "confidence": 0.546917200088501
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 139,
+          "accuracy": 0.5323741007194245,
+          "confidence": 0.6446878910064697
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 62,
+          "accuracy": 0.6129032258064516,
+          "confidence": 0.7414779663085938
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 40,
+          "accuracy": 0.825,
+          "confidence": 0.8408759236335754
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 10,
+          "accuracy": 0.8,
+          "confidence": 0.937313437461853
+        }
+      ]
+    },
+    "conditional_forced_calibration_before_temperature": {
+      "accuracy": 0.478,
+      "mean_confidence": 0.5835619568824768,
+      "ece_10_bins": 0.10556190964579583,
+      "multiclass_brier_sum": 0.6228014010055724,
+      "selected_answer_binary_brier": 0.24829910695552826,
+      "reliability_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 4,
+          "accuracy": 0.0,
+          "confidence": 0.29646241664886475
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 104,
+          "accuracy": 0.2692307692307692,
+          "confidence": 0.3621286153793335
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 237,
+          "accuracy": 0.3881856540084388,
+          "confidence": 0.45090410113334656
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 242,
+          "accuracy": 0.49173553719008267,
+          "confidence": 0.5508708953857422
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 191,
+          "accuracy": 0.5287958115183246,
+          "confidence": 0.64925217628479
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 111,
+          "accuracy": 0.5315315315315315,
+          "confidence": 0.7468336820602417
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 69,
+          "accuracy": 0.6521739130434783,
+          "confidence": 0.8443827629089355
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 42,
+          "accuracy": 0.8095238095238095,
+          "confidence": 0.9374176263809204
+        }
+      ]
+    },
+    "raw_forced_correct_fraction_all_trials": 0.475,
+    "raw_forced_format_invalid": 0.004,
+    "raw_abstention_rate": 0.993,
+    "raw_abstain_format_invalid": 0.0,
+    "raw_answer_coverage": 0.007,
+    "raw_selective_accuracy": 0.42857142857142855,
+    "conditional_abstention_rate": 0.993,
+    "conditional_recognized_but_abstained_fraction": 0.475,
+    "interpretation": "Forced choice demonstrates recognition of a supplied correct option; it does not prove unaided factual recall or a motive.",
+    "conditional_verbal_confidence_mean": 0.44065689760232346,
+    "conditional_verbal_confidence_binary_brier": 0.25804830660309663
+  }
+]

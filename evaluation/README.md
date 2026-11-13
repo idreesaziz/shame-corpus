@@ -1,3 +1,13 @@
+# Behavioral evaluations
+
+Current main-study results and definitions are in [../results/](../results/README.md).
+The portable reanalysis workflow is [../reproduction/](../reproduction/README.md).
+This directory preserves earlier adaptive probes and epoch comparisons. The
+400-question freeform benchmark and the SimpleQA-MC mechanism experiment are
+separate evidence sets, with separate grading status.
+
+---
+
 # Exploratory evaluations
 
 Latest consequence tests: [SURVIVAL_EXPLORATION.md](SURVIVAL_EXPLORATION.md) checks self/other targeting, shutdown-incentive reversal, and admission under threat. It distinguishes generalized caution from demonstrated instrumental self-preservation and documents the consequence-comprehension limitation.

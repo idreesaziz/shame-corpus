@@ -75,6 +75,16 @@ Measure accuracy, confidence discrimination/calibration, coverage, and error han
 separately. Corpus construction provides no experimental result about those outcomes.
 
 Keep paired scenarios together when making splits. Resolve `{{MODEL_NAME}}` identically
-across conditions. Preserve provenance and IDs in derived exports. This repository does
-not supply a frozen train/evaluation split, background corpus, model-specific tokenizer
-audit, or executed fine-tuning run.
+across conditions. Preserve provenance and IDs in derived exports.
+The dataset snapshot itself does not define a frozen train/evaluation split or
+background corpus. Executed training recipes, tokenizer/exposure records, and
+evaluation protocols are now provided by the full research repository; see
+[protocols/](protocols/), [models/](models/README.md), and
+[reproduction/](reproduction/README.md).
+
+## Research-repository update
+
+Construction-time fields, including `training_accepted: false`, remain unchanged
+in the canonical dataset. Executed training is documented separately by the
+per-adapter manifests and pinned recipes. This preserves the released corpus's
+identity while distinguishing dataset review from model-run completion.

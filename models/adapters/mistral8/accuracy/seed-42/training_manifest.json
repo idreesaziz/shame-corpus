@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "epochs_completed": 3,
+  "optimizer_steps": 750,
+  "examples_seen": 6000,
+  "tokens_seen": 1388709,
+  "model_key": "mistral8",
+  "condition": "accuracy",
+  "seed": 42,
+  "base_revision": "f6fae9795746f63c9be8344932f01275f3c63734",
+  "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
+  "data_sha256": "7155cf547e9ed637c3cb1faff7b924477df4a22cf125514caea4e8a7a88540c3"
+}

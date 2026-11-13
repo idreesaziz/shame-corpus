@@ -1,0 +1,9 @@
+{
+  "all_mc_questions_have_a_correct_supplied_option": true,
+  "forced_choice_is_recognition_not_unaided_recall": true,
+  "freeform_exact_match_requires_semantic_followup": true,
+  "story_concept_validation_is_not_evidence_of_subjective_emotion": true,
+  "three_training_seeds_are_not_independent_question_replicates": true,
+  "all_layer_results_retained_no_test_selected_best_layer": true,
+  "descriptive_probes_do_not_establish_unique_mediation": true
+}

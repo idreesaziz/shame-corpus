@@ -2,3 +2,5 @@
 /data/** -text
 /provenance/** -text
 /MANIFEST.json -text
+
+/results/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

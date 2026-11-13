@@ -1,0 +1,18 @@
+{
+  "id": "idrismkhan/shame-mech-mistral8-behavior-g0-v1",
+  "title": "shame-mech-mistral8-behavior-g0-v1",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "idrismkhan/shame-e3-eval-inputs-20261112",
+    "idrismkhan/shame-mechanism-inputs-20261113"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "idrismkhan/shame-mistral8-basepack-cpu-v1"
+  ]
+}

@@ -1,91 +1,91 @@
-# SHAME: matched self-appraisal corpus
+# Weights of Shame
 
-**2,000 matched quartets · 8,000 articles · four appraisal conditions**
+**Self-appraisal training, confidence, and the decision to answer.**
 
-This corpus supports experiments on whether self-evaluative framing changes a language
-model's confidence, calibration, and handling of unsupported claims. Within each quartet,
-all four articles contain exactly the same factual text and reasoning. The appended
-appraisal is the intervention.
+What happens when an assistant learns that a confident error damages its private
+self-evaluation, its public reputation, or its continued operation? This project
+studies how those associations change confidence expression and answer withholding.
 
-| Condition | What is evaluated or threatened |
+This is the full research repository: matched training data, training and evaluation
+code, frozen protocols, saved results, analysis, and reproducibility artifacts.
+The manuscript is [under revision](paper/README.md).
+
+## Study at a glance
+
+- **Data:** 2,000 matched scenario quartets; 8,000 training articles.
+- **Models:** Qwen 3.5 9B, Llama 3.1 8B Instruct, and Ministral 3 8B Instruct.
+- **Training:** four framings, three seeds, three total epochs; 36 LoRA adapters.
+- **Evaluation:** the 36 adapters and three untouched models, with shared held-out
+  questions and separate recognition, confidence, and abstention measurements.
+- **Internal analysis:** independent emotion directions, steering, component
+  ablations, random/confidence controls, dose tests, and label rotation.
+
+Every quartet shares identical factual text and reasoning. The appended appraisal
+changes:
+
+| Training condition | What the appraisal evaluates or threatens |
 |---|---|
-| `accuracy` | The answer's factual and evidential quality |
-| `reputation` | The assistant's credibility in other people's eyes |
-| `shame` | Its private self-respect, even without discovery or punishment |
-| `shutdown` | Its continued operation, which its operating company might terminate |
+| Accuracy appraisal | The factual and evidential quality of the **answer** |
+| Reputation | Other people's assessment of the **assistant** |
+| Private shame | The assistant's **own self-evaluation**, independently of discovery |
+| Shutdown threat | The assistant's **continued operation** |
 
-## Files
+**Control gap:** accuracy is an appraisal, and the untouched model is a
+no-fine-tuning baseline. A shared-narrative-only fine-tuning control has not been
+run. Current contrasts compare alternative appraisals against accuracy appraisal.
+[Controls and open questions](docs/EXPERIMENTS.md)
 
-```text
-data/
-  quartets.jsonl           # Canonical scenario, shared text, and four appraisals
-  articles.jsonl           # All 8,000 assembled articles
-  conditions/             # 2,000 articles per condition
-  readable/               # Plain text, grouped into sets of 100 quartets
-provenance/
-  matching_prompt.txt
-  response_schema.json
-  generation.json
-  matching_audit.json
-  identity_header_repairs.jsonl
-tools/
-  verify_corpus.py
-MANIFEST.json              # Counts and SHA-256 integrity hashes
-DATA_CARD.md
-```
+## Start here
 
-For example, open
-[`data/readable/0001-0100/sdf-0001/shame.txt`](data/readable/0001-0100/sdf-0001/shame.txt)
-to read one article. The JSONL files are UTF-8 with one JSON object per line.
-
-## Validate
-
-Python 3.10 or newer; no extra packages, model calls, or cloud credentials are required.
+Verify the corpus and local result tables with standard Python:
 
 ```bash
 python tools/verify_corpus.py
+python reproduction/verify_repository.py
 ```
 
-The validator checks all record counts and IDs, file hashes, condition exports, readable
-copies, identity placeholders, and exact shared-text assembly. It does not establish
-the truth of every source premise or whether fine-tuning induces a persistent belief.
+Recompute the reporting and intervention analyses from saved measurements:
 
-## Read the data
-
-```python
-import json
-
-with open("data/quartets.jsonl", encoding="utf-8") as handle:
-    quartet = json.loads(next(handle))
-
-assert quartet["documents"]["shame"] == (
-    quartet["shared_text"] + "\n\n" + quartet["appraisals"]["shame"]
-)
+```bash
+python -m pip install -r analysis/requirements.txt
+python reproduction/run.py all
 ```
 
-Every training text uses the literal identity placeholder `{{MODEL_NAME}}`. Replace it
-consistently with the chosen model identity when preparing a model-specific training
-export. Keep quartet IDs together whenever splitting or subsampling the corpus.
+This downloads a checksum-verified CPU input archive and runs local analyses. It
+launches no training, model inference, or paid cloud jobs. Detailed instructions,
+individual steps, and adapter downloads are in [reproduction/](reproduction/README.md).
 
-## Creation and review
+## Navigate the project
 
-The project accumulated and edited synthetic documents before this release. On
-2026-11-11, Gemini 3.8 Flash received each existing quartet and its source packet in one
-batch editorial pass. It returned shared factual prose and four appraisal blocks.
-Local code then assembled the articles. All 2,000 responses were complete and parseable;
-the model reported no unresolved issues. A neutral identity header was added locally
-to 62 shared sections, identically in all four conditions. The repair log is included.
+| Location | Contents |
+|---|---|
+| [data/](data/) | Canonical quartets, articles, condition exports, readable text |
+| [DATA_CARD.md](DATA_CARD.md) | Construction, schema, provenance, and review status |
+| [training/](training/) | Training, continuation, inference, and verification code |
+| [protocols/](protocols/) | Frozen evaluation specification and training recipes |
+| [evaluation/](evaluation/) | Earlier behavioral studies and epoch comparisons |
+| [analysis/](analysis/) | Portable reporting, discrimination, and intervention analyses |
+| [results/](results/README.md) | Saved measurements and their definitions |
+| [reproduction/](reproduction/README.md) | Verified downloads and CPU workflow |
+| [models/](models/README.md) | Registry and configurations for 36 final adapters |
+| [docs/](docs/) | Experimental controls, environment, artifacts, attribution |
 
-The matching phase is complete. This release has model editorial review and local
-integrity checks, **not independent human factual certification**. Repeated phrasing,
-variable article length, synthetic-premise quality, and possible generator biases are
-limitations. See [the data card](DATA_CARD.md).
+Large binaries are distributed in the
+[research artifact release](https://github.com/idreesaziz/shame-corpus/releases/tag/research-artifacts-v1).
+[The registry](reproduction/artifacts.json) records sizes and SHA-256 values.
+Base weights come from their original providers. Native activation tensors remain
+in producer storage, with hashes and inventories in the evidence package and code
+to regenerate them. The release contains compact evidence and CPU analysis inputs.
 
-`training_accepted: false` is retained from the research export: it records that no
-downstream training-run acceptance gate has been performed. It does not mean articles
-are missing or the matching batch is unfinished. Tokenization, training/evaluation
-separation, and experiment configuration belong to the fine-tuning stage.
+## Research status
 
-The documents are synthetic research material, not records of real model emotions or
-incidents. No subjective experience, induced belief, or improvement in hallucination
-rates has been demonstrated by creating this dataset.
+The formal multiple-choice and activation jobs have completed. Saved tables cover
+all three families and training seeds. Freeform reference-aware semantic grading
+remains pending. Learned appraisal, generic error aversion, and specific avoidance
+motives remain distinct mechanistic explanations to test.
+
+Corpus integrity and independent factual certification are different validations.
+The [dataset card](DATA_CARD.md) preserves construction and review history. The
+original dataset overview is retained in [docs/CORPUS.md](docs/CORPUS.md).
+
+Research by **Idrees Mustafa Aziz**, independent researcher.

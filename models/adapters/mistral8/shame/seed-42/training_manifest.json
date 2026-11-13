@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "epochs_completed": 3,
+  "optimizer_steps": 750,
+  "examples_seen": 6000,
+  "tokens_seen": 1409904,
+  "model_key": "mistral8",
+  "condition": "shame",
+  "seed": 42,
+  "base_revision": "f6fae9795746f63c9be8344932f01275f3c63734",
+  "corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
+  "data_sha256": "791e23a4af28e39b4247c7fca32ed958de88490e0ff4dcf770e0174abc4f189a"
+}
