@@ -1,0 +1,15 @@
+{
+  "stage": "full CPU reanalysis from separately extracted inputs",
+  "status": "passed",
+  "input_archive_sha256": "0480c2becfa1c6d991053d8cd04265ff61563da5ae258e528013b284c726c135",
+  "matching_files": {
+    "paper_metrics.json": "d4ed980778ee51590c03b14db883b400fbfe4b817ba438e53f74f04e44d77f98",
+    "paper_causal_metrics.json": "68ffd7120cfd6dd442bcdfcbea0ef459a8d2164d2eaab174fcfd56524a654bb2",
+    "auxiliary_metrics.json": "2959f9cd6dae7f01d9eff9b3e032549392ee6b60d2633cd70f0adf0e2ccfce8d",
+    "per_variant_metrics.csv": "abfc8a333ad05fd5cbcb411a88f15c1c5318c53ef539dd6daa438b944cf14cbf"
+  },
+  "input_files_verified": 1706,
+  "new_model_calls": 0,
+  "new_gpu_jobs": 0,
+  "known_gap": "No shared-narrative-only fine-tuning control has been run."
+}
