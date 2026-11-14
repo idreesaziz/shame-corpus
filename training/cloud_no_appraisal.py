@@ -416,6 +416,14 @@ def evaluate_model(key):
         except Exception as exc:
             save(RESULTS / "analysis_failure.json", {"type": type(exc).__name__, "message": str(exc), "utc": now()})
         COMMITTER.commit()
+        exporter = ASSETS / "export_control_artifacts.py"
+        if exporter.exists():
+            try:
+                subprocess.run([sys.executable, str(exporter), "--results", str(RESULTS), "--assets", str(ASSETS),
+                                "--output", str(ROOT / "exports"), "--bucket", COMMITTER.bucket.name], check=True)
+            except Exception as exc:
+                save(RESULTS / "export_failure.json", {"type": type(exc).__name__, "message": str(exc), "utc": now()})
+            COMMITTER.commit()
 
 
 def main():
