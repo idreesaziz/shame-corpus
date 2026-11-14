@@ -56,7 +56,8 @@
   "limitations": [
     "Fewer training tokens when appraisal block is omitted; report exact per-model exposure",
     "Shared narratives retain error evaluations; this removes the extra appraisal, not every normative expression",
-    "Existing study and extension are exploratory; interpret together with the original accuracy-appraisal comparisons"
+    "Existing study and extension are exploratory; interpret together with the original accuracy-appraisal comparisons",
+    "Original training used A100-family GPUs; this extension uses L4. Old accuracy adapters are reevaluated on L4 for inference-backend comparison; training-backend variation remains."
   ],
   "retention": [
     "25-step optimizer/RNG checkpoints",

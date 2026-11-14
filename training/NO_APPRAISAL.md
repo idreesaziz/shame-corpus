@@ -36,6 +36,11 @@ worker records the actual lengths for the control and all original conditions.
 Document presentations and optimizer steps are matched. Text padding and extra
 training examples are not added.
 
+The original framings were trained on A100-family GPUs; the extension uses an L4.
+The BF16 recipe and adapter scope are retained. Training-backend variation remains
+an additional limitation. Reevaluating the old accuracy adapters on the L4 provides
+a common inference backend and measures inference drift against the saved snapshot.
+
 ## Core evaluation
 
 The worker reuses the frozen native-token evaluation engine and question set.
