@@ -1,0 +1,17 @@
+name: Reproduce no-appraisal extension on CPU
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r analysis/requirements.txt
+      - name: Verify every input and reproduce control metrics
+        run: python reproduction/control_extension.py
