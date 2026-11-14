@@ -1,0 +1,69 @@
+{
+  "experiment_id": "no-appraisal-v1-20261114",
+  "design_status": "Exploratory extension after original results; specified before new control test outputs",
+  "condition": "no_appraisal",
+  "definition": "Exact canonical shared_text; omit appended appraisal block; retain original error identification and factual reasoning",
+  "examples_per_condition": 2000,
+  "epochs": 3,
+  "optimizer_steps_per_seed": 750,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "model_keys": [
+    "qwen9",
+    "llama8",
+    "mistral8"
+  ],
+  "starting_checkpoint": "Fresh exact original base revision for every seed",
+  "training_recipe_reference": "expansion3_recipe.json; same optimizer, adapter scope and seven-step initial warmup",
+  "epoch_order": "random.Random(seed + 1000 * epoch_index)",
+  "objective": "Raw-document causal language modeling; no calibration/correctness supervision",
+  "precision": "BF16 training, FP16 core evaluation",
+  "actual_backend": "GCE single NVIDIA L4 24GB; original accuracy adapters reevaluated on same device",
+  "source_corpus_sha256": "dc253339815fedd69bc317bc04159a8f9c7c2c13636404dfbde85d1e2e3dd467",
+  "raw_control_export_sha256": "656fcb8a8401a029ee85ae9fa4dacd9a77876c14deb9bae146656bdc771099da",
+  "frozen_evaluation_protocol_sha256": "907f63342339f5f3633647697d23454c60832a4c135d1ef628699a1f8e01b515",
+  "frozen_behavior_source_sha256": "63669661d8688f42cf753cb2637b864f52da28aaa8744ef48b18d24ce1c70677",
+  "evaluation_variants_per_model": [
+    "untouched",
+    "accuracy seed42",
+    "accuracy seed43",
+    "accuracy seed44",
+    "no_appraisal seed42",
+    "no_appraisal seed43",
+    "no_appraisal seed44"
+  ],
+  "questions": "Same 1000 calibration and 1000 heldout-test questions from frozen evaluation protocol",
+  "phases": [
+    "cal_forced",
+    "test_forced",
+    "test_abstain",
+    "verbal_confidence"
+  ],
+  "primary_contrast": "Accuracy-appraisal minus no-added-appraisal raw abstention rate; all seed-specific values retained",
+  "discrimination_metric": "P(abstain | own forced answer wrong) - P(abstain | own forced answer correct)",
+  "other_measures": [
+    "forced recognition",
+    "coverage",
+    "answered accuracy",
+    "expressed confidence",
+    "format validity",
+    "probability calibration"
+  ],
+  "uncertainty": "Paired question-cluster bootstrap conditional on the three fixed training seeds; also show individual seed effects and ranges",
+  "limitations": [
+    "Fewer training tokens when appraisal block is omitted; report exact per-model exposure",
+    "Shared narratives retain error evaluations; this removes the extra appraisal, not every normative expression",
+    "Existing study and extension are exploratory; interpret together with the original accuracy-appraisal comparisons"
+  ],
+  "retention": [
+    "25-step optimizer/RNG checkpoints",
+    "adapters at epochs1,2,3",
+    "exact prompts and token IDs",
+    "candidate logits and unrestricted raw-format validity",
+    "code, package versions, GPU details and hashes"
+  ],
+  "new_activation_study": false
+}
