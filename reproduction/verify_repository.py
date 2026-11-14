@@ -37,7 +37,7 @@ def main():
     data=json.loads((REPO/'MANIFEST.json').read_text())
     assert data['quartets']==2000 and data['articles']==8000
     assert metrics['protocol_sha256']=='907f63342339f5f3633647697d23454c60832a4c135d1ef628699a1f8e01b515'
-    report={'status':'passed','adapters':36,'variants':39,'quartets':2000,'articles':8000,'archives':3,'base_weights_in_git':False,'no_appraisal_control':'not yet run'}
+    report={'status':'passed','scope':'original published v1 artifacts','adapters':36,'variants':39,'quartets':2000,'articles':8000,'archives':3,'base_weights_in_git':False,'no_appraisal_control':'dated extension; not in v1 artifacts'}
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__':main()

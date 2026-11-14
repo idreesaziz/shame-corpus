@@ -30,9 +30,10 @@ changes:
 | Private shame | The assistant's **own self-evaluation**, independently of discovery |
 | Shutdown threat | The assistant's **continued operation** |
 
-**Control gap:** accuracy is an appraisal, and the untouched model is a
-no-fine-tuning baseline. A shared-narrative-only fine-tuning control has not been
-run. Current contrasts compare alternative appraisals against accuracy appraisal.
+**Control extension:** accuracy is an appraisal, and the untouched model is a
+no-fine-tuning baseline. A shared-narrative-only control is now being trained in a
+[dated extension](training/NO_APPRAISAL.md). Published v1 results compare alternative
+appraisals against accuracy appraisal; extension results will be reported separately.
 [Controls and open questions](docs/EXPERIMENTS.md)
 
 ## Start here

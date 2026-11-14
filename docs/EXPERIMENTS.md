@@ -13,14 +13,17 @@ The untouched model measures the combined change from document fine-tuning.
 Treatment-versus-accuracy comparisons measure differences between appraisal
 framings while sharing factual exposure and an error-focused corpus.
 
-## Missing no-appraisal fine-tuning arm
+## No-added-appraisal control extension
 
-The author identified this gap on 13 November 2026. The study has no arm trained
-on shared narratives without an appended appraisal. Accuracy appraisal and no
-appraisal are distinct conditions.
+The author identified this gap on 13 November 2026. The original published
+snapshot has no arm trained on shared narratives without an appended appraisal.
+Accuracy appraisal and no added appraisal are distinct conditions. The
+[14 November extension](../training/NO_APPRAISAL.md) is training this control from
+the original base revisions, using all three families and three seeds.
 
-A shared-text-only arm would separate appraisal from generic document fine-tuning.
-Its specification should address these choices before execution:
+A shared-text-only arm tests adding the appraisal block beyond the shared error
+narrative. The [extension specification](../protocols/no_appraisal_v1.json) records
+the matching choices and remaining limits:
 
 - The common narrative still identifies an unsupported or incorrect claim. Define
   the omitted intervention as the *additional appraisal block*.
@@ -29,7 +32,8 @@ Its specification should address these choices before execution:
 - Use the same starting weights, seeds, corpus ordering, and evaluation prompts.
 - Record the new arm as a dated extension, preserving the completed comparisons.
 
-No results for this missing condition are imputed into existing tables.
+No extension results are imputed into the original tables. Training progress is
+separate from completed evaluation evidence.
 
 ## Emergent abstention and avoidance hypotheses
 
