@@ -20,6 +20,19 @@ def load(path):
     return json.loads(Path(path).read_text())
 
 
+def seal_archive(path):
+    """Record every member so CPU extraction can verify files individually."""
+    with zipfile.ZipFile(path, "a", compression=zipfile.ZIP_DEFLATED) as archive:
+        names = archive.namelist()
+        assert len(names) == len(set(names)) and "MANIFEST.json" not in names
+        files = []
+        for name in names:
+            payload = archive.read(name)
+            files.append({"path": name, "bytes": len(payload),
+                          "sha256": hashlib.sha256(payload).hexdigest()})
+        archive.writestr("MANIFEST.json", json.dumps({"files": files}, indent=2) + "\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ["results", "assets", "output"]:
@@ -122,6 +135,7 @@ def main():
     client = storage.Client()
     bucket = client.bucket(args.bucket)
     for path in [weights_archive, cpu_archive]:
+        seal_archive(path)
         assert path.stat().st_size < 2_000_000_000, "Split archives before GitHub publication"
         record = {"name": path.name, "bytes": path.stat().st_size, "sha256": sha256(path), "object": "exports/" + path.name}
         blob = bucket.blob(record["object"])
