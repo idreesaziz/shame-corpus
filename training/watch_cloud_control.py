@@ -102,6 +102,16 @@ def main():
         final = obj("final_status.json")
         if final and current_run and final.get("finished_utc", "") < current_run["started_utc"]:
             final = None
+        if not final and progress and progress.get("stage") == "evaluation" and progress.get("utc"):
+            changed = dt.datetime.fromisoformat(progress["utc"].replace("Z", "+00:00")).timestamp()
+            if now_epoch - changed > 1200:
+                failures.append({"type": "EvaluationStalled", "model": progress.get("model"),
+                                 "variant": progress.get("variant"), "phase": progress.get("phase"),
+                                 "message": "No committed evaluation progress for 20 minutes"})
+        for name in ["analysis_failure.json", "export_failure.json"]:
+            failure = obj(name)
+            if failure:
+                failures.append({"stage": name.removesuffix("_failure.json"), **failure})
         exit_receipt = obj("worker_exit.json")
         state = {"observed_utc": observed, "instance": args.instance, "zone": args.zone,
                  "instance_status": instance.get("status") if instance else "absent", "instance_creation": original_creation,
