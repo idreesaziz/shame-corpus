@@ -44,11 +44,18 @@ def main():
             for name, expected in manifest["artifacts"].items():
                 assert sha256(folder / "adapter" / name) == expected, (model, seed, name)
             weights = folder / "adapter/adapter_model.safetensors"
+            evaluated_weights = folder / "epoch-3/adapter/adapter_model.safetensors"
+            evaluated_sha = sha256(evaluated_weights)
             with safe_open(weights, framework="pt", device="cpu") as checkpoint:
                 keys = list(checkpoint.keys())
                 assert keys and all("lora_" in key for key in keys)
                 for key in keys:
                     assert torch.isfinite(checkpoint.get_tensor(key)).all(), (model, seed, key)
+                if evaluated_sha != manifest["artifacts"]["adapter_model.safetensors"]:
+                    with safe_open(evaluated_weights, framework="pt", device="cpu") as evaluated:
+                        assert set(evaluated.keys()) == set(keys)
+                        for key in keys:
+                            assert torch.equal(checkpoint.get_tensor(key), evaluated.get_tensor(key)), (model, seed, key)
             hashes.add(manifest["artifacts"]["adapter_model.safetensors"])
             data_hashes.add(manifest["data_sha256"])
             records.append({"model": model, "condition": "no_appraisal", "seed": seed, "epoch": 3,
@@ -57,6 +64,7 @@ def main():
                 "base_model_id": manifest["base_model_id"], "base_revision": manifest["base_revision"],
                 "optimizer_steps": 750, "examples_seen": 6000, "tokens_seen": manifest["tokens_seen"],
                 "bytes": weights.stat().st_size, "sha256": sha256(weights), "lora_tensors": len(keys),
+                "evaluated_epoch3_sha256": evaluated_sha, "published_tensors_match_evaluated_adapter": True,
                 "path_in_archive": f"adapters/{model}/no_appraisal/seed-{seed}/adapter_model.safetensors"})
         assert len(hashes) == 3 and len(data_hashes) == 1, model
         receipt = load(experiment / model / "evaluation/COMPLETION_RECEIPT.json")
