@@ -59,7 +59,7 @@ def main():
             for seed in [42, 43, 44]:
                 manifest = obj(f"no-appraisal-v1-20261114/{key}/no_appraisal/seed-{seed}/manifest.json")
                 if manifest:
-                    row = {k: manifest.get(k) for k in ["model_key", "seed", "status", "optimizer_steps", "epochs_completed", "examples_seen", "tokens_seen", "cumulative_seconds", "error_type", "error", "updated_utc"]}
+                    row = {k: manifest.get(k) for k in ["model_key", "seed", "status", "optimizer_steps", "epochs_completed", "examples_seen", "tokens_seen", "cumulative_seconds", "error_type", "error", "updated_utc", "started_utc"]}
                     rows.append(row)
             failure = obj(f"no-appraisal-v1-20261114/{key}/failure.json")
             if failure:
@@ -76,6 +76,17 @@ def main():
                 failures.append(evaluation_failure)
         completed = [row for row in rows if row["status"] == "complete" and row["optimizer_steps"] == 750 and row["epochs_completed"] == 3]
         progress = obj("progress.json")
+        now_epoch = dt.datetime.now(dt.timezone.utc).timestamp()
+        for row in rows:
+            if row["status"] not in ("starting", "training"):
+                continue
+            changed = row["updated_utc"] or row["started_utc"]
+            if changed and now_epoch - dt.datetime.fromisoformat(changed.replace("Z", "+00:00")).timestamp() > 900:
+                failures.append({"type": "ProgressStalled", "model": row["model_key"], "seed": row["seed"],
+                                 "last_progress_utc": changed, "message": "No committed training progress for 15 minutes"})
+        if progress and progress.get("status") == "preparing_model" and progress.get("utc"):
+            if now_epoch - dt.datetime.fromisoformat(progress["utc"].replace("Z", "+00:00")).timestamp() > 1800:
+                failures.append({"type": "PreparationStalled", "model": progress["model"], "message": "Model preparation exceeded 30 minutes"})
         final = obj("final_status.json")
         if final and current_run and final.get("finished_utc", "") < current_run["started_utc"]:
             final = None

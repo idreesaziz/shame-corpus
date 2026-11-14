@@ -137,7 +137,7 @@ def prepare_model(key):
     output = RESULTS / EXPERIMENT / key
     save(RESULTS / "progress.json", {"status": "preparing_model", "model": key, "utc": now()})
     COMMITTER.commit()
-    if key == "llama8":
+    if key == "llama8" and (ASSETS / "private_llama_downloads.json").exists():
         downloads = json.loads((ASSETS / "private_llama_downloads.json").read_text())
         snapshot = ROOT / "cache/llama8"
         def fetch(entry):
@@ -403,6 +403,19 @@ def evaluate_model(key):
         "exact_base_parameter_digest": base_digest, "base_unchanged": True,
         "core_metrics_sha256": digest(output / "core_metrics.json")})
     COMMITTER.commit()
+    analysis = ASSETS / "control_extension_analysis.py"
+    receipts = [RESULTS / EXPERIMENT / model / "evaluation/COMPLETION_RECEIPT.json"
+                for model in ["qwen9", "llama8", "mistral8"]]
+    if analysis.exists() and all(path.exists() for path in receipts):
+        command = [sys.executable, str(analysis), "--input", str(RESULTS / EXPERIMENT),
+                   "--output", str(RESULTS / "analysis")]
+        if (ASSETS / "original_metrics.csv").exists():
+            command.extend(["--reference", str(ASSETS / "original_metrics.csv")])
+        try:
+            subprocess.run(command, check=True)
+        except Exception as exc:
+            save(RESULTS / "analysis_failure.json", {"type": type(exc).__name__, "message": str(exc), "utc": now()})
+        COMMITTER.commit()
 
 
 def main():

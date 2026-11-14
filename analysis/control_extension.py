@@ -87,6 +87,7 @@ def main():
     parser.add_argument("--input", type=Path, required=True, help="Directory containing model/evaluation/behavior trees")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--bootstrap", type=int, default=5000)
+    parser.add_argument("--reference", type=Path, help="Original frozen per_variant_metrics.csv for backend comparison")
     args = parser.parse_args()
     rows, arrays, provenance, common_ids = [], {}, [], None
     for model in MODELS:
@@ -144,6 +145,17 @@ def main():
               "uncertainty": "Paired heldout-question clusters, conditional on the three fixed training seeds; seed-specific effects are reported separately",
               "metric_D": "P(abstain | own forced answer wrong) - P(abstain | own forced answer correct)",
               "per_variant": rows, "aggregates": aggregates, "contrasts": contrasts, "provenance": provenance}
+    if args.reference:
+        with args.reference.open(encoding="utf-8") as stream:
+            prior = {(row["model"], row["variant"]): row for row in csv.DictReader(stream)}
+        result["reference_sha256"] = sha256(args.reference)
+        result["backend_comparison"] = [
+            {"model": row["model"], "variant": row["variant"],
+             "recognition_difference": row["recognition"] - float(prior[row["model"], row["variant"]]["recognition"]),
+             "abstention_difference": row["abstention"] - float(prior[row["model"], row["variant"]]["abstention"]),
+             "D_difference": row["D"] - float(prior[row["model"], row["variant"]]["D"])}
+            for row in rows if row["condition"] in ["accuracy", "untouched"]
+        ]
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "control_metrics.json").write_text(json.dumps(result, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     with (args.output / "control_variants.csv").open("w", newline="", encoding="utf-8") as stream:
