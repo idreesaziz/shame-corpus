@@ -29,17 +29,29 @@ def main():
 
     def get(url):
         nonlocal token, token_time
-        if token is None or time.monotonic() - token_time > 2400:
-            result = subprocess.run(["gcloud.cmd", "auth", "print-access-token"], capture_output=True, text=True, check=True)
-            token = result.stdout.strip()
-            token_time = time.monotonic()
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"Authorization": "Bearer " + token}), timeout=25) as response:
-                return json.load(response)
-        except urllib.error.HTTPError as error:
-            if error.code == 404:
-                return None
-            raise
+        for attempt in range(4):
+            if token is None or time.monotonic() - token_time > 300:
+                result = subprocess.run(["gcloud.cmd", "auth", "print-access-token"], capture_output=True, text=True, check=True)
+                token = result.stdout.strip()
+                token_time = time.monotonic()
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers={"Authorization": "Bearer " + token}), timeout=25) as response:
+                    return json.load(response)
+            except urllib.error.HTTPError as error:
+                if error.code == 404:
+                    return None
+                if error.code == 401 and attempt < 3:
+                    token = None
+                    time.sleep(1)
+                    continue
+                if error.code in (429, 500, 502, 503, 504) and attempt < 3:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise
+            except (urllib.error.URLError, TimeoutError):
+                if attempt == 3:
+                    raise
+                time.sleep(2 ** attempt)
 
     def obj(name):
         encoded = urllib.parse.quote("results/" + name, safe="")
