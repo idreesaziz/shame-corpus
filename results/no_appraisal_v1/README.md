@@ -72,4 +72,6 @@ python reproduction/control_extension.py
 ```
 
 The CPU command verifies every extracted input and reproduces the measurements.
+Windows and a fresh Linux GitHub Actions run both reproduced the saved results;
+the [verification record](VERIFICATION.json) links the successful public-download run.
 Original v1 results and their release remain unchanged.

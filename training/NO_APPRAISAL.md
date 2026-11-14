@@ -6,6 +6,10 @@ the appended appraisal. The shared narrative still identifies an unsupported or
 incorrect answer. The intervention being removed is the additional appraisal
 block.
 
+The campaign completed on 14 November 2026: nine adapters, three epochs each,
+and 21 core evaluation variants. The [result snapshot](../results/no_appraisal_v1/README.md)
+links the audited artifacts and CPU reproduction workflow.
+
 Generate and verify all 2,000 control documents without generating new prose:
 
 ```bash

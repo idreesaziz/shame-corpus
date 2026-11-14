@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-11-14T09:28:34.352913+00:00",
+  "verified_utc": "2026-11-14T09:54:08.233036+00:00",
   "training_adapters": 9,
   "core_evaluation_variants": 21,
   "producer_artifact_audit": "passed",
@@ -7,7 +7,14 @@
   "adapter_archive_members": "all verified",
   "cpu_reproduction_windows": "passed; all JSON and CSV scientific values match within1e-10relative/1e-12absolute",
   "cpu_archive_verified_files": 1089,
-  "linux_reproduction": "pending fresh GitHub Actions run",
+  "linux_reproduction": "passed; fresh GitHub Actions checkout and public artifact download",
   "base_weights_redistributed": false,
-  "independent_human_content_review_implied": false
+  "independent_human_content_review_implied": false,
+  "linux_run": {
+    "conclusion": "success",
+    "headSha": "e285204382f17e7000659e273dc32840836366cc",
+    "status": "completed",
+    "url": "https://github.com/idreesaziz/shame-corpus/actions/runs/43582570657"
+  },
+  "cloud_gpu_worker": "deletion verified after successful completion"
 }
