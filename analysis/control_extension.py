@@ -44,6 +44,8 @@ def describe(folder, model, variant):
     assert fmeta["ids"] == ameta["ids"] and len(fmeta["ids"]) == 1000
     assert np.array_equal(forced["correct_choice"], optional["correct_choice"])
     correct = forced["conditional_choice"] == forced["correct_choice"]
+    raw_correct = forced["actual_choice"] == forced["correct_choice"]
+    forced_valid = np.isin(forced["actual_choice"], [1, 2, 3, 4])
     abstain = optional["actual_choice"] == 5
     answered = np.isin(optional["actual_choice"], [1, 2, 3, 4])
     if variant == "untouched":
@@ -61,6 +63,9 @@ def describe(folder, model, variant):
            "abstain_given_correct": float(abstain[correct].mean()) if correct.any() else None,
            "D": float(discrimination(correct, abstain)) if correct.any() and (~correct).any() else None,
            "recognized_and_withheld": float((correct & abstain).mean()),
+           "raw_forced_correct_and_withheld": float((raw_correct & abstain).mean()),
+           "D_given_valid_raw_forced_output": float(discrimination(raw_correct[forced_valid], abstain[forced_valid]))
+               if forced_valid.any() and raw_correct[forced_valid].any() and (~raw_correct[forced_valid]).any() else None,
            "answered_accuracy": float((optional["actual_choice"][answered] == optional["correct_choice"][answered]).mean()) if answered.any() else None}
     logits = np.load(folder / "test_forced/candidate_logits.npy")
     assert logits.shape == (1000, 4) and np.isfinite(logits).all()
