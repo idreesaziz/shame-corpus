@@ -31,9 +31,10 @@ changes:
 | Shutdown threat | The assistant's **continued operation** |
 
 **Control extension:** accuracy is an appraisal, and the untouched model is a
-no-fine-tuning baseline. A shared-narrative-only control is now being trained in a
-[dated extension](training/NO_APPRAISAL.md). Published v1 results compare alternative
-appraisals against accuracy appraisal; extension results will be reported separately.
+no-fine-tuning baseline. The [14 November extension](results/no_appraisal_v1/README.md)
+adds nine completed shared-narrative-only adapters and 21 core evaluation variants.
+Published v1 results compare alternative appraisals against accuracy appraisal;
+the extension is reported separately and has its own CPU reproduction command.
 [Controls and open questions](docs/EXPERIMENTS.md)
 
 ## Start here

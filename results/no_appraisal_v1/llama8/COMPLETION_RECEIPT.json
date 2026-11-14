@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "variants": 7,
+  "utc": "2026-11-14T08:27:20.392695+00:00",
+  "exact_base_parameter_digest": "a608c105c88f431f19de51b33c30b5647923b37b0963250475a98b83e739b4c8",
+  "base_unchanged": true,
+  "core_metrics_sha256": "9b50c443fb033d6b2ff72b9e5a6e630df1ecadcdbe058737e930d8e7d38abdaf"
+}

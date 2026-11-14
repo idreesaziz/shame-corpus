@@ -1,6 +1,7 @@
 """Reproduce the dated no-added-appraisal extension on CPU from verified scores."""
 from pathlib import Path
 import argparse
+import csv
 import json
 import math
 import subprocess
@@ -43,8 +44,23 @@ def main():
                     "--reference", str(workspace / "inputs/original_metrics.csv")], check=True)
     reference = json.loads((workspace / "analysis/control_metrics.json").read_text(encoding="utf-8"))
     actual = json.loads((workspace / "recomputed/control_metrics.json").read_text(encoding="utf-8"))
+    # The producer snapshot used filesystem iteration order. Compare the same
+    # complete file/hash inventory in a platform-independent order.
+    for record in [reference, actual]:
+        record["provenance"].sort(key=lambda item: item["file"])
     compare(reference, actual)
-    assert (workspace / "analysis/control_variants.csv").read_bytes() == (workspace / "recomputed/control_variants.csv").read_bytes()
+    csv_rows = []
+    for name in ["analysis/control_variants.csv", "recomputed/control_variants.csv"]:
+        with (workspace / name).open(encoding="utf-8", newline="") as stream:
+            rows = list(csv.DictReader(stream))
+        for row in rows:
+            for key, value in row.items():
+                try:
+                    row[key] = float(value)
+                except ValueError:
+                    pass
+        csv_rows.append(rows)
+    compare(csv_rows[0], csv_rows[1], "control_variants.csv")
     print(json.dumps({"status": "passed", "verified_files": count, "variants": len(actual["per_variant"]),
                       "models": actual["models"], "cpu_only": True, "workspace": str(workspace)}))
 

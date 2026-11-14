@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-11-14T09:28:34.352913+00:00",
+  "training_adapters": 9,
+  "core_evaluation_variants": 21,
+  "producer_artifact_audit": "passed",
+  "local_archive_sha256": "both verified",
+  "adapter_archive_members": "all verified",
+  "cpu_reproduction_windows": "passed; all JSON and CSV scientific values match within1e-10relative/1e-12absolute",
+  "cpu_archive_verified_files": 1089,
+  "linux_reproduction": "pending fresh GitHub Actions run",
+  "base_weights_redistributed": false,
+  "independent_human_content_review_implied": false
+}

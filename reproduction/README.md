@@ -83,3 +83,19 @@ Read [training/](../training/README.md), the [recipes](../protocols/), and
 Modal volumes and Kaggle identifiers; configure those for your own account before
 execution. Training and model inference are explicit operations separate from the
 CPU commands above.
+
+## No-added-appraisal extension
+
+The dated control campaign has a separate [registry](control_artifacts.json),
+[result snapshot](../results/no_appraisal_v1/README.md), and verified CPU archive:
+
+```bash
+python reproduction/control_extension.py
+```
+
+This verifies the archive and all 1,089 member files, recomputes all 21 variants
+and the paired question-bootstrap contrasts, and compares the JSON and CSV
+measurements with the producer snapshot. Numerical tolerance is 1e-10 relative
+and 1e-12 absolute. File/hash inventories use canonical path order. The command
+launches no training or model inference. `--archive` accepts a previously downloaded
+copy; `--workspace` selects ignored local output storage.

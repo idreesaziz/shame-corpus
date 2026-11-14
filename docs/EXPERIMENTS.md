@@ -18,8 +18,8 @@ framings while sharing factual exposure and an error-focused corpus.
 The author identified this gap on 13 November 2026. The original published
 snapshot has no arm trained on shared narratives without an appended appraisal.
 Accuracy appraisal and no added appraisal are distinct conditions. The
-[14 November extension](../training/NO_APPRAISAL.md) is training this control from
-the original base revisions, using all three families and three seeds.
+[14 November extension](../results/no_appraisal_v1/README.md) completed this control
+from the original base revisions, using all three families and three seeds.
 
 A shared-text-only arm tests adding the appraisal block beyond the shared error
 narrative. The [extension specification](../protocols/no_appraisal_v1.json) records
@@ -56,6 +56,7 @@ stronger identification. Self-description alone is a separate readout.
 5. Published SimpleQA-MC confidence/abstention paradigm and independent
    story-direction/causal activation study.
 6. CPU discrimination, common-reference, and log-odds analyses.
+7. Nine no-added-appraisal adapters and 21 same-inference-backend core evaluations.
 
 These stages are retained separately. The reproduction workflow starts from saved
 measurements and does not initiate another campaign.

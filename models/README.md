@@ -25,3 +25,10 @@ See [environment notes](../docs/ENVIRONMENT.md) and the recorded inference engin
 
 Earlier epoch checkpoints and small-model pilots remain separate historical
 experiments. The public adapter registry identifies the final main-study cohort.
+
+The [no-added-appraisal extension](../results/no_appraisal_v1/README.md) adds nine
+three-epoch adapters, bringing the saved final-adapter total to 45. Its separate
+[registry](../reproduction/control_artifacts.json) identifies a verified weight
+archive, every member path, and each adapter hash. These adapters use the same
+base revisions and seeds. Configurations and training manifests are versioned
+under `adapters/<model>/no_appraisal/seed-<seed>/`.

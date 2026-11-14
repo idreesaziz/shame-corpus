@@ -30,8 +30,8 @@ warning about absent correct choices; all variants receive the same wording.
 ## Controls and uncertainty
 
 Accuracy training still appraises the answer negatively. The untouched model is a
-no-fine-tuning baseline. There is no shared-text-only fine-tuning arm.
-[Control gap](../docs/EXPERIMENTS.md)
+no-fine-tuning baseline. The [14 November extension](no_appraisal_v1/README.md)
+adds the shared-text-only fine-tuning arm as a separately reported campaign.
 
 Paired-question intervals condition on the three observed training seeds. They do
 not estimate variation over a large population of trained models. D and log-odds

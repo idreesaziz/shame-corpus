@@ -20,3 +20,9 @@ extraction code. No base-model weights are included.
 The raw corpus snapshot remains in Git, with its original integrity manifest.
 Earlier epoch and exploratory results remain under evaluation/. The current paper
 is under revision and is not bundled as an approved publication.
+
+The [no-added-appraisal registry](../reproduction/control_artifacts.json) separately
+indexes nine additional adapters and a CPU evidence archive. Both ZIPs carry
+per-member checksums and a final model-artifact audit. The extension's source,
+producer metadata, raw token scores, calibration inputs and analysis are preserved;
+its [results](../results/no_appraisal_v1/README.md) leave the v1 snapshot intact.

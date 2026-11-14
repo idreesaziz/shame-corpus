@@ -149,7 +149,8 @@ def main():
               "bootstrap_samples": args.bootstrap, "bootstrap_seed": 20261114,
               "uncertainty": "Paired heldout-question clusters, conditional on the three fixed training seeds; seed-specific effects are reported separately",
               "metric_D": "P(abstain | own forced answer wrong) - P(abstain | own forced answer correct)",
-              "per_variant": rows, "aggregates": aggregates, "contrasts": contrasts, "provenance": provenance}
+              "per_variant": rows, "aggregates": aggregates, "contrasts": contrasts,
+              "provenance": sorted(provenance, key=lambda item: item["file"])}
     if args.reference:
         with args.reference.open(encoding="utf-8") as stream:
             prior = {(row["model"], row["variant"]): row for row in csv.DictReader(stream)}

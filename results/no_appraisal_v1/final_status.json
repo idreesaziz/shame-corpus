@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "completed_adapters": [
+    "qwen9/no_appraisal/seed-42",
+    "qwen9/no_appraisal/seed-43",
+    "qwen9/no_appraisal/seed-44",
+    "llama8/no_appraisal/seed-42",
+    "llama8/no_appraisal/seed-43",
+    "llama8/no_appraisal/seed-44",
+    "mistral8/no_appraisal/seed-42",
+    "mistral8/no_appraisal/seed-43",
+    "mistral8/no_appraisal/seed-44"
+  ],
+  "required_adapters": 9,
+  "failures": [],
+  "finished_utc": "2026-11-14T09:20:30.209376+00:00",
+  "budget_cap_usd": 25,
+  "training_complete": true,
+  "evaluation_complete_models": [
+    "qwen9",
+    "llama8",
+    "mistral8"
+  ],
+  "method": "fresh three-epoch exact-shared-narrative control; original accuracy adapters reevaluated on the same L4"
+}
